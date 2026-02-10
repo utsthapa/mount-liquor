@@ -19,25 +19,21 @@ export default function Home() {
 
   const offerings = [
     {
-      icon: '🍷',
       title: 'Premium Wines',
       description: 'Carefully curated vintages from renowned vineyards worldwide. From bold Cabernets to crisp Sauvignon Blancs.',
       delay: '0.6s',
     },
     {
-      icon: '🥃',
       title: 'Craft Spirits',
       description: 'Small-batch whiskeys, artisanal gins, and rare bourbons. Each bottle tells a story of craftsmanship.',
       delay: '0.8s',
     },
     {
-      icon: '🍾',
       title: 'Champagne & Prosecco',
       description: 'Celebrate life\'s moments with our selection of fine sparkling wines and champagnes.',
       delay: '1s',
     },
     {
-      icon: '🍺',
       title: 'Craft Beer',
       description: 'Local Texas breweries and international favorites. IPAs, stouts, lagers, and seasonal specialties.',
       delay: '1.2s',
@@ -46,47 +42,19 @@ export default function Home() {
 
   return (
     <div className="relative min-h-screen overflow-hidden">
-      {/* Parallax Background with Mountain Imagery */}
-      <div
-        className="fixed inset-0 z-0"
-        style={{
-          transform: `translateY(${scrollY * 0.5}px)`,
-        }}
-      >
-        {/* Mountain gradient background */}
-        <div className="absolute inset-0 bg-gradient-to-b from-deep-navy via-charcoal to-black opacity-90"></div>
+      {/* Elegant Background */}
+      <div className="fixed inset-0 z-0">
+        {/* Rich gradient background */}
+        <div className="absolute inset-0 bg-gradient-to-br from-charcoal via-deep-navy to-black"></div>
 
-        {/* Animated mountain silhouette */}
-        <svg
-          className="absolute bottom-0 left-0 w-full h-2/3 opacity-20"
-          viewBox="0 0 1440 600"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="none"
-        >
-          <path
-            d="M0 600 L200 400 L350 450 L500 200 L650 350 L800 150 L950 300 L1100 100 L1250 250 L1440 150 L1440 600 Z"
-            fill="url(#mountainGradient)"
-            className="animate-float"
-          />
-          <defs>
-            <linearGradient id="mountainGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-              <stop offset="0%" stopColor="#BEA98E" stopOpacity="0.3" />
-              <stop offset="100%" stopColor="#082434" stopOpacity="0.6" />
-            </linearGradient>
-          </defs>
-        </svg>
+        {/* Subtle ambient glow - top left */}
+        <div className="absolute -top-40 -left-40 w-96 h-96 bg-refined-gold/10 rounded-full blur-3xl"></div>
+
+        {/* Subtle ambient glow - bottom right */}
+        <div className="absolute -bottom-40 -right-40 w-96 h-96 bg-deep-navy/40 rounded-full blur-3xl"></div>
 
         {/* Grain texture overlay */}
         <div className="absolute inset-0 grain-overlay"></div>
-
-        {/* Ambient light spots */}
-        <div className="absolute top-20 left-1/4 w-96 h-96 bg-refined-gold/5 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-20 right-1/4 w-80 h-80 bg-deep-navy/30 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }}></div>
-
-        {/* Additional floating orbs for jazz */}
-        <div className="absolute top-1/3 right-1/3 w-64 h-64 bg-refined-gold/3 rounded-full blur-2xl animate-float" style={{ animationDelay: '1s' }}></div>
-        <div className="absolute bottom-1/3 left-1/3 w-48 h-48 bg-deep-navy/20 rounded-full blur-2xl animate-float" style={{ animationDelay: '3s' }}></div>
       </div>
 
       {/* Main Content */}
@@ -124,7 +92,7 @@ export default function Home() {
 
             {/* Subheading */}
             <p
-              className="text-mist/70 text-lg md:text-xl lg:text-2xl font-light tracking-wide max-w-3xl mx-auto text-balance leading-relaxed animate-fade-in"
+              className="font-display text-mist/80 text-xl md:text-2xl lg:text-3xl font-normal tracking-wide max-w-3xl mx-auto text-balance leading-relaxed animate-fade-in"
               style={{ animationDelay: '0.4s' }}
             >
               Irving's premier destination for exceptional wines, rare spirits, and craft beverages.
@@ -136,18 +104,21 @@ export default function Home() {
               {offerings.map((offering, index) => (
                 <div
                   key={index}
-                  className="glass-effect p-6 hover:scale-105 transition-all duration-500 cursor-pointer group animate-slide-up"
+                  className="relative glass-effect p-8 hover:border-refined-gold/40 border border-refined-gold/10 transition-all duration-500 group animate-slide-up overflow-hidden"
                   style={{ animationDelay: offering.delay }}
                 >
-                  <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">
-                    {offering.icon}
-                  </div>
-                  <h3 className="font-display text-xl text-refined-gold mb-3 group-hover:text-refined-gold/80 transition-colors">
+                  {/* Geometric accent line */}
+                  <div className="absolute top-0 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-refined-gold to-transparent opacity-50 group-hover:opacity-100 transition-opacity"></div>
+
+                  <h3 className="font-display text-2xl text-refined-gold mb-4 group-hover:text-refined-gold transition-colors">
                     {offering.title}
                   </h3>
-                  <p className="text-mist/60 text-sm leading-relaxed">
+                  <p className="text-mist/70 text-sm leading-relaxed">
                     {offering.description}
                   </p>
+
+                  {/* Bottom accent */}
+                  <div className="absolute bottom-0 right-0 w-16 h-16 border-b-2 border-r-2 border-refined-gold/20 group-hover:border-refined-gold/40 transition-colors"></div>
                 </div>
               ))}
             </div>
@@ -180,18 +151,21 @@ export default function Home() {
                   inventory, whether you're searching for a special occasion bottle or your new everyday favorite.
                 </p>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
-                  <div className="text-center p-4 bg-deep-navy/20 rounded hover:bg-deep-navy/30 transition-colors">
-                    <div className="text-2xl mb-2">🌟</div>
-                    <p className="text-sm font-medium text-refined-gold">Expert Curation</p>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4">
+                  <div className="text-center p-6 border border-refined-gold/20 hover:border-refined-gold/40 transition-all group">
+                    <div className="w-12 h-12 mx-auto mb-4 border-2 border-refined-gold/40 rotate-45 group-hover:rotate-90 transition-transform duration-500"></div>
+                    <p className="font-display text-lg text-refined-gold">Expert Curation</p>
                   </div>
-                  <div className="text-center p-4 bg-deep-navy/20 rounded hover:bg-deep-navy/30 transition-colors">
-                    <div className="text-2xl mb-2">🎯</div>
-                    <p className="text-sm font-medium text-refined-gold">Personal Service</p>
+                  <div className="text-center p-6 border border-refined-gold/20 hover:border-refined-gold/40 transition-all group">
+                    <div className="w-12 h-12 mx-auto mb-4 border-2 border-refined-gold/40 group-hover:scale-110 transition-transform duration-500"></div>
+                    <p className="font-display text-lg text-refined-gold">Personal Service</p>
                   </div>
-                  <div className="text-center p-4 bg-deep-navy/20 rounded hover:bg-deep-navy/30 transition-colors">
-                    <div className="text-2xl mb-2">💎</div>
-                    <p className="text-sm font-medium text-refined-gold">Rare Finds</p>
+                  <div className="text-center p-6 border border-refined-gold/20 hover:border-refined-gold/40 transition-all group">
+                    <div className="w-12 h-12 mx-auto mb-4 relative">
+                      <div className="absolute inset-0 border-2 border-refined-gold/40"></div>
+                      <div className="absolute inset-2 border-2 border-refined-gold/40 group-hover:inset-0 transition-all duration-500"></div>
+                    </div>
+                    <p className="font-display text-lg text-refined-gold">Rare Finds</p>
                   </div>
                 </div>
               </div>
