@@ -2,18 +2,12 @@
 
 import { useState, useEffect } from 'react';
 import Logo from '@/components/Logo';
-import AgeVerification from '@/components/AgeVerification';
 import EmailCapture from '@/components/EmailCapture';
 
 export default function Home() {
-  const [ageVerified, setAgeVerified] = useState(false);
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    // Check if user has already verified age in this session
-    const verified = sessionStorage.getItem('ageVerified') === 'true';
-    setAgeVerified(verified);
-
     // Parallax scroll effect
     const handleScroll = () => {
       setScrollY(window.scrollY);
@@ -23,9 +17,32 @@ export default function Home() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  if (!ageVerified) {
-    return <AgeVerification onVerified={() => setAgeVerified(true)} />;
-  }
+  const offerings = [
+    {
+      icon: '🍷',
+      title: 'Premium Wines',
+      description: 'Carefully curated vintages from renowned vineyards worldwide. From bold Cabernets to crisp Sauvignon Blancs.',
+      delay: '0.6s',
+    },
+    {
+      icon: '🥃',
+      title: 'Craft Spirits',
+      description: 'Small-batch whiskeys, artisanal gins, and rare bourbons. Each bottle tells a story of craftsmanship.',
+      delay: '0.8s',
+    },
+    {
+      icon: '🍾',
+      title: 'Champagne & Prosecco',
+      description: 'Celebrate life\'s moments with our selection of fine sparkling wines and champagnes.',
+      delay: '1s',
+    },
+    {
+      icon: '🍺',
+      title: 'Craft Beer',
+      description: 'Local Texas breweries and international favorites. IPAs, stouts, lagers, and seasonal specialties.',
+      delay: '1.2s',
+    },
+  ];
 
   return (
     <div className="relative min-h-screen overflow-hidden">
@@ -66,6 +83,10 @@ export default function Home() {
         {/* Ambient light spots */}
         <div className="absolute top-20 left-1/4 w-96 h-96 bg-refined-gold/5 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute bottom-20 right-1/4 w-80 h-80 bg-deep-navy/30 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }}></div>
+
+        {/* Additional floating orbs for jazz */}
+        <div className="absolute top-1/3 right-1/3 w-64 h-64 bg-refined-gold/3 rounded-full blur-2xl animate-float" style={{ animationDelay: '1s' }}></div>
+        <div className="absolute bottom-1/3 left-1/3 w-48 h-48 bg-deep-navy/20 rounded-full blur-2xl animate-float" style={{ animationDelay: '3s' }}></div>
       </div>
 
       {/* Main Content */}
@@ -76,7 +97,7 @@ export default function Home() {
             <Logo className="w-12 h-12 md:w-16 md:h-16" />
             <a
               href="tel:469-276-7525"
-              className="text-refined-gold hover:text-refined-gold/80 transition-colors text-sm md:text-base tracking-wide"
+              className="text-refined-gold hover:text-refined-gold/80 transition-colors text-sm md:text-base tracking-wide hover:scale-105 transform duration-300"
             >
               469-276-7525
             </a>
@@ -85,10 +106,10 @@ export default function Home() {
 
         {/* Hero Section */}
         <main className="min-h-screen flex flex-col items-center justify-center px-4 md:px-8 -mt-20">
-          <div className="max-w-5xl mx-auto text-center space-y-8 md:space-y-12">
+          <div className="max-w-6xl mx-auto text-center space-y-8 md:space-y-12">
             {/* Animated Logo */}
             <div className="flex justify-center animate-fade-in">
-              <Logo className="w-24 h-24 md:w-32 md:h-32" animated={true} />
+              <Logo className="w-24 h-24 md:w-32 md:h-32 hover:scale-110 transition-transform duration-500" animated={true} />
             </div>
 
             {/* Main Headline */}
@@ -106,32 +127,76 @@ export default function Home() {
               className="text-mist/70 text-lg md:text-xl lg:text-2xl font-light tracking-wide max-w-3xl mx-auto text-balance leading-relaxed animate-fade-in"
               style={{ animationDelay: '0.4s' }}
             >
-              An elevated spirits experience in the heart of Irving.
-              Where discerning taste meets mountain-inspired luxury.
+              Irving's premier destination for exceptional wines, rare spirits, and craft beverages.
+              Where every bottle is handpicked for the discerning enthusiast.
             </p>
+
+            {/* Featured Offerings Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 pt-8 pb-8">
+              {offerings.map((offering, index) => (
+                <div
+                  key={index}
+                  className="glass-effect p-6 hover:scale-105 transition-all duration-500 cursor-pointer group animate-slide-up"
+                  style={{ animationDelay: offering.delay }}
+                >
+                  <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">
+                    {offering.icon}
+                  </div>
+                  <h3 className="font-display text-xl text-refined-gold mb-3 group-hover:text-refined-gold/80 transition-colors">
+                    {offering.title}
+                  </h3>
+                  <p className="text-mist/60 text-sm leading-relaxed">
+                    {offering.description}
+                  </p>
+                </div>
+              ))}
+            </div>
 
             {/* Email Capture */}
             <div className="pt-8">
               <EmailCapture />
             </div>
 
-            {/* Divider */}
-            <div className="flex items-center justify-center gap-4 py-8 animate-fade-in" style={{ animationDelay: '1.2s' }}>
-              <div className="h-px w-16 bg-gradient-to-r from-transparent to-refined-gold/30"></div>
-              <div className="w-1 h-1 bg-refined-gold/50 rotate-45"></div>
-              <div className="h-px w-16 bg-gradient-to-l from-transparent to-refined-gold/30"></div>
+            {/* Animated Divider */}
+            <div className="flex items-center justify-center gap-4 py-8 animate-fade-in" style={{ animationDelay: '1.6s' }}>
+              <div className="h-px w-16 bg-gradient-to-r from-transparent to-refined-gold/30 animate-pulse"></div>
+              <div className="w-1 h-1 bg-refined-gold/50 rotate-45 animate-pulse"></div>
+              <div className="h-px w-16 bg-gradient-to-l from-transparent to-refined-gold/30 animate-pulse"></div>
             </div>
 
-            {/* Store Info */}
+            {/* Store Details */}
             <div
-              className="glass-effect p-8 md:p-12 max-w-2xl mx-auto animate-slide-up"
-              style={{ animationDelay: '1.4s' }}
+              className="glass-effect p-8 md:p-12 max-w-3xl mx-auto animate-slide-up hover:scale-105 transition-transform duration-500"
+              style={{ animationDelay: '1.8s' }}
             >
-              <h2 className="font-display text-2xl md:text-3xl text-refined-gold mb-6">
-                Visit Us Soon
+              <h2 className="font-display text-3xl md:text-4xl text-refined-gold mb-6">
+                Your Neighborhood Bottle Shop
               </h2>
 
-              <div className="space-y-4 text-mist/80">
+              <div className="space-y-6 text-mist/80 text-left md:text-center">
+                <p className="text-base md:text-lg leading-relaxed">
+                  <span className="text-refined-gold font-medium">Mount Liquor</span> is more than just a liquor store—we're
+                  your gateway to exceptional taste. Our knowledgeable staff will guide you through our carefully selected
+                  inventory, whether you're searching for a special occasion bottle or your new everyday favorite.
+                </p>
+
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
+                  <div className="text-center p-4 bg-deep-navy/20 rounded hover:bg-deep-navy/30 transition-colors">
+                    <div className="text-2xl mb-2">🌟</div>
+                    <p className="text-sm font-medium text-refined-gold">Expert Curation</p>
+                  </div>
+                  <div className="text-center p-4 bg-deep-navy/20 rounded hover:bg-deep-navy/30 transition-colors">
+                    <div className="text-2xl mb-2">🎯</div>
+                    <p className="text-sm font-medium text-refined-gold">Personal Service</p>
+                  </div>
+                  <div className="text-center p-4 bg-deep-navy/20 rounded hover:bg-deep-navy/30 transition-colors">
+                    <div className="text-2xl mb-2">💎</div>
+                    <p className="text-sm font-medium text-refined-gold">Rare Finds</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-10 pt-8 border-t border-refined-gold/20 space-y-4">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-center gap-2 md:gap-4">
                   <svg
                     className="w-5 h-5 text-refined-gold mx-auto md:mx-0"
@@ -156,7 +221,7 @@ export default function Home() {
                     href="https://maps.google.com/?q=535+W+Airport+Fwy,+Irving+TX+75062"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-refined-gold transition-colors text-center md:text-left"
+                    className="hover:text-refined-gold transition-colors text-center md:text-left hover:scale-105 transform duration-300"
                   >
                     535 W Airport Fwy, Irving TX 75062
                   </a>
@@ -178,17 +243,14 @@ export default function Home() {
                   </svg>
                   <a
                     href="tel:469-276-7525"
-                    className="hover:text-refined-gold transition-colors font-medium tracking-wider"
+                    className="hover:text-refined-gold transition-colors font-medium tracking-wider hover:scale-105 transform duration-300"
                   >
                     469-276-7525
                   </a>
                 </div>
-              </div>
 
-              <div className="mt-8 pt-6 border-t border-refined-gold/20">
-                <p className="text-sm text-mist/60 tracking-wide">
-                  <span className="text-refined-gold font-medium">Elevated Spirits.</span> A curated selection of fine wines,
-                  premium spirits, and craft beverages.
+                <p className="text-sm text-mist/50 pt-4 italic">
+                  Serving the Irving, Las Colinas, and DFW communities with passion for exceptional beverages.
                 </p>
               </div>
             </div>
