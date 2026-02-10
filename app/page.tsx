@@ -217,14 +217,19 @@ export default function Home() {
                       d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                     />
                   </svg>
-                  <a
-                    href="https://maps.google.com/?q=535+W+Airport+Fwy,+Irving+TX+75062"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-refined-gold transition-colors text-center md:text-left hover:scale-105 transform duration-300"
-                  >
-                    535 W Airport Fwy, Irving TX 75062
-                  </a>
+                  <div className="text-center md:text-left">
+                    <a
+                      href="https://maps.google.com/?q=535+W+Airport+Fwy,+Irving+TX+75062"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-refined-gold transition-colors hover:scale-105 transform duration-300 block"
+                    >
+                      535 W Airport Fwy, Irving TX 75062
+                    </a>
+                    <p className="text-sm text-refined-gold/70 mt-1">
+                      📍 Right off Highway 183 • Near India Bazaar
+                    </p>
+                  </div>
                 </div>
 
                 <div className="flex flex-col md:flex-row md:items-center md:justify-center gap-2 md:gap-4">
@@ -247,6 +252,14 @@ export default function Home() {
                   >
                     469-276-7525
                   </a>
+                </div>
+
+                <div className="bg-refined-gold/10 border border-refined-gold/20 rounded p-4 mt-6">
+                  <p className="text-sm text-mist/70 leading-relaxed">
+                    <span className="text-refined-gold font-medium">Easy to Find:</span> Located on West Airport Freeway (183),
+                    just minutes from India Bazaar and the heart of Irving. Perfect for your wine and spirits needs
+                    whether you're coming from Las Colinas, DFW Airport, or anywhere in the Metroplex.
+                  </p>
                 </div>
 
                 <p className="text-sm text-mist/50 pt-4 italic">
