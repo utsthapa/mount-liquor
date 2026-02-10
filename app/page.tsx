@@ -1,9 +1,11 @@
-import { useState, useEffect } from 'react';
-import Logo from './components/Logo';
-import AgeVerification from './components/AgeVerification';
-import EmailCapture from './components/EmailCapture';
+'use client';
 
-function App() {
+import { useState, useEffect } from 'react';
+import Logo from '@/components/Logo';
+import AgeVerification from '@/components/AgeVerification';
+import EmailCapture from '@/components/EmailCapture';
+
+export default function Home() {
   const [ageVerified, setAgeVerified] = useState(false);
   const [scrollY, setScrollY] = useState(0);
 
@@ -208,5 +210,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

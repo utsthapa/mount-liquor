@@ -1,4 +1,9 @@
-const Logo = ({ className = "w-16 h-16", animated = false }) => {
+interface LogoProps {
+  className?: string;
+  animated?: boolean;
+}
+
+const Logo = ({ className = "w-16 h-16", animated = false }: LogoProps) => {
   return (
     <svg
       viewBox="0 0 200 200"

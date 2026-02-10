@@ -1,13 +1,19 @@
+'use client';
+
 import { useState } from 'react';
 import Logo from './Logo';
 
-const AgeVerification = ({ onVerified }) => {
+interface AgeVerificationProps {
+  onVerified: () => void;
+}
+
+const AgeVerification = ({ onVerified }: AgeVerificationProps) => {
   const [birthMonth, setBirthMonth] = useState('');
   const [birthDay, setBirthDay] = useState('');
   const [birthYear, setBirthYear] = useState('');
   const [error, setError] = useState('');
 
-  const handleVerify = (e) => {
+  const handleVerify = (e: React.FormEvent) => {
     e.preventDefault();
     setError('');
 
@@ -18,7 +24,7 @@ const AgeVerification = ({ onVerified }) => {
     }
 
     // Calculate age
-    const birthDate = new Date(birthYear, birthMonth - 1, birthDay);
+    const birthDate = new Date(parseInt(birthYear), parseInt(birthMonth) - 1, parseInt(birthDay));
     const today = new Date();
     let age = today.getFullYear() - birthDate.getFullYear();
     const monthDiff = today.getMonth() - birthDate.getMonth();

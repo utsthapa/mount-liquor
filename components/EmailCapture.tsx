@@ -1,11 +1,13 @@
+'use client';
+
 import { useState } from 'react';
 
 const EmailCapture = () => {
   const [email, setEmail] = useState('');
-  const [status, setStatus] = useState('idle'); // idle, success, error
+  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
   const [message, setMessage] = useState('');
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
     // Basic email validation
