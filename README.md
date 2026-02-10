@@ -1,6 +1,6 @@
 # Mount Liquor - Coming Soon Landing Page
 
-A luxury "Coming Soon" landing page for Mount Liquor, a boutique wine and spirits shop in Irving, TX. Features mountain-inspired aesthetics, TABC-compliant age verification, and an email capture system.
+A luxury "Coming Soon" landing page for Mount Liquor, a boutique wine and spirits shop in Irving, TX. Built with **Next.js 15** and **Tailwind CSS v3** for production stability and optimal performance.
 
 ## ✨ Features
 
@@ -9,8 +9,10 @@ A luxury "Coming Soon" landing page for Mount Liquor, a boutique wine and spirit
 - **📧 Email Capture** - High-converting sign-up form with social proof (500+ subscribers)
 - **🎨 Refined Aesthetics** - Editorial luxury minimalism with Playfair Display typography
 - **📱 Mobile-First** - Fully responsive with "one-thumb" friendly interactions
-- **⚡ Performance Optimized** - Sub-3-second load times with lazy loading and SVG graphics
+- **⚡ Performance Optimized** - 106 kB First Load JS with Next.js optimizations
 - **✨ Sophisticated Animations** - Parallax scrolling, fade-ins, and glassmorphism effects
+- **🔍 SEO Ready** - Server-side rendering and meta tags optimized for search engines
+- **📝 TypeScript** - Full type safety for better developer experience
 
 ## 🎨 Brand Identity
 
@@ -44,28 +46,29 @@ npm run dev
 # Build for production
 npm run build
 
-# Preview production build
-npm run preview
+# Start production server
+npm start
 ```
 
-The site will be available at `http://localhost:5173/`
+The site will be available at `http://localhost:3000/`
 
 ## 📂 Project Structure
 
 ```
 mount-liquor/
+├── app/
+│   ├── layout.tsx               # Root layout with metadata
+│   ├── page.tsx                 # Main landing page
+│   └── globals.css              # Global styles + Tailwind
+├── components/
+│   ├── Logo.tsx                 # Geometric mountain logo
+│   ├── AgeVerification.tsx      # 21+ age gate modal
+│   └── EmailCapture.tsx         # Email sign-up form
 ├── public/
-│   └── favicon.svg              # Custom mountain + glass favicon
-├── src/
-│   ├── components/
-│   │   ├── Logo.jsx             # Geometric mountain logo with SVG
-│   │   ├── AgeVerification.jsx  # 21+ age gate modal
-│   │   └── EmailCapture.jsx     # Email sign-up with validation
-│   ├── App.jsx                  # Main application with parallax
-│   ├── index.css                # Tailwind + custom styles
-│   └── main.jsx                 # React entry point
-├── index.html                   # HTML with SEO meta tags
-├── tailwind.config.js           # Custom theme configuration
+│   └── favicon.svg              # Custom favicon
+├── next.config.js               # Next.js configuration
+├── tailwind.config.js           # Tailwind theme
+├── tsconfig.json                # TypeScript config
 └── package.json
 ```
 
@@ -76,12 +79,14 @@ mount-liquor/
 - Session storage persistence
 - Custom dropdowns for month/day/year
 - Decorative corner accents
+- TypeScript interfaces for type safety
 
 ### Email Capture
 - Email validation
-- Success/error states
+- Loading/success/error states
 - Social proof display
 - Privacy notice
+- Ready for backend integration
 
 ### Logo
 - Custom SVG with mountain peak "M"
@@ -103,33 +108,37 @@ mount-liquor/
 ## 📱 Mobile Optimization
 
 - Touch-friendly 48px minimum target sizes
-- Sticky CTA for easy access
 - Responsive typography scaling
 - Optimized form layout for mobile keyboards
-- Parallax effects disabled on mobile for performance
+- CSS-only animations for performance
+- Mobile-tested on iOS and Android
 
 ## 🔧 Customization
 
 ### Update Store Information
 
-Edit `src/App.jsx` to update:
-- Address: Line 154
-- Phone: Lines 76, 178
-- Opening year: Line 99
+Edit `app/page.tsx` to update:
+- Address: Line 182
+- Phone: Lines 82, 206
+- Opening year: Line 115
 
 ### Customize Colors
 
 Edit `tailwind.config.js` theme colors:
-- `deep-navy`
-- `charcoal`
-- `refined-gold`
-- `mist`
+```javascript
+colors: {
+  'deep-navy': '#082434',
+  'charcoal': '#0C0C0C',
+  'refined-gold': '#BEA98E',
+  'mist': '#E8E8E8',
+}
+```
 
 ### Email Integration
 
-Replace the TODO in `src/components/EmailCapture.jsx` (line 18) with your email service API:
+Replace the TODO in `components/EmailCapture.tsx` (line 23) with your email service API:
 
-```javascript
+```typescript
 const response = await fetch('/api/subscribe', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
@@ -138,15 +147,38 @@ const response = await fetch('/api/subscribe', {
 ```
 
 Recommended services:
-- Mailchimp
-- ConvertKit
-- SendGrid
-- Klaviyo
+- **Mailchimp** - Best for beginners
+- **ConvertKit** - Creator-focused
+- **Klaviyo** - Retail/e-commerce
+- **SendGrid** - Developer-friendly
+
+Or create a Next.js API route in `app/api/subscribe/route.ts`:
+
+```typescript
+import { NextResponse } from 'next/server';
+
+export async function POST(request: Request) {
+  const { email } = await request.json();
+
+  // Add your email service integration here
+
+  return NextResponse.json({ success: true });
+}
+```
 
 ## 🚀 Deployment
 
-### Vercel (Recommended)
+### Vercel (One-Click - Recommended)
 
+1. Push to GitHub (already done!)
+2. Visit [vercel.com](https://vercel.com)
+3. Click "Import Project"
+4. Select your `mount-liquor` repo
+5. Click "Deploy"
+
+That's it! Vercel automatically detects Next.js and configures everything.
+
+**Or use CLI:**
 ```bash
 npm install -g vercel
 vercel
@@ -156,19 +188,23 @@ vercel
 
 ```bash
 npm run build
-# Drag ./dist folder to netlify.app/drop
+# Deploy the .next folder
 ```
 
-### Build Output
+## 📊 Performance
 
-Production files will be in `./dist` after running `npm run build`
+**Production Build Stats:**
+- ⚡ First Load JS: 106 kB
+- 📦 Main page: 4.25 kB
+- 🎨 Fonts: Google Fonts CDN (cached)
+- 🖼️ Images: SVG-only (zero weight)
 
-## 📊 Performance Targets
-
-- ⚡ First Contentful Paint: < 1.5s
-- 📦 Total Bundle Size: < 100KB (gzipped)
-- 🎨 Custom Fonts: Loaded via Google Fonts CDN
-- 🖼️ Images: SVG-first approach for zero bitmap weight
+**Next.js Optimizations:**
+- Automatic code splitting
+- Font optimization
+- Image optimization ready
+- Static page generation
+- Compression and minification
 
 ## 🛡️ Compliance
 
@@ -176,6 +212,15 @@ Production files will be in `./dist` after running `npm run build`
 - ✅ "Drink Responsibly" messaging
 - ✅ Privacy notice on email form
 - ✅ Accessible form labels and ARIA attributes
+- ✅ Session-based age gate (no cookies)
+
+## 🔧 Tech Stack
+
+- **Framework:** Next.js 15
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS v3
+- **Fonts:** Google Fonts (Playfair Display, Montserrat)
+- **Deployment:** Vercel (recommended)
 
 ## 📞 Contact Information
 
@@ -186,4 +231,4 @@ Phone: 469-276-7525
 
 ---
 
-Built with ❤️ using React, Vite, and Tailwind CSS
+Built with ❤️ using Next.js, TypeScript, and Tailwind CSS
