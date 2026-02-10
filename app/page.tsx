@@ -80,15 +80,30 @@ export default function Home() {
               <Logo className="w-24 h-24 md:w-32 md:h-32 hover:scale-110 transition-transform duration-500" animated={true} />
             </div>
 
+            {/* Brand Name */}
+            <div
+              className="animate-fade-in"
+              style={{ animationDelay: '0.1s' }}
+            >
+              <h1 className="font-display text-5xl md:text-7xl lg:text-8xl text-refined-gold tracking-tight">
+                MOUNT LIQUOR
+              </h1>
+              <div className="flex items-center justify-center gap-3 mt-4">
+                <div className="h-px w-12 bg-refined-gold"></div>
+                <p className="text-mist/60 text-sm md:text-base tracking-[0.3em] uppercase">Elevated Spirits</p>
+                <div className="h-px w-12 bg-refined-gold"></div>
+              </div>
+            </div>
+
             {/* Main Headline */}
-            <h1
-              className="font-display text-4xl md:text-6xl lg:text-7xl text-refined-gold leading-tight md:leading-tight lg:leading-tight text-balance animate-fade-in"
-              style={{ animationDelay: '0.2s' }}
+            <h2
+              className="font-display text-3xl md:text-5xl lg:text-6xl text-mist/90 leading-tight md:leading-tight lg:leading-tight text-balance animate-fade-in"
+              style={{ animationDelay: '0.3s' }}
             >
               The Peak of Curation.
               <br />
-              <span className="text-mist/90">Coming 2026.</span>
-            </h1>
+              <span className="text-refined-gold/70">Coming 2026.</span>
+            </h2>
 
             {/* Subheading */}
             <p
