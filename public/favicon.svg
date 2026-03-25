@@ -1,7 +1,7 @@
 <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="200" height="200" fill="#082434"/>
   <!-- Golden semicircle arc -->
-  <path d="M 10 130 A 90 90 0 0 1 190 130 Z" fill="#D4A843"/>
-  <!-- White mountain silhouette -->
-  <path d="M 10 130 L 36 103 L 50 111 L 64 82 L 76 93 L 86 63 L 94 47 L 97 43 L 102 53 L 110 67 L 120 61 L 130 77 L 142 97 L 158 109 L 175 119 L 190 130 Z" fill="white"/>
+  <path d="M 10 115 A 90 90 0 0 1 190 115 Z" fill="#D4A843"/>
+  <!-- White mountain silhouette with two dramatic peaks -->
+  <path d="M 10 115 L 28 92 L 42 100 L 56 74 L 68 84 L 78 56 L 85 35 L 92 48 L 100 42 L 108 52 L 115 50 L 124 62 L 136 78 L 150 90 L 165 100 L 190 115 Z" fill="white"/>
 </svg>

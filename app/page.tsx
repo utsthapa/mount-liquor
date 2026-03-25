@@ -102,7 +102,7 @@ export default function Home() {
             >
               The Peak of Curation.
               <br />
-              <span className="text-refined-gold/70">Coming 2026.</span>
+              <span className="text-refined-gold/70">Grand Opening March 28, 2026.</span>
             </h2>
 
             {/* Subheading */}

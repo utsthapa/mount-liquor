@@ -19,9 +19,9 @@ const Logo = ({ className = "w-16 h-16", animated = false }: LogoProps) => {
         className={animated ? "animate-float" : ""}
       />
 
-      {/* White mountain silhouette */}
+      {/* White mountain silhouette with two dramatic peaks */}
       <path
-        d="M 10 115 L 36 88 L 50 96 L 64 67 L 76 78 L 86 48 L 94 32 L 97 28 L 102 38 L 110 52 L 120 46 L 130 62 L 142 82 L 158 94 L 175 104 L 190 115 Z"
+        d="M 10 115 L 28 92 L 42 100 L 56 74 L 68 84 L 78 56 L 85 35 L 92 48 L 100 42 L 108 52 L 115 50 L 124 62 L 136 78 L 150 90 L 165 100 L 190 115 Z"
         fill="white"
       />
     </svg>
