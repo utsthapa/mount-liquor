@@ -18,32 +18,32 @@ const EmailCapture = () => {
       return;
     }
 
-    // Simulate API call (replace with actual endpoint)
     try {
       setStatus('loading');
 
-      // TODO: Replace with actual API endpoint
-      // const response = await fetch('/api/subscribe', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify({ email }),
-      // });
+      const response = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
+      });
 
-      // Simulate success after delay
-      await new Promise((resolve) => setTimeout(resolve, 1000));
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Something went wrong.');
+      }
 
       setStatus('success');
       setMessage('Welcome to the Mount Liquor family! Check your inbox for exclusive updates.');
       setEmail('');
 
-      // Reset after 5 seconds
       setTimeout(() => {
         setStatus('idle');
         setMessage('');
       }, 5000);
-    } catch (error) {
+    } catch (error: any) {
       setStatus('error');
-      setMessage('Something went wrong. Please try again.');
+      setMessage(error.message || 'Something went wrong. Please try again.');
     }
   };
 

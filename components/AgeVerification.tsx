@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import Logo from './Logo';
+import Image from 'next/image';
 
 interface AgeVerificationProps {
   onVerified: () => void;
@@ -72,7 +72,7 @@ const AgeVerification = ({ onVerified }: AgeVerificationProps) => {
 
         <div className="relative z-10">
           <div className="flex justify-center mb-8">
-            <Logo className="w-20 h-20" animated={true} />
+            <Image src="/logo.png" alt="Mount Liquor Logo" width={80} height={80} className="w-20 h-20 object-contain" />
           </div>
 
           <h2 className="font-display text-3xl md:text-4xl text-refined-gold text-center mb-3">
