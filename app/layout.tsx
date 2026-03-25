@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description: 'An elevated spirits experience in the heart of Irving. Where discerning taste meets mountain-inspired luxury.',
   },
   icons: {
-    icon: '/favicon.svg',
+    icon: '/logo.png',
   },
 }
 

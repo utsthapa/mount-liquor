@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Logo from '@/components/Logo';
+import Image from 'next/image';
 import EmailCapture from '@/components/EmailCapture';
 
 export default function Home() {
@@ -62,7 +62,7 @@ export default function Home() {
         {/* Header */}
         <header className="pt-8 pb-4 px-4 md:px-8">
           <div className="max-w-7xl mx-auto flex justify-between items-center">
-            <Logo className="w-12 h-12 md:w-16 md:h-16" />
+            <Image src="/logo.png" alt="Mount Liquor Logo" width={64} height={64} className="w-12 h-12 md:w-16 md:h-16 object-contain" />
             <a
               href="tel:469-276-7525"
               className="text-refined-gold hover:text-refined-gold/80 transition-colors text-sm md:text-base tracking-wide hover:scale-105 transform duration-300"
@@ -77,7 +77,7 @@ export default function Home() {
           <div className="max-w-6xl mx-auto text-center space-y-8 md:space-y-12">
             {/* Animated Logo */}
             <div className="flex justify-center animate-fade-in">
-              <Logo className="w-24 h-24 md:w-32 md:h-32 hover:scale-110 transition-transform duration-500" animated={true} />
+              <Image src="/logo.png" alt="Mount Liquor Logo" width={128} height={128} className="w-24 h-24 md:w-32 md:h-32 object-contain hover:scale-110 transition-transform duration-500" />
             </div>
 
             {/* Brand Name */}
