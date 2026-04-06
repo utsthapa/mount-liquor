@@ -1,0 +1,7 @@
+scored.json
+catalog_reference.csv
+catalog_upload.csv
+failed.txt
+__pycache__/
+*.pyc
+.env
