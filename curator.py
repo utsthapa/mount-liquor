@@ -50,7 +50,7 @@ def main():
         print(f"  {len(items)} items after filtering")
 
         print(f"\nStage 1: Scoring {len(items)} items via {args.model}...")
-        scored = score_items(items, api_key=api_key, model=args.model, client=client)
+        scored = score_items(items, api_key=api_key, model=args.model, client=client, output_dir=str(output_dir))
 
         with open(scored_path, "w") as f:
             json.dump(scored, f, indent=2)
@@ -96,8 +96,9 @@ def main():
     print(f"\nOutputs:")
     print(f"  {reference_path}")
     print(f"  {upload_path}")
-    if Path("failed.txt").exists():
-        print(f"  failed.txt (some items could not be scored)")
+    failed_path = output_dir / "failed.txt"
+    if failed_path.exists():
+        print(f"  {failed_path} (some items could not be scored)")
     print("=" * 50)
 
 

@@ -1,6 +1,7 @@
 import json
 import re
 import time
+from pathlib import Path
 from tqdm import tqdm
 from openrouter import OpenRouterClient
 
@@ -40,6 +41,7 @@ def score_items(
     model: str,
     batch_size: int = 100,
     client: OpenRouterClient = None,
+    output_dir: str = ".",
 ) -> list[dict]:
     client = client or OpenRouterClient(api_key=api_key, model=model)
     scored = []
@@ -57,9 +59,10 @@ def score_items(
                 scored.append({**item, "score": 0})
 
     if failed_upcs:
-        with open("failed.txt", "a") as f:
+        failed_path = Path(output_dir) / "failed.txt"
+        with open(failed_path, "a") as f:
             f.write("\n".join(failed_upcs) + "\n")
-        print(f"  {len(failed_upcs)} items failed — see failed.txt")
+        print(f"  {len(failed_upcs)} items failed — see {failed_path}")
 
     return scored
 
