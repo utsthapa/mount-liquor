@@ -77,3 +77,54 @@ def test_raises_on_empty_choices():
         mock_post.return_value.raise_for_status = MagicMock()
         with pytest.raises(Exception):
             client.complete("prompt")
+
+
+from scorer import build_score_prompt, parse_score_response, score_items
+
+
+def test_build_score_prompt_contains_items():
+    items = [
+        {"upc": "111", "name": "Jack Daniels", "department": "Whiskey", "size": "750ml", "price_usd": 39.99},
+        {"upc": "222", "name": "Bud Light", "department": "Beer", "size": "330ml", "price_usd": 2.99},
+    ]
+    prompt = build_score_prompt(items)
+    assert "Jack Daniels" in prompt
+    assert "Bud Light" in prompt
+    assert "111" in prompt
+    assert "222" in prompt
+
+
+def test_parse_score_response_extracts_scores():
+    response = json.dumps([
+        {"upc": "111", "score": 85},
+        {"upc": "222", "score": 60},
+    ])
+    result = parse_score_response(response)
+    assert result == {"111": 85, "222": 60}
+
+
+def test_parse_score_response_handles_markdown_fence():
+    response = "```json\n" + json.dumps([{"upc": "111", "score": 72}]) + "\n```"
+    result = parse_score_response(response)
+    assert result == {"111": 72}
+
+
+def test_parse_score_response_clamps_scores():
+    response = json.dumps([{"upc": "111", "score": 150}])
+    result = parse_score_response(response)
+    assert result["111"] == 100
+
+
+def test_score_items_returns_scored_list():
+    items = [
+        {"upc": "111", "name": "Jack Daniels", "department": "Whiskey", "size": "750ml", "price_usd": 39.99},
+    ]
+    mock_llm_response = json.dumps([{"upc": "111", "score": 88}])
+    with patch("scorer.OpenRouterClient") as MockClient:
+        instance = MockClient.return_value
+        instance.complete.return_value = mock_llm_response
+        instance.total_input_tokens = 0
+        instance.total_output_tokens = 0
+        result = score_items(items, api_key="test", model="test/model", batch_size=100)
+    assert result[0]["score"] == 88
+    assert result[0]["upc"] == "111"
