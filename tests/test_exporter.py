@@ -27,6 +27,7 @@ def test_write_reference_csv_creates_file(tmp_path):
     rows = list(csv.DictReader(path.open()))
     assert rows[0]["UPC"] == "111"  # sorted by score desc
     assert rows[0]["Score"] == "88"
+    assert rows[0]["Price_USD"] == "39.99"
     assert rows[1]["UPC"] == "222"
 
 
@@ -62,3 +63,19 @@ def test_write_upload_csv_title_strips_size_if_empty(tmp_path):
     write_upload_csv(items, str(path))
     rows = list(csv.DictReader(path.open()))
     assert rows[0]["Title"] == "Some Spirit"
+
+
+def test_beer_not_tagged_as_spirits(tmp_path):
+    items = [
+        {
+            "upc": "333", "name": "Bud Light", "department": "Beer",
+            "size": "330ml", "price_usd": 2.99, "score": 60,
+            "description": "Light beer."
+        }
+    ]
+    path = tmp_path / "upload.csv"
+    write_upload_csv(items, str(path))
+    rows = list(csv.DictReader(path.open()))
+    tags = rows[0]["Tags"].split(",")
+    assert "spirits" not in tags
+    assert "beer" in tags

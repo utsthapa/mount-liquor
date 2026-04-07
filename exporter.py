@@ -26,21 +26,23 @@ def _vendor(name: str) -> str:
 
 def _tags(item: dict) -> str:
     dept = item["department"].lower()
-    tags = {dept, "spirits", "alcohol"}
+    tags = {dept, "alcohol"}
     if "whiskey" in dept or "whisky" in dept:
         tags.update(["whiskey", "spirits"])
     elif "vodka" in dept:
-        tags.add("vodka")
+        tags.update(["vodka", "spirits"])
     elif "beer" in dept:
         tags.update(["beer", "ale"])
     elif "wine" in dept:
         tags.add("wine")
     elif "rum" in dept:
-        tags.add("rum")
+        tags.update(["rum", "spirits"])
     elif "gin" in dept:
-        tags.add("gin")
+        tags.update(["gin", "spirits"])
     elif "tequila" in dept:
-        tags.add("tequila")
+        tags.update(["tequila", "spirits"])
+    elif "liquor" in dept or "liqueur" in dept or "scotch" in dept or "brandy" in dept:
+        tags.add("spirits")
     return ",".join(sorted(tags))
 
 
