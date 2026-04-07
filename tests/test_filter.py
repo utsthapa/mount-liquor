@@ -73,3 +73,11 @@ def test_returns_correct_fields(tmp_path):
         "size": "750 ml",
         "price_usd": 22.19,
     }
+
+def test_skips_nontaxable_department(tmp_path):
+    csv_file = tmp_path / "p.csv"
+    csv_file.write_text(make_csv([
+        "123,Non-taxable,1,100,n,n,Some Item,,n,n,1,1,0,n,,5,,,,,,n,,,,,,,"
+    ]))
+    result = load_and_filter(str(csv_file))
+    assert result == []
