@@ -20,8 +20,11 @@ def load_and_filter(csv_path: str) -> list[dict]:
                 continue
 
             setstock_raw = row.get("setstock", "").strip()
-            if setstock_raw.lstrip("-").isdigit() and int(setstock_raw) == 0:
-                continue
+            try:
+                if float(setstock_raw) == 0:
+                    continue
+            except ValueError:
+                pass  # non-numeric (e.g. "n"): keep the item
 
             items.append({
                 "upc": row["Upc"].strip(),

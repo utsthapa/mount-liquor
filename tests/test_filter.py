@@ -81,3 +81,21 @@ def test_skips_nontaxable_department(tmp_path):
     ]))
     result = load_and_filter(str(csv_file))
     assert result == []
+
+def test_keeps_negative_setstock(tmp_path):
+    """Negative setstock (e.g. -5) means stock was adjusted — keep the item."""
+    csv_file = tmp_path / "p.csv"
+    csv_file.write_text(make_csv([
+        "123,Beer,1,599,n,n,Some Beer,330ml,n,n,1,1,400,n,,-5,,,,,,n,,,,,,,"
+    ]))
+    result = load_and_filter(str(csv_file))
+    assert len(result) == 1
+
+def test_skips_float_zero_setstock(tmp_path):
+    """setstock of '0.0' (float zero) should also be skipped."""
+    csv_file = tmp_path / "p.csv"
+    csv_file.write_text(make_csv([
+        "123,Beer,1,599,n,n,Some Beer,330ml,n,n,1,1,400,n,,0.0,,,,,,n,,,,,,,"
+    ]))
+    result = load_and_filter(str(csv_file))
+    assert result == []
