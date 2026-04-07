@@ -37,8 +37,6 @@ def test_generate_descriptions_attaches_to_items():
     with patch("describer.OpenRouterClient") as MockClient:
         instance = MockClient.return_value
         instance.complete.return_value = mock_response
-        instance.total_input_tokens = 0
-        instance.total_output_tokens = 0
         result = generate_descriptions(items, api_key="test", model="test/model")
     assert result[0]["description"] == "A great whiskey."
 
@@ -54,3 +52,15 @@ def test_generate_descriptions_uses_provided_client():
         result = generate_descriptions(items, api_key="test", model="test/model", client=mock_client)
     MockClass.assert_not_called()
     assert result[0]["description"] == "A great whiskey."
+
+
+def test_generate_descriptions_returns_empty_string_on_failure():
+    """When the LLM call fails, item should get empty description."""
+    items = [
+        {"upc": "111", "name": "Jameson", "department": "Whiskey", "size": "750ml", "price_usd": 29.99, "score": 88},
+    ]
+    mock_client = MagicMock()
+    mock_client.complete.side_effect = Exception("API error")
+    result = generate_descriptions(items, api_key="test", model="test/model", client=mock_client)
+    assert result[0]["description"] == ""
+    assert result[0]["upc"] == "111"

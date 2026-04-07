@@ -49,6 +49,6 @@ def generate_descriptions(
         except Exception as exc:
             print(f"\n  Description batch failed: {exc}")
             for item in batch:
-                descriptions[item["upc"]] = ""
+                descriptions[str(item["upc"])] = ""
 
-    return [{**item, "description": descriptions.get(item["upc"], "")} for item in items]
+    return [{**item, "description": descriptions.get(str(item["upc"]), "")} for item in items]
