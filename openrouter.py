@@ -31,7 +31,17 @@ class OpenRouterClient:
                 usage = data.get("usage", {})
                 self.total_input_tokens += usage.get("prompt_tokens", 0)
                 self.total_output_tokens += usage.get("completion_tokens", 0)
-                return data["choices"][0]["message"]["content"]
+                choices = data.get("choices") or []
+                if not choices:
+                    raise ValueError(f"OpenRouter returned no choices: {data}")
+                return choices[0]["message"]["content"]
+            except requests.exceptions.HTTPError as exc:
+                # Don't retry 4xx client errors (auth failure, bad request, etc.)
+                if exc.response is not None and exc.response.status_code < 500:
+                    raise
+                last_exc = exc
+                if attempt < retries - 1:
+                    time.sleep(2 ** attempt)
             except Exception as exc:
                 last_exc = exc
                 if attempt < retries - 1:
