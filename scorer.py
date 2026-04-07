@@ -26,8 +26,9 @@ No explanation. JSON array only."""
 
 
 def parse_score_response(response: str) -> dict[str, int]:
-    cleaned = re.sub(r"^```(?:json)?\s*", "", response.strip())
-    cleaned = re.sub(r"\s*```$", "", cleaned)
+    text = response.strip()
+    m = re.search(r"```(?:json)?\s*([\s\S]*?)\s*```", text)
+    cleaned = m.group(1) if m else text
     data = json.loads(cleaned)
     return {str(item["upc"]): max(0, min(100, int(item["score"]))) for item in data}
 
@@ -46,21 +47,34 @@ def score_items(
     batches = [items[i : i + batch_size] for i in range(0, len(items), batch_size)]
 
     for batch in tqdm(batches, desc="Scoring"):
-        try:
-            prompt = build_score_prompt(batch)
-            response = client.complete(prompt)
-            scores = parse_score_response(response)
-            for item in batch:
-                scored.append({**item, "score": scores.get(item["upc"], 50)})
-        except Exception as exc:
-            print(f"\n  Batch failed: {exc}")
+        result = _score_batch_with_retry(batch, client, retries=3)
+        if result is not None:
+            scored.extend(result)
+        else:
             for item in batch:
                 failed_upcs.append(item["upc"])
                 scored.append({**item, "score": 0})
 
     if failed_upcs:
-        with open("failed.txt", "w") as f:
-            f.write("\n".join(failed_upcs))
+        with open("failed.txt", "a") as f:
+            f.write("\n".join(failed_upcs) + "\n")
         print(f"  {len(failed_upcs)} items failed — see failed.txt")
 
     return scored
+
+
+def _score_batch_with_retry(batch: list[dict], client: OpenRouterClient, retries: int = 3) -> list[dict] | None:
+    """Score a batch, retrying up to `retries` times on parse failure. Returns None if all retries fail."""
+    import time
+    for attempt in range(retries):
+        try:
+            prompt = build_score_prompt(batch)
+            response = client.complete(prompt)
+            scores = parse_score_response(response)
+            return [{**item, "score": scores.get(item["upc"], 50)} for item in batch]
+        except Exception as exc:
+            if attempt < retries - 1:
+                time.sleep(2 ** attempt)
+            else:
+                print(f"\n  Batch failed after {retries} attempts: {exc}")
+    return None

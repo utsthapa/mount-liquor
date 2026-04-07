@@ -128,3 +128,27 @@ def test_score_items_returns_scored_list():
         result = score_items(items, api_key="test", model="test/model", batch_size=100)
     assert result[0]["score"] == 88
     assert result[0]["upc"] == "111"
+
+
+def test_parse_score_response_handles_trailing_text_after_fence():
+    """LLMs sometimes append text after the closing fence — should still parse."""
+    inner = json.dumps([{"upc": "111", "score": 72}])
+    response = f"```json\n{inner}\n```\nSome trailing explanation."
+    result = parse_score_response(response)
+    assert result == {"111": 72}
+
+
+def test_score_items_uses_provided_client():
+    """score_items should use provided client and NOT create a new one."""
+    items = [
+        {"upc": "111", "name": "Jack Daniels", "department": "Whiskey", "size": "750ml", "price_usd": 39.99},
+    ]
+    mock_llm_response = json.dumps([{"upc": "111", "score": 77}])
+    mock_client = MagicMock()
+    mock_client.complete.return_value = mock_llm_response
+
+    with patch("scorer.OpenRouterClient") as MockClass:
+        result = score_items(items, api_key="test", model="test/model", client=mock_client)
+
+    MockClass.assert_not_called()  # constructor should NOT have been called
+    assert result[0]["score"] == 77
