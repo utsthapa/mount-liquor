@@ -5,6 +5,10 @@ import os
 import sys
 from pathlib import Path
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 from filter import load_and_filter
 from scorer import score_items
 from selector import build_dept_summary, build_mix_prompt, parse_dept_mix, select_items
