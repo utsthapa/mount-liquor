@@ -99,3 +99,12 @@ def test_skips_float_zero_setstock(tmp_path):
     ]))
     result = load_and_filter(str(csv_file))
     assert result == []
+
+def test_qty_zero_does_not_filter_item(tmp_path):
+    """qty column is sell-unit size (always 1), NOT inventory. qty=0 rows should be kept if price+setstock are valid."""
+    csv_file = tmp_path / "p.csv"
+    csv_file.write_text(make_csv([
+        "123,Beer,0,599,n,n,Some Beer,330ml,n,n,1,1,400,n,,6,,,,,,n,,,,,,,"
+    ]))
+    result = load_and_filter(str(csv_file))
+    assert len(result) == 1
