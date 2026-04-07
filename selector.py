@@ -40,7 +40,10 @@ def parse_dept_mix(response: str) -> dict[str, int]:
     text = response.strip()
     m = re.search(r"```(?:json)?\s*([\s\S]*?)\s*```", text)
     cleaned = m.group(1) if m else text
-    data = json.loads(cleaned)
+    try:
+        data = json.loads(cleaned)
+    except json.JSONDecodeError as exc:
+        raise ValueError(f"parse_dept_mix: invalid JSON from LLM response: {exc}\nRaw: {text!r}") from exc
     return {k: int(v) for k, v in data.items()}
 
 

@@ -1,6 +1,6 @@
 import json
 import pytest
-from selector import build_mix_prompt, parse_dept_mix, select_items
+from selector import build_dept_summary, build_mix_prompt, parse_dept_mix, select_items
 
 
 def test_build_mix_prompt_contains_count():
@@ -52,7 +52,6 @@ def test_select_items_handles_dept_with_fewer_items_than_requested():
 
 
 def test_build_dept_summary():
-    from selector import build_dept_summary
     scored = [
         {"upc": "1", "department": "Whiskey", "score": 80, "name": "A", "size": "", "price_usd": 30.0},
         {"upc": "2", "department": "Whiskey", "score": 60, "name": "B", "size": "", "price_usd": 25.0},
@@ -62,3 +61,8 @@ def test_build_dept_summary():
     assert summary["Whiskey"]["count"] == 2
     assert summary["Whiskey"]["avg_score"] == 70.0
     assert summary["Beer"]["count"] == 1
+
+
+def test_parse_dept_mix_raises_on_invalid_json():
+    with pytest.raises(ValueError, match="invalid JSON"):
+        parse_dept_mix("not json at all")
