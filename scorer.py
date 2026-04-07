@@ -1,5 +1,6 @@
 import json
 import re
+import time
 from tqdm import tqdm
 from openrouter import OpenRouterClient
 
@@ -65,7 +66,6 @@ def score_items(
 
 def _score_batch_with_retry(batch: list[dict], client: OpenRouterClient, retries: int = 3) -> list[dict] | None:
     """Score a batch, retrying up to `retries` times on parse failure. Returns None if all retries fail."""
-    import time
     for attempt in range(retries):
         try:
             prompt = build_score_prompt(batch)
