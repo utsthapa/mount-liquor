@@ -7,7 +7,10 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-load_dotenv()
+SORTER_ROOT = Path(__file__).resolve().parent
+REPO_ROOT = SORTER_ROOT.parents[1]
+
+load_dotenv(SORTER_ROOT / ".env")
 
 from filter import load_and_filter
 from scorer import score_items
@@ -19,11 +22,11 @@ from openrouter import OpenRouterClient
 
 def main():
     parser = argparse.ArgumentParser(description="Curate a liquor store catalog using AI scoring.")
-    parser.add_argument("--input", default="pricebook.csv", help="Path to pricebook CSV")
+    parser.add_argument("--input", default=str(SORTER_ROOT / "pricebook.csv"), help="Path to pricebook CSV")
     parser.add_argument("--count", type=int, default=300, help="Number of items to select (100-500)")
     parser.add_argument("--model", default="xiaomi/mimo-v2-pro", help="OpenRouter model ID")
     parser.add_argument("--skip-scoring", action="store_true", help="Reuse existing scored.json")
-    parser.add_argument("--output-dir", default=".", help="Directory for output files")
+    parser.add_argument("--output-dir", default=str(SORTER_ROOT), help="Directory for output files")
     parser.add_argument(
         "--markup-percent",
         type=float,
@@ -32,7 +35,7 @@ def main():
     )
     parser.add_argument(
         "--medusa-seed-path",
-        default="apps/liquor-medusa/data/catalog-seed.json",
+        default=str(REPO_ROOT / "medusa/backend/data/catalog-seed.json"),
         help="Path to Medusa seed JSON output",
     )
     args = parser.parse_args()

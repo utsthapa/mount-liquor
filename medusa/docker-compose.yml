@@ -19,7 +19,7 @@ services:
 
   medusa:
     build:
-      context: ./apps/liquor-medusa
+      context: ./backend
     container_name: catalog-medusa
     restart: unless-stopped
     depends_on:
@@ -48,7 +48,7 @@ services:
 
   storefront:
     build:
-      context: ./apps/liquor-shop
+      context: ..
     container_name: catalog-storefront
     restart: unless-stopped
     depends_on:

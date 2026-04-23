@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Rebrand `apps/liquor-shop` as **MOUNTLIQUOR** and redesign every page to the dark luxury theme from `reference/ChatGPT Image Apr 23, 2026, 09_31_03 AM.png` and `…09_31_06 AM.png`, using Tailwind CSS v4 and committed stock bottle photography.
+**Goal:** Rebrand repo root as **MOUNTLIQUOR** and redesign every page to the dark luxury theme from `reference/ChatGPT Image Apr 23, 2026, 09_31_03 AM.png` and `…09_31_06 AM.png`, using Tailwind CSS v4 and committed stock bottle photography.
 
 **Architecture:** Next.js 15 App Router + React 19 (unchanged). Tailwind v4 installed with the CSS-first `@theme` config. Fonts loaded via `next/font/google` (Playfair Display + Inter). Stock photos committed to `public/images/`. Product detail page fills missing fields (rating, tasting notes, reviews) from a new `lib/mock-content.ts` module so nothing is blocked on Medusa schema changes.
 
@@ -15,7 +15,7 @@
 ## File Structure
 
 ```
-apps/liquor-shop/
+
   app/
     layout.tsx                         ← MODIFY (fonts, age banner wiring)
     globals.css                        ← REWRITE (Tailwind @import + @theme)
@@ -66,7 +66,7 @@ apps/liquor-shop/
 ## Conventions every task follows
 
 - **Commit after each task.** Messages use Conventional Commits style (`feat:`, `refactor:`, `style:`, `chore:`).
-- **Verification** in each task means running from `apps/liquor-shop/`:
+- **Verification** in each task means running from the repo root:
   ```bash
   npm run build
   ```
@@ -84,12 +84,12 @@ Goal by end of phase: Tailwind installed, dark chrome (age banner, header, foote
 ### Task 1.1: Install Tailwind v4 and clsx
 
 **Files:**
-- Modify: `apps/liquor-shop/package.json`
-- Create: `apps/liquor-shop/postcss.config.mjs`
+- Modify: `package.json`
+- Create: `postcss.config.mjs`
 
 - [ ] **Step 1: Install dependencies**
 
-Run from `apps/liquor-shop/`:
+Run from the repo root:
 
 ```bash
 npm install --save tailwindcss@^4 @tailwindcss/postcss@^4 clsx@^2
@@ -120,7 +120,7 @@ Expected: build completes with no new warnings. (Nothing uses Tailwind yet, so n
 - [ ] **Step 4: Commit**
 
 ```bash
-git add apps/liquor-shop/package.json apps/liquor-shop/package-lock.json apps/liquor-shop/postcss.config.mjs
+git add package.json package-lock.json postcss.config.mjs
 git commit -m "chore: install Tailwind CSS v4 and clsx in liquor-shop"
 ```
 
@@ -129,11 +129,11 @@ git commit -m "chore: install Tailwind CSS v4 and clsx in liquor-shop"
 ### Task 1.2: Add Tailwind `@theme` tokens and base styles to globals.css
 
 **Files:**
-- Modify: `apps/liquor-shop/app/globals.css` (prepend, don't replace — old CSS stays functional until each page is restyled)
+- Modify: `app/globals.css` (prepend, don't replace — old CSS stays functional until each page is restyled)
 
 - [ ] **Step 1: Prepend Tailwind import and `@theme` block at top of `globals.css`**
 
-Open `apps/liquor-shop/app/globals.css` and insert this block **before the existing `:root` rule** (leave all existing CSS below it intact for now):
+Open `app/globals.css` and insert this block **before the existing `:root` rule** (leave all existing CSS below it intact for now):
 
 ```css
 @import "tailwindcss";
@@ -177,7 +177,7 @@ Expected: build succeeds. Tailwind generates its small base stylesheet.
 - [ ] **Step 3: Commit**
 
 ```bash
-git add apps/liquor-shop/app/globals.css
+git add app/globals.css
 git commit -m "feat: add Tailwind @theme tokens and .theme-dark base styles"
 ```
 
@@ -186,7 +186,7 @@ git commit -m "feat: add Tailwind @theme tokens and .theme-dark base styles"
 ### Task 1.3: Add fonts via `next/font/google` in `app/layout.tsx`
 
 **Files:**
-- Modify: `apps/liquor-shop/app/layout.tsx`
+- Modify: `app/layout.tsx`
 
 - [ ] **Step 1: Replace `app/layout.tsx` with this content**
 
@@ -248,8 +248,8 @@ Move on to Task 1.4.
 ### Task 1.4: Create `components/age-banner.tsx` and `lib/cn.ts`
 
 **Files:**
-- Create: `apps/liquor-shop/components/age-banner.tsx`
-- Create: `apps/liquor-shop/lib/cn.ts`
+- Create: `components/age-banner.tsx`
+- Create: `lib/cn.ts`
 
 - [ ] **Step 1: Create `lib/cn.ts`**
 
@@ -284,7 +284,7 @@ Expected: build succeeds. Home page renders but header/footer still use old mark
 - [ ] **Step 4: Commit**
 
 ```bash
-git add apps/liquor-shop/app/layout.tsx apps/liquor-shop/components/age-banner.tsx apps/liquor-shop/lib/cn.ts
+git add app/layout.tsx components/age-banner.tsx lib/cn.ts
 git commit -m "feat: wire fonts + age banner in root layout"
 ```
 
@@ -293,16 +293,16 @@ git commit -m "feat: wire fonts + age banner in root layout"
 ### Task 1.5: Fetch and commit stock photos
 
 **Files:**
-- Create: `apps/liquor-shop/public/images/hero/macallan-hero.jpg`
-- Create: `apps/liquor-shop/public/images/categories/{whiskey,vodka,gin,rum,wine,beer}.jpg`
-- Create: `apps/liquor-shop/public/images/bottles/{jack-daniels-bonded,st-germain-liqueur,jimmy-bean-double-oak,placeholder-bottle}.jpg`
+- Create: `public/images/hero/macallan-hero.jpg`
+- Create: `public/images/categories/{whiskey,vodka,gin,rum,wine,beer}.jpg`
+- Create: `public/images/bottles/{jack-daniels-bonded,st-germain-liqueur,jimmy-bean-double-oak,placeholder-bottle}.jpg`
 
 - [ ] **Step 1: Create directories**
 
 Run from repo root:
 
 ```bash
-mkdir -p apps/liquor-shop/public/images/hero apps/liquor-shop/public/images/categories apps/liquor-shop/public/images/bottles
+mkdir -p public/images/hero public/images/categories public/images/bottles
 ```
 
 - [ ] **Step 2: Download royalty-free photos from Unsplash**
@@ -328,14 +328,14 @@ Each image should be ≤ 300 KB after Unsplash's `w=1200&q=80` query params — 
 Example curl template (replace `<photo-id>` with an Unsplash photo ID from its URL):
 
 ```bash
-curl -L -o apps/liquor-shop/public/images/hero/macallan-hero.jpg \
+curl -L -o public/images/hero/macallan-hero.jpg \
   "https://images.unsplash.com/photo-<photo-id>?auto=format&fit=crop&w=1200&q=80"
 ```
 
 - [ ] **Step 3: Verify files exist and are reasonable sizes**
 
 ```bash
-ls -lh apps/liquor-shop/public/images/hero apps/liquor-shop/public/images/categories apps/liquor-shop/public/images/bottles
+ls -lh public/images/hero public/images/categories public/images/bottles
 ```
 
 Expected: each JPG between 50 KB and 300 KB.
@@ -343,7 +343,7 @@ Expected: each JPG between 50 KB and 300 KB.
 - [ ] **Step 4: Commit**
 
 ```bash
-git add apps/liquor-shop/public/images
+git add public/images
 git commit -m "feat: add royalty-free stock bottle photography for MOUNTLIQUOR"
 ```
 
@@ -352,7 +352,7 @@ git commit -m "feat: add royalty-free stock bottle photography for MOUNTLIQUOR"
 ### Task 1.6: Extend `lib/store.ts` with brand rename, new types, and image URLs
 
 **Files:**
-- Modify: `apps/liquor-shop/lib/store.ts`
+- Modify: `lib/store.ts`
 
 - [ ] **Step 1: Replace entire file contents**
 
@@ -484,7 +484,7 @@ Expected: no errors. (`api.ts` already returns `CatalogProduct[]` via `featuredP
 - [ ] **Step 3: Commit**
 
 ```bash
-git add apps/liquor-shop/lib/store.ts
+git add lib/store.ts
 git commit -m "feat: add MOUNTLIQUOR display name, tagline, and extended product types"
 ```
 
@@ -493,7 +493,7 @@ git commit -m "feat: add MOUNTLIQUOR display name, tagline, and extended product
 ### Task 1.7: Rewrite `components/header.tsx` in the dark theme
 
 **Files:**
-- Modify: `apps/liquor-shop/components/header.tsx`
+- Modify: `components/header.tsx`
 
 - [ ] **Step 1: Replace entire file contents**
 
@@ -591,7 +591,7 @@ Open `http://localhost:3000`. The top should show: age banner strip, then the ne
 - [ ] **Step 4: Commit**
 
 ```bash
-git add apps/liquor-shop/components/header.tsx
+git add components/header.tsx
 git commit -m "feat: rewrite header in dark MOUNTLIQUOR theme"
 ```
 
@@ -600,7 +600,7 @@ git commit -m "feat: rewrite header in dark MOUNTLIQUOR theme"
 ### Task 1.8: Rewrite `components/footer.tsx` in the dark theme
 
 **Files:**
-- Modify: `apps/liquor-shop/components/footer.tsx`
+- Modify: `components/footer.tsx`
 
 - [ ] **Step 1: Replace entire file contents**
 
@@ -670,7 +670,7 @@ With `npm run dev` running, open `http://localhost:3000`. Scroll to the footer. 
 - [ ] **Step 4: Commit**
 
 ```bash
-git add apps/liquor-shop/components/footer.tsx
+git add components/footer.tsx
 git commit -m "feat: rewrite footer in dark MOUNTLIQUOR theme"
 ```
 
@@ -683,7 +683,7 @@ Goal by end of phase: `/` matches the reference — hero, trust badges, category
 ### Task 2.1: Create `components/home-hero.tsx`
 
 **Files:**
-- Create: `apps/liquor-shop/components/home-hero.tsx`
+- Create: `components/home-hero.tsx`
 
 - [ ] **Step 1: Create the file**
 
@@ -744,7 +744,7 @@ export function HomeHero() {
 - [ ] **Step 2: Commit (no build check yet — home page is still old layout around this component)**
 
 ```bash
-git add apps/liquor-shop/components/home-hero.tsx
+git add components/home-hero.tsx
 git commit -m "feat: add home hero component with bottle image and gold CTAs"
 ```
 
@@ -753,7 +753,7 @@ git commit -m "feat: add home hero component with bottle image and gold CTAs"
 ### Task 2.2: Create `components/trust-badges.tsx`
 
 **Files:**
-- Create: `apps/liquor-shop/components/trust-badges.tsx`
+- Create: `components/trust-badges.tsx`
 
 - [ ] **Step 1: Create the file**
 
@@ -827,7 +827,7 @@ export function TrustBadges() {
 - [ ] **Step 2: Commit**
 
 ```bash
-git add apps/liquor-shop/components/trust-badges.tsx
+git add components/trust-badges.tsx
 git commit -m "feat: add trust-badges row component"
 ```
 
@@ -836,7 +836,7 @@ git commit -m "feat: add trust-badges row component"
 ### Task 2.3: Create `components/category-grid.tsx`
 
 **Files:**
-- Create: `apps/liquor-shop/components/category-grid.tsx`
+- Create: `components/category-grid.tsx`
 
 - [ ] **Step 1: Create the file**
 
@@ -910,7 +910,7 @@ export function CategoryGrid() {
 - [ ] **Step 2: Commit**
 
 ```bash
-git add apps/liquor-shop/components/category-grid.tsx
+git add components/category-grid.tsx
 git commit -m "feat: add category-grid component with six circular tiles"
 ```
 
@@ -919,7 +919,7 @@ git commit -m "feat: add category-grid component with six circular tiles"
 ### Task 2.4: Create `components/product-card.tsx`
 
 **Files:**
-- Create: `apps/liquor-shop/components/product-card.tsx`
+- Create: `components/product-card.tsx`
 
 - [ ] **Step 1: Create the file**
 
@@ -994,7 +994,7 @@ Expected: build succeeds.
 - [ ] **Step 4: Commit**
 
 ```bash
-git add apps/liquor-shop/components/product-card.tsx apps/liquor-shop/lib/mock-content.ts
+git add components/product-card.tsx lib/mock-content.ts
 git commit -m "feat: add product-card component and mock-content stub"
 ```
 
@@ -1003,8 +1003,8 @@ git commit -m "feat: add product-card component and mock-content stub"
 ### Task 2.5: Create `components/featured-products.tsx` and rewrite `app/page.tsx`
 
 **Files:**
-- Create: `apps/liquor-shop/components/featured-products.tsx`
-- Modify: `apps/liquor-shop/app/page.tsx`
+- Create: `components/featured-products.tsx`
+- Modify: `app/page.tsx`
 
 - [ ] **Step 1: Create `components/featured-products.tsx`**
 
@@ -1137,7 +1137,7 @@ Resize the window to 375 px wide. Confirm: hero stacks, nav disappears (hidden o
 - [ ] **Step 6: Commit**
 
 ```bash
-git add apps/liquor-shop/components/featured-products.tsx apps/liquor-shop/app/page.tsx
+git add components/featured-products.tsx app/page.tsx
 git commit -m "feat: compose dark MOUNTLIQUOR home page"
 ```
 
@@ -1150,7 +1150,7 @@ Goal by end of phase: `/products/<slug>` renders the full reference layout — g
 ### Task 3.1: Fill out `lib/mock-content.ts`
 
 **Files:**
-- Modify: `apps/liquor-shop/lib/mock-content.ts`
+- Modify: `lib/mock-content.ts`
 
 - [ ] **Step 1: Replace entire file contents**
 
@@ -1300,7 +1300,7 @@ Expected: no errors.
 - [ ] **Step 3: Commit**
 
 ```bash
-git add apps/liquor-shop/lib/mock-content.ts
+git add lib/mock-content.ts
 git commit -m "feat: add mock tasting notes, reviews, and image resolvers"
 ```
 
@@ -1309,7 +1309,7 @@ git commit -m "feat: add mock tasting notes, reviews, and image resolvers"
 ### Task 3.2: Create `components/star-rating.tsx`
 
 **Files:**
-- Create: `apps/liquor-shop/components/star-rating.tsx`
+- Create: `components/star-rating.tsx`
 
 - [ ] **Step 1: Create the file**
 
@@ -1372,7 +1372,7 @@ export function StarRating({ rating, reviewCount, size = "md" }: Props) {
 - [ ] **Step 2: Commit**
 
 ```bash
-git add apps/liquor-shop/components/star-rating.tsx
+git add components/star-rating.tsx
 git commit -m "feat: add star-rating component"
 ```
 
@@ -1381,7 +1381,7 @@ git commit -m "feat: add star-rating component"
 ### Task 3.3: Create `components/quantity-stepper.tsx`
 
 **Files:**
-- Create: `apps/liquor-shop/components/quantity-stepper.tsx`
+- Create: `components/quantity-stepper.tsx`
 
 - [ ] **Step 1: Create the file**
 
@@ -1435,7 +1435,7 @@ export function QuantityStepper({ min = 1, max = 99, initial = 1, onChange }: Pr
 - [ ] **Step 2: Commit**
 
 ```bash
-git add apps/liquor-shop/components/quantity-stepper.tsx
+git add components/quantity-stepper.tsx
 git commit -m "feat: add quantity-stepper client component"
 ```
 
@@ -1444,7 +1444,7 @@ git commit -m "feat: add quantity-stepper client component"
 ### Task 3.4: Create `components/product-gallery.tsx`
 
 **Files:**
-- Create: `apps/liquor-shop/components/product-gallery.tsx`
+- Create: `components/product-gallery.tsx`
 
 - [ ] **Step 1: Create the file**
 
@@ -1500,7 +1500,7 @@ export function ProductGallery({ images, alt }: Props) {
 - [ ] **Step 2: Commit**
 
 ```bash
-git add apps/liquor-shop/components/product-gallery.tsx
+git add components/product-gallery.tsx
 git commit -m "feat: add product-gallery client component with thumbnail swap"
 ```
 
@@ -1509,7 +1509,7 @@ git commit -m "feat: add product-gallery client component with thumbnail swap"
 ### Task 3.5: Create `components/tasting-notes.tsx`
 
 **Files:**
-- Create: `apps/liquor-shop/components/tasting-notes.tsx`
+- Create: `components/tasting-notes.tsx`
 
 - [ ] **Step 1: Create the file**
 
@@ -1571,7 +1571,7 @@ export function TastingNotes({ notes, compact = false }: Props) {
 - [ ] **Step 2: Commit**
 
 ```bash
-git add apps/liquor-shop/components/tasting-notes.tsx
+git add components/tasting-notes.tsx
 git commit -m "feat: add tasting-notes component with nose/palate/finish rows"
 ```
 
@@ -1580,7 +1580,7 @@ git commit -m "feat: add tasting-notes component with nose/palate/finish rows"
 ### Task 3.6: Create `components/product-tabs.tsx`
 
 **Files:**
-- Create: `apps/liquor-shop/components/product-tabs.tsx`
+- Create: `components/product-tabs.tsx`
 
 - [ ] **Step 1: Create the file**
 
@@ -1676,7 +1676,7 @@ export function ProductTabs({ product, notes, reviews }: Props) {
 - [ ] **Step 2: Commit**
 
 ```bash
-git add apps/liquor-shop/components/product-tabs.tsx
+git add components/product-tabs.tsx
 git commit -m "feat: add product-tabs client component with four tabs"
 ```
 
@@ -1685,8 +1685,8 @@ git commit -m "feat: add product-tabs client component with four tabs"
 ### Task 3.7: Create `components/you-may-also-like.tsx` and rewrite `app/products/[slug]/page.tsx`
 
 **Files:**
-- Create: `apps/liquor-shop/components/you-may-also-like.tsx`
-- Modify: `apps/liquor-shop/app/products/[slug]/page.tsx`
+- Create: `components/you-may-also-like.tsx`
+- Modify: `app/products/[slug]/page.tsx`
 
 - [ ] **Step 1: Create `components/you-may-also-like.tsx`**
 
@@ -1885,7 +1885,7 @@ With `npm run dev` running, open `http://localhost:3000/products/jack-daniels-bo
 - [ ] **Step 5: Commit**
 
 ```bash
-git add apps/liquor-shop/components/you-may-also-like.tsx apps/liquor-shop/app/products/[slug]/page.tsx
+git add components/you-may-also-like.tsx app/products/[slug]/page.tsx
 git commit -m "feat: rewrite product detail page with gallery, tabs, and related"
 ```
 
@@ -1898,12 +1898,12 @@ git commit -m "feat: rewrite product detail page with gallery, tabs, and related
 **Context:** `lib/api.ts::getCollections()` currently derives the list of collections from the set of categories present in the live product list. That means `/collections/vodka` (a slug we link to from the new home page) returns 404 whenever no vodka products exist. We want unknown slugs to render the new empty state instead. The fix is to union derived categories with the static `collections` array from `lib/store.ts`.
 
 **Files:**
-- Modify: `apps/liquor-shop/lib/api.ts`
-- Modify: `apps/liquor-shop/app/collections/[slug]/page.tsx`
+- Modify: `lib/api.ts`
+- Modify: `app/collections/[slug]/page.tsx`
 
 - [ ] **Step 1: Patch `getCollections()` in `lib/api.ts`**
 
-Open `apps/liquor-shop/lib/api.ts` and replace the entire `getCollections` function (the last exported function in the file) with:
+Open `lib/api.ts` and replace the entire `getCollections` function (the last exported function in the file) with:
 
 ```ts
 export async function getCollections() {
@@ -2028,7 +2028,7 @@ With `npm run dev`:
 - [ ] **Step 6: Commit**
 
 ```bash
-git add apps/liquor-shop/lib/api.ts apps/liquor-shop/app/collections/[slug]/page.tsx
+git add lib/api.ts app/collections/[slug]/page.tsx
 git commit -m "feat: rewrite collection page in dark theme with empty-state fallback"
 ```
 
@@ -2041,7 +2041,7 @@ Each of these gets dark-theme Tailwind classes and matches the new chrome. Layou
 ### Task 5.1: Rewrite `app/faq/page.tsx`
 
 **Files:**
-- Modify: `apps/liquor-shop/app/faq/page.tsx`
+- Modify: `app/faq/page.tsx`
 
 - [ ] **Step 1: Replace entire file**
 
@@ -2119,7 +2119,7 @@ Open `http://localhost:3000/faq`. Confirm dark theme with stacked FAQ cards.
 - [ ] **Step 3: Commit**
 
 ```bash
-git add apps/liquor-shop/app/faq/page.tsx
+git add app/faq/page.tsx
 git commit -m "feat: restyle FAQ page in dark MOUNTLIQUOR theme"
 ```
 
@@ -2128,7 +2128,7 @@ git commit -m "feat: restyle FAQ page in dark MOUNTLIQUOR theme"
 ### Task 5.2: Rewrite `app/pickup-delivery/page.tsx`
 
 **Files:**
-- Modify: `apps/liquor-shop/app/pickup-delivery/page.tsx`
+- Modify: `app/pickup-delivery/page.tsx`
 
 - [ ] **Step 1: Replace entire file**
 
@@ -2232,7 +2232,7 @@ Open `http://localhost:3000/pickup-delivery`. Confirm: dark header, three-step g
 - [ ] **Step 3: Commit**
 
 ```bash
-git add apps/liquor-shop/app/pickup-delivery/page.tsx
+git add app/pickup-delivery/page.tsx
 git commit -m "feat: restyle pickup-delivery page in dark MOUNTLIQUOR theme"
 ```
 
@@ -2241,7 +2241,7 @@ git commit -m "feat: restyle pickup-delivery page in dark MOUNTLIQUOR theme"
 ### Task 5.3: Rewrite `app/checkout/page.tsx`
 
 **Files:**
-- Modify: `apps/liquor-shop/app/checkout/page.tsx`
+- Modify: `app/checkout/page.tsx`
 
 - [ ] **Step 1: Replace entire file**
 
@@ -2318,7 +2318,7 @@ Open `http://localhost:3000/checkout`. Confirm dark header and three-step grid.
 - [ ] **Step 3: Commit**
 
 ```bash
-git add apps/liquor-shop/app/checkout/page.tsx
+git add app/checkout/page.tsx
 git commit -m "feat: restyle checkout page in dark MOUNTLIQUOR theme"
 ```
 
@@ -2329,7 +2329,7 @@ git commit -m "feat: restyle checkout page in dark MOUNTLIQUOR theme"
 After every page is migrated, the old class-based CSS from the light theme is dead weight.
 
 **Files:**
-- Modify: `apps/liquor-shop/app/globals.css`
+- Modify: `app/globals.css`
 
 - [ ] **Step 1: Open `globals.css`**
 
@@ -2347,7 +2347,7 @@ No other rules should remain.
 - [ ] **Step 3: Grep for stale class usage (sanity check)**
 
 ```bash
-grep -rn "site-shell\|hero-grid\|page-hero\|list-rows\|catalog-row\|faq-row\|section-block\|product-layout\|split-page\|collection-row" apps/liquor-shop/app apps/liquor-shop/components
+grep -rn "site-shell\|hero-grid\|page-hero\|list-rows\|catalog-row\|faq-row\|section-block\|product-layout\|split-page\|collection-row" app components
 ```
 
 Expected: no matches (all pages have been migrated to Tailwind utility classes). If any match appears, migrate that file before deleting the CSS.
@@ -2364,7 +2364,7 @@ Walk through: `/`, `/collections/whiskey`, `/products/jack-daniels-bonded`, `/fa
 - [ ] **Step 5: Commit**
 
 ```bash
-git add apps/liquor-shop/app/globals.css
+git add app/globals.css
 git commit -m "refactor: remove stale light-theme CSS from globals.css"
 ```
 
@@ -2377,7 +2377,7 @@ After all tasks are complete, run one last pass:
 - [ ] **Lint**
 
 ```bash
-cd apps/liquor-shop
+# already at the repo root
 npm run lint
 ```
 

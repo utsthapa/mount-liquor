@@ -5,6 +5,9 @@ from pathlib import Path
 
 from exporter import write_medusa_seed_json
 
+SORTER_ROOT = Path(__file__).resolve().parent
+REPO_ROOT = SORTER_ROOT.parents[1]
+
 
 def load_catalog_upload(path: str) -> list[dict]:
     with open(path, newline="", encoding="utf-8") as f:
@@ -35,10 +38,10 @@ def load_catalog_upload(path: str) -> list[dict]:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Convert curated catalog_upload.csv into Medusa seed JSON.")
-    parser.add_argument("--input", default="catalog_upload.csv", help="Path to catalog_upload.csv")
+    parser.add_argument("--input", default=str(SORTER_ROOT / "catalog_upload.csv"), help="Path to catalog_upload.csv")
     parser.add_argument(
         "--output",
-        default="apps/liquor-medusa/data/catalog-seed.json",
+        default=str(REPO_ROOT / "medusa/backend/data/catalog-seed.json"),
         help="Where to write the Medusa seed JSON payload",
     )
     parser.add_argument(

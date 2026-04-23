@@ -1,7 +1,7 @@
 # MOUNTLIQUOR Storefront Redesign
 
 **Date:** 2026-04-23
-**Scope:** `apps/liquor-shop` (Next.js 15 storefront)
+**Scope:** repo root (Next.js 15 storefront)
 **Driver:** Reference mockups in `reference/ChatGPT Image Apr 23, 2026, 09_31_03 AM.png` and `…09_31_06 AM.png` — a dark luxury liquor shop with gold accents, bottle photography, tabbed product detail, and the brand name "MOUNTLIQUOR".
 
 ## Goals
@@ -18,7 +18,7 @@
 - No filter/sort controls on the collection page — not shown in the reference.
 - No pixel-perfect clone of the reference. Fidelity target is "clearly inspired by, same tone and palette." The reference is AI-generated; chasing exact proportions is low-ROI.
 - No new frontend unit tests. Verification is manual browser check plus `lint` / `tsc` / `build`.
-- Python pipeline (`curator.py`, `exporter.py`, etc.) is not touched.
+- Python pipeline under `medusa/catalog-sorter/` is not touched.
 
 ## Architecture
 
@@ -121,7 +121,7 @@ export type CatalogProduct = {
 
 **Image pipeline (one-time during implementation):**
 - Fetch ~15 royalty-free photos (1 hero bottle, 6 category tiles, ~8 product bottles) from Unsplash or Pexels.
-- Commit to `apps/liquor-shop/public/images/` with stable filenames: `hero-macallan.jpg`, `categories/whiskey.jpg`, `bottles/macallan-18.jpg`, etc.
+- Commit to `public/images/` with stable filenames: `hero-macallan.jpg`, `categories/whiskey.jpg`, `bottles/macallan-18.jpg`, etc.
 - Served through `next/image` for automatic optimization. No runtime fetches.
 
 ## Error handling
@@ -145,7 +145,7 @@ Repo's automated tests are Python-only and cover the catalog pipeline. UI correc
 - `npm run build` succeeds.
 
 **Manual browser check, performed before each phase is marked complete:**
-1. `npm run dev` in `apps/liquor-shop`; open `http://localhost:3000`.
+1. `npm run dev` in repo root; open `http://localhost:3000`.
 2. Home: hero, trust badges, category tiles, featured products. Click each category CTA → lands on matching `/collections/<slug>`.
 3. Product page: gallery thumbnails swap main image; all four tabs toggle; ADD TO CART visible; "You may also like" populated.
 4. Collection page: grid renders, cards have images, links navigate.

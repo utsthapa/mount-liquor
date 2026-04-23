@@ -12,9 +12,10 @@ Install Docker Desktop.
 
 ## Start
 
-From the repo root:
+From the `medusa/` folder:
 
 ```bash
+cd medusa
 docker compose up --build
 ```
 
@@ -27,6 +28,7 @@ docker compose down
 ## Reset database
 
 ```bash
+cd medusa
 docker compose down -v
 docker compose up --build
 ```

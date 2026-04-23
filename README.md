@@ -14,8 +14,13 @@ Premium Next.js storefront for the liquor shop experience.
 
 1. Copy `.env.example` to `.env.local`
 2. Set `NEXT_PUBLIC_MEDUSA_BACKEND_URL` if your backend is not on `http://localhost:9000`
-3. Run `npm install --cache ../../.npm-cache`
+3. Run `npm install --cache .npm-cache`
 4. Run `npm run dev`
+
+## Repository Layout
+
+- The storefront now lives at the repo root.
+- Medusa backend, catalog tooling, and Docker stack live under `medusa/`.
 
 ## Notes
 
