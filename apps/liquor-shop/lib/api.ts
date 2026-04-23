@@ -1,13 +1,7 @@
 import { collections, featuredProducts, storeConfig } from "./store"
+import type { CatalogProduct } from "./store"
 
-export type CatalogProduct = {
-  slug: string
-  title: string
-  category: string
-  price: string
-  badge: string
-  description: string
-}
+export type { CatalogProduct }
 
 type MedusaVariant = {
   prices?: Array<{ currency_code?: string; amount?: number }>
