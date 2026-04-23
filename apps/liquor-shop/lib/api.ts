@@ -85,15 +85,19 @@ export async function getStoreData() {
 
 export async function getCollections() {
   const products = await getCatalogProducts()
-  const names = [...new Set(products.map((product) => product.category))]
-  if (names.length === 0) return collections
-  return names.map((name) => {
-    const fallback = collections.find((collection) => collection.title.toLowerCase() === name.toLowerCase())
+  const derived = [...new Set(products.map((product) => product.category))].map((name) => {
+    const fallback = collections.find((c) => c.title.toLowerCase() === name.toLowerCase())
     return {
-      slug: name.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
-      title: name,
+      slug: fallback?.slug ?? name.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
+      title: fallback?.title ?? name,
       description:
-        fallback?.description || `Shop ${name.toLowerCase()} online for premium pickup or local delivery.`,
+        fallback?.description ||
+        `Shop ${name.toLowerCase()} online for premium pickup or local delivery.`,
     }
   })
+
+  const bySlug = new Map<string, (typeof collections)[number]>()
+  for (const collection of collections) bySlug.set(collection.slug, collection)
+  for (const collection of derived) bySlug.set(collection.slug, collection)
+  return Array.from(bySlug.values())
 }
