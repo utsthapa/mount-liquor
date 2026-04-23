@@ -13,7 +13,7 @@ from filter import load_and_filter
 from scorer import score_items
 from selector import build_dept_summary, build_mix_prompt, parse_dept_mix, select_items
 from describer import generate_descriptions
-from exporter import write_reference_csv, write_upload_csv
+from exporter import write_medusa_seed_json, write_reference_csv, write_upload_csv
 from openrouter import OpenRouterClient
 
 
@@ -24,6 +24,17 @@ def main():
     parser.add_argument("--model", default="xiaomi/mimo-v2-pro", help="OpenRouter model ID")
     parser.add_argument("--skip-scoring", action="store_true", help="Reuse existing scored.json")
     parser.add_argument("--output-dir", default=".", help="Directory for output files")
+    parser.add_argument(
+        "--markup-percent",
+        type=float,
+        default=20.0,
+        help="Percent markup for generated Medusa seed pricing",
+    )
+    parser.add_argument(
+        "--medusa-seed-path",
+        default="apps/liquor-medusa/data/catalog-seed.json",
+        help="Path to Medusa seed JSON output",
+    )
     args = parser.parse_args()
 
     if not 100 <= args.count <= 500:
@@ -39,6 +50,7 @@ def main():
     scored_path = output_dir / "scored.json"
     reference_path = output_dir / "catalog_reference.csv"
     upload_path = output_dir / "catalog_upload.csv"
+    medusa_seed_path = Path(args.medusa_seed_path)
 
     # Shared client so token usage accumulates across all LLM calls
     client = OpenRouterClient(api_key=api_key, model=args.model)
@@ -86,6 +98,8 @@ def main():
 
     print(f"\nWriting upload CSV...")
     write_upload_csv(selected_with_desc, str(upload_path))
+    medusa_seed_path.parent.mkdir(parents=True, exist_ok=True)
+    write_medusa_seed_json(selected_with_desc, str(medusa_seed_path), markup_percent=args.markup_percent)
 
     # --- Summary ---
     print("\n" + "=" * 50)
@@ -100,6 +114,7 @@ def main():
     print(f"\nOutputs:")
     print(f"  {reference_path}")
     print(f"  {upload_path}")
+    print(f"  {medusa_seed_path}")
     failed_path = output_dir / "failed.txt"
     if failed_path.exists():
         print(f"  {failed_path} (some items could not be scored)")
