@@ -14,6 +14,7 @@ const tiles: CategoryTile[] = [
   { slug: "rum", title: "Rum", image: "/images/categories/rum.jpg" },
   { slug: "wine", title: "Wine", image: "/images/categories/wine.jpg" },
   { slug: "beer", title: "Beer", image: "/images/categories/beer.jpg" },
+  { slug: "tequila", title: "Tequila", image: "/images/catalog/bottle-6.jpg" },
 ]
 
 export function CategoryGrid() {
@@ -32,7 +33,7 @@ export function CategoryGrid() {
             View all
           </Link>
         </div>
-        <div className="grid gap-6 grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
+        <div className="grid gap-6 grid-cols-2 md:grid-cols-3 lg:grid-cols-7">
           {tiles.map((tile) => (
             <Link
               key={tile.slug}

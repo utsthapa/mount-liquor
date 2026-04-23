@@ -18,7 +18,7 @@ export const metadata = buildMetadata({
 
 export default async function HomePage() {
   const products = await getCatalogProducts()
-  const featured = products.slice(0, 8)
+  const featured = products.slice(0, 12)
 
   return (
     <>

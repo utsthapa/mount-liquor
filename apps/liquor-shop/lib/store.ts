@@ -38,6 +38,7 @@ export type CatalogProduct = {
   reviews?: Review[]
   volumeMl?: number
   abv?: number
+  vendor?: string
 }
 
 export const collections = [
@@ -71,43 +72,14 @@ export const collections = [
     title: "Beer",
     description: "Craft staples, import standouts, and fridge-stockers for casual nights and gatherings.",
   },
+  {
+    slug: "tequila",
+    title: "Tequila",
+    description: "Blanco, reposado, and añejo bottles from Mexico's finest distilleries.",
+  },
 ]
 
-export const featuredProducts: CatalogProduct[] = [
-  {
-    slug: "jack-daniels-bonded",
-    title: "Jack Daniel's Bonded 700ml",
-    category: "Whiskey",
-    price: "$40.93",
-    badge: "Best Seller",
-    description: "A full-bodied Tennessee whiskey with polished spice, oak, and a cleaner premium finish.",
-    imageUrl: "/images/bottles/jack-daniels-bonded.jpg",
-    volumeMl: 700,
-    abv: 50,
-  },
-  {
-    slug: "st-germain-liqueur",
-    title: "St-Germain Liqueur 750ml",
-    category: "Liqueur",
-    price: "$43.07",
-    badge: "Entertaining Pick",
-    description: "A floral elderflower staple that makes sparkling cocktails feel considered and effortless.",
-    imageUrl: "/images/bottles/st-germain-liqueur.jpg",
-    volumeMl: 750,
-    abv: 20,
-  },
-  {
-    slug: "jimmy-bean-double-oak",
-    title: "Jimmy Bean Double Oak 750ml",
-    category: "Whiskey",
-    price: "$30.47",
-    badge: "Staff Favorite",
-    description: "Double-oaked character with a richer caramel profile for guests who want depth without fuss.",
-    imageUrl: "/images/bottles/jimmy-bean-double-oak.jpg",
-    volumeMl: 750,
-    abv: 43,
-  },
-]
+export { catalogProducts as featuredProducts } from "./catalog-data"
 
 export function formatCurrency(amount: number): string {
   return new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(amount)
