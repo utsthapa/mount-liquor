@@ -5,3 +5,12 @@ failed.txt
 __pycache__/
 *.pyc
 .env
+apps/liquor-shop/.next/
+apps/liquor-shop/node_modules/
+apps/liquor-medusa/node_modules/
+apps/liquor-medusa/.medusa/
+apps/liquor-medusa/.config/
+.venv/
+.npm-cache/
+apps/liquor-shop/dist/
+apps/liquor-medusa/dist/
