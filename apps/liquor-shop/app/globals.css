@@ -1,3 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0b0b0c;
+  --color-surface: #141416;
+  --color-surface-raised: #1c1c1f;
+  --color-ink: #f5efe4;
+  --color-muted: #8a8278;
+  --color-gold: #c9a24a;
+  --color-gold-hover: #b5903b;
+  --color-line: rgba(245, 239, 228, 0.08);
+
+  --font-sans: var(--font-inter), "Helvetica Neue", "Segoe UI", sans-serif;
+  --font-serif: var(--font-playfair), "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+
+  --radius-pill: 999px;
+}
+
+/* Dark-theme base styles only apply inside elements marked .theme-dark.
+   Pages migrate to the dark theme incrementally; un-migrated pages keep the old light styles. */
+.theme-dark {
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+.theme-dark a { color: inherit; text-decoration: none; }
+.theme-dark h1, .theme-dark h2, .theme-dark h3 { font-family: var(--font-serif); font-weight: 500; }
+
 :root {
   --bg: #f7f4ee;
   --surface: #fffdfa;
