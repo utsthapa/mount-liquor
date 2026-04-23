@@ -1,0 +1,63 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: catalog-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: medusa_liquor
+      POSTGRES_USER: medusa
+      POSTGRES_PASSWORD: medusa
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U medusa -d medusa_liquor"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  medusa:
+    build:
+      context: ./apps/liquor-medusa
+    container_name: catalog-medusa
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      STORE_CORS: http://localhost:3000
+      ADMIN_CORS: http://localhost:7001,http://localhost:3000
+      AUTH_CORS: http://localhost:3000
+      DATABASE_URL: postgres://medusa:medusa@postgres:5432/medusa_liquor?sslmode=disable
+      JWT_SECRET: supersecret
+      COOKIE_SECRET: supersecret
+      MEDUSA_BACKEND_URL: http://localhost:9000
+      MEDUSA_STOREFRONT_URL: http://localhost:3000
+      ADMIN_DISABLED: "true"
+      LIQUOR_STORE_NAME: Mount Liquor
+      LIQUOR_STORE_ADDRESS: 535 W Airport Fwy, Irving, TX 75062
+      LIQUOR_STORE_PHONE: 469-276-7525
+      LIQUOR_STORE_HOURS: Mon-Sat 10am-9pm, Sun 12pm-7pm
+      DEFAULT_MARKUP_PERCENT: "20"
+      DELIVERY_RADIUS_MILES: "10"
+      DELIVERY_FEE_USD: "9.99"
+      OFFLINE_PAYMENT_ENABLED: "true"
+    ports:
+      - "9000:9000"
+
+  storefront:
+    build:
+      context: ./apps/liquor-shop
+    container_name: catalog-storefront
+    restart: unless-stopped
+    depends_on:
+      medusa:
+        condition: service_started
+    environment:
+      NEXT_PUBLIC_MEDUSA_BACKEND_URL: http://medusa:9000
+    ports:
+      - "3000:3000"
+
+volumes:
+  postgres_data:

@@ -1,0 +1,23 @@
+{
+  "name": "liquor-medusa",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "ADMIN_DISABLED=${ADMIN_DISABLED:-true} XDG_CONFIG_HOME=./.config medusa develop",
+    "build": "ADMIN_DISABLED=${ADMIN_DISABLED:-true} XDG_CONFIG_HOME=./.config medusa build",
+    "start": "ADMIN_DISABLED=${ADMIN_DISABLED:-true} XDG_CONFIG_HOME=./.config medusa start",
+    "seed:catalog": "node src/scripts/import-curated-catalog.mjs"
+  },
+  "dependencies": {
+    "@medusajs/framework": "^2.4.0",
+    "@medusajs/medusa": "^2.4.0",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
