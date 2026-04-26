@@ -1,0 +1,643 @@
+{
+  "080686018094": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:17.215Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/13659/136590166-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/080686018094-barcodelookup-031c336a0e.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=080686018094-barcodelookup-031c336a0e.jpg",
+    "localFilename": "080686018094-barcodelookup-031c336a0e.jpg",
+    "title": "Jim Beam Double Oak Kentucky Straight Bourbon Whiskey Whiskey"
+  },
+  "080686016793": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:18.330Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/29870/298708629-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/080686016793-barcodelookup-f1ce5fe50b.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=080686016793-barcodelookup-f1ce5fe50b.jpg",
+    "localFilename": "080686016793-barcodelookup-f1ce5fe50b.jpg",
+    "title": "Knob Creek Smoked Maple Kentucky Straight Bourbon Whiskey Whiskey"
+  },
+  "082184000342": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:19.639Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/2973/29736631-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082184000342-barcodelookup-7fa8420529.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082184000342-barcodelookup-7fa8420529.jpg",
+    "localFilename": "082184000342-barcodelookup-7fa8420529.jpg",
+    "title": "Jack Daniel's Tennessee Honey Flavored Whiskey - 375ml Bottle"
+  },
+  "082184001561": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:21.068Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/2973/29739057-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082184001561-barcodelookup-019cd94f9b.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082184001561-barcodelookup-019cd94f9b.jpg",
+    "localFilename": "082184001561-barcodelookup-019cd94f9b.jpg",
+    "title": "Jack Daniel's Tennessee Fire Plastic 375 Ml"
+  },
+  "082184004388": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:22.252Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/19959/199594261-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082184004388-barcodelookup-f8a8d359c0.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082184004388-barcodelookup-f8a8d359c0.jpg",
+    "localFilename": "082184004388-barcodelookup-f8a8d359c0.jpg",
+    "title": "Jack Daniel's Tennessee Apple Flavored Whiskey - 375ml Plastic Bottle"
+  },
+  "082184005934": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:24.607Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/42662/426628344-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082184005934-barcodelookup-8682937a49.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082184005934-barcodelookup-8682937a49.jpg",
+    "localFilename": "082184005934-barcodelookup-8682937a49.jpg",
+    "title": "Jack Daniels Bonded Tennessee Whiskey 700ml"
+  },
+  "082184005941": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:25.592Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/42662/426628467-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082184005941-barcodelookup-a086f3ea36.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082184005941-barcodelookup-a086f3ea36.jpg",
+    "localFilename": "082184005941-barcodelookup-a086f3ea36.jpg",
+    "title": "Jack Daniels Triple Mash Blended Straight Whiskey 700ml"
+  },
+  "082184208786": {
+    "status": "not_found",
+    "checkedAt": "2026-04-26T01:31:26.500Z",
+    "source": "barcodelookup",
+    "imageUrl": null
+  },
+  "080686009924": {
+    "status": "not_found",
+    "checkedAt": "2026-04-26T01:31:27.360Z",
+    "source": "barcodelookup",
+    "imageUrl": null
+  },
+  "080686021148": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:28.216Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/15623/156237552-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/080686021148-barcodelookup-dbd5cd5fc9.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=080686021148-barcodelookup-dbd5cd5fc9.jpg",
+    "localFilename": "080686021148-barcodelookup-dbd5cd5fc9.jpg",
+    "title": "Jim Beam Peach Bourbon Whiskey - 750ml Bottle"
+  },
+  "080686021186": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:29.458Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/25850/258507621-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/080686021186-barcodelookup-95b6805b0f.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=080686021186-barcodelookup-95b6805b0f.jpg",
+    "localFilename": "080686021186-barcodelookup-95b6805b0f.jpg",
+    "title": "Jim Beam Bourbon Peach 1.75L"
+  },
+  "085246503171": {
+    "status": "not_found",
+    "checkedAt": "2026-04-26T01:31:30.598Z",
+    "source": "barcodelookup",
+    "imageUrl": null
+  },
+  "087000007246": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:31.454Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/4385/43857601-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/087000007246-barcodelookup-e1881292b0.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=087000007246-barcodelookup-e1881292b0.jpg",
+    "localFilename": "087000007246-barcodelookup-e1881292b0.jpg",
+    "title": "Crown Royal / Litre Canadian Whisky"
+  },
+  "082184000625": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:32.508Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/6109/61099791-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082184000625-barcodelookup-5d509db83d.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082184000625-barcodelookup-5d509db83d.jpg",
+    "localFilename": "082184000625-barcodelookup-5d509db83d.jpg",
+    "title": "Jack Daniel's Honey 200 Ml"
+  },
+  "082184001172": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:33.506Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/4858/48588351-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082184001172-barcodelookup-5fb5dc38a5.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082184001172-barcodelookup-5fb5dc38a5.jpg",
+    "localFilename": "082184001172-barcodelookup-5fb5dc38a5.jpg",
+    "title": "Jack Daniel's Tennessee Fire Flavored Whiskey - 750ml Bottle"
+  },
+  "082184001554": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:34.584Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/2974/29740624-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082184001554-barcodelookup-3d32d77d7d.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082184001554-barcodelookup-3d32d77d7d.jpg",
+    "localFilename": "082184001554-barcodelookup-3d32d77d7d.jpg",
+    "title": "Jack Daniel's Tennessee Fire 200ml"
+  },
+  "082184004371": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:35.595Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/19959/199591375-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082184004371-barcodelookup-7fc00284a7.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082184004371-barcodelookup-7fc00284a7.jpg",
+    "localFilename": "082184004371-barcodelookup-7fc00284a7.jpg",
+    "title": "Jack Daniel's Tennessee Apple 750ml"
+  },
+  "082184004746": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:36.607Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/32340/323401518-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082184004746-barcodelookup-263ac0a1c6.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082184004746-barcodelookup-263ac0a1c6.jpg",
+    "localFilename": "082184004746-barcodelookup-263ac0a1c6.jpg",
+    "title": "Tennessee Apple | Tennessee Whiskey by Jack Daniels | 200ml"
+  },
+  "082184008737": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:37.738Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/149292/1492927432-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082184008737-barcodelookup-aef06d3390.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082184008737-barcodelookup-aef06d3390.jpg",
+    "localFilename": "082184008737-barcodelookup-aef06d3390.jpg",
+    "title": "JUST RELEASED! Jack Daniels BLACKBERRY 750 ML EMPTY Bottle W/ Cut Open Seal"
+  },
+  "082184204771": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:38.747Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/23094/230945343-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082184204771-barcodelookup-6d50dac3e3.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082184204771-barcodelookup-6d50dac3e3.jpg",
+    "localFilename": "082184204771-barcodelookup-6d50dac3e3.jpg",
+    "title": "Jack Daniel's Whiskey, Honey & Lemonade 355ml"
+  },
+  "085246501535": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:39.804Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/24291/242914762-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/085246501535-barcodelookup-f5415ff4f0.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=085246501535-barcodelookup-f5415ff4f0.jpg",
+    "localFilename": "085246501535-barcodelookup-f5415ff4f0.jpg",
+    "title": "Maker's Mark 46 Cask Strength Bourbon Whiskey - 750ml Bottle"
+  },
+  "085246501566": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:40.801Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/20505/205053703-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/085246501566-barcodelookup-c230dbaef1.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=085246501566-barcodelookup-c230dbaef1.jpg",
+    "localFilename": "085246501566-barcodelookup-c230dbaef1.jpg",
+    "title": "Maker's Mark 101 Bourbon Whisky 750ml"
+  },
+  "088004144708": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:41.750Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/2974/29743454-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/088004144708-barcodelookup-104c3ea156.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=088004144708-barcodelookup-104c3ea156.jpg",
+    "localFilename": "088004144708-barcodelookup-104c3ea156.jpg",
+    "title": "Fireball Whiskey"
+  },
+  "081128001933": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:42.690Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/13658/136583012-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/081128001933-barcodelookup-29e75280b4.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=081128001933-barcodelookup-29e75280b4.jpg",
+    "localFilename": "081128001933-barcodelookup-29e75280b4.jpg",
+    "title": "Woodford Reserve Kentucky Straight Malt Whiskey Whiskey"
+  },
+  "082000771548": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:43.764Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/8168/81686027-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082000771548-barcodelookup-e9d6750129.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082000771548-barcodelookup-e9d6750129.jpg",
+    "localFilename": "082000771548-barcodelookup-e9d6750129.jpg",
+    "title": "Crown Royal Apple"
+  },
+  "082000771555": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:44.808Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/2973/29735822-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082000771555-barcodelookup-6493a11e65.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082000771555-barcodelookup-6493a11e65.jpg",
+    "localFilename": "082000771555-barcodelookup-6493a11e65.jpg",
+    "title": "Apple Flavored Whskey"
+  },
+  "082000771562": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:45.850Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/2973/29738975-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082000771562-barcodelookup-96096c1da2.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082000771562-barcodelookup-96096c1da2.jpg",
+    "localFilename": "082000771562-barcodelookup-96096c1da2.jpg",
+    "title": "Crown Royal Regal Apple Canadian Whisky | Thomas Rhett, 75 Cl"
+  },
+  "082000771586": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:46.788Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/2973/29739368-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082000771586-barcodelookup-56d254bb1d.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082000771586-barcodelookup-56d254bb1d.jpg",
+    "localFilename": "082000771586-barcodelookup-56d254bb1d.jpg",
+    "title": "Crown Royal Regal Apple"
+  },
+  "082000771593": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:47.827Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/2973/29735516-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082000771593-barcodelookup-61e8d7ebd2.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082000771593-barcodelookup-61e8d7ebd2.jpg",
+    "localFilename": "082000771593-barcodelookup-61e8d7ebd2.jpg",
+    "title": "Crown Royal Apple Canadian Whisky 1.75L"
+  },
+  "082000776574": {
+    "status": "not_found",
+    "checkedAt": "2026-04-26T01:31:48.857Z",
+    "source": "barcodelookup",
+    "imageUrl": null
+  },
+  "082000776581": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:49.906Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/8340/83407843-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082000776581-barcodelookup-168ecf0aa7.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082000776581-barcodelookup-168ecf0aa7.jpg",
+    "localFilename": "082000776581-barcodelookup-168ecf0aa7.jpg",
+    "title": "Vanilla | Canadian Whisky by Crown Royal | 375ml | Canada"
+  },
+  "082000776598": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:50.959Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/2974/29745246-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082000776598-barcodelookup-9ca002cf1d.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082000776598-barcodelookup-9ca002cf1d.jpg",
+    "localFilename": "082000776598-barcodelookup-9ca002cf1d.jpg",
+    "title": "Crown Royal Vanilla Canadian Whisky | Thomas Rhett, 75 Cl"
+  },
+  "082000776604": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:52.006Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/11019/110190916-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082000776604-barcodelookup-67e51df0f0.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082000776604-barcodelookup-67e51df0f0.jpg",
+    "localFilename": "082000776604-barcodelookup-67e51df0f0.jpg",
+    "title": "Crown Royal Vanilla 1L"
+  },
+  "082000776611": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:53.049Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/2974/29742537-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082000776611-barcodelookup-8391c176cc.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082000776611-barcodelookup-8391c176cc.jpg",
+    "localFilename": "082000776611-barcodelookup-8391c176cc.jpg",
+    "title": "Crown Royal Vanilla"
+  },
+  "082000782919": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:54.100Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/13657/136570034-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082000782919-barcodelookup-20b0f19246.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082000782919-barcodelookup-20b0f19246.jpg",
+    "localFilename": "082000782919-barcodelookup-20b0f19246.jpg",
+    "title": "Crown Royal Peach"
+  },
+  "082000789550": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:55.345Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/105212/1052129502-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082000789550-barcodelookup-c7fea0ea91.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082000789550-barcodelookup-c7fea0ea91.jpg",
+    "localFilename": "082000789550-barcodelookup-c7fea0ea91.jpg",
+    "title": "Crown Royal Blackberry Flavored Canadian Whisky 750ml"
+  },
+  "082184000618": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:56.539Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/6264/62641753-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082184000618-barcodelookup-cf46e90d10.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082184000618-barcodelookup-cf46e90d10.jpg",
+    "localFilename": "082184000618-barcodelookup-cf46e90d10.jpg",
+    "title": "Tennessee Honey | Tennessee Whiskey by Jack Daniels | 1.75L"
+  },
+  "082184001219": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:57.591Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/2973/29738940-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082184001219-barcodelookup-4d6edcd6c7.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082184001219-barcodelookup-4d6edcd6c7.jpg",
+    "localFilename": "082184001219-barcodelookup-4d6edcd6c7.jpg",
+    "title": "Cinnamon Spice Tennessee Fire"
+  },
+  "082184005583": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:31:58.667Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/32340/323401517-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082184005583-barcodelookup-4013921479.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082184005583-barcodelookup-4013921479.jpg",
+    "localFilename": "082184005583-barcodelookup-4013921479.jpg",
+    "title": "Apple Whiskey"
+  },
+  "087236566098": {
+    "status": "not_found",
+    "checkedAt": "2026-04-26T01:31:59.666Z",
+    "source": "barcodelookup",
+    "imageUrl": null
+  },
+  "087236566104": {
+    "status": "not_found",
+    "checkedAt": "2026-04-26T01:32:00.522Z",
+    "source": "barcodelookup",
+    "imageUrl": null
+  },
+  "088004009281": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:32:01.440Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/2973/29734991-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/088004009281-barcodelookup-e4fa1be9c7.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=088004009281-barcodelookup-e4fa1be9c7.jpg",
+    "localFilename": "088004009281-barcodelookup-e4fa1be9c7.jpg",
+    "title": "Fireball Cinnamon Whiskey 1.75L"
+  },
+  "080686824053": {
+    "status": "not_found",
+    "checkedAt": "2026-04-26T01:32:02.365Z",
+    "source": "barcodelookup",
+    "imageUrl": null
+  },
+  "082000811053": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:32:03.220Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/160898/1608983172-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082000811053-barcodelookup-cbbdc2625b.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082000811053-barcodelookup-cbbdc2625b.jpg",
+    "localFilename": "082000811053-barcodelookup-cbbdc2625b.jpg",
+    "title": "⭐⭐⭐⭐⭐ EMPTY 750mL Crown Royal Chocolate Glass Display/Craft/Décor Bottle"
+  },
+  "085246502846": {
+    "status": "not_found",
+    "checkedAt": "2026-04-26T01:32:04.273Z",
+    "source": "barcodelookup",
+    "imageUrl": null
+  },
+  "080686010425": {
+    "status": "not_found",
+    "checkedAt": "2026-04-26T01:32:05.123Z",
+    "source": "barcodelookup",
+    "imageUrl": null
+  },
+  "080686958024": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:32:05.974Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/13656/136564584-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/080686958024-barcodelookup-72267f19be.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=080686958024-barcodelookup-72267f19be.jpg",
+    "localFilename": "080686958024-barcodelookup-72267f19be.jpg",
+    "title": "Haku Japanese Vodka 750ml"
+  },
+  "080686958031": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:32:07.004Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/13659/136595948-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/080686958031-barcodelookup-932627c7ea.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=080686958031-barcodelookup-932627c7ea.jpg",
+    "localFilename": "080686958031-barcodelookup-932627c7ea.jpg",
+    "title": "Suntory Roku Gin Gin"
+  },
+  "082000804819": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:32:08.274Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/80550/805508475-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082000804819-barcodelookup-65b8c52f41.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082000804819-barcodelookup-65b8c52f41.jpg",
+    "localFilename": "082000804819-barcodelookup-65b8c52f41.jpg",
+    "title": "Smirnoff Red White & Merry 750ml"
+  },
+  "086767704832": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:32:09.304Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/13658/136587290-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/086767704832-barcodelookup-0abfdf4ec2.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=086767704832-barcodelookup-0abfdf4ec2.jpg",
+    "localFilename": "086767704832-barcodelookup-0abfdf4ec2.jpg",
+    "title": "Baileys Strawberries & Cream Liqueur 750ml"
+  },
+  "082000797210": {
+    "status": "error",
+    "checkedAt": "2026-04-26T01:32:11.718Z",
+    "source": "barcodelookup",
+    "imageUrl": null,
+    "error": "HTTP 429 for https://api.barcodelookup.com/v3/products?barcode=082000797210&key=d3vks2breit5i5xxzhini12ny2mclu"
+  },
+  "082000803928": {
+    "status": "error",
+    "checkedAt": "2026-04-26T01:35:47.935Z",
+    "source": "barcodelookup",
+    "imageUrl": null,
+    "error": "HTTP 429 for https://api.barcodelookup.com/v3/products?barcode=082000803928&key=d3vks2breit5i5xxzhini12ny2mclu"
+  },
+  "080686009955": {
+    "status": "error",
+    "checkedAt": "2026-04-26T01:32:16.642Z",
+    "source": "barcodelookup",
+    "imageUrl": null,
+    "error": "HTTP 429 for https://api.barcodelookup.com/v3/products?barcode=080686009955&key=d3vks2breit5i5xxzhini12ny2mclu"
+  },
+  "082000811435": {
+    "status": "not_found",
+    "checkedAt": "2026-04-26T01:32:17.472Z",
+    "source": "barcodelookup",
+    "imageUrl": null
+  },
+  "083089660358": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:32:18.351Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/2974/29744364-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/083089660358-barcodelookup-8a0fd5461f.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=083089660358-barcodelookup-8a0fd5461f.jpg",
+    "localFilename": "083089660358-barcodelookup-8a0fd5461f.jpg",
+    "title": "Liqueurs/Cordials Schnapps Herbal & Spice Anise by Jagermeister | 375ml | Germany"
+  },
+  "088076188631": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:32:19.409Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/82375/823757744-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/088076188631-barcodelookup-56bc3c992c.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=088076188631-barcodelookup-56bc3c992c.jpg",
+    "localFilename": "088076188631-barcodelookup-56bc3c992c.jpg",
+    "title": "Tanqueray Negroni Cocktail 750ml"
+  },
+  "195893031092": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:32:20.526Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/29870/298708975-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/195893031092-barcodelookup-c33176fced.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=195893031092-barcodelookup-c33176fced.jpg",
+    "localFilename": "195893031092-barcodelookup-c33176fced.jpg",
+    "title": "818 Tequila Reposado by Kendall Jenner 750ml"
+  },
+  "195893154296": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:32:21.514Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/31898/318988499-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/195893154296-barcodelookup-731461c8d1.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=195893154296-barcodelookup-731461c8d1.jpg",
+    "localFilename": "195893154296-barcodelookup-731461c8d1.jpg",
+    "title": "818 Anejo Tequila Tequila"
+  },
+  "080686009511": {
+    "status": "not_found",
+    "checkedAt": "2026-04-26T01:32:22.548Z",
+    "source": "barcodelookup",
+    "imageUrl": null
+  },
+  "080686835424": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:32:23.460Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/5083/50835848-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/080686835424-barcodelookup-185fedb54d.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=080686835424-barcodelookup-185fedb54d.jpg",
+    "localFilename": "080686835424-barcodelookup-185fedb54d.jpg",
+    "title": "Hornitos Anejo Tequila Tequila"
+  },
+  "080686835486": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:32:24.416Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/2974/29744085-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/080686835486-barcodelookup-a58a10f71e.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=080686835486-barcodelookup-a58a10f71e.jpg",
+    "localFilename": "080686835486-barcodelookup-a58a10f71e.jpg",
+    "title": "Hornitos Lime Shot Tequila Flavored - 750ml Bottle"
+  },
+  "818844028049": {
+    "status": "error",
+    "checkedAt": "2026-04-26T01:32:27.133Z",
+    "source": "barcodelookup",
+    "imageUrl": null,
+    "error": "HTTP 429 for https://api.barcodelookup.com/v3/products?barcode=818844028049&key=d3vks2breit5i5xxzhini12ny2mclu"
+  },
+  "080686008880": {
+    "status": "error",
+    "checkedAt": "2026-04-26T01:32:29.400Z",
+    "source": "barcodelookup",
+    "imageUrl": null,
+    "error": "HTTP 429 for https://api.barcodelookup.com/v3/products?barcode=080686008880&key=d3vks2breit5i5xxzhini12ny2mclu"
+  },
+  "080686831211": {
+    "status": "error",
+    "checkedAt": "2026-04-26T01:32:31.670Z",
+    "source": "barcodelookup",
+    "imageUrl": null,
+    "error": "HTTP 429 for https://api.barcodelookup.com/v3/products?barcode=080686831211&key=d3vks2breit5i5xxzhini12ny2mclu"
+  },
+  "080686832225": {
+    "status": "error",
+    "checkedAt": "2026-04-26T01:32:34.028Z",
+    "source": "barcodelookup",
+    "imageUrl": null,
+    "error": "HTTP 429 for https://api.barcodelookup.com/v3/products?barcode=080686832225&key=d3vks2breit5i5xxzhini12ny2mclu"
+  },
+  "811538013697": {
+    "status": "error",
+    "checkedAt": "2026-04-26T01:32:36.394Z",
+    "source": "barcodelookup",
+    "imageUrl": null,
+    "error": "HTTP 429 for https://api.barcodelookup.com/v3/products?barcode=811538013697&key=d3vks2breit5i5xxzhini12ny2mclu"
+  },
+  "818844028018": {
+    "status": "error",
+    "checkedAt": "2026-04-26T01:32:38.744Z",
+    "source": "barcodelookup",
+    "imageUrl": null,
+    "error": "HTTP 429 for https://api.barcodelookup.com/v3/products?barcode=818844028018&key=d3vks2breit5i5xxzhini12ny2mclu"
+  },
+  "085592121043": {
+    "status": "error",
+    "checkedAt": "2026-04-26T01:32:41.016Z",
+    "source": "barcodelookup",
+    "imageUrl": null,
+    "error": "HTTP 429 for https://api.barcodelookup.com/v3/products?barcode=085592121043&key=d3vks2breit5i5xxzhini12ny2mclu"
+  },
+  "086024017316": {
+    "status": "error",
+    "checkedAt": "2026-04-26T01:32:43.382Z",
+    "source": "barcodelookup",
+    "imageUrl": null,
+    "error": "HTTP 429 for https://api.barcodelookup.com/v3/products?barcode=086024017316&key=d3vks2breit5i5xxzhini12ny2mclu"
+  },
+  "195893687015": {
+    "status": "error",
+    "checkedAt": "2026-04-26T01:32:45.649Z",
+    "source": "barcodelookup",
+    "imageUrl": null,
+    "error": "HTTP 429 for https://api.barcodelookup.com/v3/products?barcode=195893687015&key=d3vks2breit5i5xxzhini12ny2mclu"
+  },
+  "674545000827": {
+    "status": "error",
+    "checkedAt": "2026-04-26T01:32:47.921Z",
+    "source": "barcodelookup",
+    "imageUrl": null,
+    "error": "HTTP 429 for https://api.barcodelookup.com/v3/products?barcode=674545000827&key=d3vks2breit5i5xxzhini12ny2mclu"
+  },
+  "811538011372": {
+    "status": "error",
+    "checkedAt": "2026-04-26T01:32:50.271Z",
+    "source": "barcodelookup",
+    "imageUrl": null,
+    "error": "HTTP 429 for https://api.barcodelookup.com/v3/products?barcode=811538011372&key=d3vks2breit5i5xxzhini12ny2mclu"
+  },
+  "811538011396": {
+    "status": "error",
+    "checkedAt": "2026-04-26T01:32:52.532Z",
+    "source": "barcodelookup",
+    "imageUrl": null,
+    "error": "HTTP 429 for https://api.barcodelookup.com/v3/products?barcode=811538011396&key=d3vks2breit5i5xxzhini12ny2mclu"
+  }
+}

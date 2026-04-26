@@ -1,0 +1,23 @@
+{
+  "200582000003": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 403: {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\",\"title\":\"Error 1010: Access denied\",\"status\":403,\"detail\":\"The site owner has blocked access based on your browser's si"
+  },
+  "263973000006": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "55921541": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  }
+}

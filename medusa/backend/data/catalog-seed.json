@@ -1,6 +1,6 @@
 {
   "store_settings": {
-    "default_markup_percent": 20.0,
+    "default_markup_percent": 20,
     "currency_code": "usd",
     "fulfillment_methods": [
       "pickup",
@@ -15,7 +15,7 @@
       "subtitle": "Whiskey",
       "description": "Jimmy Bean Double Oak whiskey is aged in two oak barrels for a smooth, rich flavor with deep caramel and vanilla notes.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=080686018094-barcodelookup-031c336a0e.jpg",
       "brand": "Jimmy Bean",
       "collection": "Whiskey",
       "categories": [
@@ -31,13 +31,18 @@
         "department": "Whiskey",
         "size": "750ml",
         "base_price_usd": "25.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:31:17.215Z",
+        "image_source": "barcodelookup",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/13659/136590166-1.jpg",
+        "image_local_file": "080686018094-barcodelookup-031c336a0e.jpg"
       },
       "variants": [
         {
@@ -63,7 +68,7 @@
       "subtitle": "Whiskey",
       "description": "Knob Creek Bourbon with a smoky maple twist offers a sweet and savory profile, perfect for sipping or mixing.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=080686016793-barcodelookup-f1ce5fe50b.jpg",
       "brand": "Knob Creek",
       "collection": "Whiskey",
       "categories": [
@@ -79,13 +84,18 @@
         "department": "Whiskey",
         "size": "",
         "base_price_usd": "38.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:31:18.330Z",
+        "image_source": "barcodelookup",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/29870/298708629-1.jpg",
+        "image_local_file": "080686016793-barcodelookup-f1ce5fe50b.jpg"
       },
       "variants": [
         {
@@ -111,7 +121,7 @@
       "subtitle": "Whiskey",
       "description": "Jack Daniel's Tennessee Honey blends classic whiskey with smooth honey liqueur for a sweet, easy-drinking experience.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082184000342-barcodelookup-7fa8420529.jpg",
       "brand": "Jack Daniel's",
       "collection": "Whiskey",
       "categories": [
@@ -127,13 +137,18 @@
         "department": "Whiskey",
         "size": "",
         "base_price_usd": "12.66",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:31:19.639Z",
+        "image_source": "barcodelookup",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/2973/29736631-1.jpg",
+        "image_local_file": "082184000342-barcodelookup-7fa8420529.jpg"
       },
       "variants": [
         {
@@ -159,7 +174,7 @@
       "subtitle": "Whiskey",
       "description": "Jack Daniel's Tennessee Fire combines whiskey with cinnamon spice for a warm, fiery kick that's great in shots or cocktails.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082184001561-barcodelookup-019cd94f9b.jpg",
       "brand": "Jack Daniel's",
       "collection": "Whiskey",
       "categories": [
@@ -175,13 +190,18 @@
         "department": "Whiskey",
         "size": "",
         "base_price_usd": "12.66",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:31:21.068Z",
+        "image_source": "barcodelookup",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/2973/29739057-1.jpg",
+        "image_local_file": "082184001561-barcodelookup-019cd94f9b.jpg"
       },
       "variants": [
         {
@@ -207,7 +227,7 @@
       "subtitle": "Whiskey",
       "description": "Jack Daniel's Tennessee Apple infuses whiskey with crisp apple flavors for a refreshing, fruity twist on a classic.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082184004388-barcodelookup-f8a8d359c0.jpg",
       "brand": "Jack Daniel\u2019s",
       "collection": "Whiskey",
       "categories": [
@@ -223,13 +243,18 @@
         "department": "Whiskey",
         "size": "375ml",
         "base_price_usd": "12.69",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:31:22.252Z",
+        "image_source": "barcodelookup",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/19959/199594261-1.jpg",
+        "image_local_file": "082184004388-barcodelookup-f8a8d359c0.jpg"
       },
       "variants": [
         {
@@ -255,7 +280,7 @@
       "subtitle": "Whiskey",
       "description": "Jack Daniel's Bonded is a 100-proof whiskey aged for a robust, full-bodied taste, meeting strict bonded standards.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082184005934-barcodelookup-8682937a49.jpg",
       "brand": "Jack Daniel's",
       "collection": "Whiskey",
       "categories": [
@@ -271,13 +296,19 @@
         "department": "Whiskey",
         "size": "700ml",
         "base_price_usd": "34.11",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:31:24.607Z",
+        "image_lookup_status": "found",
+        "image_source": "barcodelookup",
+        "image_lookup_upc": "082184005934",
+        "image_url": "https://images.barcodelookup.com/42662/426628344-1.jpg",
+        "image_local_file": "082184005934-barcodelookup-8682937a49.jpg"
       },
       "variants": [
         {
@@ -303,7 +334,7 @@
       "subtitle": "Whiskey",
       "description": "Jack Daniel's Triple Mash offers a smooth, refined flavor through a unique triple mashing process for enhanced complexity.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082184005941-barcodelookup-a086f3ea36.jpg",
       "brand": "Jack Daniel's",
       "collection": "Whiskey",
       "categories": [
@@ -319,13 +350,19 @@
         "department": "Whiskey",
         "size": "700ML",
         "base_price_usd": "34.11",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:31:25.592Z",
+        "image_lookup_status": "found",
+        "image_source": "barcodelookup",
+        "image_lookup_upc": "082184005941",
+        "image_url": "https://images.barcodelookup.com/42662/426628467-1.jpg",
+        "image_local_file": "082184005941-barcodelookup-a086f3ea36.jpg"
       },
       "variants": [
         {
@@ -367,13 +404,17 @@
         "department": "Whiskey",
         "size": "4pk/355ml",
         "base_price_usd": "11.35",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-24T16:51:08.537Z",
+        "image_lookup_status": "not_found",
+        "image_source": "upcitemdb",
+        "image_lookup_upc": "082184208786"
       },
       "variants": [
         {
@@ -415,13 +456,17 @@
         "department": "Whiskey",
         "size": "1.75LT",
         "base_price_usd": "31.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-24T16:51:14.165Z",
+        "image_lookup_status": "not_found",
+        "image_source": "upcitemdb",
+        "image_lookup_upc": "080686009924"
       },
       "variants": [
         {
@@ -447,7 +492,7 @@
       "subtitle": "Whiskey",
       "description": "Jim Beam Peach whiskey delivers juicy peach flavor, ideal for sipping on the rocks or in refreshing cocktails.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=080686021148-barcodelookup-dbd5cd5fc9.jpg",
       "brand": "Jim Beam",
       "collection": "Whiskey",
       "categories": [
@@ -463,13 +508,18 @@
         "department": "Whiskey",
         "size": "750ML",
         "base_price_usd": "19.79",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:31:28.216Z",
+        "image_source": "barcodelookup",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/15623/156237552-1.jpg",
+        "image_local_file": "080686021148-barcodelookup-dbd5cd5fc9.jpg"
       },
       "variants": [
         {
@@ -495,7 +545,7 @@
       "subtitle": "Whiskey",
       "description": "Jim Beam Peach in a large bottle offers the same delicious peach-infused bourbon for bigger gatherings or parties.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=080686021186-barcodelookup-95b6805b0f.jpg",
       "brand": "JIM BEAM",
       "collection": "Whiskey",
       "categories": [
@@ -511,13 +561,19 @@
         "department": "Whiskey",
         "size": "1.75LT",
         "base_price_usd": "31.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:31:29.458Z",
+        "image_lookup_status": "found",
+        "image_source": "barcodelookup",
+        "image_lookup_upc": "080686021186",
+        "image_url": "https://images.barcodelookup.com/25850/258507621-1.jpg",
+        "image_local_file": "080686021186-barcodelookup-95b6805b0f.jpg"
       },
       "variants": [
         {
@@ -559,13 +615,17 @@
         "department": "Whiskey",
         "size": "",
         "base_price_usd": "48.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-24T16:51:25.453Z",
+        "image_lookup_status": "not_found",
+        "image_source": "upcitemdb",
+        "image_lookup_upc": "085246503171"
       },
       "variants": [
         {
@@ -591,7 +651,7 @@
       "subtitle": "Whiskey",
       "description": "Crown Royal is a smooth Canadian whisky with a rich, blended flavor, known for its iconic purple bag and versatility.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=087000007246-barcodelookup-e1881292b0.jpg",
       "brand": "Crown Royal",
       "collection": "Whiskey",
       "categories": [
@@ -607,13 +667,18 @@
         "department": "Whiskey",
         "size": "",
         "base_price_usd": "40.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:31:31.454Z",
+        "image_source": "barcodelookup",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/4385/43857601-1.jpg",
+        "image_local_file": "087000007246-barcodelookup-e1881292b0.jpg"
       },
       "variants": [
         {
@@ -639,7 +704,7 @@
       "subtitle": "Whiskey",
       "description": "A small 200ml bottle of Jack Daniel's Tennessee Honey, perfect for sampling or gifting the sweet honey whiskey.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082184000625-barcodelookup-5d509db83d.jpg",
       "brand": "Jack Daniel's",
       "collection": "Whiskey",
       "categories": [
@@ -655,13 +720,18 @@
         "department": "Whiskey",
         "size": "200ml",
         "base_price_usd": "8.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:31:32.508Z",
+        "image_source": "barcodelookup",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/6109/61099791-1.jpg",
+        "image_local_file": "082184000625-barcodelookup-5d509db83d.jpg"
       },
       "variants": [
         {
@@ -687,7 +757,7 @@
       "subtitle": "Whiskey",
       "description": "Jack Daniel's Tennessee Fire in a 750ml bottle brings the heat with cinnamon-spiced whiskey for bold cocktails.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082184001172-barcodelookup-5fb5dc38a5.jpg",
       "brand": "Jack Daniel's",
       "collection": "Whiskey",
       "categories": [
@@ -703,13 +773,18 @@
         "department": "Whiskey",
         "size": "",
         "base_price_usd": "27.03",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:31:33.506Z",
+        "image_source": "barcodelookup",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/4858/48588351-1.jpg",
+        "image_local_file": "082184001172-barcodelookup-5fb5dc38a5.jpg"
       },
       "variants": [
         {
@@ -735,7 +810,7 @@
       "subtitle": "Whiskey",
       "description": "Try Jack Daniel's Tennessee Fire in a handy 200ml size for a fiery whiskey experience on the go.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082184001554-barcodelookup-3d32d77d7d.jpg",
       "brand": "Jack Daniel's",
       "collection": "Whiskey",
       "categories": [
@@ -751,13 +826,18 @@
         "department": "Whiskey",
         "size": "",
         "base_price_usd": "8.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:31:34.584Z",
+        "image_source": "barcodelookup",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/2974/29740624-1.jpg",
+        "image_local_file": "082184001554-barcodelookup-3d32d77d7d.jpg"
       },
       "variants": [
         {
@@ -783,7 +863,7 @@
       "subtitle": "Whiskey",
       "description": "Jack Daniel's Tennessee Apple in a 750ml bottle offers crisp apple flavors in every sip, great for mixing.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082184004371-barcodelookup-7fc00284a7.jpg",
       "brand": "Jack Daniel\u2019s",
       "collection": "Whiskey",
       "categories": [
@@ -799,13 +879,18 @@
         "department": "Whiskey",
         "size": "750ml",
         "base_price_usd": "27.03",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:31:35.595Z",
+        "image_source": "barcodelookup",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/19959/199591375-1.jpg",
+        "image_local_file": "082184004371-barcodelookup-7fc00284a7.jpg"
       },
       "variants": [
         {
@@ -831,7 +916,7 @@
       "subtitle": "Whiskey",
       "description": "A 200ml bottle of Jack Daniel's Tennessee Apple, ideal for trying the apple-infused whiskey or portable enjoyment.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082184004746-barcodelookup-263ac0a1c6.jpg",
       "brand": "Jack Daniel\u2019s",
       "collection": "Whiskey",
       "categories": [
@@ -847,13 +932,19 @@
         "department": "Whiskey",
         "size": "200ml",
         "base_price_usd": "8.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:31:36.607Z",
+        "image_lookup_status": "found",
+        "image_source": "barcodelookup",
+        "image_lookup_upc": "082184004746",
+        "image_url": "https://images.barcodelookup.com/32340/323401518-1.jpg",
+        "image_local_file": "082184004746-barcodelookup-263ac0a1c6.jpg"
       },
       "variants": [
         {
@@ -879,7 +970,7 @@
       "subtitle": "Whiskey",
       "description": "Jack Daniel's Blackberry whiskey blends classic taste with sweet blackberry notes for a fruity, delightful drink.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082184008737-barcodelookup-aef06d3390.jpg",
       "brand": "Jack label",
       "collection": "Whiskey",
       "categories": [
@@ -895,13 +986,19 @@
         "department": "Whiskey",
         "size": "750ml",
         "base_price_usd": "28.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:31:37.738Z",
+        "image_lookup_status": "found",
+        "image_source": "barcodelookup",
+        "image_lookup_upc": "082184008737",
+        "image_url": "https://images.barcodelookup.com/149292/1492927432-1.jpg",
+        "image_local_file": "082184008737-barcodelookup-aef06d3390.jpg"
       },
       "variants": [
         {
@@ -927,7 +1024,7 @@
       "subtitle": "Whiskey",
       "description": "Jack Daniel's Honey & Lemon in a 4-pack combines honey whiskey with lemon for a refreshing, ready-to-drink cocktail.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082184204771-barcodelookup-6d50dac3e3.jpg",
       "brand": "Jack Daniel\u2019s",
       "collection": "Whiskey",
       "categories": [
@@ -943,13 +1040,19 @@
         "department": "Whiskey",
         "size": "4pk/355ml",
         "base_price_usd": "11.79",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:31:38.747Z",
+        "image_lookup_status": "found",
+        "image_source": "barcodelookup",
+        "image_lookup_upc": "082184204771",
+        "image_url": "https://images.barcodelookup.com/23094/230945343-1.jpg",
+        "image_local_file": "082184204771-barcodelookup-6d50dac3e3.jpg"
       },
       "variants": [
         {
@@ -975,7 +1078,7 @@
       "subtitle": "Whiskey",
       "description": "Maker's 46 Cask Strength is a robust bourbon with enhanced spice and oak flavors at cask strength for a bold taste.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=085246501535-barcodelookup-f5415ff4f0.jpg",
       "brand": "MAKERS 46",
       "collection": "Whiskey",
       "categories": [
@@ -991,13 +1094,19 @@
         "department": "Whiskey",
         "size": "",
         "base_price_usd": "59.79",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:31:39.804Z",
+        "image_lookup_status": "found",
+        "image_source": "barcodelookup",
+        "image_lookup_upc": "085246501535",
+        "image_url": "https://images.barcodelookup.com/24291/242914762-1.jpg",
+        "image_local_file": "085246501535-barcodelookup-f5415ff4f0.jpg"
       },
       "variants": [
         {
@@ -1023,7 +1132,7 @@
       "subtitle": "Whiskey",
       "description": "Maker's Mark 101 is a limited release bourbon with a higher proof for a bolder, more intense flavor experience.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=085246501566-barcodelookup-c230dbaef1.jpg",
       "brand": "MAKERS MARK",
       "collection": "Whiskey",
       "categories": [
@@ -1039,13 +1148,18 @@
         "department": "Whiskey",
         "size": "",
         "base_price_usd": "43.89",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:31:40.801Z",
+        "image_source": "barcodelookup",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/20505/205053703-1.jpg",
+        "image_local_file": "085246501566-barcodelookup-c230dbaef1.jpg"
       },
       "variants": [
         {
@@ -1071,7 +1185,7 @@
       "subtitle": "Whiskey",
       "description": "Fireball Cinnamon Whisky delivers a hot cinnamon punch in a small, affordable bottle, perfect for shots.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=088004144708-barcodelookup-104c3ea156.jpg",
       "brand": "Fireball Cinnamon",
       "collection": "Whiskey",
       "categories": [
@@ -1087,13 +1201,18 @@
         "department": "Whiskey",
         "size": "50ml",
         "base_price_usd": "0.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:31:41.750Z",
+        "image_source": "barcodelookup",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/2974/29743454-1.jpg",
+        "image_local_file": "088004144708-barcodelookup-104c3ea156.jpg"
       },
       "variants": [
         {
@@ -1119,7 +1238,7 @@
       "subtitle": "Whiskey",
       "description": "Woodford Reserve Malt whiskey offers a smooth, malty flavor with hints of fruit and spice for a refined sip.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=081128001933-barcodelookup-29e75280b4.jpg",
       "brand": "Woodford Reserve",
       "collection": "Whiskey",
       "categories": [
@@ -1135,13 +1254,18 @@
         "department": "Whiskey",
         "size": "",
         "base_price_usd": "38.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:31:42.690Z",
+        "image_source": "barcodelookup",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/13658/136583012-1.jpg",
+        "image_local_file": "081128001933-barcodelookup-29e75280b4.jpg"
       },
       "variants": [
         {
@@ -1167,7 +1291,7 @@
       "subtitle": "Whiskey",
       "description": "Crown Royal Regal Apple in a portable 200ml PET bottle features crisp apple flavors in a smooth Canadian whisky.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082000771548-barcodelookup-e9d6750129.jpg",
       "brand": "CROWN ROYAL",
       "collection": "Whiskey",
       "categories": [
@@ -1183,13 +1307,18 @@
         "department": "Whiskey",
         "size": "200ML",
         "base_price_usd": "9.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:31:43.764Z",
+        "image_source": "barcodelookup",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/8168/81686027-1.jpg",
+        "image_local_file": "082000771548-barcodelookup-e9d6750129.jpg"
       },
       "variants": [
         {
@@ -1215,7 +1344,7 @@
       "subtitle": "Whiskey",
       "description": "Crown Royal Regal Apple in a 375ml bottle is perfect for enjoying the apple-infused whisky in a moderate size.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082000771555-barcodelookup-6493a11e65.jpg",
       "brand": "CROWN ROYAL",
       "collection": "Whiskey",
       "categories": [
@@ -1231,13 +1360,18 @@
         "department": "Whiskey",
         "size": "375ML",
         "base_price_usd": "14.69",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "barcodelookup",
+        "image_last_checked_at": "2026-04-26T01:31:44.808Z",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/2973/29735822-1.jpg",
+        "image_local_file": "082000771555-barcodelookup-6493a11e65.jpg"
       },
       "variants": [
         {
@@ -1263,7 +1397,7 @@
       "subtitle": "Whiskey",
       "description": "A 750ml bottle of Crown Royal Regal Apple blends smooth whisky with natural apple flavors for a fruity twist.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082000771562-barcodelookup-96096c1da2.jpg",
       "brand": "CROWN ROYAL",
       "collection": "Whiskey",
       "categories": [
@@ -1279,13 +1413,18 @@
         "department": "Whiskey",
         "size": "750ML",
         "base_price_usd": "30.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "barcodelookup",
+        "image_last_checked_at": "2026-04-26T01:31:45.850Z",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/2973/29738975-1.jpg",
+        "image_local_file": "082000771562-barcodelookup-96096c1da2.jpg"
       },
       "variants": [
         {
@@ -1311,7 +1450,7 @@
       "subtitle": "Whiskey",
       "description": "Crown Royal Regal Apple in a 1L box is ideal for gifting or parties with its apple-flavored whisky presentation.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082000771586-barcodelookup-56d254bb1d.jpg",
       "brand": "CROWN ROYAL",
       "collection": "Whiskey",
       "categories": [
@@ -1327,13 +1466,18 @@
         "department": "Whiskey",
         "size": "1LT",
         "base_price_usd": "40.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "barcodelookup",
+        "image_last_checked_at": "2026-04-26T01:31:46.788Z",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/2973/29739368-1.jpg",
+        "image_local_file": "082000771586-barcodelookup-56d254bb1d.jpg"
       },
       "variants": [
         {
@@ -1359,7 +1503,7 @@
       "subtitle": "Whiskey",
       "description": "Crown Royal Apple in a large 1.75L bottle offers plenty of crisp apple whisky for gatherings and celebrations.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082000771593-barcodelookup-61e8d7ebd2.jpg",
       "brand": "Crown Royal",
       "collection": "Whiskey",
       "categories": [
@@ -1375,13 +1519,18 @@
         "department": "Whiskey",
         "size": "1.75L",
         "base_price_usd": "58.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "barcodelookup",
+        "image_last_checked_at": "2026-04-26T01:31:47.827Z",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/2973/29735516-1.jpg",
+        "image_local_file": "082000771593-barcodelookup-61e8d7ebd2.jpg"
       },
       "variants": [
         {
@@ -1423,13 +1572,17 @@
         "department": "Whiskey",
         "size": "200ML",
         "base_price_usd": "9.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-24T21:02:12.498Z",
+        "image_lookup_status": "not_found",
+        "image_source": "upcitemdb",
+        "image_lookup_upc": "082000776574"
       },
       "variants": [
         {
@@ -1455,7 +1608,7 @@
       "subtitle": "Whiskey",
       "description": "Enjoy Crown Royal Vanilla in a 375ml bottle, blending whisky with creamy vanilla flavors for a sweet treat.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082000776581-barcodelookup-168ecf0aa7.jpg",
       "brand": "CROWN ROYAL",
       "collection": "Whiskey",
       "categories": [
@@ -1471,13 +1624,18 @@
         "department": "Whiskey",
         "size": "375ML",
         "base_price_usd": "14.69",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "barcodelookup",
+        "image_last_checked_at": "2026-04-26T01:31:49.906Z",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/8340/83407843-1.jpg",
+        "image_local_file": "082000776581-barcodelookup-168ecf0aa7.jpg"
       },
       "variants": [
         {
@@ -1503,7 +1661,7 @@
       "subtitle": "Whiskey",
       "description": "Crown Royal Vanilla in a 750ml bottle is perfect for sipping or mixing with its rich vanilla taste and smooth finish.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082000776598-barcodelookup-9ca002cf1d.jpg",
       "brand": "CROWN ROYAL",
       "collection": "Whiskey",
       "categories": [
@@ -1519,13 +1677,18 @@
         "department": "Whiskey",
         "size": "750ML",
         "base_price_usd": "30.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "barcodelookup",
+        "image_last_checked_at": "2026-04-26T01:31:50.959Z",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/2974/29745246-1.jpg",
+        "image_local_file": "082000776598-barcodelookup-9ca002cf1d.jpg"
       },
       "variants": [
         {
@@ -1551,7 +1714,7 @@
       "subtitle": "Whiskey",
       "description": "Crown Royal Vanilla in a 1L bar bottle is ideal for home bars, offering smooth vanilla whisky for cocktails.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082000776604-barcodelookup-67e51df0f0.jpg",
       "brand": "CROWN ROYAL",
       "collection": "Whiskey",
       "categories": [
@@ -1567,13 +1730,19 @@
         "department": "Whiskey",
         "size": "1LT",
         "base_price_usd": "40.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:31:52.006Z",
+        "image_lookup_status": "found",
+        "image_source": "barcodelookup",
+        "image_lookup_upc": "082000776604",
+        "image_url": "https://images.barcodelookup.com/11019/110190916-1.jpg",
+        "image_local_file": "082000776604-barcodelookup-67e51df0f0.jpg"
       },
       "variants": [
         {
@@ -1599,7 +1768,7 @@
       "subtitle": "Whiskey",
       "description": "A large 1.75L bottle of Crown Royal Vanilla provides ample vanilla-infused whisky for any occasion or gathering.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082000776611-barcodelookup-8391c176cc.jpg",
       "brand": "CROWN ROYAL",
       "collection": "Whiskey",
       "categories": [
@@ -1615,13 +1784,18 @@
         "department": "Whiskey",
         "size": "1.75LT",
         "base_price_usd": "58.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "barcodelookup",
+        "image_last_checked_at": "2026-04-26T01:31:53.049Z",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/2974/29742537-1.jpg",
+        "image_local_file": "082000776611-barcodelookup-8391c176cc.jpg"
       },
       "variants": [
         {
@@ -1647,7 +1821,7 @@
       "subtitle": "Whiskey",
       "description": "Crown Royal Peach whisky combines smooth Canadian whisky with juicy peach flavors for a sweet, refreshing drink.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082000782919-barcodelookup-20b0f19246.jpg",
       "brand": "CROWN ROYAL",
       "collection": "Whiskey",
       "categories": [
@@ -1663,13 +1837,18 @@
         "department": "Whiskey",
         "size": "750ML",
         "base_price_usd": "30.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "barcodelookup",
+        "image_last_checked_at": "2026-04-26T01:31:54.100Z",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/13657/136570034-1.jpg",
+        "image_local_file": "082000782919-barcodelookup-20b0f19246.jpg"
       },
       "variants": [
         {
@@ -1695,7 +1874,7 @@
       "subtitle": "Whiskey",
       "description": "Crown Royal Blackberry infuses whisky with ripe blackberry notes for a fruity and smooth drinking experience.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082000789550-barcodelookup-c7fea0ea91.jpg",
       "brand": "Crown royal",
       "collection": "Whiskey",
       "categories": [
@@ -1711,13 +1890,18 @@
         "department": "Whiskey",
         "size": "",
         "base_price_usd": "30.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "barcodelookup",
+        "image_last_checked_at": "2026-04-26T01:31:55.345Z",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/105212/1052129502-1.jpg",
+        "image_local_file": "082000789550-barcodelookup-c7fea0ea91.jpg"
       },
       "variants": [
         {
@@ -1743,7 +1927,7 @@
       "subtitle": "Whiskey",
       "description": "Jack Daniel's Tennessee Honey in a 1.75L bottle is perfect for sharing the sweet honey whiskey at parties.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082184000618-barcodelookup-cf46e90d10.jpg",
       "brand": "Jack Daniel's",
       "collection": "Whiskey",
       "categories": [
@@ -1759,13 +1943,18 @@
         "department": "Whiskey",
         "size": "",
         "base_price_usd": "50.59",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "barcodelookup",
+        "image_last_checked_at": "2026-04-26T01:31:56.539Z",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/6264/62641753-1.jpg",
+        "image_local_file": "082184000618-barcodelookup-cf46e90d10.jpg"
       },
       "variants": [
         {
@@ -1791,7 +1980,7 @@
       "subtitle": "Whiskey",
       "description": "Jack Daniel's Tennessee Fire in a large 1.75L size brings cinnamon heat to your gatherings for bold enjoyment.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082184001219-barcodelookup-4d6edcd6c7.jpg",
       "brand": "Jack Daniel\u2019s",
       "collection": "Whiskey",
       "categories": [
@@ -1807,13 +1996,18 @@
         "department": "Whiskey",
         "size": "1.75L",
         "base_price_usd": "50.63",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "barcodelookup",
+        "image_last_checked_at": "2026-04-26T01:31:57.591Z",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/2973/29738940-1.jpg",
+        "image_local_file": "082184001219-barcodelookup-4d6edcd6c7.jpg"
       },
       "variants": [
         {
@@ -1839,7 +2033,7 @@
       "subtitle": "Whiskey",
       "description": "Jack Daniel's Tennessee Apple in a 1.75L bottle offers crisp apple flavors for bigger events or cocktail mixing.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082184005583-barcodelookup-4013921479.jpg",
       "brand": "Jack Daniel\u2019s",
       "collection": "Whiskey",
       "categories": [
@@ -1855,13 +2049,18 @@
         "department": "Whiskey",
         "size": "1.75L",
         "base_price_usd": "50.69",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "barcodelookup",
+        "image_last_checked_at": "2026-04-26T01:31:58.667Z",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/32340/323401517-1.jpg",
+        "image_local_file": "082184005583-barcodelookup-4013921479.jpg"
       },
       "variants": [
         {
@@ -1903,13 +2102,17 @@
         "department": "Whiskey",
         "size": "750ml",
         "base_price_usd": "18.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-24T21:04:37.474Z",
+        "image_lookup_status": "not_found",
+        "image_source": "upcitemdb",
+        "image_lookup_upc": "087236566098"
       },
       "variants": [
         {
@@ -1951,13 +2154,17 @@
         "department": "Whiskey",
         "size": "750ml",
         "base_price_usd": "18.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-24T21:05:10.480Z",
+        "image_lookup_status": "not_found",
+        "image_source": "upcitemdb",
+        "image_lookup_upc": "087236566104"
       },
       "variants": [
         {
@@ -1983,7 +2190,7 @@
       "subtitle": "Whiskey",
       "description": "Fireball Whisky in a 1.75L bottle delivers the classic cinnamon spice at 66 proof for larger gatherings.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=088004009281-barcodelookup-e4fa1be9c7.jpg",
       "brand": "Fireball Whisky",
       "collection": "Whiskey",
       "categories": [
@@ -1999,13 +2206,18 @@
         "department": "Whiskey",
         "size": "",
         "base_price_usd": "25.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "barcodelookup",
+        "image_last_checked_at": "2026-04-26T01:32:01.440Z",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/2973/29734991-1.jpg",
+        "image_local_file": "088004009281-barcodelookup-e4fa1be9c7.jpg"
       },
       "variants": [
         {
@@ -2047,13 +2259,17 @@
         "department": "Whiskey",
         "size": "",
         "base_price_usd": "36.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-24T21:05:21.491Z",
+        "image_lookup_status": "not_found",
+        "image_source": "upcitemdb",
+        "image_lookup_upc": "080686824053"
       },
       "variants": [
         {
@@ -2079,7 +2295,7 @@
       "subtitle": "Whiskey",
       "description": "Crown Royal Chocolate blends whisky with rich chocolate notes for a decadent, dessert-like drink experience.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082000811053-barcodelookup-cbbdc2625b.jpg",
       "brand": "Crown Royal",
       "collection": "Whiskey",
       "categories": [
@@ -2095,13 +2311,19 @@
         "department": "Whiskey",
         "size": "",
         "base_price_usd": "30.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:32:03.220Z",
+        "image_lookup_status": "found",
+        "image_source": "barcodelookup",
+        "image_lookup_upc": "082000811053",
+        "image_url": "https://images.barcodelookup.com/160898/1608983172-1.jpg",
+        "image_local_file": "082000811053-barcodelookup-cbbdc2625b.jpg"
       },
       "variants": [
         {
@@ -2143,13 +2365,17 @@
         "department": "Whiskey",
         "size": "",
         "base_price_usd": "70.89",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-24T21:05:32.931Z",
+        "image_lookup_status": "not_found",
+        "image_source": "upcitemdb",
+        "image_lookup_upc": "085246502846"
       },
       "variants": [
         {
@@ -2189,13 +2415,17 @@
         "department": "Alcohol",
         "size": "750ML",
         "base_price_usd": "20.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-24T21:05:38.672Z",
+        "image_lookup_status": "not_found",
+        "image_source": "upcitemdb",
+        "image_lookup_upc": "080686010425"
       },
       "variants": [
         {
@@ -2221,7 +2451,7 @@
       "subtitle": "Alcohol",
       "description": "Suntory Haku Vodka is a Japanese craft vodka with a clean, smooth taste, perfect for cocktails and sipping.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=080686958024-barcodelookup-72267f19be.jpg",
       "brand": "SUNTORY HAKU",
       "collection": "Alcohol",
       "categories": [
@@ -2235,13 +2465,18 @@
         "department": "Alcohol",
         "size": "750ML",
         "base_price_usd": "26.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "barcodelookup",
+        "image_last_checked_at": "2026-04-26T01:32:05.974Z",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/13656/136564584-1.jpg",
+        "image_local_file": "080686958024-barcodelookup-72267f19be.jpg"
       },
       "variants": [
         {
@@ -2267,7 +2502,7 @@
       "subtitle": "Alcohol",
       "description": "Suntory Roku Gin features six Japanese botanicals for a balanced, aromatic gin experience in every pour.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=080686958031-barcodelookup-932627c7ea.jpg",
       "brand": "SUNTORY ROKU",
       "collection": "Alcohol",
       "categories": [
@@ -2281,13 +2516,18 @@
         "department": "Alcohol",
         "size": "750ML",
         "base_price_usd": "33.79",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "barcodelookup",
+        "image_last_checked_at": "2026-04-26T01:32:07.004Z",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/13659/136595948-1.jpg",
+        "image_local_file": "080686958031-barcodelookup-932627c7ea.jpg"
       },
       "variants": [
         {
@@ -2313,7 +2553,7 @@
       "subtitle": "Alcohol",
       "description": "Smirnoff Red, White & Berry is a limited edition vodka with berry flavors, ideal for summer cocktails and parties.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=082000804819-barcodelookup-65b8c52f41.jpg",
       "brand": "SMIRNOFF VOD",
       "collection": "Alcohol",
       "categories": [
@@ -2327,13 +2567,19 @@
         "department": "Alcohol",
         "size": "1.75L",
         "base_price_usd": "27.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:32:08.274Z",
+        "image_lookup_status": "found",
+        "image_source": "barcodelookup",
+        "image_lookup_upc": "082000804819",
+        "image_url": "https://images.barcodelookup.com/80550/805508475-1.jpg",
+        "image_local_file": "082000804819-barcodelookup-65b8c52f41.jpg"
       },
       "variants": [
         {
@@ -2359,7 +2605,7 @@
       "subtitle": "Alcohol",
       "description": "Baileys Strawberries & Cream combines Irish cream with sweet strawberry flavors for a delightful dessert liqueur.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=086767704832-barcodelookup-0abfdf4ec2.jpg",
       "brand": "Baileys Strawberries",
       "collection": "Alcohol",
       "categories": [
@@ -2373,13 +2619,18 @@
         "department": "Alcohol",
         "size": "",
         "base_price_usd": "29.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "barcodelookup",
+        "image_last_checked_at": "2026-04-26T01:32:09.304Z",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/13658/136587290-1.jpg",
+        "image_local_file": "086767704832-barcodelookup-0abfdf4ec2.jpg"
       },
       "variants": [
         {
@@ -2405,7 +2656,7 @@
       "subtitle": "Alcohol",
       "description": "Smirnoff Pink Lemonade vodka offers a sweet and tangy flavor, perfect for refreshing summer cocktails.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "https://i5.walmartimages.com/asr/fa3f3625-122e-4ce9-8ab6-da174700cf1e.890a7190ed06c8fc4b8e54b0608b9418.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
       "brand": "Smirnoff PinkLM",
       "collection": "Alcohol",
       "categories": [
@@ -2419,13 +2670,17 @@
         "department": "Alcohol",
         "size": "1.75L",
         "base_price_usd": "27.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "upcitemdb",
+        "image_last_checked_at": "2026-04-24T21:06:31.870Z",
+        "image_lookup_status": "found",
+        "image_url": "https://i5.walmartimages.com/asr/fa3f3625-122e-4ce9-8ab6-da174700cf1e.890a7190ed06c8fc4b8e54b0608b9418.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff"
       },
       "variants": [
         {
@@ -2465,13 +2720,17 @@
         "department": "Alcohol",
         "size": "1.75L",
         "base_price_usd": "27.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-24T21:06:37.555Z",
+        "image_lookup_status": "not_found",
+        "image_source": "upcitemdb",
+        "image_lookup_upc": "082000803928"
       },
       "variants": [
         {
@@ -2511,13 +2770,17 @@
         "department": "Alcohol",
         "size": "",
         "base_price_usd": "19.79",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-24T21:07:10.955Z",
+        "image_lookup_status": "not_found",
+        "image_source": "upcitemdb",
+        "image_lookup_upc": "080686009955"
       },
       "variants": [
         {
@@ -2557,13 +2820,17 @@
         "department": "Alcohol",
         "size": "750ML",
         "base_price_usd": "17.89",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-24T21:07:16.589Z",
+        "image_lookup_status": "not_found",
+        "image_source": "upcitemdb",
+        "image_lookup_upc": "082000811435"
       },
       "variants": [
         {
@@ -2589,7 +2856,7 @@
       "subtitle": "Alcohol",
       "description": "J\u00e4germeister is a German herbal liqueur with a complex blend of 56 herbs and spices, best served chilled for a bold taste.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=083089660358-barcodelookup-8a0fd5461f.jpg",
       "brand": "JAGERMEISTER 70",
       "collection": "Alcohol",
       "categories": [
@@ -2603,13 +2870,18 @@
         "department": "Alcohol",
         "size": "375ML",
         "base_price_usd": "11.69",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "barcodelookup",
+        "image_last_checked_at": "2026-04-26T01:32:18.351Z",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/2974/29744364-1.jpg",
+        "image_local_file": "083089660358-barcodelookup-8a0fd5461f.jpg"
       },
       "variants": [
         {
@@ -2635,7 +2907,7 @@
       "subtitle": "Alcohol",
       "description": "Tanqueray's Negroni Collection is a ready-to-serve cocktail with the classic bitter-sweet balance of gin, vermouth, and Campari.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=088076188631-barcodelookup-56bc3c992c.jpg",
       "brand": "TANQUERAY CKTL",
       "collection": "Alcohol",
       "categories": [
@@ -2649,13 +2921,19 @@
         "department": "Alcohol",
         "size": "750ML",
         "base_price_usd": "24.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-26T01:32:19.409Z",
+        "image_lookup_status": "found",
+        "image_source": "barcodelookup",
+        "image_lookup_upc": "088076188631",
+        "image_url": "https://images.barcodelookup.com/82375/823757744-1.jpg",
+        "image_local_file": "088076188631-barcodelookup-56bc3c992c.jpg"
       },
       "variants": [
         {
@@ -2681,7 +2959,7 @@
       "subtitle": "Tequila",
       "description": "818 Tequila Reposado is aged in oak barrels for a smooth, mellow flavor with hints of vanilla and caramel.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=195893031092-barcodelookup-c33176fced.jpg",
       "brand": "818 TEQ",
       "collection": "Tequila",
       "categories": [
@@ -2697,13 +2975,18 @@
         "department": "Tequila",
         "size": "750ML",
         "base_price_usd": "29.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "barcodelookup",
+        "image_last_checked_at": "2026-04-26T01:32:20.526Z",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/29870/298708975-1.jpg",
+        "image_local_file": "195893031092-barcodelookup-c33176fced.jpg"
       },
       "variants": [
         {
@@ -2729,7 +3012,7 @@
       "subtitle": "Tequila",
       "description": "818 Tequila A\u00f1ejo is aged longer for a rich, complex profile with notes of oak, chocolate, and spice.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=195893154296-barcodelookup-731461c8d1.jpg",
       "brand": "818 TEQ",
       "collection": "Tequila",
       "categories": [
@@ -2745,13 +3028,18 @@
         "department": "Tequila",
         "size": "750ML",
         "base_price_usd": "24.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "barcodelookup",
+        "image_last_checked_at": "2026-04-26T01:32:21.514Z",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/31898/318988499-1.jpg",
+        "image_local_file": "195893154296-barcodelookup-731461c8d1.jpg"
       },
       "variants": [
         {
@@ -2793,13 +3081,17 @@
         "department": "Tequila",
         "size": "750ml",
         "base_price_usd": "28.09",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-24T21:08:21.732Z",
+        "image_lookup_status": "not_found",
+        "image_source": "upcitemdb",
+        "image_lookup_upc": "080686009511"
       },
       "variants": [
         {
@@ -2825,7 +3117,7 @@
       "subtitle": "Tequila",
       "description": "Hornitos A\u00f1ejo tequila is aged for a deep, amber color and flavors of dried fruit and toasted oak.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=080686835424-barcodelookup-185fedb54d.jpg",
       "brand": "Hornitos A\u00f1ejo",
       "collection": "Tequila",
       "categories": [
@@ -2841,13 +3133,18 @@
         "department": "Tequila",
         "size": "750ml",
         "base_price_usd": "35.72",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "barcodelookup",
+        "image_last_checked_at": "2026-04-26T01:32:23.460Z",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/5083/50835848-1.jpg",
+        "image_local_file": "080686835424-barcodelookup-185fedb54d.jpg"
       },
       "variants": [
         {
@@ -2873,7 +3170,7 @@
       "subtitle": "Tequila",
       "description": "Hornitos Lime tequila combines crisp lime with smooth tequila, perfect for quick and easy cocktails.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "http://localhost:9000/catalog-images?file=080686835486-barcodelookup-a58a10f71e.jpg",
       "brand": "Hornitos Lime",
       "collection": "Tequila",
       "categories": [
@@ -2889,13 +3186,18 @@
         "department": "Tequila",
         "size": "",
         "base_price_usd": "28.34",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "barcodelookup",
+        "image_last_checked_at": "2026-04-26T01:32:24.416Z",
+        "image_lookup_status": "found",
+        "image_url": "https://images.barcodelookup.com/2974/29744085-1.jpg",
+        "image_local_file": "080686835486-barcodelookup-a58a10f71e.jpg"
       },
       "variants": [
         {
@@ -2937,13 +3239,17 @@
         "department": "Tequila",
         "size": "",
         "base_price_usd": "8.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-24T21:08:37.703Z",
+        "image_lookup_status": "not_found",
+        "image_source": "upcitemdb",
+        "image_lookup_upc": "818844028049"
       },
       "variants": [
         {
@@ -2985,13 +3291,17 @@
         "department": "Tequila",
         "size": "750ml",
         "base_price_usd": "44.52",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-24T21:09:06.787Z",
+        "image_lookup_status": "not_found",
+        "image_source": "upcitemdb",
+        "image_lookup_upc": "080686008880"
       },
       "variants": [
         {
@@ -3033,13 +3343,17 @@
         "department": "Tequila",
         "size": "1.75LT",
         "base_price_usd": "33.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-24T21:09:12.442Z",
+        "image_lookup_status": "not_found",
+        "image_source": "upcitemdb",
+        "image_lookup_upc": "080686831211"
       },
       "variants": [
         {
@@ -3081,13 +3395,17 @@
         "department": "Tequila",
         "size": "1.75LT",
         "base_price_usd": "33.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-24T21:09:18.080Z",
+        "image_lookup_status": "not_found",
+        "image_source": "upcitemdb",
+        "image_lookup_upc": "080686832225"
       },
       "variants": [
         {
@@ -3129,13 +3447,17 @@
         "department": "Tequila",
         "size": "",
         "base_price_usd": "46.79",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-24T21:09:34.468Z",
+        "image_lookup_status": "not_found",
+        "image_source": "upcitemdb",
+        "image_lookup_upc": "811538013697"
       },
       "variants": [
         {
@@ -3177,13 +3499,17 @@
         "department": "Tequila",
         "size": "750ml",
         "base_price_usd": "18.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-24T21:09:40.097Z",
+        "image_lookup_status": "not_found",
+        "image_source": "upcitemdb",
+        "image_lookup_upc": "818844028018"
       },
       "variants": [
         {
@@ -3209,7 +3535,7 @@
       "subtitle": "Tequila",
       "description": "Tequila Rose is a creamy strawberry-flavored tequila liqueur, perfect for dessert cocktails or on the rocks.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "https://scene7.samsclub.com/is/image/samsclub/0008559212104_A?$img_size_1500x1500$",
       "brand": "Tequila Rose_",
       "collection": "Tequila",
       "categories": [
@@ -3225,13 +3551,17 @@
         "department": "Tequila",
         "size": "",
         "base_price_usd": "24.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "upcitemdb",
+        "image_last_checked_at": "2026-04-24T21:09:45.353Z",
+        "image_lookup_status": "found",
+        "image_url": "https://scene7.samsclub.com/is/image/samsclub/0008559212104_A?$img_size_1500x1500$"
       },
       "variants": [
         {
@@ -3273,13 +3603,17 @@
         "department": "Tequila",
         "size": "",
         "base_price_usd": "65.50",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-24T21:10:12.611Z",
+        "image_lookup_status": "not_found",
+        "image_source": "upcitemdb",
+        "image_lookup_upc": "086024017316"
       },
       "variants": [
         {
@@ -3305,7 +3639,7 @@
       "subtitle": "Tequila",
       "description": "818 Tequila Blanco is an unaged tequila with a pure, agave-forward flavor, ideal for fresh cocktails.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "https://images.openfoodfacts.org/images/products/019/589/368/7015/front_en.3.400.jpg",
       "brand": "818 TEQ",
       "collection": "Tequila",
       "categories": [
@@ -3321,13 +3655,17 @@
         "department": "Tequila",
         "size": "750ML",
         "base_price_usd": "41.89",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "openfoodfacts",
+        "image_last_checked_at": "2026-04-24T21:10:18.286Z",
+        "image_lookup_status": "found",
+        "image_url": "https://images.openfoodfacts.org/images/products/019/589/368/7015/front_en.3.400.jpg"
       },
       "variants": [
         {
@@ -3353,7 +3691,7 @@
       "subtitle": "Tequila",
       "description": "Don Julio A\u00f1ejo is aged for 18 months, offering a sophisticated profile with hints of caramel and oak.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "https://i5.walmartimages.com/asr/10c2ee68-d9b1-464f-a237-9abd50c5e9ee_3.69917707e24ae3e27706e9054d0427a4.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
       "brand": "Don Julio",
       "collection": "Tequila",
       "categories": [
@@ -3369,13 +3707,17 @@
         "department": "Tequila",
         "size": "",
         "base_price_usd": "82.81",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "upcitemdb",
+        "image_last_checked_at": "2026-04-24T21:10:23.526Z",
+        "image_lookup_status": "found",
+        "image_url": "https://i5.walmartimages.com/asr/10c2ee68-d9b1-464f-a237-9abd50c5e9ee_3.69917707e24ae3e27706e9054d0427a4.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff"
       },
       "variants": [
         {
@@ -3401,7 +3743,7 @@
       "subtitle": "Tequila",
       "description": "Jose Cuervo Tradicional Reposado is aged for a smooth, balanced taste with notes of vanilla and agave.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "https://scene7.samsclub.com/is/image/samsclub/0081153801137_A?$img_size_1500x1500$",
       "brand": "Jose Cuervo",
       "collection": "Tequila",
       "categories": [
@@ -3417,13 +3759,17 @@
         "department": "Tequila",
         "size": "",
         "base_price_usd": "29.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "upcitemdb",
+        "image_last_checked_at": "2026-04-24T21:10:28.771Z",
+        "image_lookup_status": "found",
+        "image_url": "https://scene7.samsclub.com/is/image/samsclub/0081153801137_A?$img_size_1500x1500$"
       },
       "variants": [
         {
@@ -3449,7 +3795,7 @@
       "subtitle": "Tequila",
       "description": "Jose Cuervo Tradicional Reposado tequila is aged in oak for a mellow flavor, great for sharing in larger gatherings.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "https://target.scene7.com/is/image/Target/GUEST_c367583d-3c2f-41b4-83aa-fe90899de738?wid=1000&hei=1000",
       "brand": "Jose Cuervo",
       "collection": "Tequila",
       "categories": [
@@ -3465,13 +3811,17 @@
         "department": "Tequila",
         "size": "",
         "base_price_usd": "52.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "upcitemdb",
+        "image_last_checked_at": "2026-04-24T21:10:34.011Z",
+        "image_lookup_status": "found",
+        "image_url": "https://target.scene7.com/is/image/Target/GUEST_c367583d-3c2f-41b4-83aa-fe90899de738?wid=1000&hei=1000"
       },
       "variants": [
         {
@@ -3497,7 +3847,7 @@
       "subtitle": "Tequila",
       "description": "Jose Cuervo Tradicional Blanco is a clear tequila with a crisp, fresh agave taste, ideal for cocktails.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "https://i5.walmartimages.com/asr/77544d82-4b82-4fe5-8a16-9482b0417e8b_1.51abee0729d2f148bd5f6a0e24e80e96.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
       "brand": "Jose Cuervo",
       "collection": "Tequila",
       "categories": [
@@ -3513,13 +3863,17 @@
         "department": "Tequila",
         "size": "",
         "base_price_usd": "26.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "upcitemdb",
+        "image_last_checked_at": "2026-04-24T21:10:39.253Z",
+        "image_lookup_status": "found",
+        "image_url": "https://i5.walmartimages.com/asr/77544d82-4b82-4fe5-8a16-9482b0417e8b_1.51abee0729d2f148bd5f6a0e24e80e96.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff"
       },
       "variants": [
         {
@@ -3561,13 +3915,17 @@
         "department": "Tequila",
         "size": "1.75L",
         "base_price_usd": "48.89",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-24T21:11:13.039Z",
+        "image_lookup_status": "not_found",
+        "image_source": "upcitemdb",
+        "image_lookup_upc": "811538011440"
       },
       "variants": [
         {
@@ -3593,7 +3951,7 @@
       "subtitle": "Tequila",
       "description": "Jose Cuervo Tradicional A\u00f1ejo is aged for a rich, amber color and flavors of toasted oak and spice.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "https://i5.walmartimages.com/asr/6495c613-1d97-48f2-846a-b4ed9bf8ae23_1.f15479ca83a3d6a13aa20efb35a13ea9.png?odnHeight=450&odnWidth=450&odnBg=ffffff",
       "brand": "Jose Cuervo",
       "collection": "Tequila",
       "categories": [
@@ -3609,13 +3967,17 @@
         "department": "Tequila",
         "size": "750ml",
         "base_price_usd": "36.59",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "upcitemdb",
+        "image_last_checked_at": "2026-04-24T21:11:18.223Z",
+        "image_lookup_status": "found",
+        "image_url": "https://i5.walmartimages.com/asr/6495c613-1d97-48f2-846a-b4ed9bf8ae23_1.f15479ca83a3d6a13aa20efb35a13ea9.png?odnHeight=450&odnWidth=450&odnBg=ffffff"
       },
       "variants": [
         {
@@ -3641,7 +4003,7 @@
       "subtitle": "Tequila",
       "description": "Hornitos Reposado tequila is rested in oak for a smooth, approachable flavor with hints of honey and pepper.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "https://scene7.samsclub.com/is/image/samsclub/0008068683502_A?$img_size_1500x1500$",
       "brand": "Hornitos Reposado",
       "collection": "Tequila",
       "categories": [
@@ -3657,13 +4019,17 @@
         "department": "Tequila",
         "size": "750ml",
         "base_price_usd": "29.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "upcitemdb",
+        "image_last_checked_at": "2026-04-24T21:11:23.472Z",
+        "image_lookup_status": "found",
+        "image_url": "https://scene7.samsclub.com/is/image/samsclub/0008068683502_A?$img_size_1500x1500$"
       },
       "variants": [
         {
@@ -3689,7 +4055,7 @@
       "subtitle": "Tequila",
       "description": "Hornitos Plata tequila is an unaged silver tequila with a bright, clean taste, perfect for mixing.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "https://pics.walgreens.com/prodimg/619187/450.jpg",
       "brand": "Hornitos Plata",
       "collection": "Tequila",
       "categories": [
@@ -3705,13 +4071,17 @@
         "department": "Tequila",
         "size": "750ml",
         "base_price_usd": "28.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "upcitemdb",
+        "image_last_checked_at": "2026-04-24T21:13:43.976Z",
+        "image_lookup_status": "found",
+        "image_url": "https://pics.walgreens.com/prodimg/619187/450.jpg"
       },
       "variants": [
         {
@@ -3737,7 +4107,7 @@
       "subtitle": "Tequila",
       "description": "Don Julio Blanco is a premium unaged tequila with a smooth, agave-rich flavor, excellent for high-end cocktails.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "https://scene7.samsclub.com/is/image/samsclub/0067454500000_A?$img_size_1500x1500$",
       "brand": "Don Julio",
       "collection": "Tequila",
       "categories": [
@@ -3753,13 +4123,17 @@
         "department": "Tequila",
         "size": "750ml",
         "base_price_usd": "53.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "upcitemdb",
+        "image_last_checked_at": "2026-04-24T21:13:49.176Z",
+        "image_lookup_status": "found",
+        "image_url": "https://scene7.samsclub.com/is/image/samsclub/0067454500000_A?$img_size_1500x1500$"
       },
       "variants": [
         {
@@ -3785,7 +4159,7 @@
       "subtitle": "Tequila",
       "description": "Don Julio A\u00f1ejo is aged for a complex, elegant profile with notes of vanilla, cinnamon, and dried fruit.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "https://scene7.samsclub.com/is/image/samsclub/0067454500006_A?$img_size_1500x1500$",
       "brand": "Don Julio",
       "collection": "Tequila",
       "categories": [
@@ -3801,13 +4175,17 @@
         "department": "Tequila",
         "size": "750ml",
         "base_price_usd": "60.59",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "upcitemdb",
+        "image_last_checked_at": "2026-04-24T21:13:54.419Z",
+        "image_lookup_status": "found",
+        "image_url": "https://scene7.samsclub.com/is/image/samsclub/0067454500006_A?$img_size_1500x1500$"
       },
       "variants": [
         {
@@ -3833,7 +4211,7 @@
       "subtitle": "Tequila",
       "description": "Don Julio Reposado is aged for a perfect balance of agave and oak, with a smooth, warm finish.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "https://scene7.samsclub.com/is/image/samsclub/0067454500041_A?$img_size_1500x1500$",
       "brand": "Don Julio",
       "collection": "Tequila",
       "categories": [
@@ -3849,13 +4227,17 @@
         "department": "Tequila",
         "size": "750ml",
         "base_price_usd": "56.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "upcitemdb",
+        "image_last_checked_at": "2026-04-24T21:13:59.660Z",
+        "image_lookup_status": "found",
+        "image_url": "https://scene7.samsclub.com/is/image/samsclub/0067454500041_A?$img_size_1500x1500$"
       },
       "variants": [
         {
@@ -3897,13 +4279,15 @@
         "department": "Vodka",
         "size": "1.75",
         "base_price_usd": "23.73",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-24T21:14:05.779Z",
+        "image_lookup_status": "not_found"
       },
       "variants": [
         {
@@ -3945,13 +4329,15 @@
         "department": "Vodka",
         "size": "1.75L",
         "base_price_usd": "27.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-24T21:14:11.427Z",
+        "image_lookup_status": "not_found"
       },
       "variants": [
         {
@@ -3993,13 +4379,15 @@
         "department": "Vodka",
         "size": "",
         "base_price_usd": "22.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_last_checked_at": "2026-04-24T21:14:44.729Z",
+        "image_lookup_status": "not_found"
       },
       "variants": [
         {
@@ -4025,7 +4413,7 @@
       "subtitle": "Vodka",
       "description": "Grey Goose Le Citron is a French vodka with a natural lemon flavor, crisp and refreshing for citrus cocktails.",
       "status": "published",
-      "thumbnail": null,
+      "thumbnail": "https://i5.walmartimages.com/asr/ac478a6f-d2bf-431a-b82c-5b69c38c623c.f42f8ccf7ab234c099b928800d7046b0.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
       "brand": "Grey Goose",
       "collection": "Vodka",
       "categories": [
@@ -4041,13 +4429,17 @@
         "department": "Vodka",
         "size": "",
         "base_price_usd": "33.69",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
           "delivery"
         ],
-        "age_gate_required": true
+        "age_gate_required": true,
+        "image_source": "upcitemdb",
+        "image_last_checked_at": "2026-04-24T21:14:50.005Z",
+        "image_lookup_status": "found",
+        "image_url": "https://i5.walmartimages.com/asr/ac478a6f-d2bf-431a-b82c-5b69c38c623c.f42f8ccf7ab234c099b928800d7046b0.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff"
       },
       "variants": [
         {
@@ -4089,7 +4481,7 @@
         "department": "Vodka",
         "size": "",
         "base_price_usd": "33.69",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -4137,7 +4529,7 @@
         "department": "Vodka",
         "size": "",
         "base_price_usd": "30.69",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -4185,7 +4577,7 @@
         "department": "Vodka",
         "size": "750",
         "base_price_usd": "16.59",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -4233,7 +4625,7 @@
         "department": "Vodka",
         "size": "700Ml",
         "base_price_usd": "27.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -4281,7 +4673,7 @@
         "department": "Vodka",
         "size": "",
         "base_price_usd": "23.72",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -4329,7 +4721,7 @@
         "department": "Vodka",
         "size": "",
         "base_price_usd": "23.72",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -4377,7 +4769,7 @@
         "department": "Vodka",
         "size": "1.75L",
         "base_price_usd": "27.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -4425,7 +4817,7 @@
         "department": "Vodka",
         "size": "",
         "base_price_usd": "31.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -4473,7 +4865,7 @@
         "department": "Vodka",
         "size": "1.75L",
         "base_price_usd": "64.79",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -4521,7 +4913,7 @@
         "department": "Vodka",
         "size": "",
         "base_price_usd": "33.59",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -4569,7 +4961,7 @@
         "department": "Vodka",
         "size": "750ml",
         "base_price_usd": "33.13",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -4617,7 +5009,7 @@
         "department": "Vodka",
         "size": "750ml",
         "base_price_usd": "16.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -4665,7 +5057,7 @@
         "department": "Vodka",
         "size": "",
         "base_price_usd": "14.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -4713,7 +5105,7 @@
         "department": "Vodka",
         "size": "",
         "base_price_usd": "15.59",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -4761,7 +5153,7 @@
         "department": "Vodka",
         "size": "",
         "base_price_usd": "22.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -4809,7 +5201,7 @@
         "department": "Vodka",
         "size": "",
         "base_price_usd": "22.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -4856,7 +5248,7 @@
         "department": "Wine",
         "size": "",
         "base_price_usd": "22.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -4903,7 +5295,7 @@
         "department": "Wine",
         "size": "",
         "base_price_usd": "15.59",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -4950,7 +5342,7 @@
         "department": "Wine",
         "size": "",
         "base_price_usd": "20.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -4997,7 +5389,7 @@
         "department": "Wine",
         "size": "",
         "base_price_usd": "22.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -5044,7 +5436,7 @@
         "department": "Wine",
         "size": "750ML",
         "base_price_usd": "12.69",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -5091,7 +5483,7 @@
         "department": "Wine",
         "size": "750ml",
         "base_price_usd": "11.69",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -5138,7 +5530,7 @@
         "department": "Wine",
         "size": "750ml",
         "base_price_usd": "11.69",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -5185,7 +5577,7 @@
         "department": "Wine",
         "size": "750ML",
         "base_price_usd": "14.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -5232,7 +5624,7 @@
         "department": "Wine",
         "size": "4pk",
         "base_price_usd": "14.54",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -5279,7 +5671,7 @@
         "department": "Wine",
         "size": "5LT",
         "base_price_usd": "17.89",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -5326,7 +5718,7 @@
         "department": "Wine",
         "size": "",
         "base_price_usd": "21.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -5373,7 +5765,7 @@
         "department": "Wine",
         "size": "",
         "base_price_usd": "24.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -5420,7 +5812,7 @@
         "department": "Wine",
         "size": "1.5L",
         "base_price_usd": "24.34",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -5467,7 +5859,7 @@
         "department": "Wine",
         "size": "750ml",
         "base_price_usd": "15.59",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -5514,7 +5906,7 @@
         "department": "Wine",
         "size": "",
         "base_price_usd": "15.59",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -5561,7 +5953,7 @@
         "department": "Wine",
         "size": "750ml",
         "base_price_usd": "19.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -5608,7 +6000,7 @@
         "department": "Wine",
         "size": "5LT",
         "base_price_usd": "21.79",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -5655,7 +6047,7 @@
         "department": "Wine",
         "size": "5LT",
         "base_price_usd": "21.79",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -5702,7 +6094,7 @@
         "department": "Wine",
         "size": "750ML",
         "base_price_usd": "25.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -5749,7 +6141,7 @@
         "department": "Wine",
         "size": "",
         "base_price_usd": "25.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -5796,7 +6188,7 @@
         "department": "Wine",
         "size": "750ML",
         "base_price_usd": "36.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -5843,7 +6235,7 @@
         "department": "Wine",
         "size": "750ML",
         "base_price_usd": "36.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -5890,7 +6282,7 @@
         "department": "Wine",
         "size": "",
         "base_price_usd": "18.59",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -5937,7 +6329,7 @@
         "department": "Wine",
         "size": "",
         "base_price_usd": "18.59",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -5984,7 +6376,7 @@
         "department": "Wine",
         "size": "",
         "base_price_usd": "18.59",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -6031,7 +6423,7 @@
         "department": "Wine",
         "size": "750.ml",
         "base_price_usd": "15.59",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -6078,7 +6470,7 @@
         "department": "Wine",
         "size": "750.ml",
         "base_price_usd": "15.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -6125,7 +6517,7 @@
         "department": "Wine",
         "size": "",
         "base_price_usd": "25.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -6172,7 +6564,7 @@
         "department": "Wine",
         "size": "",
         "base_price_usd": "25.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -6219,7 +6611,7 @@
         "department": "Wine",
         "size": "750ML",
         "base_price_usd": "11.69",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -6266,7 +6658,7 @@
         "department": "Wine",
         "size": "750ml",
         "base_price_usd": "19.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -6313,7 +6705,7 @@
         "department": "Wine",
         "size": "5LT",
         "base_price_usd": "21.79",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -6360,7 +6752,7 @@
         "department": "Wine",
         "size": "5LT",
         "base_price_usd": "21.79",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -6407,7 +6799,7 @@
         "department": "Wine",
         "size": "5LT",
         "base_price_usd": "21.79",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -6454,7 +6846,7 @@
         "department": "Wine",
         "size": "750ML",
         "base_price_usd": "19.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -6502,7 +6894,7 @@
         "department": "Beer",
         "size": "",
         "base_price_usd": "4.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -6550,7 +6942,7 @@
         "department": "Beer",
         "size": "",
         "base_price_usd": "11.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -6598,7 +6990,7 @@
         "department": "Beer",
         "size": "",
         "base_price_usd": "19.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -6646,7 +7038,7 @@
         "department": "Beer",
         "size": "24oz",
         "base_price_usd": "3.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -6694,7 +7086,7 @@
         "department": "Beer",
         "size": "",
         "base_price_usd": "19.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -6742,7 +7134,7 @@
         "department": "Beer",
         "size": "",
         "base_price_usd": "20.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -6790,7 +7182,7 @@
         "department": "Beer",
         "size": "12/12ozCAN",
         "base_price_usd": "20.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -6838,7 +7230,7 @@
         "department": "Beer",
         "size": "6/12oz",
         "base_price_usd": "11.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -6886,7 +7278,7 @@
         "department": "Beer",
         "size": "24oz",
         "base_price_usd": "3.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -6934,7 +7326,7 @@
         "department": "Beer",
         "size": "",
         "base_price_usd": "11.69",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -6982,7 +7374,7 @@
         "department": "Beer",
         "size": "",
         "base_price_usd": "21.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -7030,7 +7422,7 @@
         "department": "Beer",
         "size": "24oz",
         "base_price_usd": "3.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -7078,7 +7470,7 @@
         "department": "Beer",
         "size": "24oz",
         "base_price_usd": "3.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -7126,7 +7518,7 @@
         "department": "Beer",
         "size": "24oz",
         "base_price_usd": "3.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -7174,7 +7566,7 @@
         "department": "Beer",
         "size": "",
         "base_price_usd": "8.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -7222,7 +7614,7 @@
         "department": "Beer",
         "size": "",
         "base_price_usd": "3.89",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -7270,7 +7662,7 @@
         "department": "Beer",
         "size": "24oz",
         "base_price_usd": "3.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -7318,7 +7710,7 @@
         "department": "Beer",
         "size": "024oz",
         "base_price_usd": "3.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -7366,7 +7758,7 @@
         "department": "Beer",
         "size": "6/11.2oz",
         "base_price_usd": "11.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -7414,7 +7806,7 @@
         "department": "Beer",
         "size": "6/11.2ozBLT",
         "base_price_usd": "10.79",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -7462,7 +7854,7 @@
         "department": "Beer",
         "size": "",
         "base_price_usd": "10.79",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -7510,7 +7902,7 @@
         "department": "Beer",
         "size": "",
         "base_price_usd": "10.79",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -7558,7 +7950,7 @@
         "department": "Beer",
         "size": "",
         "base_price_usd": "11.69",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -7606,7 +7998,7 @@
         "department": "Beer",
         "size": "12/12oz",
         "base_price_usd": "20.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -7654,7 +8046,7 @@
         "department": "Beer",
         "size": "6/12oz",
         "base_price_usd": "11.69",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -7702,7 +8094,7 @@
         "department": "Beer",
         "size": "",
         "base_price_usd": "3.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -7750,7 +8142,7 @@
         "department": "Beer",
         "size": "750ml",
         "base_price_usd": "39.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -7798,7 +8190,7 @@
         "department": "Beer",
         "size": "",
         "base_price_usd": "3.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -7846,7 +8238,7 @@
         "department": "Beer",
         "size": "",
         "base_price_usd": "3.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -7894,7 +8286,7 @@
         "department": "Beer",
         "size": "",
         "base_price_usd": "9.69",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -7941,7 +8333,7 @@
         "department": "Cocktail",
         "size": "",
         "base_price_usd": "21.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -7988,7 +8380,7 @@
         "department": "Cocktail",
         "size": "",
         "base_price_usd": "19.89",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -8035,7 +8427,7 @@
         "department": "Cocktail",
         "size": "1.75l",
         "base_price_usd": "21.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -8082,7 +8474,7 @@
         "department": "Cocktail",
         "size": "",
         "base_price_usd": "21.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -8129,7 +8521,7 @@
         "department": "Cocktail",
         "size": "1LT",
         "base_price_usd": "4.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -8176,7 +8568,7 @@
         "department": "Cocktail",
         "size": "750ml",
         "base_price_usd": "18.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -8223,7 +8615,7 @@
         "department": "Cocktail",
         "size": "750ml",
         "base_price_usd": "18.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -8270,7 +8662,7 @@
         "department": "Cocktail",
         "size": "1.75L",
         "base_price_usd": "27.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -8317,7 +8709,7 @@
         "department": "Cocktail",
         "size": "355ml",
         "base_price_usd": "15.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -8364,7 +8756,7 @@
         "department": "Cocktail",
         "size": "4pk",
         "base_price_usd": "8.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -8411,7 +8803,7 @@
         "department": "Cocktail",
         "size": "",
         "base_price_usd": "20.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -8458,7 +8850,7 @@
         "department": "Cocktail",
         "size": "1.75L",
         "base_price_usd": "20.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -8505,7 +8897,7 @@
         "department": "Cocktail",
         "size": "",
         "base_price_usd": "20.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -8552,7 +8944,7 @@
         "department": "Cocktail",
         "size": "1.75L",
         "base_price_usd": "21.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -8599,7 +8991,7 @@
         "department": "Cocktail",
         "size": "1.75LT",
         "base_price_usd": "6.69",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -8646,7 +9038,7 @@
         "department": "Cocktail",
         "size": "8PK",
         "base_price_usd": "21.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -8693,7 +9085,7 @@
         "department": "Cocktail",
         "size": "355ML",
         "base_price_usd": "23.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -8740,7 +9132,7 @@
         "department": "Cocktail",
         "size": "8PK",
         "base_price_usd": "21.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -8787,7 +9179,7 @@
         "department": "Cocktail",
         "size": "1LT",
         "base_price_usd": "4.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -8834,7 +9226,7 @@
         "department": "Cocktail",
         "size": "375ml",
         "base_price_usd": "4.09",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -8882,7 +9274,7 @@
         "department": "Rum",
         "size": "",
         "base_price_usd": "20.69",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -8930,7 +9322,7 @@
         "department": "Rum",
         "size": "750ml",
         "base_price_usd": "30.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -8978,7 +9370,7 @@
         "department": "Rum",
         "size": "750ml",
         "base_price_usd": "23.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -9026,7 +9418,7 @@
         "department": "Rum",
         "size": "",
         "base_price_usd": "20.69",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -9074,7 +9466,7 @@
         "department": "Rum",
         "size": "750ML",
         "base_price_usd": "19.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -9122,7 +9514,7 @@
         "department": "Rum",
         "size": "1.75L",
         "base_price_usd": "35.79",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -9170,7 +9562,7 @@
         "department": "Rum",
         "size": "",
         "base_price_usd": "35.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -9218,7 +9610,7 @@
         "department": "Rum",
         "size": "750ml",
         "base_price_usd": "18.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -9266,7 +9658,7 @@
         "department": "Rum",
         "size": "1.75L",
         "base_price_usd": "26.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -9314,7 +9706,7 @@
         "department": "Rum",
         "size": "1.75L",
         "base_price_usd": "19.79",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -9362,7 +9754,7 @@
         "department": "Rum",
         "size": "375ML",
         "base_price_usd": "8.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -9410,7 +9802,7 @@
         "department": "Rum",
         "size": "1L",
         "base_price_usd": "25.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -9458,7 +9850,7 @@
         "department": "Rum",
         "size": "750mL",
         "base_price_usd": "21.89",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -9506,7 +9898,7 @@
         "department": "Rum",
         "size": "750ml",
         "base_price_usd": "14.59",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -9554,7 +9946,7 @@
         "department": "Rum",
         "size": "1.75L",
         "base_price_usd": "27.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -9601,7 +9993,7 @@
         "department": "Mix",
         "size": "",
         "base_price_usd": "29.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -9648,7 +10040,7 @@
         "department": "Mix",
         "size": "",
         "base_price_usd": "29.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -9695,7 +10087,7 @@
         "department": "Mix",
         "size": "1.75L",
         "base_price_usd": "29.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -9742,7 +10134,7 @@
         "department": "Mix",
         "size": "",
         "base_price_usd": "1.61",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -9789,7 +10181,7 @@
         "department": "Mix",
         "size": "",
         "base_price_usd": "22.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -9836,7 +10228,7 @@
         "department": "Mix",
         "size": "500ml",
         "base_price_usd": "6.89",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -9883,7 +10275,7 @@
         "department": "Mix",
         "size": "4pk",
         "base_price_usd": "8.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -9930,7 +10322,7 @@
         "department": "Mix",
         "size": "",
         "base_price_usd": "21.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -9977,7 +10369,7 @@
         "department": "Mix",
         "size": "",
         "base_price_usd": "11.89",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -10024,7 +10416,7 @@
         "department": "Mix",
         "size": "",
         "base_price_usd": "11.89",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -10044,711 +10436,6 @@
             {
               "currency_code": "usd",
               "amount": 1427
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "external_id": "033544002261",
-      "handle": "corona-na-12cans12oz-002261",
-      "title": "Corona NA 12cans/12oz",
-      "subtitle": "Drinks",
-      "description": "Refresh with Corona Non-Alcoholic beer, offering the same crisp, light taste of Corona without the alcohol, in a 12-can pack.",
-      "status": "published",
-      "thumbnail": null,
-      "brand": "Corona NA",
-      "collection": "Drinks",
-      "categories": [
-        "Drinks"
-      ],
-      "tags": [
-        "alcohol",
-        "drinks"
-      ],
-      "metadata": {
-        "upc": "033544002261",
-        "department": "Drinks",
-        "size": "12cans/12oz",
-        "base_price_usd": "20.29",
-        "markup_percent": 20.0,
-        "price_source": "catalog_upload",
-        "fulfillment": [
-          "pickup",
-          "delivery"
-        ],
-        "age_gate_required": true
-      },
-      "variants": [
-        {
-          "title": "12cans/12oz",
-          "sku": "033544002261",
-          "manage_inventory": false,
-          "options": {
-            "Size": "12cans/12oz"
-          },
-          "prices": [
-            {
-              "currency_code": "usd",
-              "amount": 2435
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "external_id": "898195001342",
-      "handle": "fever-tree-premium-tw-500ml-001342",
-      "title": "Fever-Tree Premium TW 500ml",
-      "subtitle": "Drinks",
-      "description": "Elevate your cocktails with Fever-Tree Premium Tonic Water, crafted with natural quinine for a crisp and refreshing finish.",
-      "status": "published",
-      "thumbnail": null,
-      "brand": "Fever-Tree Premium",
-      "collection": "Drinks",
-      "categories": [
-        "Drinks"
-      ],
-      "tags": [
-        "alcohol",
-        "drinks"
-      ],
-      "metadata": {
-        "upc": "898195001342",
-        "department": "Drinks",
-        "size": "500ml",
-        "base_price_usd": "3.49",
-        "markup_percent": 20.0,
-        "price_source": "catalog_upload",
-        "fulfillment": [
-          "pickup",
-          "delivery"
-        ],
-        "age_gate_required": true
-      },
-      "variants": [
-        {
-          "title": "500ml",
-          "sku": "898195001342",
-          "manage_inventory": false,
-          "options": {
-            "Size": "500ml"
-          },
-          "prices": [
-            {
-              "currency_code": "usd",
-              "amount": 419
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "external_id": "898195001403",
-      "handle": "fever-tree-indian-tonic-water-500ml-001403",
-      "title": "Fever-tree indian tonic water 500ml",
-      "subtitle": "Drinks",
-      "description": "Pair your gin with Fever-Tree Indian Tonic Water, made with natural ingredients for a refreshing and authentic taste.",
-      "status": "published",
-      "thumbnail": null,
-      "brand": "Fever-tree indian",
-      "collection": "Drinks",
-      "categories": [
-        "Drinks"
-      ],
-      "tags": [
-        "alcohol",
-        "drinks"
-      ],
-      "metadata": {
-        "upc": "898195001403",
-        "department": "Drinks",
-        "size": "500ml",
-        "base_price_usd": "3.49",
-        "markup_percent": 20.0,
-        "price_source": "catalog_upload",
-        "fulfillment": [
-          "pickup",
-          "delivery"
-        ],
-        "age_gate_required": true
-      },
-      "variants": [
-        {
-          "title": "500ml",
-          "sku": "898195001403",
-          "manage_inventory": false,
-          "options": {
-            "Size": "500ml"
-          },
-          "prices": [
-            {
-              "currency_code": "usd",
-              "amount": 419
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "external_id": "898195001427",
-      "handle": "fever-tree-ginger-beer-500ml-001427",
-      "title": "Fever-Tree Ginger Beer 500ml",
-      "subtitle": "Drinks",
-      "description": "Spice up your drinks with Fever-Tree Ginger Beer, brewed with natural ginger for a bold, fiery flavor in cocktails or solo.",
-      "status": "published",
-      "thumbnail": null,
-      "brand": "Fever-Tree Ginger",
-      "collection": "Drinks",
-      "categories": [
-        "Drinks"
-      ],
-      "tags": [
-        "alcohol",
-        "drinks"
-      ],
-      "metadata": {
-        "upc": "898195001427",
-        "department": "Drinks",
-        "size": "500ml",
-        "base_price_usd": "3.49",
-        "markup_percent": 20.0,
-        "price_source": "catalog_upload",
-        "fulfillment": [
-          "pickup",
-          "delivery"
-        ],
-        "age_gate_required": true
-      },
-      "variants": [
-        {
-          "title": "500ml",
-          "sku": "898195001427",
-          "manage_inventory": false,
-          "options": {
-            "Size": "500ml"
-          },
-          "prices": [
-            {
-              "currency_code": "usd",
-              "amount": 419
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "external_id": "898195001489",
-      "handle": "fever-tree-premium-club-soda-500ml-001489",
-      "title": "Fever Tree  Premium Club Soda 500ml",
-      "subtitle": "Drinks",
-      "description": "Keep it simple with Fever-Tree Premium Club Soda, a clean, bubbly base for any mixed drink or enjoyed on its own.",
-      "status": "published",
-      "thumbnail": null,
-      "brand": "Fever Tree",
-      "collection": "Drinks",
-      "categories": [
-        "Drinks"
-      ],
-      "tags": [
-        "alcohol",
-        "drinks"
-      ],
-      "metadata": {
-        "upc": "898195001489",
-        "department": "Drinks",
-        "size": "500ml",
-        "base_price_usd": "3.49",
-        "markup_percent": 20.0,
-        "price_source": "catalog_upload",
-        "fulfillment": [
-          "pickup",
-          "delivery"
-        ],
-        "age_gate_required": true
-      },
-      "variants": [
-        {
-          "title": "500ml",
-          "sku": "898195001489",
-          "manage_inventory": false,
-          "options": {
-            "Size": "500ml"
-          },
-          "prices": [
-            {
-              "currency_code": "usd",
-              "amount": 419
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "external_id": "898195001014",
-      "handle": "fevertree-p-tw-001014",
-      "title": "FEVERTree P-TW",
-      "subtitle": "Drinks",
-      "description": "Enjoy the same premium quality Fever-Tree Tonic Water in a convenient size, perfect for your home bar essentials.",
-      "status": "published",
-      "thumbnail": null,
-      "brand": "FEVERTree P-TW",
-      "collection": "Drinks",
-      "categories": [
-        "Drinks"
-      ],
-      "tags": [
-        "alcohol",
-        "drinks"
-      ],
-      "metadata": {
-        "upc": "898195001014",
-        "department": "Drinks",
-        "size": "",
-        "base_price_usd": "4.99",
-        "markup_percent": 20.0,
-        "price_source": "catalog_upload",
-        "fulfillment": [
-          "pickup",
-          "delivery"
-        ],
-        "age_gate_required": true
-      },
-      "variants": [
-        {
-          "title": "Default",
-          "sku": "898195001014",
-          "manage_inventory": false,
-          "options": {
-            "Size": "Default"
-          },
-          "prices": [
-            {
-              "currency_code": "usd",
-              "amount": 599
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "external_id": "898195001090",
-      "handle": "fevertree-ginger-ale-200ml-001090",
-      "title": "FEVERTREE GINGER ALE 200ml",
-      "subtitle": "Drinks",
-      "description": "Sip on Fever-Tree Ginger Ale, made with natural ginger for a smooth, refreshing taste that complements various spirits.",
-      "status": "published",
-      "thumbnail": null,
-      "brand": "FEVERTREE GINGER",
-      "collection": "Drinks",
-      "categories": [
-        "Drinks"
-      ],
-      "tags": [
-        "alcohol",
-        "drinks"
-      ],
-      "metadata": {
-        "upc": "898195001090",
-        "department": "Drinks",
-        "size": "200ml",
-        "base_price_usd": "4.99",
-        "markup_percent": 20.0,
-        "price_source": "catalog_upload",
-        "fulfillment": [
-          "pickup",
-          "delivery"
-        ],
-        "age_gate_required": true
-      },
-      "variants": [
-        {
-          "title": "200ml",
-          "sku": "898195001090",
-          "manage_inventory": false,
-          "options": {
-            "Size": "200ml"
-          },
-          "prices": [
-            {
-              "currency_code": "usd",
-              "amount": 599
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "external_id": "898195001137",
-      "handle": "fever-tree-club-soda-200ml-001137",
-      "title": "Fever Tree Club Soda 200ml",
-      "subtitle": "Drinks",
-      "description": "Perfect for single servings, Fever-Tree Club Soda offers crisp carbonation for cocktails or a refreshing standalone drink.",
-      "status": "published",
-      "thumbnail": null,
-      "brand": "Fever Tree",
-      "collection": "Drinks",
-      "categories": [
-        "Drinks"
-      ],
-      "tags": [
-        "alcohol",
-        "drinks"
-      ],
-      "metadata": {
-        "upc": "898195001137",
-        "department": "Drinks",
-        "size": "200ml",
-        "base_price_usd": "4.99",
-        "markup_percent": 20.0,
-        "price_source": "catalog_upload",
-        "fulfillment": [
-          "pickup",
-          "delivery"
-        ],
-        "age_gate_required": true
-      },
-      "variants": [
-        {
-          "title": "200ml",
-          "sku": "898195001137",
-          "manage_inventory": false,
-          "options": {
-            "Size": "200ml"
-          },
-          "prices": [
-            {
-              "currency_code": "usd",
-              "amount": 599
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "external_id": "898195001274",
-      "handle": "fevertree-ginger-beer-200ml-001274",
-      "title": "FEVERTREE GINGER BEER 200ml",
-      "subtitle": "Drinks",
-      "description": "Get a quick spicy kick with Fever-Tree Ginger Beer in a portable 200ml bottle, ideal for mixing or drinking straight.",
-      "status": "published",
-      "thumbnail": null,
-      "brand": "FEVERTREE GINGER",
-      "collection": "Drinks",
-      "categories": [
-        "Drinks"
-      ],
-      "tags": [
-        "alcohol",
-        "drinks"
-      ],
-      "metadata": {
-        "upc": "898195001274",
-        "department": "Drinks",
-        "size": "200ml",
-        "base_price_usd": "4.99",
-        "markup_percent": 20.0,
-        "price_source": "catalog_upload",
-        "fulfillment": [
-          "pickup",
-          "delivery"
-        ],
-        "age_gate_required": true
-      },
-      "variants": [
-        {
-          "title": "200ml",
-          "sku": "898195001274",
-          "manage_inventory": false,
-          "options": {
-            "Size": "200ml"
-          },
-          "prices": [
-            {
-              "currency_code": "usd",
-              "amount": 599
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "external_id": "898195001656",
-      "handle": "fevertree-ef-tw-200ml-001656",
-      "title": "FeverTree EF TW 200ml",
-      "subtitle": "Drinks",
-      "description": "Try Fever-Tree Elderflower Tonic Water for a floral twist on your classic gin and tonic, with subtle sweet notes.",
-      "status": "published",
-      "thumbnail": null,
-      "brand": "FeverTree EF",
-      "collection": "Drinks",
-      "categories": [
-        "Drinks"
-      ],
-      "tags": [
-        "alcohol",
-        "drinks"
-      ],
-      "metadata": {
-        "upc": "898195001656",
-        "department": "Drinks",
-        "size": "200ml",
-        "base_price_usd": "4.99",
-        "markup_percent": 20.0,
-        "price_source": "catalog_upload",
-        "fulfillment": [
-          "pickup",
-          "delivery"
-        ],
-        "age_gate_required": true
-      },
-      "variants": [
-        {
-          "title": "200ml",
-          "sku": "898195001656",
-          "manage_inventory": false,
-          "options": {
-            "Size": "200ml"
-          },
-          "prices": [
-            {
-              "currency_code": "usd",
-              "amount": 599
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "external_id": "087692023722",
-      "handle": "twisted-tea-extream-vrty-1212oz-can-023722",
-      "title": "Twisted Tea Extream vrty 12/12oz can",
-      "subtitle": "Drinks",
-      "description": "Explore bold flavors with Twisted Tea's Extreme Variety pack, featuring a range of hard iced teas for adventurous palates.",
-      "status": "published",
-      "thumbnail": null,
-      "brand": "Twisted Tea",
-      "collection": "Drinks",
-      "categories": [
-        "Drinks"
-      ],
-      "tags": [
-        "alcohol",
-        "drinks"
-      ],
-      "metadata": {
-        "upc": "087692023722",
-        "department": "Drinks",
-        "size": "",
-        "base_price_usd": "19.99",
-        "markup_percent": 20.0,
-        "price_source": "catalog_upload",
-        "fulfillment": [
-          "pickup",
-          "delivery"
-        ],
-        "age_gate_required": true
-      },
-      "variants": [
-        {
-          "title": "Default",
-          "sku": "087692023722",
-          "manage_inventory": false,
-          "options": {
-            "Size": "Default"
-          },
-          "prices": [
-            {
-              "currency_code": "usd",
-              "amount": 2399
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "external_id": "049000054026",
-      "handle": "coca-cola2-l-contour-400-pk-054026",
-      "title": "Coca-Cola:2 L Contour 4.00 PK",
-      "subtitle": "Drinks",
-      "description": "Stock up on the classic taste of Coca-Cola with this 4-pack of 2-liter bottles, perfect for parties and gatherings.",
-      "status": "published",
-      "thumbnail": null,
-      "brand": "Coca-Cola:2 L",
-      "collection": "Drinks",
-      "categories": [
-        "Drinks"
-      ],
-      "tags": [
-        "alcohol",
-        "drinks"
-      ],
-      "metadata": {
-        "upc": "049000054026",
-        "department": "Drinks",
-        "size": "",
-        "base_price_usd": "4.19",
-        "markup_percent": 20.0,
-        "price_source": "catalog_upload",
-        "fulfillment": [
-          "pickup",
-          "delivery"
-        ],
-        "age_gate_required": true
-      },
-      "variants": [
-        {
-          "title": "Default",
-          "sku": "049000054026",
-          "manage_inventory": false,
-          "options": {
-            "Size": "Default"
-          },
-          "prices": [
-            {
-              "currency_code": "usd",
-              "amount": 503
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "external_id": "812136032967",
-      "handle": "fever-tree-pineapple-ginger-beer-500ml-032967",
-      "title": "Fever-Tree Pineapple Ginger Beer 500ml",
-      "subtitle": "Drinks",
-      "description": "Enjoy a tropical twist with Fever-Tree Pineapple Ginger Beer, blending sweet pineapple with spicy ginger for a refreshing drink.",
-      "status": "published",
-      "thumbnail": null,
-      "brand": "Fever-Tree Pineapple",
-      "collection": "Drinks",
-      "categories": [
-        "Drinks"
-      ],
-      "tags": [
-        "alcohol",
-        "drinks"
-      ],
-      "metadata": {
-        "upc": "812136032967",
-        "department": "Drinks",
-        "size": "500ml",
-        "base_price_usd": "5.59",
-        "markup_percent": 20.0,
-        "price_source": "catalog_upload",
-        "fulfillment": [
-          "pickup",
-          "delivery"
-        ],
-        "age_gate_required": true
-      },
-      "variants": [
-        {
-          "title": "500ml",
-          "sku": "812136032967",
-          "manage_inventory": false,
-          "options": {
-            "Size": "500ml"
-          },
-          "prices": [
-            {
-              "currency_code": "usd",
-              "amount": 671
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "external_id": "049000054057",
-      "handle": "sprite2-l-contour-400-pk-054057",
-      "title": "Sprite:2 L Contour 4.00 PK",
-      "subtitle": "Drinks",
-      "description": "Keep it refreshing with Sprite's lemon-lime soda in this convenient 4-pack of 2-liter bottles, great for any occasion.",
-      "status": "published",
-      "thumbnail": null,
-      "brand": "Sprite:2 L",
-      "collection": "Drinks",
-      "categories": [
-        "Drinks"
-      ],
-      "tags": [
-        "alcohol",
-        "drinks"
-      ],
-      "metadata": {
-        "upc": "049000054057",
-        "department": "Drinks",
-        "size": "",
-        "base_price_usd": "4.19",
-        "markup_percent": 20.0,
-        "price_source": "catalog_upload",
-        "fulfillment": [
-          "pickup",
-          "delivery"
-        ],
-        "age_gate_required": true
-      },
-      "variants": [
-        {
-          "title": "Default",
-          "sku": "049000054057",
-          "manage_inventory": false,
-          "options": {
-            "Size": "Default"
-          },
-          "prices": [
-            {
-              "currency_code": "usd",
-              "amount": 503
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "external_id": "049000068696",
-      "handle": "sprite-tropical-mix-20-oz-068696",
-      "title": "Sprite tropical Mix 20 oz",
-      "subtitle": "Drinks",
-      "description": "Add a tropical flair to your day with Sprite Tropical Mix, a fruity take on the classic lemon-lime soda for a sweet refreshment.",
-      "status": "published",
-      "thumbnail": null,
-      "brand": "Sprite tropical",
-      "collection": "Drinks",
-      "categories": [
-        "Drinks"
-      ],
-      "tags": [
-        "alcohol",
-        "drinks"
-      ],
-      "metadata": {
-        "upc": "049000068696",
-        "department": "Drinks",
-        "size": "",
-        "base_price_usd": "2.25",
-        "markup_percent": 20.0,
-        "price_source": "catalog_upload",
-        "fulfillment": [
-          "pickup",
-          "delivery"
-        ],
-        "age_gate_required": true
-      },
-      "variants": [
-        {
-          "title": "Default",
-          "sku": "049000068696",
-          "manage_inventory": false,
-          "options": {
-            "Size": "Default"
-          },
-          "prices": [
-            {
-              "currency_code": "usd",
-              "amount": 270
             }
           ]
         }
@@ -10777,7 +10464,7 @@
         "department": "Liquor",
         "size": "750ml",
         "base_price_usd": "29.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -10825,7 +10512,7 @@
         "department": "Liquor",
         "size": "",
         "base_price_usd": "29.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -10873,7 +10560,7 @@
         "department": "Liquor",
         "size": "750ml",
         "base_price_usd": "29.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -10921,7 +10608,7 @@
         "department": "Liquor",
         "size": "1.75L",
         "base_price_usd": "29.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -10969,7 +10656,7 @@
         "department": "Liquor",
         "size": "",
         "base_price_usd": "35.89",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -11017,7 +10704,7 @@
         "department": "Liquor",
         "size": "1.75L",
         "base_price_usd": "62.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -11065,7 +10752,7 @@
         "department": "Liquor",
         "size": "",
         "base_price_usd": "30.75",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -11113,7 +10800,7 @@
         "department": "Liquor",
         "size": "1.75L",
         "base_price_usd": "12.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -11161,7 +10848,7 @@
         "department": "Liquor",
         "size": "750ML",
         "base_price_usd": "32.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -11209,7 +10896,7 @@
         "department": "Liquor",
         "size": "750ml",
         "base_price_usd": "30.81",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -11257,7 +10944,7 @@
         "department": "Liquor",
         "size": "",
         "base_price_usd": "13.69",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -11305,7 +10992,7 @@
         "department": "Liquor",
         "size": "750ml",
         "base_price_usd": "39.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -11353,7 +11040,7 @@
         "department": "Liquor",
         "size": "750ML",
         "base_price_usd": "36.09",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -11401,7 +11088,7 @@
         "department": "Liquor",
         "size": "1L",
         "base_price_usd": "15.83",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -11449,7 +11136,7 @@
         "department": "Liquor",
         "size": "",
         "base_price_usd": "36.09",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -11497,7 +11184,7 @@
         "department": "Gin",
         "size": "750ML",
         "base_price_usd": "39.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -11545,7 +11232,7 @@
         "department": "Gin",
         "size": "",
         "base_price_usd": "39.33",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -11593,7 +11280,7 @@
         "department": "Gin",
         "size": "",
         "base_price_usd": "39.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -11641,7 +11328,7 @@
         "department": "Gin",
         "size": "750ml",
         "base_price_usd": "39.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -11689,7 +11376,7 @@
         "department": "Gin",
         "size": "375ml",
         "base_price_usd": "20.11",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -11737,7 +11424,7 @@
         "department": "Gin",
         "size": "1.75L",
         "base_price_usd": "79.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -11785,7 +11472,7 @@
         "department": "Gin",
         "size": "750ML",
         "base_price_usd": "41.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -11833,7 +11520,7 @@
         "department": "Gin",
         "size": "750ml",
         "base_price_usd": "42.89",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -11881,7 +11568,7 @@
         "department": "Gin",
         "size": "",
         "base_price_usd": "42.89",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -11929,7 +11616,7 @@
         "department": "Gin",
         "size": "",
         "base_price_usd": "49.69",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -11977,7 +11664,7 @@
         "department": "Brandy",
         "size": "",
         "base_price_usd": "32.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -12025,7 +11712,7 @@
         "department": "Brandy",
         "size": "",
         "base_price_usd": "32.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -12073,7 +11760,7 @@
         "department": "Brandy",
         "size": "",
         "base_price_usd": "19.43",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -12121,7 +11808,7 @@
         "department": "Brandy",
         "size": "",
         "base_price_usd": "17.48",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -12169,7 +11856,7 @@
         "department": "Brandy",
         "size": "750ml",
         "base_price_usd": "20.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -12217,7 +11904,7 @@
         "department": "Brandy",
         "size": "",
         "base_price_usd": "62.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -12265,7 +11952,7 @@
         "department": "Brandy",
         "size": "375ml",
         "base_price_usd": "20.07",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -12313,7 +12000,7 @@
         "department": "Brandy",
         "size": "750ML",
         "base_price_usd": "12.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -12361,7 +12048,7 @@
         "department": "Scotch",
         "size": "750ml",
         "base_price_usd": "44.59",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -12409,7 +12096,7 @@
         "department": "Scotch",
         "size": "750ml",
         "base_price_usd": "41.11",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -12457,7 +12144,7 @@
         "department": "Scotch",
         "size": "750ml",
         "base_price_usd": "64.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -12505,7 +12192,7 @@
         "department": "Scotch",
         "size": "750ml",
         "base_price_usd": "69.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -12553,7 +12240,7 @@
         "department": "Scotch",
         "size": "750ml",
         "base_price_usd": "69.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -12601,7 +12288,7 @@
         "department": "Scotch",
         "size": "750ml",
         "base_price_usd": "44.59",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -12649,7 +12336,7 @@
         "department": "Scotch",
         "size": "",
         "base_price_usd": "104.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -12697,7 +12384,7 @@
         "department": "Scotch",
         "size": "750ml",
         "base_price_usd": "129.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -12745,7 +12432,7 @@
         "department": "Scotch",
         "size": "",
         "base_price_usd": "121.89",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -12793,7 +12480,7 @@
         "department": "Scotch",
         "size": "",
         "base_price_usd": "97.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -12841,7 +12528,7 @@
         "department": "Scotch",
         "size": "",
         "base_price_usd": "53.59",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -12889,7 +12576,7 @@
         "department": "Scotch",
         "size": "",
         "base_price_usd": "98.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -12937,7 +12624,7 @@
         "department": "Scotch",
         "size": "12",
         "base_price_usd": "95.59",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -12985,7 +12672,7 @@
         "department": "Scotch",
         "size": "750ml",
         "base_price_usd": "107.89",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -13033,7 +12720,7 @@
         "department": "Scotch",
         "size": "750ml",
         "base_price_usd": "19.69",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -13081,7 +12768,7 @@
         "department": "Liqueur",
         "size": "750ML",
         "base_price_usd": "22.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -13129,7 +12816,7 @@
         "department": "Liqueur",
         "size": "1.75LT",
         "base_price_usd": "42.59",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -13177,7 +12864,7 @@
         "department": "Liqueur",
         "size": "375ml",
         "base_price_usd": "17.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -13225,7 +12912,7 @@
         "department": "Liqueur",
         "size": "750ML",
         "base_price_usd": "35.09",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -13273,7 +12960,7 @@
         "department": "Liqueur",
         "size": "750ML",
         "base_price_usd": "34.09",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -13321,7 +13008,7 @@
         "department": "Liqueur",
         "size": "750ML",
         "base_price_usd": "41.89",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -13369,7 +13056,7 @@
         "department": "Liqueur",
         "size": "375ml",
         "base_price_usd": "20.28",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -13417,7 +13104,7 @@
         "department": "Liqueur",
         "size": "750ML",
         "base_price_usd": "29.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -13465,7 +13152,7 @@
         "department": "Liqueur",
         "size": "750ML",
         "base_price_usd": "29.19",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -13513,7 +13200,7 @@
         "department": "Liqueur",
         "size": "750ML",
         "base_price_usd": "16.89",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -13561,7 +13248,7 @@
         "department": "Liqueurs",
         "size": "1L",
         "base_price_usd": "23.73",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -13609,7 +13296,7 @@
         "department": "Liqueurs",
         "size": "",
         "base_price_usd": "18.29",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -13657,7 +13344,7 @@
         "department": "Liqueurs",
         "size": "750ml",
         "base_price_usd": "20.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -13705,7 +13392,7 @@
         "department": "Liqueurs",
         "size": "750ml",
         "base_price_usd": "20.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -13753,7 +13440,7 @@
         "department": "Liqueurs",
         "size": "",
         "base_price_usd": "23.39",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -13801,7 +13488,7 @@
         "department": "Liqueurs",
         "size": "750ml",
         "base_price_usd": "20.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -13849,7 +13536,7 @@
         "department": "Liqueurs",
         "size": "750ml",
         "base_price_usd": "41.91",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -13897,7 +13584,7 @@
         "department": "Liqueurs",
         "size": "",
         "base_price_usd": "1.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -13944,7 +13631,7 @@
         "department": "Cognac",
         "size": "",
         "base_price_usd": "4.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -13991,7 +13678,7 @@
         "department": "Cognac",
         "size": "200ML",
         "base_price_usd": "15.59",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -14038,7 +13725,7 @@
         "department": "Burbon",
         "size": "1.75LT",
         "base_price_usd": "40.49",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -14085,7 +13772,7 @@
         "department": "Burbon",
         "size": "1.75L",
         "base_price_usd": "42.89",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -14134,7 +13821,7 @@
         "department": "Whiskey(Ray)",
         "size": "700ml",
         "base_price_usd": "34.12",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -14183,7 +13870,7 @@
         "department": "Whiskey(Ray)",
         "size": "100",
         "base_price_usd": "47.79",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -14232,7 +13919,7 @@
         "department": "Whiskey (irish)",
         "size": "",
         "base_price_usd": "40.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",
@@ -14281,7 +13968,7 @@
         "department": "Whiskey (irish)",
         "size": "",
         "base_price_usd": "38.99",
-        "markup_percent": 20.0,
+        "markup_percent": 20,
         "price_source": "catalog_upload",
         "fulfillment": [
           "pickup",

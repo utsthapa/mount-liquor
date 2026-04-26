@@ -1,0 +1,4842 @@
+{
+  "200582000003": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "263973000006": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "55921541": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "60014399": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "75021184": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "85678446": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "000804320014": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "005020000610": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "008471590037": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "008517670013": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "008660000019": {
+    "status": "found",
+    "product_name": "Zig Zag Cigarette Papers",
+    "image_url": "http://ecx.images-amazon.com/images/I/514THOTRaeL.jpg",
+    "downloaded_file": "images/008660000019.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9935",
+      "x-rate-limit-limit": "65",
+      "x-rate-limit-reset": "79157"
+    }
+  },
+  "008660000026": {
+    "status": "found",
+    "product_name": "Zig Zag Cigarette Papers",
+    "image_url": "https://i5.walmartimages.com/asr/924fd0c0-255a-47b4-b446-1c54f6a9bcd8_1.9c2f42c7fe9952a93b388c95df3a7caf.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/008660000026.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9934",
+      "x-rate-limit-limit": "66",
+      "x-rate-limit-reset": "79157"
+    }
+  },
+  "008660007322": {
+    "status": "found",
+    "product_name": "Zig Zag Cigarette Papers",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/586/021/medium/45c6929b3359a238963b9822126653aa?1368654894",
+    "downloaded_file": "images/008660007322.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9933",
+      "x-rate-limit-limit": "67",
+      "x-rate-limit-reset": "79156"
+    }
+  },
+  "009016013165": {
+    "status": "found",
+    "product_name": "MEZCAL LAJITA AGED REPOSADO",
+    "image_url": "http://s3.amazonaws.com/buycott/images/app/product_placeholder.png",
+    "downloaded_file": "images/009016013165.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9932",
+      "x-rate-limit-limit": "68",
+      "x-rate-limit-reset": "79156"
+    }
+  },
+  "009016013172": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016014063": {
+    "status": "name_mismatch",
+    "product_name": "Adidas Orleans Hornets PEJA STOJAKOVIC #16 Men's NBA Replica Jersey, Blue (X-Large)",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/001/238/930/w_thumb/42f49063adb655df763819f2669c1027?1446585647",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9930",
+      "x-rate-limit-limit": "70",
+      "x-rate-limit-reset": "79155"
+    }
+  },
+  "009016014230": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "009016014254": {
+    "status": "found",
+    "product_name": "Tequila Blanco Premium",
+    "image_url": "https://i5.walmartimages.com/asr/0b95143b-8066-4c08-acc4-397cf21f01ed_1.33ea909cb592ea26caedd953cb25cd05.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "downloaded_file": "images/009016014254.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9929",
+      "x-rate-limit-limit": "71",
+      "x-rate-limit-reset": "79154"
+    }
+  },
+  "009016014278": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016014292": {
+    "status": "name_mismatch",
+    "product_name": "Pink Dream Skin for Sony Playstation 3 Slim Console",
+    "image_url": "https://drizly-products.imgix.net/ci-agavales-gold-tequila-c58996b9c81048a2.jpeg",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9927",
+      "x-rate-limit-limit": "73",
+      "x-rate-limit-reset": "79153"
+    }
+  },
+  "009016014728": {
+    "status": "found",
+    "product_name": "Tequila Blanco Silver Hijos De Villa",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/001/238/930/w_thumb/42f49063adb655df763819f2669c1027?1446585647",
+    "downloaded_file": "images/009016014728.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9926",
+      "x-rate-limit-limit": "74",
+      "x-rate-limit-reset": "79153"
+    }
+  },
+  "009016015008": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016015060": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "009016015923": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016015947": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016016449": {
+    "status": "name_mismatch",
+    "product_name": "Padrisimo",
+    "image_url": "http://s3.amazonaws.com/buycott/images/app/product_placeholder.png",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9922",
+      "x-rate-limit-limit": "78",
+      "x-rate-limit-reset": "79151"
+    }
+  },
+  "009016017187": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016017194": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016017644": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016018016": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016018542": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016018559": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016018580": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "009016018641": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016018665": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016019211": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016019334": {
+    "status": "found",
+    "product_name": "Select Club Pecan Praline (750.00 ml)",
+    "image_url": "http://s3.amazonaws.com/buycott/images/app/product_placeholder.png",
+    "downloaded_file": "images/009016019334.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9912",
+      "x-rate-limit-limit": "88",
+      "x-rate-limit-reset": "79146"
+    }
+  },
+  "009016019624": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016019747": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016019754": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016019761": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016019808": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016020156": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009114611003": {
+    "status": "found",
+    "product_name": "Lighter Fluid",
+    "image_url": "http://s3.amazonaws.com/buycott/images/no_image_thumbnail.png",
+    "downloaded_file": "images/009114611003.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9905",
+      "x-rate-limit-limit": "95",
+      "x-rate-limit-reset": "79143"
+    }
+  },
+  "009300000383": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  "009300000772": {
+    "status": "found",
+    "product_name": "Mt. Olive Pickle Chips - Bread & Butter",
+    "image_url": "https://i5.walmartimages.com/asr/e0bf52a9-2afe-4fbc-8c69-37992354a2f6_1.e97ddeeadb3949752b0ec583d89110bb.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/009300000772.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9903",
+      "x-rate-limit-limit": "97",
+      "x-rate-limit-reset": "79142"
+    }
+  },
+  "009300000802": {
+    "status": "found",
+    "product_name": "Mt. Olive Pickle Spears - Kosher Dill",
+    "image_url": "https://i5.walmartimages.com/asr/7a6d73e5-99ff-4f4a-8fe7-f8bbb714eb41_1.4712045c1c5174a884e98b3acbdd5c86.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/009300000802.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9902",
+      "x-rate-limit-limit": "98",
+      "x-rate-limit-reset": "79142"
+    }
+  },
+  "009300001304": {
+    "status": "found",
+    "product_name": "Mt. Olive Hamburger Dill Chips Mini Stuffers Fresh Pack Pickles 16 Oz Jar",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/506/339/w_thumb/7153e90af122b4e0523ebd55ee9beedd?1342055176",
+    "downloaded_file": "images/009300001304.gif",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9901",
+      "x-rate-limit-limit": "99",
+      "x-rate-limit-reset": "79141"
+    }
+  },
+  "009300006507": {
+    "status": "found",
+    "product_name": "Mt. Olive Kosher Spears Dill Pickles 24 Oz Jar",
+    "image_url": "https://i5.walmartimages.com/asr/8527fba9-b04f-4926-b2fd-771450cdd402_1.9c6dc526f1d4e80095b654c2c6b7991d.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "downloaded_file": "images/009300006507.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9900",
+      "x-rate-limit-limit": "100",
+      "x-rate-limit-reset": "79140"
+    }
+  },
+  "009800000524": {
+    "status": "found",
+    "product_name": "Kinder Joy",
+    "image_url": "https://d2ul0w83gls0j4.cloudfront.net/products/12/600/1216138.jpg",
+    "downloaded_file": "images/009800000524.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9899",
+      "x-rate-limit-limit": "101",
+      "x-rate-limit-reset": "79139"
+    }
+  },
+  "009800000531": {
+    "status": "name_mismatch",
+    "product_name": "Kinder Joy",
+    "image_url": "https://pics.drugstore.com/prodimg/604148/450.jpg",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9898",
+      "x-rate-limit-limit": "102",
+      "x-rate-limit-reset": "79139"
+    }
+  },
+  "009800000555": {
+    "status": "found",
+    "product_name": "Kinder Bueno",
+    "image_url": "http://s3.amazonaws.com/buycott/images/no_image_thumbnail.png",
+    "downloaded_file": "images/009800000555.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9897",
+      "x-rate-limit-limit": "103",
+      "x-rate-limit-reset": "79138"
+    }
+  },
+  "009800000715": {
+    "status": "found",
+    "product_name": "Ferrero Rocher Fine Hazelnut Chocolate 5.3oz",
+    "image_url": "https://i5.walmartimages.com/asr/594aa61c-412c-4658-8951-6802fb3db8bd_1.fb393d8bc35090cf1c2a9003d975aab4.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/009800000715.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9896",
+      "x-rate-limit-limit": "104",
+      "x-rate-limit-reset": "79138"
+    }
+  },
+  "009800006304": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  "009800007608": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "009800007615": {
+    "status": "found",
+    "product_name": "TIC TAC Freshmints Big Pack 1 oz 12 count",
+    "image_url": "https://i5.walmartimages.com/asr/9df9c65c-0229-4783-b57a-3d599d3d0bf7_1.90b041047e5fc03906e7df8d1bc16bb3.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/009800007615.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9893",
+      "x-rate-limit-limit": "107",
+      "x-rate-limit-reset": "79111"
+    }
+  },
+  "009800007639": {
+    "status": "found",
+    "product_name": "Tic Tac Mints",
+    "image_url": "https://i5.walmartimages.com/asr/4bef10ed-4a35-4ef9-aa4e-dac7b3e13041_1.20367b40371882603bf35a4617dea3c4.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/009800007639.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9892",
+      "x-rate-limit-limit": "108",
+      "x-rate-limit-reset": "79110"
+    }
+  },
+  "009800007677": {
+    "status": "found",
+    "product_name": "Tic Tac Wintergreen Breath Mints",
+    "image_url": "https://i5.walmartimages.com/asr/ef58970a-e4f8-4263-b99f-664316c0eb8d_1.1e1dfd43537775fe03e85dd49a317bd5.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/009800007677.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9891",
+      "x-rate-limit-limit": "109",
+      "x-rate-limit-reset": "79109"
+    }
+  },
+  "009800200412": {
+    "status": "found",
+    "product_name": "Ferrero Collection, 12 Count, 4.6 Ounce (129 gm)",
+    "image_url": "https://pics.drugstore.com/prodimg/587424/450.jpg",
+    "downloaded_file": "images/009800200412.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9890",
+      "x-rate-limit-limit": "110",
+      "x-rate-limit-reset": "79109"
+    }
+  },
+  "009800200511": {
+    "status": "name_mismatch",
+    "product_name": "Ferrero Collection",
+    "image_url": "https://pics.drugstore.com/prodimg/587616/450.jpg",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9889",
+      "x-rate-limit-limit": "111",
+      "x-rate-limit-reset": "79108"
+    }
+  },
+  "009800554041": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "010019000830": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "010700000224": {
+    "status": "name_mismatch",
+    "product_name": "Chews",
+    "image_url": "https://i5.walmartimages.com/asr/63ec77e5-8735-4d06-aad8-a20f2ad914d7_1.cfa60c749554031c6dc2c6c97b99365d.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9887",
+      "x-rate-limit-limit": "113",
+      "x-rate-limit-reset": "79107"
+    }
+  },
+  "010700450166": {
+    "status": "found",
+    "product_name": "Hershey Foods Corporation Jolly Rancher Awesome Twosome Peg 6.5 Oz Case Pack 12",
+    "image_url": "https://i5.walmartimages.com/asr/032abd80-cec7-4278-a7b1-4779e40db25e_1.1412e04d21efafd3d970b53b6e8a18e2.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/010700450166.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9886",
+      "x-rate-limit-limit": "114",
+      "x-rate-limit-reset": "79107"
+    }
+  },
+  "010700529855": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "010700530004": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "010700702302": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  "010700804228": {
+    "status": "name_mismatch",
+    "product_name": "Zero Candy Bar",
+    "image_url": "https://i5.walmartimages.com/asr/d9201ffb-b10a-4f48-b62d-85c24db123d0_1.d3e9291eb48bf1583769ba043187f0dc.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9882",
+      "x-rate-limit-limit": "118",
+      "x-rate-limit-reset": "79105"
+    }
+  },
+  "010700804273": {
+    "status": "found",
+    "product_name": "Zero candy bar",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/003/054/786/original/a90f16225b9149da7ab7535666862d0e?1499314211",
+    "downloaded_file": "images/010700804273.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9881",
+      "x-rate-limit-limit": "119",
+      "x-rate-limit-reset": "79105"
+    }
+  },
+  "010700807229": {
+    "status": "found",
+    "product_name": "Hershey PayDay Peanut Caramel Bar (52g.)",
+    "image_url": "https://i5.walmartimages.com/asr/3b921145-346a-4028-ae3e-d1c286c20079_1.0d844fc9de14e9eeddc19d6118c69a9a.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/010700807229.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9880",
+      "x-rate-limit-limit": "120",
+      "x-rate-limit-reset": "79104"
+    }
+  },
+  "010700807274": {
+    "status": "name_mismatch",
+    "product_name": "Peanut Caramel Bar",
+    "image_url": "https://i5.walmartimages.com/asr/5e63acfc-e8b1-4cce-81a7-c9e6b1298135_1.d7cc46bfd48803bc6cb6a03e98fb33f4.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9879",
+      "x-rate-limit-limit": "121",
+      "x-rate-limit-reset": "79103"
+    }
+  },
+  "010700858351": {
+    "status": "found",
+    "product_name": "jolly rancher gummies",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/553/025/w_thumb/1c04b7ed90be6f4b789c448184f11f94?1363340013",
+    "downloaded_file": "images/010700858351.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9878",
+      "x-rate-limit-limit": "122",
+      "x-rate-limit-reset": "79103"
+    }
+  },
+  "010700858368": {
+    "status": "found",
+    "product_name": "Jolly Rancher Gummies",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/553/025/w_thumb/1c04b7ed90be6f4b789c448184f11f94?1363340013",
+    "downloaded_file": "images/010700858368.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9877",
+      "x-rate-limit-limit": "123",
+      "x-rate-limit-reset": "79102"
+    }
+  },
+  "010700858559": {
+    "status": "found",
+    "product_name": "Payday",
+    "image_url": "http://s3.amazonaws.com/buycott/images/no_image_thumbnail.png",
+    "downloaded_file": "images/010700858559.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9876",
+      "x-rate-limit-limit": "124",
+      "x-rate-limit-reset": "79102"
+    }
+  },
+  "010700858900": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "010900001564": {
+    "status": "found",
+    "product_name": "Reynolds Metals reynolds wrappers, pre-cut",
+    "image_url": "https://i5.walmartimages.com/asr/ed34a628-e73d-4d02-b277-ac8dd2b45214_1.c461d30ca706a463a6dd3667fcb50e27.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/010900001564.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9875",
+      "x-rate-limit-limit": "125",
+      "x-rate-limit-reset": "79101"
+    }
+  },
+  "011000000006": {
+    "status": "name_mismatch",
+    "product_name": "Belagio Enterprises TG1100 Oliso Optimal Steam Iron",
+    "image_url": "https://photos.luxurygaragesale.com/large/110004_1.jpg",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9874",
+      "x-rate-limit-limit": "126",
+      "x-rate-limit-reset": "79100"
+    }
+  },
+  "011000000013": {
+    "status": "found",
+    "product_name": "LIGGETT GROUP montego king cigarette pack",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/928/667/medium/8463c4d1b57cb10412ee014dfba2762e?1411600506",
+    "downloaded_file": "images/011000000013.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9873",
+      "x-rate-limit-limit": "127",
+      "x-rate-limit-reset": "79100"
+    }
+  },
+  "011000000020": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "011000000037": {
+    "status": "name_mismatch",
+    "product_name": "EXAIR 110030 Air Knife, 1/4 In NPT, 30 In L, Al",
+    "image_url": "http://s3.amazonaws.com/buycott/images/app/product_placeholder.png",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9872",
+      "x-rate-limit-limit": "128",
+      "x-rate-limit-reset": "79099"
+    }
+  },
+  "011000000044": {
+    "status": "name_mismatch",
+    "product_name": "Britax R\u00f6mer Head Cushion 14750680",
+    "image_url": "http://s3.amazonaws.com/buycott/images/app/product_placeholder.png",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9871",
+      "x-rate-limit-limit": "129",
+      "x-rate-limit-reset": "79099"
+    }
+  },
+  "011000000617": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "011000000631": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "011000002888": {
+    "status": "found",
+    "product_name": "eagle red 100s",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/585/570/w_thumb/379a19c420c0ae914ebff5da235da1ec?1368646171",
+    "downloaded_file": "images/011000002888.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9868",
+      "x-rate-limit-limit": "132",
+      "x-rate-limit-reset": "79097"
+    }
+  },
+  "011000002918": {
+    "status": "found",
+    "product_name": "Eagle 20's",
+    "image_url": "http://s3.amazonaws.com/buycott/images/no_image_thumbnail.png",
+    "downloaded_file": "images/011000002918.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9867",
+      "x-rate-limit-limit": "133",
+      "x-rate-limit-reset": "79096"
+    }
+  },
+  "011000004066": {
+    "status": "found",
+    "product_name": "LIGGETT GROUP pyramid cigarettes lt 100 bx",
+    "image_url": "https://i5.walmartimages.com/asr/4e5ed15b-fd20-4201-8072-6695144406e8_1.5c357887582b285a89d6eedebbe958f4.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "downloaded_file": "images/011000004066.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9866",
+      "x-rate-limit-limit": "134",
+      "x-rate-limit-reset": "79096"
+    }
+  },
+  "011000004073": {
+    "status": "found",
+    "product_name": "Pyramid Cigarettes",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/001/244/382/w_thumb/3272abbf90a32dbcf66c616d28b7c45e?1446778415",
+    "downloaded_file": "images/011000004073.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9865",
+      "x-rate-limit-limit": "135",
+      "x-rate-limit-reset": "79095"
+    }
+  },
+  "011000004080": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "011000004097": {
+    "status": "found",
+    "product_name": "LIGGETT GROUP Pyramid Cigarettes Menthol 100 Box",
+    "image_url": "https://i5.walmartimages.com/asr/5bee18c8-b80b-40b5-8b2b-86a1f8240e5e_1.397d2fe541749c0627b78edbdff5445a.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "downloaded_file": "images/011000004097.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9864",
+      "x-rate-limit-limit": "136",
+      "x-rate-limit-reset": "79094"
+    }
+  },
+  "011000004929": {
+    "status": "found",
+    "product_name": "Pyramid Cigarettes",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/001/244/382/w_thumb/3272abbf90a32dbcf66c616d28b7c45e?1446778415",
+    "downloaded_file": "images/011000004929.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9863",
+      "x-rate-limit-limit": "137",
+      "x-rate-limit-reset": "79094"
+    }
+  },
+  "011000010029": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "011034410055": {
+    "status": "found",
+    "product_name": "MARTINI & ROSSI Budding Trees",
+    "image_url": "https://i5.walmartimages.com/asr/dec79ada-c4cc-4e10-803c-ad5a6615477b_1.e5dfa962bc6254d6b34af1231360f0fb.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/011034410055.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9861",
+      "x-rate-limit-limit": "139",
+      "x-rate-limit-reset": "79093"
+    }
+  },
+  "011034410079": {
+    "status": "found",
+    "product_name": "Martini & Rossi Sweet Vermouth 375ML",
+    "image_url": "https://i5.walmartimages.com/asr/a73a2f11-c7ed-4ce0-a68e-fb07d2131c10_1.2718249942bc435023816ed0dce76d19.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/011034410079.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9860",
+      "x-rate-limit-limit": "140",
+      "x-rate-limit-reset": "79092"
+    }
+  },
+  "011034420047": {
+    "status": "found",
+    "product_name": "Martini & Rossi Extra Dry Vermouth 1L",
+    "image_url": "https://i5.walmartimages.com/asr/1826742d-aad2-41a5-9fcb-a004b58d3e64_1.deb29cb5c63794a1d66928b0b5f57e70.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/011034420047.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9859",
+      "x-rate-limit-limit": "141",
+      "x-rate-limit-reset": "79091"
+    }
+  },
+  "011034420054": {
+    "status": "found",
+    "product_name": "Martini & Rossi Extra Dry Vermouth",
+    "image_url": "https://i5.walmartimages.com/asr/73f65421-d260-4bd7-8e04-022829a1a47b_1.39d212a6df62b9476c65e7ec637af359.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/011034420054.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9858",
+      "x-rate-limit-limit": "142",
+      "x-rate-limit-reset": "79091"
+    }
+  },
+  "011034420078": {
+    "status": "found",
+    "product_name": "Martini & Rossi Extra Dry Vermouth 375ML",
+    "image_url": "https://i5.walmartimages.com/asr/18e45e1c-1f56-4484-a857-ee8fbc24ec45_1.fc2ca1878812e9aa10f8a8a69c0ea46c.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/011034420078.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9857",
+      "x-rate-limit-limit": "143",
+      "x-rate-limit-reset": "79090"
+    }
+  },
+  "011034500053": {
+    "status": "found",
+    "product_name": "Martini & Rossi: Asti Sparkling Wine, 750 mL",
+    "image_url": "https://i5.walmartimages.com/asr/e8798348-1b5c-4c7d-aabb-115f217ddfea_1.e37d2629cde98e9b83d28bdef48168d1.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/011034500053.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9856",
+      "x-rate-limit-limit": "144",
+      "x-rate-limit-reset": "79089"
+    }
+  },
+  "011111240919": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  "011111262850": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "011115871324": {
+    "status": "found",
+    "product_name": "Vegetable Oil Spread",
+    "image_url": "https://i5.walmartimages.com/asr/599efdaa-c6c0-426c-8e2a-7bf60494b231_1.94efb38b947f0455eac3028d82407cc8.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/011115871324.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9854",
+      "x-rate-limit-limit": "146",
+      "x-rate-limit-reset": "79088"
+    }
+  },
+  "011137012125": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 429: Rate limit exceeded. Try again in 1689 seconds.\n"
+  },
+  "011152071817": {
+    "status": "found",
+    "product_name": "Imperial Dragon: Coconut Milk, 13.5 fl oz",
+    "image_url": "https://i5.walmartimages.com/asr/fee975aa-ae90-4fb4-a638-e92384f0b042_1.e309404aa5b9c35fd2b2f4b0f82f1710.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/011152071817.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9853",
+      "x-rate-limit-limit": "147",
+      "x-rate-limit-reset": "77398"
+    }
+  },
+  "011210000018": {
+    "status": "found",
+    "product_name": "Tabasco Hot Sauce Original",
+    "image_url": "https://i5.walmartimages.com/asr/d329bf0d-a8c8-404b-83ac-26351ad5ab8a_1.ffddb114daa4eb7e78ec45b590f6d2e1.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/011210000018.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9852",
+      "x-rate-limit-limit": "148",
+      "x-rate-limit-reset": "77398"
+    }
+  },
+  "011210000155": {
+    "status": "found",
+    "product_name": "Tabasco Sauce",
+    "image_url": "https://i5.walmartimages.com/asr/bde80bf9-88c9-4d38-96b6-3d3c39dcce32_1.b5e58fa667b834546ff4eafbec34c186.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/011210000155.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9851",
+      "x-rate-limit-limit": "149",
+      "x-rate-limit-reset": "77397"
+    }
+  },
+  "011284003168": {
+    "status": "found",
+    "product_name": "JJs Bakery Strawberry and Cream Pie Duos -- 48 per case.",
+    "image_url": "http://s3.amazonaws.com/buycott/images/no_image_thumbnail.png",
+    "downloaded_file": "images/011284003168.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9850",
+      "x-rate-limit-limit": "150",
+      "x-rate-limit-reset": "77396"
+    }
+  },
+  "012000000133": {
+    "status": "found",
+    "product_name": "Pepsi - 12 Fl Oz",
+    "image_url": "https://i5.walmartimages.com/asr/f997e23c-0e91-4840-9391-45d36976e75c_1.38c907dbd00d4c8aa9687b386d7d1ef9.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012000000133.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9849",
+      "x-rate-limit-limit": "151",
+      "x-rate-limit-reset": "77395"
+    }
+  },
+  "012000000850": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "012000001291": {
+    "status": "found",
+    "product_name": "Pepsi Cola",
+    "image_url": "https://i5.walmartimages.com/asr/7d867f35-7eef-424e-bc54-ec9ca3dc2493_1.26c324b5926756e9fb2288ab1bc867f7.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012000001291.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9848",
+      "x-rate-limit-limit": "152",
+      "x-rate-limit-reset": "77394"
+    }
+  },
+  "012000001314": {
+    "status": "name_mismatch",
+    "product_name": "Soda",
+    "image_url": "http://static1.netshoes.net/Produtos/38/846-0123-138/846-0123-138_detalhe1.jpg",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9847",
+      "x-rate-limit-limit": "153",
+      "x-rate-limit-reset": "77394"
+    }
+  },
+  "012000001345": {
+    "status": "name_mismatch",
+    "product_name": "Soda Diet",
+    "image_url": "https://i5.walmartimages.com/asr/dd26113c-35f7-491f-9571-3d13f7391b9a_1.80ddfa7c017a568bc37837c076352c35.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9846",
+      "x-rate-limit-limit": "154",
+      "x-rate-limit-reset": "77393"
+    }
+  },
+  "012000001574": {
+    "status": "found",
+    "product_name": "Aquafina Water",
+    "image_url": "https://i5.walmartimages.com/asr/f5ed853e-078b-4e3f-b7a4-e0901275874b_1.9c994fd2b7c8937a5e4d9ec0bec632ef.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012000001574.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9845",
+      "x-rate-limit-limit": "155",
+      "x-rate-limit-reset": "77393"
+    }
+  },
+  "012000001598": {
+    "status": "found",
+    "product_name": "Aquafina Pure Water",
+    "image_url": "http://d2ul0w83gls0j4.cloudfront.net/products/39/600/394951.jpg",
+    "downloaded_file": "images/012000001598.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9844",
+      "x-rate-limit-limit": "156",
+      "x-rate-limit-reset": "77392"
+    }
+  },
+  "012000001772": {
+    "status": "found",
+    "product_name": "Coffee Drink Doubleshot Espresso & Cream",
+    "image_url": "https://i5.walmartimages.com/asr/9ef27b0c-17c1-4226-b29b-e7a6443692f1_1.eb93daa011405c73a51b9e0aeab00fa3.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012000001772.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9843",
+      "x-rate-limit-limit": "157",
+      "x-rate-limit-reset": "77391"
+    }
+  },
+  "012000001802": {
+    "status": "found",
+    "product_name": "Coffee Drink",
+    "image_url": "http://c.shld.net/rpx/i/s/i/spin/10127449/prod_ec_2046286602",
+    "downloaded_file": "images/012000001802.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9842",
+      "x-rate-limit-limit": "158",
+      "x-rate-limit-reset": "77391"
+    }
+  },
+  "012000002243": {
+    "status": "found",
+    "product_name": "Fresh 20oz Mountain Dew Code Red Soda",
+    "image_url": "http://d2ul0w83gls0j4.cloudfront.net/products/39/600/394946.jpg",
+    "downloaded_file": "images/012000002243.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9841",
+      "x-rate-limit-limit": "159",
+      "x-rate-limit-reset": "77389"
+    }
+  },
+  "012000002304": {
+    "status": "name_mismatch",
+    "product_name": "Cola 2 L",
+    "image_url": "http://d3-pub.bizrate.com/image/obj/4861636074;sq=400",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9840",
+      "x-rate-limit-limit": "160",
+      "x-rate-limit-reset": "77389"
+    }
+  },
+  "012000002335": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  "012000002946": {
+    "status": "name_mismatch",
+    "product_name": "Cola 1 lt,1.05 qt",
+    "image_url": "https://i5.walmartimages.com/asr/11e93c1a-0f2c-4909-a955-782def2d0003_1.96cded3a51a51d3bbfd02d061175f741.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9838",
+      "x-rate-limit-limit": "162",
+      "x-rate-limit-reset": "77385"
+    }
+  },
+  "012000002977": {
+    "status": "name_mismatch",
+    "product_name": "Soda 1 L 1 lt,1.05 qt",
+    "image_url": "https://i5.walmartimages.com/asr/4a345440-a69b-444f-bf07-c5313f245f34_1.b0bec64c3eb3312c1a09898bcaf27bda.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9837",
+      "x-rate-limit-limit": "163",
+      "x-rate-limit-reset": "77385"
+    }
+  },
+  "012000003103": {
+    "status": "found",
+    "product_name": "Cola Wild Cherry",
+    "image_url": "http://s3.amazonaws.com/buycott/images/app/product_placeholder.png",
+    "downloaded_file": "images/012000003103.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9836",
+      "x-rate-limit-limit": "164",
+      "x-rate-limit-reset": "77385"
+    }
+  },
+  "012000003622": {
+    "status": "found",
+    "product_name": "Pepsi Mountain Dew Code Red",
+    "image_url": "https://i5.walmartimages.com/asr/e132ff4f-3701-48f8-835d-61d94ea96d13_1.cd37df45b431e3881f759423ddc19f78.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012000003622.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9835",
+      "x-rate-limit-limit": "165",
+      "x-rate-limit-reset": "77384"
+    }
+  },
+  "012000004520": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "012000005596": {
+    "status": "found",
+    "product_name": "Pepsi Wild Cherry - 20 Fl Oz",
+    "image_url": "https://i5.walmartimages.com/asr/7dc54984-30f3-43bb-beff-1cd92ff0cbbf_1.060c6740398890e1d90bdccce0cd4e85.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012000005596.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9834",
+      "x-rate-limit-limit": "166",
+      "x-rate-limit-reset": "77383"
+    }
+  },
+  "012000013812": {
+    "status": "found",
+    "product_name": "Fresh 20oz Manzanita Sol Apple Soda",
+    "image_url": "https://i5.walmartimages.com/asr/ffcbed19-7c0a-4e19-a6ff-9d469d6c29f2_1.3a43665832a328d72acab1479cc4ddcc.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012000013812.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9833",
+      "x-rate-limit-limit": "167",
+      "x-rate-limit-reset": "77383"
+    }
+  },
+  "012000016431": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  "012000016721": {
+    "status": "found",
+    "product_name": "Starbucks Frappuccino Caramel Chilled Coffee Drink, 13.7 fl oz",
+    "image_url": "https://i5.walmartimages.com/asr/d35f11aa-3a64-4617-a506-e1508238b833_1.2304c9cae6b27d1de63cb110f09a24de.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012000016721.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9831",
+      "x-rate-limit-limit": "169",
+      "x-rate-limit-reset": "77377"
+    }
+  },
+  "012000018800": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "012000021367": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "012000021381": {
+    "status": "name_mismatch",
+    "product_name": "Cran-Grape Juice",
+    "image_url": "https://i5.walmartimages.com/asr/537c998e-1166-4a38-80a7-3ae86fadc861_1.94a8aa45394ab122a1471a8ce9bb890b.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9829",
+      "x-rate-limit-limit": "171",
+      "x-rate-limit-reset": "77375"
+    }
+  },
+  "012000024528": {
+    "status": "found",
+    "product_name": "Lipton Brisk Raspberry Iced Tea, 1l",
+    "image_url": "https://i5.walmartimages.com/asr/3d87e6c3-7f2e-4604-8e99-ebc16ee543ef_1.f515f2f3d314429e2232a2688a23d693.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012000024528.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9828",
+      "x-rate-limit-limit": "172",
+      "x-rate-limit-reset": "77374"
+    }
+  },
+  "012000028458": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  "012000028472": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  "012000028496": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  "012000028625": {
+    "status": "found",
+    "product_name": "Soda Voltage Fm",
+    "image_url": "https://i5.walmartimages.com/asr/bcba8b5b-bf20-4f25-b20b-f069f4408f0f_1.facb526b992aed28fa256970963a8462.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012000028625.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9824",
+      "x-rate-limit-limit": "176",
+      "x-rate-limit-reset": "77361"
+    }
+  },
+  "012000031878": {
+    "status": "found",
+    "product_name": "Lipton Brisk Iced Tea",
+    "image_url": "https://i5.walmartimages.com/asr/ca2d2ae4-d936-4b4c-a4ec-e689b623b24c_1.37784021deb04895aa147f672514727d.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012000031878.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9823",
+      "x-rate-limit-limit": "177",
+      "x-rate-limit-reset": "77360"
+    }
+  },
+  "012000034015": {
+    "status": "found",
+    "product_name": "Pepsi/LiptonTea Lipton Brisk Iced Tea With Lemonade",
+    "image_url": "https://i5.walmartimages.com/asr/ec35fba6-1ebc-47eb-a444-c40a7bc90021_1.d74fe3f24ae283e841fa119247bff812.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012000034015.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9822",
+      "x-rate-limit-limit": "178",
+      "x-rate-limit-reset": "77359"
+    }
+  },
+  "012000038488": {
+    "status": "found",
+    "product_name": "Starbucks DoubleShot",
+    "image_url": "https://i5.walmartimages.com/asr/9074c104-ea4f-46bf-9424-c969d25fe582_1.539a3e63ef5d4c67f29a283599e4bc4a.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012000038488.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9821",
+      "x-rate-limit-limit": "179",
+      "x-rate-limit-reset": "77359"
+    }
+  },
+  "012000046445": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  "012000064494": {
+    "status": "name_mismatch",
+    "product_name": "Dole Lemonade",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/020/841/w_thumb/066d8c5eca60aa312058bff3e9bed533?1340615859",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9819",
+      "x-rate-limit-limit": "181",
+      "x-rate-limit-reset": "77353"
+    }
+  },
+  "012000071744": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "012000071751": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "012000101908": {
+    "status": "found",
+    "product_name": "Brisk Flavored Drink",
+    "image_url": "https://i5.walmartimages.com/asr/465792ad-4028-47dc-bcbf-e4cdfeb10d4d_1.570c54d839c7d8fd7f1077ae8c4044f1.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012000101908.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9816",
+      "x-rate-limit-limit": "184",
+      "x-rate-limit-reset": "77352"
+    }
+  },
+  "012000107528": {
+    "status": "name_mismatch",
+    "product_name": "9541549-WM-KAS",
+    "image_url": "https://i5.walmartimages.com/asr/3fe228cd-6566-41b6-8b4a-fe2741695a50_1.17a5a91761fe14fd3ff9b710062ce585.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9815",
+      "x-rate-limit-limit": "185",
+      "x-rate-limit-reset": "77351"
+    }
+  },
+  "012000110467": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  "012000112232": {
+    "status": "found",
+    "product_name": "Peach Iced Tea",
+    "image_url": "https://i5.walmartimages.com/asr/5a253404-a427-40ba-a9fb-bb06ba8f6b00_1.f7e492d2883ba44c9fd657ee91d1957f.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012000112232.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9813",
+      "x-rate-limit-limit": "187",
+      "x-rate-limit-reset": "77346"
+    }
+  },
+  "012000151095": {
+    "status": "found_no_image",
+    "product_name": "Frappuccino",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9812",
+      "x-rate-limit-limit": "188",
+      "x-rate-limit-reset": "77345"
+    }
+  },
+  "012000161155": {
+    "status": "name_mismatch",
+    "product_name": "LIFEWTR, Premium Purified Water, pH Balanced with Electrolytes For Taste, 1 liter bottle",
+    "image_url": "https://images.shopko.com//get/w/450/h/450/10703350_0000.jpg?notfound=notavailable",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9811",
+      "x-rate-limit-limit": "189",
+      "x-rate-limit-reset": "77345"
+    }
+  },
+  "012000161162": {
+    "status": "name_mismatch",
+    "product_name": "LIFEWTR, Premium Purified Water, pH Balanced with Electrolytes For Taste, 700 mL flip cap bottle",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/002/651/550/w_thumb/26dd421a08fc3f7de5f1869b2160d813?1485819092",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9810",
+      "x-rate-limit-limit": "190",
+      "x-rate-limit-reset": "77344"
+    }
+  },
+  "012000161230": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "012000161476": {
+    "status": "found",
+    "product_name": "Iced Tea Watermelon Lemonade",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/562/691/w_thumb/1c3c7fa86eb62c50284a48fde1798e9c?1365721664",
+    "downloaded_file": "images/012000161476.gif",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9809",
+      "x-rate-limit-limit": "191",
+      "x-rate-limit-reset": "77344"
+    }
+  },
+  "012000171635": {
+    "status": "name_mismatch",
+    "product_name": "Life Wtr",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/553/657/w_thumb/cfa53e631558d8cf4750b15de7b00045?1363679042",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9808",
+      "x-rate-limit-limit": "192",
+      "x-rate-limit-reset": "77343"
+    }
+  },
+  "012000171741": {
+    "status": "found",
+    "product_name": "Diet Pepsi, 20 ounce Bottle",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/506/372/w_thumb/898fc7a6b12130ab44b3c0880a954b4d?1342058884",
+    "downloaded_file": "images/012000171741.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9807",
+      "x-rate-limit-limit": "193",
+      "x-rate-limit-reset": "77343"
+    }
+  },
+  "012000181290": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "012000181313": {
+    "status": "found",
+    "product_name": "Starbucks Triple Shot Energy",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/021/144/w_thumb/e0bc0521702bdd8a51ae12d6bccadd1b?1340616188",
+    "downloaded_file": "images/012000181313.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9806",
+      "x-rate-limit-limit": "194",
+      "x-rate-limit-reset": "77342"
+    }
+  },
+  "012000181337": {
+    "status": "name_mismatch",
+    "product_name": "Starbucks Triple Shot Caramel",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/004/289/w_thumb/8701eb6b8ff95e033d488c7b96d47e61?1335121740",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9805",
+      "x-rate-limit-limit": "195",
+      "x-rate-limit-reset": "77341"
+    }
+  },
+  "012000183874": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012000190063": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012000191435": {
+    "status": "name_mismatch",
+    "product_name": "Mountain Dew",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/681/921/w_thumb/7352836c1c011d205c65c2435526a33f?1370738145",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9802",
+      "x-rate-limit-limit": "198",
+      "x-rate-limit-reset": "77340"
+    }
+  },
+  "012000192869": {
+    "status": "name_mismatch",
+    "product_name": "Nitro Cold Brew",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/004/289/w_thumb/8701eb6b8ff95e033d488c7b96d47e61?1335121740",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9801",
+      "x-rate-limit-limit": "199",
+      "x-rate-limit-reset": "77339"
+    }
+  },
+  "012000192906": {
+    "status": "found",
+    "product_name": "Nitro Cold Brew",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/021/144/w_thumb/e0bc0521702bdd8a51ae12d6bccadd1b?1340616188",
+    "downloaded_file": "images/012000192906.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9800",
+      "x-rate-limit-limit": "200",
+      "x-rate-limit-reset": "77339"
+    }
+  },
+  "012000202384": {
+    "status": "found",
+    "product_name": "Brisk Iced Tea",
+    "image_url": "https://i5.walmartimages.com/asr/ce512143-5cc5-4259-9417-1596f48005e7_1.8303fdc2a352f17401302dcbfe662e9b.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "downloaded_file": "images/012000202384.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9799",
+      "x-rate-limit-limit": "201",
+      "x-rate-limit-reset": "77338"
+    }
+  },
+  "012000203084": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012000204784": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012000204951": {
+    "status": "name_mismatch",
+    "product_name": "Mountain Dew Major Melon",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/681/921/w_thumb/7352836c1c011d205c65c2435526a33f?1370738145",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9796",
+      "x-rate-limit-limit": "204",
+      "x-rate-limit-reset": "77337"
+    }
+  },
+  "012000205057": {
+    "status": "found",
+    "product_name": "mtn dew",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/581/659/w_thumb/8f0fcbdd45e0ff8694af53e1e005d749?1368552037",
+    "downloaded_file": "images/012000205057.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9795",
+      "x-rate-limit-limit": "205",
+      "x-rate-limit-reset": "77336"
+    }
+  },
+  "012000205224": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012000205248": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012000206351": {
+    "status": "name_mismatch",
+    "product_name": "Mtn Dew Rise",
+    "image_url": "http://s3.amazonaws.com/buycott/images/no_image_thumbnail.png",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9792",
+      "x-rate-limit-limit": "208",
+      "x-rate-limit-reset": "77335"
+    }
+  },
+  "012000210501": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012000221521": {
+    "status": "name_mismatch",
+    "product_name": "Starry",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/001/231/940/w_thumb/848ea851b6b1625b82320a3cabe625ce?1438487623",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9790",
+      "x-rate-limit-limit": "210",
+      "x-rate-limit-reset": "77334"
+    }
+  },
+  "012000221767": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012000222061": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012000223037": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012000286179": {
+    "status": "name_mismatch",
+    "product_name": "Real Brewed Tea",
+    "image_url": "https://i5.walmartimages.com/asr/4f6c5ad3-7d67-4b31-abdf-1baa36cbd558_1.a1f6f8e29de1bf6f1d207713e3de17bd.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9786",
+      "x-rate-limit-limit": "214",
+      "x-rate-limit-reset": "77333"
+    }
+  },
+  "012000286186": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  "012000286193": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  "012000286209": {
+    "status": "found",
+    "product_name": "Lipton Pureleaf Unsweetened Iced Tea",
+    "image_url": "http://c.shld.net/rpx/i/s/i/spin/10127449/prod_ec_2261745002",
+    "downloaded_file": "images/012000286209.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9783",
+      "x-rate-limit-limit": "217",
+      "x-rate-limit-reset": "77322"
+    }
+  },
+  "012000286223": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  "012000384196": {
+    "status": "found",
+    "product_name": "Brisk Juice Drink",
+    "image_url": "https://i5.walmartimages.com/asr/76296b09-b9bb-4cbf-b1dc-b5b4f6233896_1.f6b1b6983e3c3dc1477c77d06c549637.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012000384196.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9781",
+      "x-rate-limit-limit": "219",
+      "x-rate-limit-reset": "77315"
+    }
+  },
+  "012000567490": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "012000809965": {
+    "status": "found",
+    "product_name": "Mountain Dew Cans (12 Count, 12 Fl Oz Each)",
+    "image_url": "https://de2wfhoo6xqi5.cloudfront.net/orig/057/f39/01eff5ac28ce675fab3c6ca4a3f1285e77.jpg",
+    "downloaded_file": "images/012000809965.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9780",
+      "x-rate-limit-limit": "220",
+      "x-rate-limit-reset": "77314"
+    }
+  },
+  "012000811319": {
+    "status": "found",
+    "product_name": "Fresh 20oz Mountain Dew Livewire Soda",
+    "image_url": "https://i5.walmartimages.com/asr/017918c7-57b0-4869-9cbd-6deb99128545_1.e4b1c318a93dd308a4549fab2b9dad09.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012000811319.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9779",
+      "x-rate-limit-limit": "221",
+      "x-rate-limit-reset": "77313"
+    }
+  },
+  "012000813313": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  "012005000077": {
+    "status": "name_mismatch",
+    "product_name": "12 3 Oil Vegetable 33.8-Ounce",
+    "image_url": "https://i5.walmartimages.com/asr/e548dc1c-b94f-4386-be14-03fba3bd1404_1.18f57b817b7f85804cc68b91e436061b.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9777",
+      "x-rate-limit-limit": "223",
+      "x-rate-limit-reset": "77308"
+    }
+  },
+  "012005000091": {
+    "status": "found",
+    "product_name": "1-2-3 Vegetable Oil",
+    "image_url": "https://i5.walmartimages.com/asr/2417ec97-43c1-4313-b01e-f6eb40c934e0_1.d64e1c7f6313ddb96249c2ff449e95b7.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012005000091.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9776",
+      "x-rate-limit-limit": "224",
+      "x-rate-limit-reset": "77307"
+    }
+  },
+  "012005000596": {
+    "status": "found",
+    "product_name": "1-2-3 Canola Oil",
+    "image_url": "https://i5.walmartimages.com/asr/2fca97d0-d981-4208-b18c-ef0b9a808a2d_1.59a1e7ce1b7dcecb1d9d188296bdf81d.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012005000596.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9775",
+      "x-rate-limit-limit": "225",
+      "x-rate-limit-reset": "77306"
+    }
+  },
+  "012300000031": {
+    "status": "found",
+    "product_name": "Camel Cigarettes",
+    "image_url": "https://i5.walmartimages.com/asr/f060bfbd-4a9d-4f05-b4e0-4935abf57b10_1.638f72faefa461f19e45087f595798fa.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012300000031.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9774",
+      "x-rate-limit-limit": "226",
+      "x-rate-limit-reset": "77306"
+    }
+  },
+  "012300000079": {
+    "status": "name_mismatch",
+    "product_name": "Cigarettes",
+    "image_url": "https://i5.walmartimages.com/asr/c2272c63-81a3-4ee2-adee-f31b480d88db_1.2ea67139e42368e9f0e44ad234e8e951.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9773",
+      "x-rate-limit-limit": "227",
+      "x-rate-limit-reset": "77305"
+    }
+  },
+  "012300000703": {
+    "status": "found",
+    "product_name": "Camel Snus",
+    "image_url": "https://i5.walmartimages.com/asr/6cb05ef5-e645-41fb-8261-12d62bee0c08_1.eb995f79e44bfcfbf9115a851e2711cf.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012300000703.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9772",
+      "x-rate-limit-limit": "228",
+      "x-rate-limit-reset": "77305"
+    }
+  },
+  "012300000932": {
+    "status": "found",
+    "product_name": "Camel Cigarettes",
+    "image_url": "https://i5.walmartimages.com/asr/79380371-0751-49fd-a464-ed48cddd60a4_1.df7a60ff20f1c40601fd04e78f92fd11.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012300000932.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9771",
+      "x-rate-limit-limit": "229",
+      "x-rate-limit-reset": "77304"
+    }
+  },
+  "012300000949": {
+    "status": "found",
+    "product_name": "Camel Menthol Silver",
+    "image_url": "https://i5.walmartimages.com/asr/1a1a5087-5543-4e84-b786-c9ca123e3162_1.59ba2292105ad6ef21b967191019becf.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012300000949.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9770",
+      "x-rate-limit-limit": "230",
+      "x-rate-limit-reset": "77303"
+    }
+  },
+  "012300105729": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012300108744": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012300108775": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012300119801": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012300119894": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012300119924": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012300197410": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "012300200592": {
+    "status": "found",
+    "product_name": "Camel Filter Cigarettes",
+    "image_url": "https://i5.walmartimages.com/asr/1958d0be-391b-4244-a408-1c5cf480a456_1.dbca49599cceeadcd2eff74e9325be4a.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012300200592.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9763",
+      "x-rate-limit-limit": "237",
+      "x-rate-limit-reset": "77300"
+    }
+  },
+  "012300200608": {
+    "status": "found",
+    "product_name": "Camel Light 99's Single Pack",
+    "image_url": "https://i5.walmartimages.com/asr/66995f14-01f7-4ad4-a7c8-08adfca2fb7c_1.e971be9b1bf4429a1b2f8ca4e7a471cf.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012300200608.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9762",
+      "x-rate-limit-limit": "238",
+      "x-rate-limit-reset": "77300"
+    }
+  },
+  "012300327909": {
+    "status": "found",
+    "product_name": "Camel Cigarettes",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/823/139/medium/fa8556c0df0375b359260a6e09703728?1397180209",
+    "downloaded_file": "images/012300327909.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9761",
+      "x-rate-limit-limit": "239",
+      "x-rate-limit-reset": "77299"
+    }
+  },
+  "012300367462": {
+    "status": "found",
+    "product_name": "Camel.75 Off/1pack 0.000",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/506/677/w_thumb/433c4e3713fab785cf7a159009dbc425?1342748376",
+    "downloaded_file": "images/012300367462.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9760",
+      "x-rate-limit-limit": "240",
+      "x-rate-limit-reset": "75599"
+    }
+  },
+  "012300502832": {
+    "status": "found",
+    "product_name": "Camel Crush",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/506/677/w_thumb/433c4e3713fab785cf7a159009dbc425?1342748376",
+    "downloaded_file": "images/012300502832.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9759",
+      "x-rate-limit-limit": "241",
+      "x-rate-limit-reset": "75598"
+    }
+  },
+  "012300510295": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012300843911": {
+    "status": "found",
+    "product_name": "Camel Tukish Blend Cigarettes",
+    "image_url": "http://s3.amazonaws.com/buycott/images/no_image_thumbnail.png",
+    "downloaded_file": "images/012300843911.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9757",
+      "x-rate-limit-limit": "243",
+      "x-rate-limit-reset": "75597"
+    }
+  },
+  "012300844000": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "012300844178": {
+    "status": "found",
+    "product_name": "Camel Cigarettes",
+    "image_url": "http://s3.amazonaws.com/buycott/images/no_image_thumbnail.png",
+    "downloaded_file": "images/012300844178.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9756",
+      "x-rate-limit-limit": "244",
+      "x-rate-limit-reset": "75596"
+    }
+  },
+  "012300911627": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012300911658": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012354000148": {
+    "status": "found",
+    "product_name": "Lindemans Bin 90 Moscato 2009",
+    "image_url": "https://i5.walmartimages.com/asr/6f2c7eac-8106-40b4-9261-123bf94ce7e3_1.ee9960a24841aef3b8b6e3773fea9d2d.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012354000148.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9753",
+      "x-rate-limit-limit": "247",
+      "x-rate-limit-reset": "75593"
+    }
+  },
+  "012354001350": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "012354004290": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "012354005006": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012354007437": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012354016156": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012354016552": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012354081826": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012354081840": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "012354081864": {
+    "status": "found",
+    "product_name": "lindemans pinot noir 2008",
+    "image_url": "https://i5.walmartimages.com/asr/7729e9c1-5aeb-4c87-b3c1-cd0518962c06_1.7513627981e196962f935a9f9fc9b4aa.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012354081864.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9747",
+      "x-rate-limit-limit": "253",
+      "x-rate-limit-reset": "75590"
+    }
+  },
+  "012354087651": {
+    "status": "found",
+    "product_name": "Shiraz",
+    "image_url": "https://i5.walmartimages.com/asr/4f7625b7-1107-4f6c-a43c-fe062d2133a2_1.e18ea9b0565dc5c03e5461ab683e66f5.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012354087651.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9746",
+      "x-rate-limit-limit": "254",
+      "x-rate-limit-reset": "75589"
+    }
+  },
+  "012354087705": {
+    "status": "found",
+    "product_name": "Cabernet Sauvignon",
+    "image_url": "https://i5.walmartimages.com/asr/96c06138-163e-4015-a0c6-7353bdf8b60e_1.ace8443143ae29448378d08cfcd747f6.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012354087705.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9745",
+      "x-rate-limit-limit": "255",
+      "x-rate-limit-reset": "75588"
+    }
+  },
+  "012354087828": {
+    "status": "found",
+    "product_name": "Lindeman's Pinot Grigio Bin 85 750ML",
+    "image_url": "https://i5.walmartimages.com/asr/7b9ae9ce-f1c8-4ba5-91f7-7f9a669ef547_1.d2201b21c298b425960cf460855ae58d.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012354087828.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9744",
+      "x-rate-limit-limit": "256",
+      "x-rate-limit-reset": "75588"
+    }
+  },
+  "012354089990": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "012546011075": {
+    "status": "found",
+    "product_name": "Mondelez Global Trident Spearmint, 14 ct",
+    "image_url": "http://site.unbeatablesale.com/ACHR131977.JPG",
+    "downloaded_file": "images/012546011075.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9743",
+      "x-rate-limit-limit": "257",
+      "x-rate-limit-reset": "75587"
+    }
+  },
+  "012546011099": {
+    "status": "found",
+    "product_name": "Mondelez Global Trident Original, 14 ct",
+    "image_url": "https://www.quill.com/is/image/Quill/s1098944_s7",
+    "downloaded_file": "images/012546011099.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9742",
+      "x-rate-limit-limit": "258",
+      "x-rate-limit-reset": "75586"
+    }
+  },
+  "012546011112": {
+    "status": "name_mismatch",
+    "product_name": "Gum",
+    "image_url": "http://site.unbeatablesale.com/ACHR112802.JPG",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9741",
+      "x-rate-limit-limit": "259",
+      "x-rate-limit-reset": "75583"
+    }
+  },
+  "012546011136": {
+    "status": "found",
+    "product_name": "Trident 9126871 Sugar Free Watermelon Twist Chewing Gum - 14 Piece Pack of 12",
+    "image_url": "http://site.unbeatablesale.com/ACHR112803.JPG",
+    "downloaded_file": "images/012546011136.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9740",
+      "x-rate-limit-limit": "260",
+      "x-rate-limit-reset": "75583"
+    }
+  },
+  "012546011495": {
+    "status": "found",
+    "product_name": "Mondelez Global Trident Mint Bliss, 14 ct",
+    "image_url": "https://www.officedepot.com/pictures/us/od/sk/lg/7230057_sk_lg.jpg",
+    "downloaded_file": "images/012546011495.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9739",
+      "x-rate-limit-limit": "261",
+      "x-rate-limit-reset": "75582"
+    }
+  },
+  "012546312417": {
+    "status": "found",
+    "product_name": "Dentyne Ice Gum",
+    "image_url": "https://i5.walmartimages.com/asr/21e54a39-7f8b-4295-94ef-4172ddbf19e1_1.e75efca6ff0741bb8ce7c0c1da40de50.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012546312417.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9738",
+      "x-rate-limit-limit": "262",
+      "x-rate-limit-reset": "75581"
+    }
+  },
+  "012546312554": {
+    "status": "found",
+    "product_name": "Dentyne Ice Gum",
+    "image_url": "https://i5.walmartimages.com/asr/363bd357-c948-4e93-8fa9-a62a616598b6_1.2400b6048f511924cebb4e81193e63b1.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012546312554.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9737",
+      "x-rate-limit-limit": "263",
+      "x-rate-limit-reset": "75580"
+    }
+  },
+  "012546315098": {
+    "status": "found",
+    "product_name": "Dentyne - Chewing gum Dentyne cannelle puissante\u00a0: \u00ab\u00a0Dentyne fire cinnamon chewing gum\u00a0\u00bb",
+    "image_url": "https://i5.walmartimages.com/asr/49420003-5e95-48a8-be1c-00e843c5380d_2.b4605ff92e2f3b097d0796bd16c93162.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012546315098.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9736",
+      "x-rate-limit-limit": "264",
+      "x-rate-limit-reset": "75580"
+    }
+  },
+  "012584000031": {
+    "status": "found",
+    "product_name": "oliver soft white wine",
+    "image_url": "https://i5.walmartimages.com/asr/077b3ae7-ce32-425a-a26b-479d6b592945_1.94aec1e96cab0f14dbb17ef29d7ac39d.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012584000031.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9735",
+      "x-rate-limit-limit": "265",
+      "x-rate-limit-reset": "75579"
+    }
+  },
+  "012584000079": {
+    "status": "found",
+    "product_name": "Oliver Red Wine",
+    "image_url": "https://i5.walmartimages.com/asr/5b583a66-4ee7-4843-8158-a0b0fad73b24_1.b6f2cc6243a056d4aefa5d5bdd5c9b92.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012584000079.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9734",
+      "x-rate-limit-limit": "266",
+      "x-rate-limit-reset": "75578"
+    }
+  },
+  "012584000192": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012584000208": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012584000239": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012584320108": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012584320207": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012584320306": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012587000700": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "012587787427": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "012587788363": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "012700155201": {
+    "status": "found",
+    "product_name": "Skinner Macaroni Twirls 12 Oz Bag",
+    "image_url": "https://i5.walmartimages.com/asr/33d1f6fb-7a29-44fc-9fba-4a93cc391080_1.473d5acdf5d6956cfd698a3483e5be81.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/012700155201.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9725",
+      "x-rate-limit-limit": "275",
+      "x-rate-limit-reset": "75574"
+    }
+  },
+  "013000001137": {
+    "status": "found",
+    "product_name": "Heinz Cocktail Sauce",
+    "image_url": "http://c.shld.net/rpx/i/s/i/spin/10127449/prod_ec_2020569302",
+    "downloaded_file": "images/013000001137.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9724",
+      "x-rate-limit-limit": "276",
+      "x-rate-limit-reset": "75574"
+    }
+  },
+  "013000001380": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "013000002820": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "013000006408": {
+    "status": "found",
+    "product_name": "Heinz Tomato Ketchup - 1 Bottle (20 Oz)",
+    "image_url": "https://i5.walmartimages.com/asr/90d44a18-fbe5-4579-afa9-1abbfd5ea1fb_1.b17069bdf380cca7a825020eac0179c4.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/013000006408.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9723",
+      "x-rate-limit-limit": "277",
+      "x-rate-limit-reset": "75572"
+    }
+  },
+  "013000008143": {
+    "status": "found",
+    "product_name": "Heinz Apple Cider Vinegar",
+    "image_url": "https://i5.walmartimages.com/asr/ad795ac5-8ba3-4209-94c4-3a572f10c2e4_1.621d1ad2f74e3e4c8c9185c0e002690e.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/013000008143.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9722",
+      "x-rate-limit-limit": "278",
+      "x-rate-limit-reset": "75572"
+    }
+  },
+  "013300280645": {
+    "status": "name_mismatch",
+    "product_name": "Hungry Jacks",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/003/174/001/w_thumb/99bffad86dd0f6b196d7e93ac3503c3b?1706252141",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9721",
+      "x-rate-limit-limit": "279",
+      "x-rate-limit-reset": "75571"
+    }
+  },
+  "013300541333": {
+    "status": "found",
+    "product_name": "Martha White: Gladiola White Cornbread Mix, 6 oz",
+    "image_url": "https://i5.walmartimages.com/asr/a1679806-252c-41a5-8707-afac837dc899_1.51a1fb1f5f6c4be600b04a7ef7985689.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/013300541333.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9720",
+      "x-rate-limit-limit": "280",
+      "x-rate-limit-reset": "75570"
+    }
+  },
+  "013300543337": {
+    "status": "found",
+    "product_name": "Martha White: Gladiola Yellow Cornbread Mix, 6 oz",
+    "image_url": "https://i5.walmartimages.com/asr/a392e265-cdcf-4d81-8818-d6fc6e991633_1.3c5dc25e9eb1e6122acf5d99d739ca9a.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/013300543337.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9719",
+      "x-rate-limit-limit": "281",
+      "x-rate-limit-reset": "75570"
+    }
+  },
+  "013300573341": {
+    "status": "found",
+    "product_name": "Gladiola Sweet Yellow Cornbread Mix",
+    "image_url": "https://i5.walmartimages.com/asr/b748b880-c191-4185-9c63-023532873739_1.ba83bd2f94e1afac1c11850c9b960870.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/013300573341.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9718",
+      "x-rate-limit-limit": "282",
+      "x-rate-limit-reset": "75569"
+    }
+  },
+  "013409516867": {
+    "status": "name_mismatch",
+    "product_name": "Hot Sause",
+    "image_url": "http://s3.amazonaws.com/buycott/images/no_image_thumbnail.png",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9717",
+      "x-rate-limit-limit": "283",
+      "x-rate-limit-reset": "75568"
+    }
+  },
+  "013631003845": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "013631006617": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "013631006631": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "013631006655": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "013631006679": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "013700141768": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "013700203008": {
+    "status": "found",
+    "product_name": "Hefty Disposable Party Cups, 30 count, 2 oz, Red",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/555/396/w_thumb/ff2cc81a1cde572b509be1575eae02d8?1364446090",
+    "downloaded_file": "images/013700203008.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9710",
+      "x-rate-limit-limit": "290",
+      "x-rate-limit-reset": "75565"
+    }
+  },
+  "014113911856": {
+    "status": "found",
+    "product_name": "Wonderful Pistachios",
+    "image_url": "https://i5.walmartimages.com/asr/c347546a-fbf1-4e0f-ba5b-93b46cadda2a_1.160a558a42b2e58e5680dc259c93c993.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/014113911856.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9709",
+      "x-rate-limit-limit": "291",
+      "x-rate-limit-reset": "75565"
+    }
+  },
+  "014200000692": {
+    "status": "found",
+    "product_name": "Charms Blow Pop Cherry",
+    "image_url": "https://i5.walmartimages.com/asr/ef7d56b2-be6a-48ee-a460-228146ef3a3e_1.34c50e9f5fbfe95724590cbc44eb2a88.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/014200000692.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9708",
+      "x-rate-limit-limit": "292",
+      "x-rate-limit-reset": "75539"
+    }
+  },
+  "014200004409": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  "014200306282": {
+    "status": "found",
+    "product_name": "Parade Cotton Candy, 8-2oz. Tubs",
+    "image_url": "https://i5.walmartimages.com/asr/ad64b8ee-c0f5-4d77-8927-b7ebe887f8d2_1.9a825902ec7ebe98543ff9b4113ab9ce.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/014200306282.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9706",
+      "x-rate-limit-limit": "294",
+      "x-rate-limit-reset": "75538"
+    }
+  },
+  "014200612208": {
+    "status": "found",
+    "product_name": "Charms Compan PARADE COTTON CNDY",
+    "image_url": "http://s3.amazonaws.com/buycott/images/no_image_thumbnail.png",
+    "downloaded_file": "images/014200612208.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9705",
+      "x-rate-limit-limit": "295",
+      "x-rate-limit-reset": "75537"
+    }
+  },
+  "014800003819": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "014800006704": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "014800103274": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "014800316650": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "014800511345": {
+    "status": "found",
+    "product_name": "Mott's Inc. Cocktail Drink Mixes Mott's 1 Liter in Plastic Jar",
+    "image_url": "https://i5.walmartimages.com/asr/21cd69d1-eee8-4d2d-892f-6b57e432d73b_1.a0a94560797ab08123ebe82c4e5be617.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/014800511345.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9701",
+      "x-rate-limit-limit": "299",
+      "x-rate-limit-reset": "75535"
+    }
+  },
+  "014800511758": {
+    "status": "found",
+    "product_name": "Mott's Clamato Juice Glass",
+    "image_url": "https://i5.walmartimages.com/asr/cadf02a6-9f54-4877-9caa-87d1d89fd7d4_2.9013e7c9fff1620bc41b65ef25c6e5e7.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/014800511758.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9700",
+      "x-rate-limit-limit": "300",
+      "x-rate-limit-reset": "75534"
+    }
+  },
+  "014800512748": {
+    "status": "found",
+    "product_name": "MOTTS CLAMATO PICANTE JCE",
+    "image_url": "https://i5.walmartimages.com/asr/a81b1cdc-d80a-4576-8715-33cb06a6d8fb_1.acc9298ad0945daa3cf330bf5380170f.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/014800512748.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9699",
+      "x-rate-limit-limit": "301",
+      "x-rate-limit-reset": "75534"
+    }
+  },
+  "014800512755": {
+    "status": "found",
+    "product_name": "Motts Clamato Picante",
+    "image_url": "https://images10.newegg.com/ProductImageCompressAll200/A62V_1_20160406661611389.jpg",
+    "downloaded_file": "images/014800512755.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9698",
+      "x-rate-limit-limit": "302",
+      "x-rate-limit-reset": "75533"
+    }
+  },
+  "014800512762": {
+    "status": "found",
+    "product_name": "Clamato Tomato Cocktail",
+    "image_url": "https://i5.walmartimages.com/asr/151f1178-a74a-4a66-bad8-4b5a8e908bc4_1.bc089806ec81de047ad6b8cc6e773a8c.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "downloaded_file": "images/014800512762.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9697",
+      "x-rate-limit-limit": "303",
+      "x-rate-limit-reset": "75532"
+    }
+  },
+  "014800513240": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "014800516470": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "014800582024": {
+    "status": "found",
+    "product_name": "Lime Juice",
+    "image_url": "https://i5.walmartimages.com/asr/4ebce7d9-1843-4fdf-9c14-9298adbc2a6e_1.e89184c74e5509add121b22831187382.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/014800582024.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9696",
+      "x-rate-limit-limit": "304",
+      "x-rate-limit-reset": "75531"
+    }
+  },
+  "014800582048": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  "014800582055": {
+    "status": "name_mismatch",
+    "product_name": "Real Lime 100 LIME JUICE",
+    "image_url": "http://img1.r10.io/PIC/72160609/0/1/250/72160609.jpg",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9694",
+      "x-rate-limit-limit": "306",
+      "x-rate-limit-reset": "75530"
+    }
+  },
+  "014800582178": {
+    "status": "found",
+    "product_name": "ReaLemon 100% Lemon Juice from Concentrate, 4.5-Ounce Squeeze Bottles (Pack of 24)",
+    "image_url": "https://i5.walmartimages.com/asr/e7c11283-dff2-423a-9517-655aad572b5b_1.296c39ed48e1fb552be5403cec92c73e.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/014800582178.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9693",
+      "x-rate-limit-limit": "307",
+      "x-rate-limit-reset": "75530"
+    }
+  },
+  "014800582215": {
+    "status": "found",
+    "product_name": "Realemon 100 Percent Lemon Juice From Concentrate (case Of 12)",
+    "image_url": "https://i5.walmartimages.com/asr/eb84a333-3635-41fb-b37d-d6298741b566_1.750715923a8eb6d4480a870642841aa4.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/014800582215.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9692",
+      "x-rate-limit-limit": "308",
+      "x-rate-limit-reset": "75529"
+    }
+  },
+  "014800582239": {
+    "status": "found",
+    "product_name": "Realemon 100% Lemon Juice From Concentrate, 15-ounce Squeeze Bottles (pack Of 6)",
+    "image_url": "https://i5.walmartimages.com/asr/970ff170-2686-4083-97d2-592b034f893a_1.f688f66fe61a5574f1240c711867bb65.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/014800582239.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9691",
+      "x-rate-limit-limit": "309",
+      "x-rate-limit-reset": "75528"
+    }
+  },
+  "014800582284": {
+    "status": "name_mismatch",
+    "product_name": "Lemon Juice",
+    "image_url": "http://d3-pub.bizrate.com/image/obj/2378576270;sq=400",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9690",
+      "x-rate-limit-limit": "310",
+      "x-rate-limit-reset": "75527"
+    }
+  },
+  "014900012704": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  "014900013909": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  "014900022703": {
+    "status": "name_mismatch",
+    "product_name": "Wolf Chili",
+    "image_url": "http://images.jet.com/md5/3d89efa7467548301362c95a4d99041c.500",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9687",
+      "x-rate-limit-limit": "313",
+      "x-rate-limit-reset": "75526"
+    }
+  },
+  "014900363219": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  "014900442037": {
+    "status": "name_mismatch",
+    "product_name": "Wolf Brand Chili",
+    "image_url": "http://d1-pub.bizrate.com/image/obj/7188190752;sq=400",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9685",
+      "x-rate-limit-limit": "315",
+      "x-rate-limit-reset": "75521"
+    }
+  },
+  "015834002038": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "015834002533": {
+    "status": "name_mismatch",
+    "product_name": "Texas Bluebonnet 2 Percent reduced Milk",
+    "image_url": "http://s3.amazonaws.com/buycott/images/no_image_thumbnail.png",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9683",
+      "x-rate-limit-limit": "317",
+      "x-rate-limit-reset": "75520"
+    }
+  },
+  "015900000234": {
+    "status": "found",
+    "product_name": "Bar S Bologna",
+    "image_url": "https://i5.walmartimages.com/asr/fc412ffa-6c85-42a7-b24e-6f174956112d_1.47bc8f2894f1d836edbb1bdea2662f61.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/015900000234.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9682",
+      "x-rate-limit-limit": "318",
+      "x-rate-limit-reset": "75519"
+    }
+  },
+  "015900000289": {
+    "status": "found",
+    "product_name": "Bar-S Thick Bolo 028",
+    "image_url": "https://i5.walmartimages.com/asr/d2ddaf53-1b11-4612-9a14-3a6ae5cd5afc_1.9d1ca942b3dd927a33ce4b8841bb2a67.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/015900000289.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9681",
+      "x-rate-limit-limit": "319",
+      "x-rate-limit-reset": "75519"
+    }
+  },
+  "015900000425": {
+    "status": "found",
+    "product_name": "Bar S Bologna",
+    "image_url": "https://i5.walmartimages.com/asr/ed509762-ab43-42fa-9525-516c8ae301c2_1.e0f168c2862e3725efd17aec9a2c26cd.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/015900000425.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9680",
+      "x-rate-limit-limit": "320",
+      "x-rate-limit-reset": "75518"
+    }
+  },
+  "015900000432": {
+    "status": "name_mismatch",
+    "product_name": "Bar-S Meat Bol",
+    "image_url": "https://i5.walmartimages.com/asr/7a5b3b86-8d27-4aaa-acb1-7fac3e24e79b_1.88e887d0a32b9471291a23f4745e6afc.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9679",
+      "x-rate-limit-limit": "321",
+      "x-rate-limit-reset": "75518"
+    }
+  },
+  "015900002092": {
+    "status": "found",
+    "product_name": "Bar S Franks",
+    "image_url": "https://i5.walmartimages.com/asr/17250e30-7b6f-47c1-bab0-53d8f5da090f_1.c8125255ead2bd0a921fa3109b262ce8.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/015900002092.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9678",
+      "x-rate-limit-limit": "322",
+      "x-rate-limit-reset": "75517"
+    }
+  },
+  "015900063352": {
+    "status": "name_mismatch",
+    "product_name": "Turkey breast",
+    "image_url": "https://i5.walmartimages.com/asr/94e48c6e-4c36-42ca-b38a-b366f197d48b_1.b45400b7e897a4c885b43eb974f12b67.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9677",
+      "x-rate-limit-limit": "323",
+      "x-rate-limit-reset": "75517"
+    }
+  },
+  "015900063390": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "015900134014": {
+    "status": "found",
+    "product_name": "Bar-S Franks Meat",
+    "image_url": "https://i5.walmartimages.com/asr/efb991d9-a5f5-4dab-b794-6d0d05788f22_1.31215a8f550c22d79cd43ea54b355553.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/015900134014.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9676",
+      "x-rate-limit-limit": "324",
+      "x-rate-limit-reset": "75516"
+    }
+  },
+  "015900190744": {
+    "status": "name_mismatch",
+    "product_name": "Bar-S Honey Ham",
+    "image_url": "https://i5.walmartimages.com/asr/774a24e5-dcb5-4808-bfe2-6eaa7b4356b5_1.9714082d4af57d007aaee6da4ebfcf7f.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9675",
+      "x-rate-limit-limit": "325",
+      "x-rate-limit-reset": "75515"
+    }
+  },
+  "015900190751": {
+    "status": "name_mismatch",
+    "product_name": "Bar-S Sli Ckd 4X6 Ham75",
+    "image_url": "https://i5.walmartimages.com/asr/b57dd631-e080-46f3-834e-f990ab6ea28d_1.597cf09f07dfd50e2ba6bba72a56e0c1.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9674",
+      "x-rate-limit-limit": "326",
+      "x-rate-limit-reset": "75515"
+    }
+  },
+  "016000107106": {
+    "status": "found",
+    "product_name": "Gold Medal Flour 2lb",
+    "image_url": "https://i5.walmartimages.com/asr/aca40cbe-bfca-4af3-b8d7-a5560e70a1fd_1.6a876a86bfbe1fc82f14e534fdd2a062.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/016000107106.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9673",
+      "x-rate-limit-limit": "327",
+      "x-rate-limit-reset": "73799"
+    }
+  },
+  "016000118553": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "016000122222": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  "016000122543": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  "016000124790": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "016000126060": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "016000126077": {
+    "status": "found",
+    "product_name": "Chex Mix, Bold Party Blend",
+    "image_url": "https://i5.walmartimages.com/asr/8a3ce345-c037-47da-8a1d-5cec5ef0db00_1.f2bca08d22d2c63b3dc16f62954ba8a2.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/016000126077.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9669",
+      "x-rate-limit-limit": "331",
+      "x-rate-limit-reset": "73797"
+    }
+  },
+  "016000136090": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "016000141544": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  "016000141551": {
+    "status": "name_mismatch",
+    "product_name": "Cereal",
+    "image_url": "http://c.shld.net/rpx/i/s/i/spin/10127449/prod_ec_2076775702",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9667",
+      "x-rate-limit-limit": "333",
+      "x-rate-limit-reset": "73796"
+    }
+  },
+  "016000141568": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  "016000151635": {
+    "status": "found",
+    "product_name": "Cookie Crisp",
+    "image_url": "https://www.cvs.com/bizcontent/merchandising/productimages/large/1600027517.jpg",
+    "downloaded_file": "images/016000151635.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9665",
+      "x-rate-limit-limit": "335",
+      "x-rate-limit-reset": "73795"
+    }
+  },
+  "016000160101": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  "016000166196": {
+    "status": "found",
+    "product_name": "Gardetto's Original Recipe",
+    "image_url": "https://i5.walmartimages.com/asr/4e41b8c8-e03b-499d-a565-9baa026f32f0_1.32cdeb745332dd2e8ac998f460275a27.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/016000166196.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9663",
+      "x-rate-limit-limit": "337",
+      "x-rate-limit-reset": "73793"
+    }
+  },
+  "016000167490": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "016000170322": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "016000180932": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "016000196131": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "016000264694": {
+    "status": "found",
+    "product_name": "Oats n Honey granola bars",
+    "image_url": "https://images10.newegg.com/ProductImageCompressAll200/AAU9_1_201710021860902705.jpg",
+    "downloaded_file": "images/016000264694.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9659",
+      "x-rate-limit-limit": "341",
+      "x-rate-limit-reset": "73791"
+    }
+  },
+  "016000368309": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  "016000439894": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  "016000442818": {
+    "status": "name_mismatch",
+    "product_name": "Granola Bars",
+    "image_url": "http://d4-pub.bizrate.com/image/obj/1975071423;sq=400",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9656",
+      "x-rate-limit-limit": "344",
+      "x-rate-limit-reset": "73784"
+    }
+  },
+  "016000504257": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "016000507043": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  "016000507326": {
+    "status": "found",
+    "product_name": "Muddy Buddies",
+    "image_url": "https://i5.walmartimages.com/asr/fe44e99f-fdad-42c3-9c23-ea66139244d2_1.2e28534da0a8cfcf4677f15c930f988d.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/016000507326.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9653",
+      "x-rate-limit-limit": "347",
+      "x-rate-limit-reset": "73778"
+    }
+  },
+  "016000507661": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  "016000512580": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "016000513792": {
+    "status": "found",
+    "product_name": "Bugles Corn Snacks",
+    "image_url": "https://i5.walmartimages.com/asr/8dd607ed-fcbe-4bf0-ba4d-f41b93ace462_1.09cc06b39487b3cf55fa8eac76e0e116.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/016000513792.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9651",
+      "x-rate-limit-limit": "349",
+      "x-rate-limit-reset": "73772"
+    }
+  },
+  "016000714328": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "016229901141": {
+    "status": "found",
+    "product_name": "Foco Juice Coconut 11.8 oz",
+    "image_url": "https://i5.walmartimages.com/asr/1ce703aa-2f4f-412f-81f3-b8fd967ec59f_1.b9ec32b236a99c4e6a5f034d9deba13d.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/016229901141.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9649",
+      "x-rate-limit-limit": "351",
+      "x-rate-limit-reset": "73771"
+    }
+  },
+  "016229901479": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  "016300220055": {
+    "status": "found",
+    "product_name": "TEXsun 100% Orange Juice from Concentrate, 48 fl oz",
+    "image_url": "https://i5.walmartimages.com/asr/b1702f2b-a9be-4d16-96ce-7d4eba129ebe_1.7f83e783a06979c674a2c0b72b420460.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/016300220055.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9647",
+      "x-rate-limit-limit": "353",
+      "x-rate-limit-reset": "73769"
+    }
+  },
+  "016300220062": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "016600000043": {
+    "status": "found",
+    "product_name": "sweetened lime juice",
+    "image_url": "http://site.unbeatablesale.com/EB296/kehe27741.gif",
+    "downloaded_file": "images/016600000043.gif",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9645",
+      "x-rate-limit-limit": "355",
+      "x-rate-limit-reset": "73768"
+    }
+  },
+  "016600000050": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "016600001422": {
+    "status": "found",
+    "product_name": "Simple Syrup",
+    "image_url": "http://s3.amazonaws.com/buycott/images/no_image_thumbnail.png",
+    "downloaded_file": "images/016600001422.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9644",
+      "x-rate-limit-limit": "356",
+      "x-rate-limit-reset": "73767"
+    }
+  },
+  "016600001880": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "016600001903": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "016600001927": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "016757642752": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "016757645852": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "017000013237": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  "017000121581": {
+    "status": "found",
+    "product_name": "Dial Hand Soap",
+    "image_url": "http://s3images.shopletcdn.com/productimages/500x500/255079.JPG",
+    "downloaded_file": "images/017000121581.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9638",
+      "x-rate-limit-limit": "362",
+      "x-rate-limit-reset": "73765"
+    }
+  },
+  "017000187556": {
+    "status": "name_mismatch",
+    "product_name": "Dial Complete 2 in 1 Moisturizing & Antibacterial Beauty Bar - 3.2 oz. x 3 pack",
+    "image_url": "https://pics.drugstore.com/prodimg/616265/450.jpg",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9637",
+      "x-rate-limit-limit": "363",
+      "x-rate-limit-reset": "73764"
+    }
+  },
+  "017000190877": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "017082005380": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "017082010933": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "017082460714": {
+    "status": "found",
+    "product_name": "Beef Steak Tender Bites",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/563/149/w_thumb/6805e0d0039397279bdf7bdaa80a43e3?1365792835",
+    "downloaded_file": "images/017082460714.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9634",
+      "x-rate-limit-limit": "366",
+      "x-rate-limit-reset": "73762"
+    }
+  },
+  "017082600035": {
+    "status": "found",
+    "product_name": "Jack Links Jumbo Steak Original 2 Oz Pack Of 12",
+    "image_url": "https://i5.walmartimages.com/asr/b7e89664-f1ed-42dd-ab19-ff12fdab0c94_1.62cc8cce0ac1c000036f8949fd50812d.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/017082600035.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9633",
+      "x-rate-limit-limit": "367",
+      "x-rate-limit-reset": "73762"
+    }
+  },
+  "017082600134": {
+    "status": "found",
+    "product_name": "Jack Link Jumbo Spicy Beef",
+    "image_url": "https://i5.walmartimages.com/asr/ddbda0c6-7406-45b5-915b-daef817cd464_1.43a9c7134c8dc7dd58e0be9d56a60a41.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/017082600134.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9632",
+      "x-rate-limit-limit": "368",
+      "x-rate-limit-reset": "73761"
+    }
+  },
+  "017082600233": {
+    "status": "found",
+    "product_name": "Beef Steak",
+    "image_url": "https://i5.walmartimages.com/asr/c2f73701-50f0-403d-80be-a6c67e0a3b7b_1.df590ae55a302f346577079025219916.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/017082600233.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9631",
+      "x-rate-limit-limit": "369",
+      "x-rate-limit-reset": "73761"
+    }
+  },
+  "017082873514": {
+    "status": "found",
+    "product_name": "Jack Links Original Tender Style Beef Steak",
+    "image_url": "https://i5.walmartimages.com/asr/651c731e-a458-45c5-a395-cbcda6242a0e_1.0fd6bce1f1e681125a137efc1d57bf2f.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/017082873514.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9630",
+      "x-rate-limit-limit": "370",
+      "x-rate-limit-reset": "73760"
+    }
+  },
+  "017082876300": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "017082876348": {
+    "status": "found",
+    "product_name": "Jack Links Beef Jerky, Steakhouse, 2.85 Ounce (pack of 4)",
+    "image_url": "https://i5.walmartimages.com/asr/85dff200-8c71-4766-9911-1ba5baea7b29_1.55627af8a24b9ca8fadcc0575f4152bf.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/017082876348.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9629",
+      "x-rate-limit-limit": "371",
+      "x-rate-limit-reset": "73759"
+    }
+  },
+  "017082877444": {
+    "status": "found",
+    "product_name": "Jack Links BEEF JERKY SWEET&HOT",
+    "image_url": "http://site.unbeatablesale.com/ACHW55562.JPG",
+    "downloaded_file": "images/017082877444.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9628",
+      "x-rate-limit-limit": "372",
+      "x-rate-limit-reset": "73758"
+    }
+  },
+  "017082877451": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "017082877475": {
+    "status": "found",
+    "product_name": "1.25OZ Pepp Beef Jerky, Pack of 10",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/002/902/721/original/c261805565bda99885cff02fb462fbd7?1496083833",
+    "downloaded_file": "images/017082877475.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9626",
+      "x-rate-limit-limit": "374",
+      "x-rate-limit-reset": "73757"
+    }
+  },
+  "017082877499": {
+    "status": "name_mismatch",
+    "product_name": "Jack Links 1.25OZ Teriy Beef Jerky, Pack of 10",
+    "image_url": "https://d2pbmlo3fglvvr.cloudfront.net/product/full/Z1o81ylcpEx_.JPG",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9625",
+      "x-rate-limit-limit": "375",
+      "x-rate-limit-reset": "73756"
+    }
+  },
+  "017082877581": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "017082883872": {
+    "status": "found",
+    "product_name": "Bacon Jerky",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/563/149/w_thumb/6805e0d0039397279bdf7bdaa80a43e3?1365792835",
+    "downloaded_file": "images/017082883872.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9623",
+      "x-rate-limit-limit": "377",
+      "x-rate-limit-reset": "73756"
+    }
+  },
+  "017082883889": {
+    "status": "found",
+    "product_name": "Jack Links Jack Link Beef Jerky, Sweet/Hot, 3.25 oz",
+    "image_url": "http://s3.amazonaws.com/buycott/images/no_image_thumbnail.png",
+    "downloaded_file": "images/017082883889.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9622",
+      "x-rate-limit-limit": "378",
+      "x-rate-limit-reset": "73739"
+    }
+  },
+  "017082883896": {
+    "status": "found",
+    "product_name": "Jack Links Jack Link Beef Jerky, Teriyaki, 3.25 oz",
+    "image_url": "http://s3.amazonaws.com/buycott/images/no_image_thumbnail.png",
+    "downloaded_file": "images/017082883896.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9621",
+      "x-rate-limit-limit": "379",
+      "x-rate-limit-reset": "73738"
+    }
+  },
+  "017082883902": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "017082883919": {
+    "status": "found",
+    "product_name": "Jack Links Jack Link Beef Jerky, Original, 3.25 oz",
+    "image_url": "http://s3.amazonaws.com/buycott/images/no_image_thumbnail.png",
+    "downloaded_file": "images/017082883919.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9619",
+      "x-rate-limit-limit": "381",
+      "x-rate-limit-reset": "73737"
+    }
+  },
+  "017082883926": {
+    "status": "name_mismatch",
+    "product_name": "Jack Links Meat Snacks",
+    "image_url": "http://s3.amazonaws.com/buycott/images/no_image_thumbnail.png",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9618",
+      "x-rate-limit-limit": "382",
+      "x-rate-limit-reset": "73737"
+    }
+  },
+  "017082885852": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "017082886750": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "017082887078": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "017082888693": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "017082889638": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "017082889690": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "017082890412": {
+    "status": "found",
+    "product_name": "Jack Links Beef Stick Original",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/563/149/w_thumb/6805e0d0039397279bdf7bdaa80a43e3?1365792835",
+    "downloaded_file": "images/017082890412.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9613",
+      "x-rate-limit-limit": "387",
+      "x-rate-limit-reset": "73734"
+    }
+  },
+  "017224560128": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "017224710011": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "017224710202": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "017224710226": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "017224712107": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP Error 410: Gone"
+  },
+  "017224720102": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "017224750123": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "017400105501": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "017800150149": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "017800178365": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "017800404006": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "017800410274": {
+    "status": "name_mismatch",
+    "product_name": "Purina Dog Chow Dry Dog Food, Complete Adult, 4.4-Pound bag, Pack of 3",
+    "image_url": "http://images10.newegg.com/ProductImageCompressAll200/A14R_1_201706131474865699.jpg",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9601",
+      "x-rate-limit-limit": "399",
+      "x-rate-limit-reset": "73729"
+    }
+  },
+  "018000001873": {
+    "status": "found",
+    "product_name": "Biscuits",
+    "image_url": "https://i5.walmartimages.com/asr/d9716f09-e9a5-4244-bea0-98c405c672f0_1.de387ab0b7c2f68025d2b1e4d9b90822.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018000001873.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9600",
+      "x-rate-limit-limit": "400",
+      "x-rate-limit-reset": "73728"
+    }
+  },
+  "018000001880": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "018000002610": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "018000004010": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "018000004157": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  "018000005017": {
+    "status": "found",
+    "product_name": "Pillsbury Cinnamon Rolls",
+    "image_url": "https://i5.walmartimages.com/asr/f3686970-3b8b-443f-afeb-febc6ee39124_1.eba9e9072f4f5f44ddc444bc68a9f3f6.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018000005017.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9598",
+      "x-rate-limit-limit": "402",
+      "x-rate-limit-reset": "73727"
+    }
+  },
+  "018000005123": {
+    "status": "found",
+    "product_name": "Pillsbury Cinnamon Rolls",
+    "image_url": "https://i5.walmartimages.com/asr/658b9d16-4345-4b47-9695-2b8a330f8edd_1.cbba0fb7a1b7480c5aa4b981af4ed554.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018000005123.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9597",
+      "x-rate-limit-limit": "403",
+      "x-rate-limit-reset": "73726"
+    }
+  },
+  "018200000164": {
+    "status": "found",
+    "product_name": "Budweiser Beer",
+    "image_url": "https://i5.walmartimages.com/asr/d09dd3bd-fa6f-4d74-9ac2-b3968fa538fb_1.3cda4ce12688c2dd7599ef7c8d90cb98.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200000164.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9596",
+      "x-rate-limit-limit": "404",
+      "x-rate-limit-reset": "73726"
+    }
+  },
+  "018200000188": {
+    "status": "found",
+    "product_name": "Budweiser Beer",
+    "image_url": "https://i5.walmartimages.com/asr/f582d4b6-059d-4a10-9daa-8656151ec600_1.ce463b2ec34fd335e1bfdc9df5c4d85f.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200000188.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9595",
+      "x-rate-limit-limit": "405",
+      "x-rate-limit-reset": "73725"
+    }
+  },
+  "018200000331": {
+    "status": "found",
+    "product_name": "Beer Ziegen Boch",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/547/430/w_thumb/df657f3184edfcc82f78adc0f2dc516e?1343293226",
+    "downloaded_file": "images/018200000331.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9594",
+      "x-rate-limit-limit": "406",
+      "x-rate-limit-reset": "73725"
+    }
+  },
+  "018200000430": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "018200000638": {
+    "status": "found",
+    "product_name": "Busch Beer",
+    "image_url": "https://i5.walmartimages.com/asr/6ab912bb-cca5-4bd3-9e17-ac2f72dea97f_1.1e75c95c314fbf7c7327829c5ccea0ab.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200000638.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9593",
+      "x-rate-limit-limit": "407",
+      "x-rate-limit-reset": "73724"
+    }
+  },
+  "018200001062": {
+    "status": "found",
+    "product_name": "Bud Light Beer",
+    "image_url": "https://i5.walmartimages.com/asr/11803851-ca5d-4505-929d-e4101569da12_1.7d98d3b5fc93ecd8335af3227498720c.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200001062.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9592",
+      "x-rate-limit-limit": "408",
+      "x-rate-limit-reset": "73723"
+    }
+  },
+  "018200001154": {
+    "status": "found",
+    "product_name": "Bud Light Beer",
+    "image_url": "https://i5.walmartimages.com/asr/11e9ca5b-2dfc-4753-9c2b-28a43693558d_1.1081acb543fa8609b64799b4ef1106e7.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200001154.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9591",
+      "x-rate-limit-limit": "409",
+      "x-rate-limit-reset": "73723"
+    }
+  },
+  "018200001178": {
+    "status": "found",
+    "product_name": "Bud Light Beer",
+    "image_url": "https://i5.walmartimages.com/asr/d90d9be6-5909-425f-a106-86012153091e_1.18e7694364042e90769236c6f970eadb.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200001178.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9590",
+      "x-rate-limit-limit": "410",
+      "x-rate-limit-reset": "73722"
+    }
+  },
+  "018200001581": {
+    "status": "found",
+    "product_name": "180 Energy Drink",
+    "image_url": "http://s3.amazonaws.com/buycott/images/app/product_placeholder.png",
+    "downloaded_file": "images/018200001581.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9589",
+      "x-rate-limit-limit": "411",
+      "x-rate-limit-reset": "71999"
+    }
+  },
+  "018200001680": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "018200001697": {
+    "status": "found",
+    "product_name": "Bud Light Beer",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/818/667/medium/78adbd815c94fb8622036f85dcf4d8af?1397157340",
+    "downloaded_file": "images/018200001697.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9588",
+      "x-rate-limit-limit": "412",
+      "x-rate-limit-reset": "71998"
+    }
+  },
+  "018200001789": {
+    "status": "found",
+    "product_name": "Bud Light Beer",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/732/135/medium/1ee3f2a0e9467438e482bf90dd2dc6f2?1390565334",
+    "downloaded_file": "images/018200001789.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9587",
+      "x-rate-limit-limit": "413",
+      "x-rate-limit-reset": "71998"
+    }
+  },
+  "018200002304": {
+    "status": "found",
+    "product_name": "Chelada Flavored Beer",
+    "image_url": "https://i5.walmartimages.com/asr/ecae4f30-acc8-46be-9869-10984fd9f048_1.9c6719191343e721ba03f2763d0c16d5.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200002304.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9586",
+      "x-rate-limit-limit": "414",
+      "x-rate-limit-reset": "71997"
+    }
+  },
+  "018200002434": {
+    "status": "name_mismatch",
+    "product_name": "Anheuser-Busch, Inc. Bud Light American Pint 16oz",
+    "image_url": "https://i5.walmartimages.com/asr/ed68f926-9cc9-44f4-951d-8d691986d2eb_1.438aae2f8e3f63d4161e249d8e94894b.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9585",
+      "x-rate-limit-limit": "415",
+      "x-rate-limit-reset": "71996"
+    }
+  },
+  "018200002441": {
+    "status": "found",
+    "product_name": "40 oz Bud Ice",
+    "image_url": "https://i5.walmartimages.com/asr/3c09cd9c-1e72-40b6-a1b8-c7eba2876f49_1.d64de8eafeeaf6ef7a124268ca3fcf88.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200002441.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9584",
+      "x-rate-limit-limit": "416",
+      "x-rate-limit-reset": "71996"
+    }
+  },
+  "018200002724": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200003325": {
+    "status": "found",
+    "product_name": "Michelob Ultra Beer 12 Fl Oz Glass Bottle",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/830/776/medium/cab3b34885c5d9dc0ef563c665a7dab1?1397354333",
+    "downloaded_file": "images/018200003325.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9582",
+      "x-rate-limit-limit": "418",
+      "x-rate-limit-reset": "71995"
+    }
+  },
+  "018200003349": {
+    "status": "found",
+    "product_name": "Michelob Ultra Beer",
+    "image_url": "https://i5.walmartimages.com/asr/086ae140-d5ec-421e-aa02-b8990f7774ac_1.c8fba9dd0f27f20fe4d1aea5323b92fe.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200003349.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9581",
+      "x-rate-limit-limit": "419",
+      "x-rate-limit-reset": "71994"
+    }
+  },
+  "018200004261": {
+    "status": "found",
+    "product_name": "Busch Light Beer",
+    "image_url": "https://i5.walmartimages.com/asr/4ea03eef-e48d-4783-bd98-346be57f2f20_1.748605d0123e1eb196f562cbbd085416.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200004261.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9580",
+      "x-rate-limit-limit": "420",
+      "x-rate-limit-reset": "71994"
+    }
+  },
+  "018200007699": {
+    "status": "found",
+    "product_name": "Bud Light Beer",
+    "image_url": "https://i5.walmartimages.com/asr/aa366041-7ee1-4a98-a855-9f12a270ce36_1.3f3af91db58b65408059ab00b1e4ee32.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200007699.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9579",
+      "x-rate-limit-limit": "421",
+      "x-rate-limit-reset": "71993"
+    }
+  },
+  "018200007712": {
+    "status": "found",
+    "product_name": "Budweiser Beer",
+    "image_url": "https://i5.walmartimages.com/asr/016f9397-8ee7-4668-bcb3-b552df916468_1.143c0aa510cd6797f72b459bfbe42823.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200007712.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9578",
+      "x-rate-limit-limit": "422",
+      "x-rate-limit-reset": "71992"
+    }
+  },
+  "018200007736": {
+    "status": "found",
+    "product_name": "Bud Light Beer",
+    "image_url": "https://i5.walmartimages.com/asr/ba9cf9cc-08e2-4992-b204-b4718db738e0_1.c64385076d523af4b675e135b6b4ad84.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200007736.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9577",
+      "x-rate-limit-limit": "423",
+      "x-rate-limit-reset": "71992"
+    }
+  },
+  "018200007941": {
+    "status": "found",
+    "product_name": "Michelob Beer",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/732/139/medium/b3328288b42e339facebec6d66a18dcc?1390565440",
+    "downloaded_file": "images/018200007941.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9576",
+      "x-rate-limit-limit": "424",
+      "x-rate-limit-reset": "71991"
+    }
+  },
+  "018200008016": {
+    "status": "found",
+    "product_name": "Busch Light Beer",
+    "image_url": "https://i5.walmartimages.com/asr/3ed978fe-8a68-4576-ac14-59def831c6b5_2.86b7ba9bcd3e7f952c97709b832e55de.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200008016.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9575",
+      "x-rate-limit-limit": "425",
+      "x-rate-limit-reset": "71990"
+    }
+  },
+  "018200008337": {
+    "status": "found",
+    "product_name": "Bud Light Beer 12 Oz Stock, Rodeo 6pk",
+    "image_url": "https://i5.walmartimages.com/asr/ed91674f-bb87-4f13-9eab-903ae4f6f78e_1.36110d1949ed99814ca420b081b7b3dc.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200008337.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9574",
+      "x-rate-limit-limit": "426",
+      "x-rate-limit-reset": "71990"
+    }
+  },
+  "018200008344": {
+    "status": "found",
+    "product_name": "Budweiser 6-pk. Beer 12-oz.",
+    "image_url": "https://i5.walmartimages.com/asr/77b8f66d-8e18-4624-a2fe-a76c13064a24_1.aa2efbf7799b84480e8c703743b57a31.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200008344.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9573",
+      "x-rate-limit-limit": "427",
+      "x-rate-limit-reset": "71989"
+    }
+  },
+  "018200008580": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "018200008665": {
+    "status": "name_mismatch",
+    "product_name": "Beer",
+    "image_url": "https://i5.walmartimages.com/asr/83de19c2-8d12-4e3f-bca6-f3b438e376fb_1.64a6a8b1e4366c4ab225884173317371.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9572",
+      "x-rate-limit-limit": "428",
+      "x-rate-limit-reset": "71988"
+    }
+  },
+  "018200008917": {
+    "status": "name_mismatch",
+    "product_name": "Lager",
+    "image_url": "https://i5.walmartimages.com/asr/5d7c42de-cda1-4bea-be78-7949c9404e5e_1.b1cd4b8e3aec26c6a9a295d205eef114.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9571",
+      "x-rate-limit-limit": "429",
+      "x-rate-limit-reset": "71988"
+    }
+  },
+  "018200009075": {
+    "status": "found",
+    "product_name": "Anheuser-Busch Bud Light Platinum",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/547/418/w_thumb/4335ce148cba6337d1bb9ce002820676?1343292844",
+    "downloaded_file": "images/018200009075.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9570",
+      "x-rate-limit-limit": "430",
+      "x-rate-limit-reset": "71988"
+    }
+  },
+  "018200059896": {
+    "status": "found",
+    "product_name": "Michelob Ultra Beer 12 Oz 6pk",
+    "image_url": "https://i5.walmartimages.com/asr/57b724cf-8e08-4c8a-82a3-e3f4565cdfc5_1.9c51692347fc5e25290c9b5981c7d723.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200059896.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9569",
+      "x-rate-limit-limit": "431",
+      "x-rate-limit-reset": "71987"
+    }
+  },
+  "018200059902": {
+    "status": "name_mismatch",
+    "product_name": "Beer",
+    "image_url": "https://i5.walmartimages.com/asr/903db07e-f264-489f-a22d-96caf8ef36d2_1.e17b6d5a689dd2bf0755cb0706959afd.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9568",
+      "x-rate-limit-limit": "432",
+      "x-rate-limit-reset": "71986"
+    }
+  },
+  "018200069918": {
+    "status": "name_mismatch",
+    "product_name": "Beer",
+    "image_url": "https://i5.walmartimages.com/asr/042d3b98-f8c5-47f5-9c83-1435b05dac6f_1.06b96cad68a3a9c2985c87ccfbb03870.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9567",
+      "x-rate-limit-limit": "433",
+      "x-rate-limit-reset": "71986"
+    }
+  },
+  "018200111686": {
+    "status": "found",
+    "product_name": "Budweiser Beer",
+    "image_url": "https://i5.walmartimages.com/asr/d7d69275-13cc-42dd-936f-7ea717407def_1.202125df2a3076d425624f5d995dcf2b.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200111686.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9566",
+      "x-rate-limit-limit": "434",
+      "x-rate-limit-reset": "71985"
+    }
+  },
+  "018200112188": {
+    "status": "found",
+    "product_name": "Budweiser Beer",
+    "image_url": "https://i5.walmartimages.com/asr/c3d3efcc-9dcf-46a5-b3ff-7d886bd2e423_1.59220cfd83b47e88346a9f45683ba96c.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200112188.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9565",
+      "x-rate-limit-limit": "435",
+      "x-rate-limit-reset": "71984"
+    }
+  },
+  "018200129896": {
+    "status": "name_mismatch",
+    "product_name": "Warner Bros. They Won't Forget",
+    "image_url": "https://i5.walmartimages.com/asr/b9526d8a-bdc8-46db-8f9f-7f8437b1bd52_1.05077898063cb6d6e58498a217b8e6c3.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9564",
+      "x-rate-limit-limit": "436",
+      "x-rate-limit-reset": "71984"
+    }
+  },
+  "018200149900": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "018200149917": {
+    "status": "found",
+    "product_name": "Bud Light Beer",
+    "image_url": "https://i5.walmartimages.com/asr/577a21b7-8459-47d3-81ce-139878ed03bc_1.91eaeeab854e2cf49ab8c6da761b35f4.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200149917.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9563",
+      "x-rate-limit-limit": "437",
+      "x-rate-limit-reset": "71983"
+    }
+  },
+  "018200150302": {
+    "status": "found",
+    "product_name": "Natural Light Cans",
+    "image_url": "https://i5.walmartimages.com/asr/126d4bcd-4c05-482c-85f5-c9d5c98c18ef_1.bc98220c195774afb91b8d8ef7ab278e.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200150302.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9562",
+      "x-rate-limit-limit": "438",
+      "x-rate-limit-reset": "71983"
+    }
+  },
+  "018200159831": {
+    "status": "found",
+    "product_name": "Bud Light Lime",
+    "image_url": "https://i5.walmartimages.com/asr/40e514f6-cd8f-4697-9ef8-8b2eb31c46d1_1.bb31455a5ed327edb955e6b9a72ac45d.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200159831.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9561",
+      "x-rate-limit-limit": "439",
+      "x-rate-limit-reset": "71982"
+    }
+  },
+  "018200169847": {
+    "status": "found",
+    "product_name": "Cactus-lime",
+    "image_url": "https://i5.walmartimages.com/asr/e7685fb4-0876-4314-adbe-589bede7fe13_1.be422c65627dd867928bc8805acfa76c.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200169847.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9560",
+      "x-rate-limit-limit": "440",
+      "x-rate-limit-reset": "71981"
+    }
+  },
+  "018200189937": {
+    "status": "found",
+    "product_name": "Bud Light Platinum",
+    "image_url": "https://i5.walmartimages.com/asr/8f7a55eb-cc1b-44f3-80e0-a86044cc4740_1.9940d8076c0371632c8cf12a0da4d63a.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200189937.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9559",
+      "x-rate-limit-limit": "441",
+      "x-rate-limit-reset": "71981"
+    }
+  },
+  "018200200113": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200200380": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "018200200397": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200200595": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200200779": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200200823": {
+    "status": "found",
+    "product_name": "Michelob Ultra",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/506/687/w_thumb/c5200637ef60e594ed0e095a348744e0?1342945228",
+    "downloaded_file": "images/018200200823.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9554",
+      "x-rate-limit-limit": "446",
+      "x-rate-limit-reset": "71978"
+    }
+  },
+  "018200201271": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200201288": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200201448": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200202643": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200202988": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200203381": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200203398": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200203527": {
+    "status": "found",
+    "product_name": "Nutrl Vodk Seltzer",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/506/687/w_thumb/c5200637ef60e594ed0e095a348744e0?1342945228",
+    "downloaded_file": "images/018200203527.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9546",
+      "x-rate-limit-limit": "454",
+      "x-rate-limit-reset": "71975"
+    }
+  },
+  "018200203534": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200203718": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200203725": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200203961": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200204012": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200204227": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200204241": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200204302": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200204418": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200204456": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200204470": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "018200250002": {
+    "status": "found",
+    "product_name": "Budweiser Beer",
+    "image_url": "https://i5.walmartimages.com/asr/fa67eb85-d6d5-46bb-800d-20e6eed495a0_1.e9775f4f5e35559f9b7e1385149753fd.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200250002.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9535",
+      "x-rate-limit-limit": "465",
+      "x-rate-limit-reset": "71970"
+    }
+  },
+  "018200250019": {
+    "status": "found",
+    "product_name": "Bud Light",
+    "image_url": "https://i5.walmartimages.com/asr/3abcb9a9-d9bf-490b-b1f9-0961dd8f4cd0_1.270618e8c4ad733dea7fbf253820ab24.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200250019.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9534",
+      "x-rate-limit-limit": "466",
+      "x-rate-limit-reset": "71938"
+    }
+  },
+  "018200250026": {
+    "status": "found",
+    "product_name": "Natural Light",
+    "image_url": "https://i5.walmartimages.com/asr/28b3f95c-e631-494c-b136-c821a17a241e_1.5448e45381e8c893aaa5b1e2b1ecb2e4.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200250026.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9533",
+      "x-rate-limit-limit": "467",
+      "x-rate-limit-reset": "71938"
+    }
+  },
+  "018200250033": {
+    "status": "found",
+    "product_name": "BUSCH",
+    "image_url": "https://i5.walmartimages.com/asr/21c58a36-7da3-4184-a2ec-1498fed00331_1.e90ee087a14f1f111576480fe2e730e0.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200250033.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9532",
+      "x-rate-limit-limit": "468",
+      "x-rate-limit-reset": "71937"
+    }
+  },
+  "018200250040": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "018200250064": {
+    "status": "name_mismatch",
+    "product_name": "Budweiser Ice",
+    "image_url": "https://i5.walmartimages.com/asr/cbd12b06-14b1-4c35-8a4f-d3740b596fef_1.c2dd1311285afc5ea95ba23392b676ea.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9531",
+      "x-rate-limit-limit": "469",
+      "x-rate-limit-reset": "71936"
+    }
+  },
+  "018200250088": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200250095": {
+    "status": "name_mismatch",
+    "product_name": "Beer",
+    "image_url": "https://i5.walmartimages.com/asr/975757e8-04f1-43be-afbf-0594e7685fca_1.da006b8a0dfec1a9e6b1094fe23b48bb.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9529",
+      "x-rate-limit-limit": "471",
+      "x-rate-limit-reset": "71935"
+    }
+  },
+  "018200250101": {
+    "status": "found",
+    "product_name": "Michelob Ultra Beer, 25 fl oz",
+    "image_url": "https://i5.walmartimages.com/asr/c2a2264b-6078-46ec-a443-adc12618564e_1.d48696e3f00d488c484e2eee5ecd0246.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200250101.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9528",
+      "x-rate-limit-limit": "472",
+      "x-rate-limit-reset": "71935"
+    }
+  },
+  "018200250125": {
+    "status": "found",
+    "product_name": "Hurricane - High Gravity - 8.1% Beer - Malt Liquor",
+    "image_url": "https://i5.walmartimages.com/asr/05ec22a8-3b34-41a2-9d54-85b96a4ba55e_1.516ebbf8021789c78dfb28d44f285271.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200250125.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9527",
+      "x-rate-limit-limit": "473",
+      "x-rate-limit-reset": "71934"
+    }
+  },
+  "018200250132": {
+    "status": "found",
+    "product_name": "Natty Daddy",
+    "image_url": "https://i5.walmartimages.com/asr/fcb8d6b6-7f18-4dd4-87f9-3885c356334d_1.9f69f8f9e0611fc2a116decca7b672c2.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200250132.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9526",
+      "x-rate-limit-limit": "474",
+      "x-rate-limit-reset": "71934"
+    }
+  },
+  "018200250149": {
+    "status": "found",
+    "product_name": "Lime-a-rita",
+    "image_url": "https://i5.walmartimages.com/asr/d4e2f327-e6c0-4d76-bb3e-8dccde115fb5_1.ff73299a29334d86eb371b2e74a144b9.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200250149.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9525",
+      "x-rate-limit-limit": "475",
+      "x-rate-limit-reset": "71933"
+    }
+  },
+  "018200255052": {
+    "status": "found",
+    "product_name": "Straw-ber-Rita",
+    "image_url": "https://i5.walmartimages.com/asr/ec1b836b-b529-45e5-8a64-f7d5c9161571_1.e1e054ea779991177b5d3a4aacac506e.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200255052.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9524",
+      "x-rate-limit-limit": "476",
+      "x-rate-limit-reset": "71932"
+    }
+  },
+  "018200255083": {
+    "status": "found",
+    "product_name": "Chelada",
+    "image_url": "https://i5.walmartimages.com/asr/20b31ee1-9343-47ef-9b6c-02ab63475c98_1.b68ddaf6d6097e9dd9e92f24f91bca8e.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200255083.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9523",
+      "x-rate-limit-limit": "477",
+      "x-rate-limit-reset": "71932"
+    }
+  },
+  "018200255090": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "018200255106": {
+    "status": "name_mismatch",
+    "product_name": "Chelsea Beer",
+    "image_url": "https://i5.walmartimages.com/asr/f464432c-4367-409a-a313-edb9714d373a_1.4bf7d9bd37aefb5a3a51658000c354f0.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9522",
+      "x-rate-limit-limit": "478",
+      "x-rate-limit-reset": "71931"
+    }
+  },
+  "018200255274": {
+    "status": "found",
+    "product_name": "Chelada With Extra Lime",
+    "image_url": "https://i5.walmartimages.com/asr/47116d0f-8f8a-4514-bcf6-41d15f8cc5d7_1.2232f3c96868088b1b716ad28e22e91b.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200255274.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9521",
+      "x-rate-limit-limit": "479",
+      "x-rate-limit-reset": "71930"
+    }
+  },
+  "018200255380": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "018200255434": {
+    "status": "found",
+    "product_name": "bud light Platinum",
+    "image_url": "https://i5.walmartimages.com/asr/a62f1379-b54f-4984-8e51-7f47dd06de51_1.841b4b6990bb2545cabc64276d042a33.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200255434.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9520",
+      "x-rate-limit-limit": "480",
+      "x-rate-limit-reset": "71930"
+    }
+  },
+  "018200258169": {
+    "status": "found",
+    "product_name": "Estrella Jalisco  (24.00 fl. oz.)",
+    "image_url": "https://i5.walmartimages.com/asr/1b1b033c-4254-4417-bbd9-8b2e20d93d1f_2.ed9c88f0a6e9480754600e6f1036fdce.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200258169.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9519",
+      "x-rate-limit-limit": "481",
+      "x-rate-limit-reset": "71929"
+    }
+  },
+  "018200259043": {
+    "status": "found",
+    "product_name": "Michelob Ultra Pure Gold",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/506/687/w_thumb/c5200637ef60e594ed0e095a348744e0?1342945228",
+    "downloaded_file": "images/018200259043.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9518",
+      "x-rate-limit-limit": "482",
+      "x-rate-limit-reset": "71928"
+    }
+  },
+  "018200259401": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200259463": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200261107": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200261299": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200261404": {
+    "status": "found",
+    "product_name": "Bud light chelada",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/547/418/w_thumb/4335ce148cba6337d1bb9ce002820676?1343292844",
+    "downloaded_file": "images/018200261404.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9513",
+      "x-rate-limit-limit": "487",
+      "x-rate-limit-reset": "71926"
+    }
+  },
+  "018200261626": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200261855": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200262975": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200262982": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200263859": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200284373": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200289095": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "018200530470": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "018200531682": {
+    "status": "found",
+    "product_name": "Bud Light Beer 12 Oz Suitcase 24pk",
+    "image_url": "https://i5.walmartimages.com/asr/ff67f751-c84f-42a4-867d-c83cc5b393e0_1.2a1b36ea8300d2be09c4b2785bab0de5.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200531682.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9505",
+      "x-rate-limit-limit": "495",
+      "x-rate-limit-reset": "71923"
+    }
+  },
+  "018200532184": {
+    "status": "found",
+    "product_name": "Bud Light",
+    "image_url": "https://i5.walmartimages.com/asr/f38c5765-11fd-493d-ac47-e937581fb830_1.b80ff137e988490bcf7b9dfcb28a851f.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200532184.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9504",
+      "x-rate-limit-limit": "496",
+      "x-rate-limit-reset": "71922"
+    }
+  },
+  "018200533082": {
+    "status": "found",
+    "product_name": "Bud Light Beer",
+    "image_url": "https://i5.walmartimages.com/asr/af961074-60a3-4327-9d15-2b40ba230159_1.17116c3896602ac0d20dd147c6491707.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200533082.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9503",
+      "x-rate-limit-limit": "497",
+      "x-rate-limit-reset": "71921"
+    }
+  },
+  "018200610301": {
+    "status": "found",
+    "product_name": "Busch Beer",
+    "image_url": "https://i5.walmartimages.com/asr/8d6fd526-beed-4b64-a6d9-f03721bc46f2_2.137f08b64d4ca591970fa1cb58e7bf33.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200610301.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9502",
+      "x-rate-limit-limit": "498",
+      "x-rate-limit-reset": "71921"
+    }
+  },
+  "018200610479": {
+    "status": "found",
+    "product_name": "Busch Beer",
+    "image_url": "https://i5.walmartimages.com/asr/49a65c9a-e330-40ef-bd93-c69f6bdc0caf_1.7946dc6955c93d64a0e4f592701497cb.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200610479.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9501",
+      "x-rate-limit-limit": "499",
+      "x-rate-limit-reset": "71920"
+    }
+  },
+  "018200860317": {
+    "status": "found",
+    "product_name": "Busch Light Beer",
+    "image_url": "https://i5.walmartimages.com/asr/851c4911-8af2-4024-9fde-26a348ee6553_1.c7370391805593e7d6f5b72c5a7e7bf8.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/018200860317.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9500",
+      "x-rate-limit-limit": "500",
+      "x-rate-limit-reset": "71919"
+    }
+  },
+  "018200965395": {
+    "status": "name_mismatch",
+    "product_name": "Beer",
+    "image_url": "https://i5.walmartimages.com/asr/6b6cf152-ea41-46a8-81ac-4588fc670db6_1.7ba98c88ccd9fc417bff4b236aa66c94.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9499",
+      "x-rate-limit-limit": "501",
+      "x-rate-limit-reset": "70199"
+    }
+  },
+  "018200965500": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  }
+}

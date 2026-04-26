@@ -64,6 +64,7 @@ export async function upsertCatalog(productService: ProductService, payload: See
           description: product.description,
           handle: product.handle,
           status: product.status,
+          thumbnail: product.thumbnail,
           metadata: product.metadata,
           variants: product.variants,
         },

@@ -6,7 +6,8 @@
     "dev": "ADMIN_DISABLED=${ADMIN_DISABLED:-true} XDG_CONFIG_HOME=./.config medusa develop",
     "build": "ADMIN_DISABLED=${ADMIN_DISABLED:-true} XDG_CONFIG_HOME=./.config medusa build",
     "start": "ADMIN_DISABLED=${ADMIN_DISABLED:-true} XDG_CONFIG_HOME=./.config medusa start",
-    "seed:catalog": "node src/scripts/import-curated-catalog.mjs"
+    "seed:catalog": "node src/scripts/import-curated-catalog.mjs",
+    "seed:images": "node src/scripts/enrich-catalog-images.mjs"
   },
   "dependencies": {
     "@medusajs/framework": "^2.4.0",

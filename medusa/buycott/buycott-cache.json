@@ -1,0 +1,544 @@
+{
+  "200582000003": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "263973000006": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "55921541": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "60014399": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "75021184": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "85678446": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "000804320014": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "005020000610": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "008471590037": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "008517670013": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "008660000019": {
+    "status": "found",
+    "product_name": "Zig Zag Cigarette Papers",
+    "image_url": "http://ecx.images-amazon.com/images/I/514THOTRaeL.jpg",
+    "downloaded_file": "images/008660000019.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9989",
+      "x-rate-limit-limit": "11",
+      "x-rate-limit-reset": "79357"
+    }
+  },
+  "008660000026": {
+    "status": "found",
+    "product_name": "Zig Zag Cigarette Papers",
+    "image_url": "https://i5.walmartimages.com/asr/924fd0c0-255a-47b4-b446-1c54f6a9bcd8_1.9c2f42c7fe9952a93b388c95df3a7caf.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/008660000026.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9988",
+      "x-rate-limit-limit": "12",
+      "x-rate-limit-reset": "79357"
+    }
+  },
+  "008660007322": {
+    "status": "found",
+    "product_name": "Zig Zag Cigarette Papers",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/586/021/medium/45c6929b3359a238963b9822126653aa?1368654894",
+    "downloaded_file": "images/008660007322.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9987",
+      "x-rate-limit-limit": "13",
+      "x-rate-limit-reset": "79356"
+    }
+  },
+  "009016013165": {
+    "status": "found",
+    "product_name": "MEZCAL LAJITA AGED REPOSADO",
+    "image_url": "http://s3.amazonaws.com/buycott/images/app/product_placeholder.png",
+    "downloaded_file": "images/009016013165.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9986",
+      "x-rate-limit-limit": "14",
+      "x-rate-limit-reset": "79355"
+    }
+  },
+  "009016013172": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016014063": {
+    "status": "found",
+    "product_name": "Adidas Orleans Hornets PEJA STOJAKOVIC #16 Men's NBA Replica Jersey, Blue (X-Large)",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/001/238/930/w_thumb/42f49063adb655df763819f2669c1027?1446585647",
+    "downloaded_file": "images/009016014063.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9984",
+      "x-rate-limit-limit": "16",
+      "x-rate-limit-reset": "79354"
+    }
+  },
+  "009016014230": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "009016014254": {
+    "status": "found",
+    "product_name": "Tequila Blanco Premium",
+    "image_url": "https://i5.walmartimages.com/asr/0b95143b-8066-4c08-acc4-397cf21f01ed_1.33ea909cb592ea26caedd953cb25cd05.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "downloaded_file": "images/009016014254.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9983",
+      "x-rate-limit-limit": "17",
+      "x-rate-limit-reset": "79353"
+    }
+  },
+  "009016014278": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016014292": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP Error 410: Gone"
+  },
+  "009016014728": {
+    "status": "found",
+    "product_name": "Tequila Blanco Silver Hijos De Villa",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/001/238/930/w_thumb/42f49063adb655df763819f2669c1027?1446585647",
+    "downloaded_file": "images/009016014728.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9980",
+      "x-rate-limit-limit": "20",
+      "x-rate-limit-reset": "79352"
+    }
+  },
+  "009016015008": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016015060": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "009016015923": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016015947": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016016449": {
+    "status": "found",
+    "product_name": "Padrisimo",
+    "image_url": "http://s3.amazonaws.com/buycott/images/app/product_placeholder.png",
+    "downloaded_file": "images/009016016449.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9976",
+      "x-rate-limit-limit": "24",
+      "x-rate-limit-reset": "79350"
+    }
+  },
+  "009016017187": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016017194": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016017644": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016018016": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016018542": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016018559": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016018580": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 400: {\"success\":false,\"message\":\"This is not a valid barcode\"}"
+  },
+  "009016018641": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016018665": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016019211": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016019334": {
+    "status": "found",
+    "product_name": "Select Club Pecan Praline (750.00 ml)",
+    "image_url": "http://s3.amazonaws.com/buycott/images/app/product_placeholder.png",
+    "downloaded_file": "images/009016019334.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9966",
+      "x-rate-limit-limit": "34",
+      "x-rate-limit-reset": "79346"
+    }
+  },
+  "009016019624": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016019747": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016019754": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016019761": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016019808": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009016020156": {
+    "status": "not_found",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": ""
+  },
+  "009114611003": {
+    "status": "found",
+    "product_name": "Lighter Fluid",
+    "image_url": "http://s3.amazonaws.com/buycott/images/no_image_thumbnail.png",
+    "downloaded_file": "images/009114611003.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9959",
+      "x-rate-limit-limit": "41",
+      "x-rate-limit-reset": "79343"
+    }
+  },
+  "009300000383": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  "009300000772": {
+    "status": "found",
+    "product_name": "Mt. Olive Pickle Chips - Bread & Butter",
+    "image_url": "https://i5.walmartimages.com/asr/e0bf52a9-2afe-4fbc-8c69-37992354a2f6_1.e97ddeeadb3949752b0ec583d89110bb.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/009300000772.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9957",
+      "x-rate-limit-limit": "43",
+      "x-rate-limit-reset": "79342"
+    }
+  },
+  "009300000802": {
+    "status": "found",
+    "product_name": "Mt. Olive Pickle Spears - Kosher Dill",
+    "image_url": "https://i5.walmartimages.com/asr/7a6d73e5-99ff-4f4a-8fe7-f8bbb714eb41_1.4712045c1c5174a884e98b3acbdd5c86.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/009300000802.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9956",
+      "x-rate-limit-limit": "44",
+      "x-rate-limit-reset": "79341"
+    }
+  },
+  "009300001304": {
+    "status": "found",
+    "product_name": "Mt. Olive Hamburger Dill Chips Mini Stuffers Fresh Pack Pickles 16 Oz Jar",
+    "image_url": "http://s3.amazonaws.com/buycott/images/attachments/000/506/339/w_thumb/7153e90af122b4e0523ebd55ee9beedd?1342055176",
+    "downloaded_file": "images/009300001304.gif",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9955",
+      "x-rate-limit-limit": "45",
+      "x-rate-limit-reset": "79340"
+    }
+  },
+  "009300006507": {
+    "status": "found",
+    "product_name": "Mt. Olive Kosher Spears Dill Pickles 24 Oz Jar",
+    "image_url": "https://i5.walmartimages.com/asr/8527fba9-b04f-4926-b2fd-771450cdd402_1.9c6dc526f1d4e80095b654c2c6b7991d.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "downloaded_file": "images/009300006507.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9954",
+      "x-rate-limit-limit": "46",
+      "x-rate-limit-reset": "79340"
+    }
+  },
+  "009800000524": {
+    "status": "found",
+    "product_name": "Kinder Joy",
+    "image_url": "https://d2ul0w83gls0j4.cloudfront.net/products/12/600/1216138.jpg",
+    "downloaded_file": "images/009800000524.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9953",
+      "x-rate-limit-limit": "47",
+      "x-rate-limit-reset": "79339"
+    }
+  },
+  "009800000531": {
+    "status": "found",
+    "product_name": "Kinder Joy",
+    "image_url": "https://pics.drugstore.com/prodimg/604148/450.jpg",
+    "downloaded_file": "images/009800000531.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9952",
+      "x-rate-limit-limit": "48",
+      "x-rate-limit-reset": "79338"
+    }
+  },
+  "009800000555": {
+    "status": "found",
+    "product_name": "Kinder Bueno",
+    "image_url": "http://s3.amazonaws.com/buycott/images/no_image_thumbnail.png",
+    "downloaded_file": "images/009800000555.png",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9951",
+      "x-rate-limit-limit": "49",
+      "x-rate-limit-reset": "79335"
+    }
+  },
+  "009800000715": {
+    "status": "found",
+    "product_name": "Ferrero Rocher Fine Hazelnut Chocolate 5.3oz",
+    "image_url": "https://i5.walmartimages.com/asr/594aa61c-412c-4658-8951-6802fb3db8bd_1.fb393d8bc35090cf1c2a9003d975aab4.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/009800000715.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9950",
+      "x-rate-limit-limit": "50",
+      "x-rate-limit-reset": "79334"
+    }
+  },
+  "009800006304": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  "009800007608": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "009800007615": {
+    "status": "found",
+    "product_name": "TIC TAC Freshmints Big Pack 1 oz 12 count",
+    "image_url": "https://i5.walmartimages.com/asr/9df9c65c-0229-4783-b57a-3d599d3d0bf7_1.90b041047e5fc03906e7df8d1bc16bb3.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/009800007615.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9947",
+      "x-rate-limit-limit": "53",
+      "x-rate-limit-reset": "79330"
+    }
+  },
+  "009800007639": {
+    "status": "found",
+    "product_name": "Tic Tac Mints",
+    "image_url": "https://i5.walmartimages.com/asr/4bef10ed-4a35-4ef9-aa4e-dac7b3e13041_1.20367b40371882603bf35a4617dea3c4.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/009800007639.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9946",
+      "x-rate-limit-limit": "54",
+      "x-rate-limit-reset": "79330"
+    }
+  },
+  "009800007677": {
+    "status": "found",
+    "product_name": "Tic Tac Wintergreen Breath Mints",
+    "image_url": "https://i5.walmartimages.com/asr/ef58970a-e4f8-4263-b99f-664316c0eb8d_1.1e1dfd43537775fe03e85dd49a317bd5.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "downloaded_file": "images/009800007677.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9945",
+      "x-rate-limit-limit": "55",
+      "x-rate-limit-reset": "79329"
+    }
+  },
+  "009800200412": {
+    "status": "found",
+    "product_name": "Ferrero Collection, 12 Count, 4.6 Ounce (129 gm)",
+    "image_url": "https://pics.drugstore.com/prodimg/587424/450.jpg",
+    "downloaded_file": "images/009800200412.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9944",
+      "x-rate-limit-limit": "56",
+      "x-rate-limit-reset": "79329"
+    }
+  },
+  "009800200511": {
+    "status": "found",
+    "product_name": "Ferrero Collection",
+    "image_url": "https://pics.drugstore.com/prodimg/587616/450.jpg",
+    "downloaded_file": "images/009800200511.jpg",
+    "error": "",
+    "headers": {
+      "x-rate-limit-remaining": "9943",
+      "x-rate-limit-limit": "57",
+      "x-rate-limit-reset": "79328"
+    }
+  },
+  "009800554041": {
+    "status": "error",
+    "product_name": "",
+    "image_url": "",
+    "downloaded_file": "",
+    "error": "HTTP 429: Rate limit exceeded. Try again in 8 seconds.\n"
+  }
+}

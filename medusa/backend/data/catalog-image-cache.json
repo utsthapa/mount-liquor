@@ -1,0 +1,582 @@
+{
+  "082184005934": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:29:56.673Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/42662/426628344-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082184005934-barcodelookup-8682937a49.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082184005934-barcodelookup-8682937a49.jpg",
+    "localFilename": "082184005934-barcodelookup-8682937a49.jpg",
+    "title": "Jack Daniels Bonded Tennessee Whiskey 700ml"
+  },
+  "082184005941": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:29:58.509Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/42662/426628467-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/082184005941-barcodelookup-a086f3ea36.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=082184005941-barcodelookup-a086f3ea36.jpg",
+    "localFilename": "082184005941-barcodelookup-a086f3ea36.jpg",
+    "title": "Jack Daniels Triple Mash Blended Straight Whiskey 700ml"
+  },
+  "082184208786": {
+    "status": "not_found",
+    "checkedAt": "2026-04-26T01:30:00.735Z",
+    "source": "barcodelookup,openfoodfacts",
+    "imageUrl": null
+  },
+  "080686009924": {
+    "status": "not_found",
+    "checkedAt": "2026-04-26T01:30:02.612Z",
+    "source": "barcodelookup,openfoodfacts",
+    "imageUrl": null
+  },
+  "080686021186": {
+    "status": "found",
+    "checkedAt": "2026-04-26T01:30:04.267Z",
+    "source": "barcodelookup",
+    "imageUrl": "https://images.barcodelookup.com/25850/258507621-1.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/080686021186-barcodelookup-95b6805b0f.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=080686021186-barcodelookup-95b6805b0f.jpg",
+    "localFilename": "080686021186-barcodelookup-95b6805b0f.jpg",
+    "title": "Jim Beam Bourbon Peach 1.75L"
+  },
+  "085246503171": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T16:51:25.453Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "082184001554": {
+    "status": "found",
+    "checkedAt": "2026-04-24T16:51:56.568Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://i5.walmartimages.com/asr/376cd27d-4808-4a89-8a3a-eac9b85dab20_1.273d16979c301895de3737700ac1962c.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "title": "Jack Daniel's Tennessee Fire Cinnamon Flavored Whiskey, 200 mL"
+  },
+  "082184004371": {
+    "status": "found",
+    "checkedAt": "2026-04-24T16:52:01.742Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://pics.walgreens.com/prodimg/630958/450.jpg",
+    "title": "Jack Daniel's Tennessee Apple Whiskey, 750 ML"
+  },
+  "082184004746": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T16:52:07.391Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "082184008737": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T16:52:13.029Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "082184204771": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T16:52:18.654Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "085246501535": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T16:52:24.295Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "085246501566": {
+    "status": "found",
+    "checkedAt": "2026-04-24T16:52:56.738Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://target.scene7.com/is/image/Target/GUEST_f838df13-add7-44c3-bf11-502d57cd9675?wid=1000&hei=1000",
+    "title": "Maker's Mark 101P Straight Bourbon Whiskey - 750ml Bottle"
+  },
+  "088004144708": {
+    "status": "found",
+    "checkedAt": "2026-04-24T16:53:01.955Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://pics.walgreens.com/prodimg/628900/450.jpg",
+    "title": "Fireball Cinnamon Whiskey, 50 mL"
+  },
+  "081128001933": {
+    "status": "found",
+    "checkedAt": "2026-04-24T16:53:07.196Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://i5.walmartimages.com/asr/b1a6023d-40d4-47cf-8b0c-3ad18fe66b21_1.47a6143f626fcbdc781c35ba1634c031.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "title": "Woodford Reserve Bourbon Malt 750ml"
+  },
+  "082000771548": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:01:45.173Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://i5.walmartimages.com/asr/05ea0b17-7e4a-43f9-9c0c-8793a5fc08de_2.ec2c349ea7ce61051a99cfc03875aecf.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "title": "Crown Royal Regal Apple Flavored Whisky, 200 mL (70 Proof)"
+  },
+  "082000771555": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:01:50.389Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://i5.walmartimages.com/asr/3559146b-54dd-4381-8676-8aadb47c7b1b_3.00fc4440cbb6a141bfbc92385ff234fd.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "title": "Crown Royal Regal Apple Flavored Whisky, 375 mL (70 Proof)"
+  },
+  "082000771562": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:01:55.626Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://pics.walgreens.com/prodimg/619213/450.jpg",
+    "title": "Crown Royal Regal Apple Flavored Whisky, 750 mL (70 Proof)"
+  },
+  "082000771586": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:02:00.870Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://scene7.samsclub.com/is/image/samsclub/0008200077158_A?$img_size_1500x1500$",
+    "title": "Crown Royal Regal Apple Flavored Whisky, 1 L (70 Proof)"
+  },
+  "082000771593": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:02:06.139Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://scene7.samsclub.com/is/image/samsclub/0008200077159_A?$img_size_1500x1500$",
+    "title": "Crown Royal Regal Apple Flavored Whisky, 1.75 L (70 Proof)"
+  },
+  "082000776574": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:02:12.498Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "082000776581": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:02:45.428Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://i5.walmartimages.com/asr/844df2cb-1bdb-4220-81b6-47e5e72934aa_3.caffcd67d59b8d925cd8759247b5bc3f.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "title": "Crown Royal Vanilla Flavored Whisky, 375 mL (70 Proof)"
+  },
+  "082000776598": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:02:50.732Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://scene7.samsclub.com/is/image/samsclub/0008200077659_A?$img_size_1500x1500$",
+    "title": "Crown Royal Vanilla Flavored Whisky, 750 mL (70 Proof)"
+  },
+  "082000776604": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:02:56.524Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "082000776611": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:03:01.700Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://i5.walmartimages.com/asr/c4c76d28-03ee-4a33-bfe8-314f268dcfca_3.fc9060341c9b79154b7ba3a55605f1a6.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "title": "Crown Royal Vanilla Flavored Whisky, 1.75 L (70 Proof)"
+  },
+  "082000782919": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:04:09.807Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://scene7.samsclub.com/is/image/samsclub/0008200078291_A?$img_size_1500x1500$",
+    "title": "Crown Royal Peach Flavored Whisky, 750 mL (70 Proof)"
+  },
+  "082000789550": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:04:15.717Z",
+    "source": "openfoodfacts",
+    "imageUrl": "https://images.openfoodfacts.org/images/products/008/200/078/9550/front_en.3.400.jpg",
+    "title": "Blackberry Flavored Whisky"
+  },
+  "082184000618": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:04:20.950Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://i5.walmartimages.com/asr/42852370-419b-4fd5-bedd-fcd7ab59ae49_1.bdb7d7a8805d31f0510d8a817498c770.png?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "title": "Jack Daniel's Tennessee Honey Flavored Whiskey, 1.75 L"
+  },
+  "082184001219": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:04:26.180Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://i5.walmartimages.com/asr/82974888-621a-48bb-bed6-19451461e9d4_1.3e276108532f98f47736ad3d1aa7a4fb.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "title": "Jack Daniel's Tennessee Fire Cinnamon Flavored Whiskey, 1.75 L"
+  },
+  "082184005583": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:04:31.820Z",
+    "source": "openfoodfacts",
+    "imageUrl": "https://images.openfoodfacts.org/images/products/008/218/400/5583/front_en.3.400.jpg",
+    "title": "Apple Whiskey"
+  },
+  "087236566098": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:04:37.474Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "087236566104": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:05:10.480Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "088004009281": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:05:15.803Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://scene7.samsclub.com/is/image/samsclub/0008800400928_A?$img_size_1500x1500$",
+    "title": "Fireball Cinnamon Whiskey, 1.75 L"
+  },
+  "080686824053": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:05:21.491Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "082000811053": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:05:27.155Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "085246502846": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:05:32.931Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "080686010425": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:05:38.672Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "080686958024": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:06:10.256Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://i5.walmartimages.com/asr/da009fa5-8bad-4920-80c0-cb75add5dcd6.8b6670da8fb203886daf16be4ce6e2a8.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "title": "Haku Vodka Vodka 750 ML"
+  },
+  "080686958031": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:06:15.487Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://scene7.samsclub.com/is/image/samsclub/0008068695803_A?$img_size_1500x1500$",
+    "title": "Roku Gin 750"
+  },
+  "082000804819": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:06:21.282Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "086767704832": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:06:26.553Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://i5.walmartimages.com/asr/76f01511-d1d5-453b-9337-d152c9aa06fd_1.1eac43089ab70e601ff9412c4934099f.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "title": "Baileys Strawberries & Cream Liqueur, 750 mL (34 Proof)"
+  },
+  "082000797210": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:06:31.870Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://i5.walmartimages.com/asr/fa3f3625-122e-4ce9-8ab6-da174700cf1e.890a7190ed06c8fc4b8e54b0608b9418.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "title": "Smirnoff Pink Lemonade (Vodka Infused With Natural Flavors) - 1.75 L Bottle"
+  },
+  "082000803928": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:06:37.555Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "080686009955": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:07:10.955Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "082000811435": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:07:16.589Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "083089660358": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:07:21.767Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://i5.walmartimages.com/asr/aae907c6-5f7a-40cc-8b6a-4dfde8c4f319_1.5fcd4ef94b5fc3f6f4cd98174a34b40d.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "title": "Jagermeister Liqueur, 375 mL"
+  },
+  "088076188631": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:07:27.359Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "195893031092": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:07:33.086Z",
+    "source": "openfoodfacts",
+    "imageUrl": "https://images.openfoodfacts.org/images/products/019/589/303/1092/front_en.3.400.jpg",
+    "title": "818 reposado"
+  },
+  "195893154296": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:07:38.749Z",
+    "source": "openfoodfacts",
+    "imageUrl": "https://images.openfoodfacts.org/images/products/019/589/315/4296/front_en.3.400.jpg",
+    "title": "818 Anejo Tequila"
+  },
+  "080686009511": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:08:21.732Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "080686835424": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:08:26.915Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://i5.walmartimages.com/asr/e32aa93d-3eb6-4702-8c83-2aac7aa179d8_1.6b2e58483a362dca75c23c4ecd6d4359.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "title": "Hornitos Anejo Tequila, 750 mL"
+  },
+  "080686835486": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:08:32.143Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://i5.walmartimages.com/asr/39e7484f-e854-45ea-a289-0e8e7f2fdf5e_1.fadab3a5cf30903f620973d1205272c1.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "title": "Hornitos Lime Shot Tequila, 750 mL"
+  },
+  "818844028049": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:08:37.703Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "080686008880": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:09:06.787Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "080686831211": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:09:12.442Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "080686832225": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:09:18.080Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "811538013697": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:09:34.468Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "818844028018": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:09:40.097Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "085592121043": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:09:45.353Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://scene7.samsclub.com/is/image/samsclub/0008559212104_A?$img_size_1500x1500$",
+    "title": "Tequila Rose Strawberry Cream Tequila, 750 mL"
+  },
+  "086024017316": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:10:12.611Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "195893687015": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:10:18.286Z",
+    "source": "openfoodfacts",
+    "imageUrl": "https://images.openfoodfacts.org/images/products/019/589/368/7015/front_en.3.400.jpg",
+    "title": "818 Tequila Blanco"
+  },
+  "674545000827": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:10:23.526Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://i5.walmartimages.com/asr/10c2ee68-d9b1-464f-a237-9abd50c5e9ee_3.69917707e24ae3e27706e9054d0427a4.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "title": "Don Julio 70 Cristalino Tequila, 750 mL (80 Proof)"
+  },
+  "811538011372": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:10:28.771Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://scene7.samsclub.com/is/image/samsclub/0081153801137_A?$img_size_1500x1500$",
+    "title": "Jose Cuervo Tradicional Tequila, 750 mL"
+  },
+  "811538011396": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:10:34.011Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://target.scene7.com/is/image/Target/GUEST_c367583d-3c2f-41b4-83aa-fe90899de738?wid=1000&hei=1000",
+    "title": "1800 Reposado Tequila - 1.75L Bottle"
+  },
+  "811538011426": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:10:39.253Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://i5.walmartimages.com/asr/77544d82-4b82-4fe5-8a16-9482b0417e8b_1.51abee0729d2f148bd5f6a0e24e80e96.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "title": "Jose Cuervo Margarita Light Cocktail, 750 mL"
+  },
+  "811538011440": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:11:13.039Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "811538018913": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:11:18.223Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://i5.walmartimages.com/asr/6495c613-1d97-48f2-846a-b4ed9bf8ae23_1.f15479ca83a3d6a13aa20efb35a13ea9.png?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "title": "Jose Cuervo Tradicional Anejo Tequila ANEJO 750 ML"
+  },
+  "080686835028": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:11:23.472Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://scene7.samsclub.com/is/image/samsclub/0008068683502_A?$img_size_1500x1500$",
+    "title": "Hornitos Reposado Tequila, 750 mL"
+  },
+  "080686835325": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:13:43.976Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://pics.walgreens.com/prodimg/619187/450.jpg",
+    "title": "Hornitos Plata Tequila, 750 mL"
+  },
+  "674545000001": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:13:49.176Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://scene7.samsclub.com/is/image/samsclub/0067454500000_A?$img_size_1500x1500$",
+    "title": "Don Julio Blanco Tequila, 750 mL (80 Proof)"
+  },
+  "674545000063": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:13:54.419Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://scene7.samsclub.com/is/image/samsclub/0067454500006_A?$img_size_1500x1500$",
+    "title": "Don Julio Añejo Tequila, 750 mL (80 Proof)"
+  },
+  "674545000414": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:13:59.660Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://scene7.samsclub.com/is/image/samsclub/0067454500041_A?$img_size_1500x1500$",
+    "title": "Don Julio Reposado Tequila, 750 mL (80 Proof)"
+  },
+  "082000802167": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:14:05.779Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "082000804314": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:14:11.427Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "835229011144": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:14:44.729Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "080480282042": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:14:50.005Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://i5.walmartimages.com/asr/ac478a6f-d2bf-431a-b82c-5b69c38c623c.f42f8ccf7ab234c099b928800d7046b0.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "title": "Grey Goose Le Citron Vodka, 750 mL"
+  },
+  "080480283339": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:16:14.872Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://i5.walmartimages.com/asr/ba0cfa51-ccf0-4fef-a9f6-d2bc246b7bdf_1.703748d408bfff778d6fc9c9a3424b23.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "title": "Gray Goose La Poire Vodka - 750ml Bottle"
+  },
+  "080480990107": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:16:20.663Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "085000029626": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:16:25.934Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://i5.walmartimages.com/asr/934fda5f-6fa6-4b52-9d88-34cd82dee84e_1.fa65bb7cac27ad90bfb4aad0b22ed579.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "title": "New Amsterdam Vodka Pink Whitney 750 Ml"
+  },
+  "852935001962": {
+    "status": "not_found",
+    "checkedAt": "2026-04-24T21:16:31.678Z",
+    "source": "upcitemdb",
+    "imageUrl": null
+  },
+  "080686938125": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:16:37.006Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://i5.walmartimages.com/asr/216e34af-286f-44b5-b66d-a5633655b459_1.ef783e4687df7666dccb379dc9bf3c5b.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "title": "Effen Blackcherry Vodka, 750 mL"
+  },
+  "080686938248": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:16:42.205Z",
+    "source": "upcitemdb",
+    "imageUrl": "https://i5.walmartimages.com/asr/a8320a4c-962a-4afa-bc28-d7b3aa126ccc_1.7f8a6084aa5229bda2eec3b61166265a.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff",
+    "title": "Effen Cucumber Vodka - 750ml Bottle"
+  },
+  "080686018094": {
+    "status": "error",
+    "checkedAt": "2026-04-24T21:27:05.568Z",
+    "source": "barcodespider,barcodefinder,openfoodfacts",
+    "imageUrl": null,
+    "error": "Unexpected token '<', \"\n    <!DOCTYPE \"... is not valid JSON"
+  },
+  "080686016793": {
+    "status": "error",
+    "checkedAt": "2026-04-24T21:27:11.933Z",
+    "source": "barcodespider,barcodefinder,openfoodfacts",
+    "imageUrl": null,
+    "error": "Unexpected token '<', \"\n    <!DOCTYPE \"... is not valid JSON"
+  },
+  "082184000342": {
+    "status": "error",
+    "checkedAt": "2026-04-24T21:27:17.982Z",
+    "source": "barcodespider,barcodefinder,openfoodfacts",
+    "imageUrl": null,
+    "error": "Unexpected token '<', \"\n    <!DOCTYPE \"... is not valid JSON"
+  },
+  "085000031360": {
+    "status": "found",
+    "checkedAt": "2026-04-24T21:31:41.694Z",
+    "source": "openfoodfacts",
+    "imageUrl": "https://images.openfoodfacts.org/images/products/008/500/003/1360/front_en.3.400.jpg",
+    "localImagePath": "/Users/utsav/projects/catalog/medusa/backend/data/catalog-images/085000031360-openfoodfacts-9ea6094857.jpg",
+    "localImageUrl": "http://localhost:9000/catalog-images?file=085000031360-openfoodfacts-9ea6094857.jpg",
+    "localFilename": "085000031360-openfoodfacts-9ea6094857.jpg",
+    "title": "Pink Whitney"
+  }
+}
