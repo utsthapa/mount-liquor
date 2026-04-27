@@ -22,19 +22,19 @@ export function HomeHero() {
         style={{ background: "linear-gradient(to bottom, transparent, rgba(0,0,0,0.5))" }}
       />
 
-      <div className="relative mx-auto max-w-[1200px] px-6 py-20 grid gap-10 lg:grid-cols-[1.1fr_1fr] lg:items-center">
+      <div className="relative mx-auto max-w-[1200px] px-6 py-12 grid gap-8 lg:grid-cols-[1.1fr_1fr] lg:items-center">
         <div>
           <span className="inline-flex items-center gap-1 rounded-full bg-[color:var(--color-deep-red)] px-3 py-1 text-[10px] font-medium uppercase tracking-[0.22em] text-white">
             21+ ID Required
           </span>
-          <h1 className="mt-6 font-serif text-4xl leading-[1.05] text-[color:var(--color-ink-on-dark)] md:text-5xl lg:text-6xl">
+          <h1 className="mt-5 font-serif text-3xl leading-[1.08] text-[color:var(--color-ink-on-dark)] md:text-4xl lg:text-5xl">
             Your Irving Liquor Store for{" "}
             <span className="text-[color:var(--color-gold)]">Beer, Wine &amp; Spirits</span>
           </h1>
-          <p className="mt-6 max-w-xl text-base text-[color:var(--color-muted-on-dark)] leading-relaxed">
+          <p className="mt-5 max-w-xl text-sm text-[color:var(--color-muted-on-dark)] leading-relaxed md:text-base">
             Shop whiskey, tequila, vodka, wine, beer, mixers and more. Pickup or fast local delivery.
           </p>
-          <div className="mt-8 flex flex-wrap gap-4">
+          <div className="mt-6 flex flex-wrap gap-4">
             <Link
               href="/collections/whiskey"
               className="inline-flex items-center rounded-full bg-[color:var(--color-deep-red)] px-7 py-3 text-sm font-medium uppercase tracking-[0.2em] text-white hover:bg-[color:var(--color-deep-red-hover)] transition-colors"
@@ -50,10 +50,10 @@ export function HomeHero() {
           </div>
         </div>
 
-        <div className="relative mx-auto w-full max-w-md lg:max-w-lg">
+        <div className="relative mx-auto w-full max-w-xs lg:max-w-sm">
           <div
             aria-hidden="true"
-            className="absolute inset-x-8 bottom-0 h-10 rounded-full bg-black/60 blur-2xl"
+            className="absolute inset-x-8 bottom-0 h-8 rounded-full bg-black/60 blur-2xl"
           />
           <Image
             src="/images/hero/macallan-hero.jpg"
