@@ -84,3 +84,47 @@ export { catalogProducts as featuredProducts } from "./catalog-data"
 export function formatCurrency(amount: number): string {
   return new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(amount)
 }
+
+const HOURS_BY_DAY: Record<number, string | null> = {
+  // Sun=0, Mon=1, ..., Sat=6
+  0: "12PM–7PM",
+  1: "10AM–9PM",
+  2: "10AM–9PM",
+  3: "10AM–9PM",
+  4: "10AM–9PM",
+  5: "10AM–9PM",
+  6: "10AM–9PM",
+}
+
+export function openTodayLabel(now: Date = new Date()): string {
+  const hours = HOURS_BY_DAY[now.getDay()]
+  return hours ? `Open Today ${hours}` : "Closed Today"
+}
+
+export const categorySlugs = [
+  "whiskey",
+  "tequila",
+  "vodka",
+  "rum",
+  "gin",
+  "wine",
+  "beer",
+  "mixers",
+  "cognac",
+] as const
+
+export type CategorySlug = (typeof categorySlugs)[number]
+
+export function matchCategorySlug(query: string): CategorySlug {
+  const q = query.trim().toLowerCase()
+  if (!q) return "whiskey"
+  for (const slug of categorySlugs) {
+    if (q.includes(slug)) return slug
+  }
+  if (q.includes("scotch") || q.includes("bourbon") || q.includes("rye")) return "whiskey"
+  if (q.includes("agave") || q.includes("mezcal")) return "tequila"
+  if (q.includes("champagne") || q.includes("rosé") || q.includes("rose")) return "wine"
+  if (q.includes("ipa") || q.includes("lager") || q.includes("ale") || q.includes("stout")) return "beer"
+  if (q.includes("soda") || q.includes("tonic") || q.includes("juice")) return "mixers"
+  return "whiskey"
+}
