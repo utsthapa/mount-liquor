@@ -23,11 +23,14 @@ export type Review = {
   date: string
 }
 
+export type ProductBadge = "Sale" | "Popular" | "New" | "Limited"
+
 export type CatalogProduct = {
   slug: string
   title: string
   category: string
   price: string
+  /** Free-form badge from upstream data; normalize via normalizeBadge() before render. */
   badge: string
   description: string
   imageUrl?: string
@@ -39,6 +42,10 @@ export type CatalogProduct = {
   volumeMl?: number
   abv?: number
   vendor?: string
+  /** Cleaned brand name; falls back to the parsed first segment of vendor at render. */
+  brand?: string
+  /** Display-ready size string ("750ml" | "1.75L" | "12-pack"). Falls back to volumeMl format. */
+  displaySize?: string
 }
 
 export const collections = [
@@ -127,4 +134,61 @@ export function matchCategorySlug(query: string): CategorySlug {
   if (q.includes("ipa") || q.includes("lager") || q.includes("ale") || q.includes("stout")) return "beer"
   if (q.includes("soda") || q.includes("tonic") || q.includes("juice")) return "mixers"
   return "whiskey"
+}
+
+const BADGE_MAP: Record<string, ProductBadge> = {
+  "best seller": "Popular",
+  "staff favorite": "Popular",
+  "hosting pick": "Popular",
+  "premium pour": "Popular",
+  "new arrival": "New",
+  popular: "Popular",
+  sale: "Sale",
+  new: "New",
+  limited: "Limited",
+}
+
+export function normalizeBadge(raw: string | undefined): ProductBadge | null {
+  if (!raw) return null
+  const key = raw.trim().toLowerCase()
+  return BADGE_MAP[key] ?? null
+}
+
+export function formatProductTitle(raw: string): string {
+  if (!raw) return ""
+  let cleaned = raw.replace(/\(([\d.]+\s*(ml|l))\)/gi, "")
+  cleaned = cleaned.replace(/\b\d+(\.\d+)?\s*(ml|l)\b/gi, "")
+  cleaned = cleaned.replace(/\s+/g, " ").trim()
+  cleaned = cleaned
+    .split(" ")
+    .map((word) => {
+      if (word.length <= 3) return word
+      if (word.toUpperCase() !== word) return word
+      return word.charAt(0) + word.slice(1).toLowerCase()
+    })
+    .join(" ")
+  return cleaned
+}
+
+export function resolveBrand(product: CatalogProduct): string | null {
+  if (product.brand) return product.brand.trim()
+  const vendor = product.vendor?.trim()
+  if (!vendor) return null
+  const cleaned = vendor.replace(/\s+(spy|gin|teq|tequila|whiskey|rum|vodka)$/i, "")
+  return formatProductTitle(cleaned)
+}
+
+export function resolveDisplaySize(product: CatalogProduct): string | null {
+  if (product.displaySize) return product.displaySize
+  const vol = product.volumeMl
+  if (!vol) return null
+  if (vol >= 1500) return `${(vol / 1000).toFixed(2).replace(/\.?0+$/, "")}L`
+  return `${vol}ml`
+}
+
+export function parsePriceUsd(raw: string): number | null {
+  const m = raw.match(/[\d,]+\.\d+|[\d,]+/)
+  if (!m) return null
+  const n = Number(m[0].replace(/,/g, ""))
+  return Number.isFinite(n) ? n : null
 }
