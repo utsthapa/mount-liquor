@@ -2,9 +2,10 @@ import Image from "next/image"
 import Link from "next/link"
 import type { CatalogProduct, ProductBadge } from "../lib/store"
 import { formatProductTitle, normalizeBadge, resolveBrand, resolveDisplaySize } from "../lib/store"
-import { bottleImage } from "../lib/mock-content"
 
 type Props = { product: CatalogProduct }
+
+const PRODUCT_IMAGE = "/images/bottle.jpg"
 
 const BADGE_STYLES: Record<ProductBadge, string> = {
   Sale: "bg-[color:var(--color-deep-red)] text-white",
@@ -14,7 +15,7 @@ const BADGE_STYLES: Record<ProductBadge, string> = {
 }
 
 export function ProductCard({ product }: Props) {
-  const image = product.imageUrl ?? bottleImage(product.slug, product.category)
+  const image = PRODUCT_IMAGE
   const brand = resolveBrand(product)
   const title = formatProductTitle(product.title)
   const size = resolveDisplaySize(product)

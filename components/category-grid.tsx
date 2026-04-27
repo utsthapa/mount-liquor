@@ -3,15 +3,17 @@ import Link from "next/link"
 
 type Tile = { slug: string; title: string; image: string }
 
+const TILE_IMAGE = "/images/bottle.jpg"
+
 const tiles: Tile[] = [
-  { slug: "whiskey", title: "Whiskey", image: "/images/categories/whiskey.jpg" },
-  { slug: "tequila", title: "Tequila", image: "/images/categories/tequila.jpg" },
-  { slug: "vodka", title: "Vodka", image: "/images/categories/vodka.jpg" },
-  { slug: "beer", title: "Beer", image: "/images/categories/beer.jpg" },
-  { slug: "wine", title: "Wine", image: "/images/categories/wine.jpg" },
-  { slug: "cognac", title: "Cognac", image: "/images/categories/cognac.jpg" },
-  { slug: "rum", title: "Rum", image: "/images/categories/rum.jpg" },
-  { slug: "mixers", title: "Mixers", image: "/images/categories/mixers.jpg" },
+  { slug: "whiskey", title: "Whiskey", image: TILE_IMAGE },
+  { slug: "tequila", title: "Tequila", image: TILE_IMAGE },
+  { slug: "vodka", title: "Vodka", image: TILE_IMAGE },
+  { slug: "beer", title: "Beer", image: TILE_IMAGE },
+  { slug: "wine", title: "Wine", image: TILE_IMAGE },
+  { slug: "cognac", title: "Cognac", image: TILE_IMAGE },
+  { slug: "rum", title: "Rum", image: TILE_IMAGE },
+  { slug: "mixers", title: "Mixers", image: TILE_IMAGE },
 ]
 
 export function CategoryGrid() {
