@@ -4,6 +4,7 @@ import "./globals.css"
 import { AgeBanner } from "../components/age-banner"
 import { Footer } from "../components/footer"
 import { Header } from "../components/header"
+import { MobileBottomNav } from "../components/mobile-bottom-nav"
 import { buildMetadata, localBusinessSchema } from "../lib/seo"
 
 const inter = Inter({
@@ -20,16 +21,16 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = buildMetadata({
-  title: "Premium Liquor Store in Irving, TX",
+  title: "Irving Liquor Store — Beer, Wine & Spirits",
   description:
-    "Shop premium spirits, wine, beer, and tequila with polished local pickup and delivery from Mount Liquor in Irving, Texas.",
+    "Mount Liquor in Irving, TX. Shop whiskey, tequila, vodka, wine, beer, mixers and more. Same-day pickup or fast local delivery.",
 })
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   const schema = localBusinessSchema()
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
-      <body className="theme-dark min-h-screen antialiased">
+      <body className="theme-dark min-h-screen antialiased pb-16 md:pb-0">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
@@ -38,6 +39,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <Header />
         <main>{children}</main>
         <Footer />
+        <MobileBottomNav />
       </body>
     </html>
   )
