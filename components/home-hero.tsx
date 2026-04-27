@@ -1,48 +1,67 @@
 import Image from "next/image"
 import Link from "next/link"
-import { storeConfig } from "../lib/store"
 
 export function HomeHero() {
   return (
-    <section className="relative overflow-hidden bg-[color:var(--color-bg)]">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(201,162,74,0.14),transparent_70%)]" aria-hidden="true" />
-      <div className="relative mx-auto max-w-[1200px] px-6 py-20 grid gap-10 lg:grid-cols-2 lg:items-center">
+    <section
+      className="relative overflow-hidden bg-[color:var(--color-bg-dark)] text-[color:var(--color-ink-on-dark)]"
+      aria-label="Hero"
+    >
+      {/* Layered background: warm radial + faint vertical shelf bands */}
+      <div
+        aria-hidden="true"
+        className="absolute inset-0"
+        style={{
+          background:
+            "radial-gradient(ellipse at 70% 50%, rgba(200, 155, 60, 0.22), transparent 60%), repeating-linear-gradient(to right, rgba(255,255,255,0.025) 0 1px, transparent 1px 80px)",
+        }}
+      />
+      <div
+        aria-hidden="true"
+        className="absolute inset-x-0 bottom-0 h-1/3"
+        style={{ background: "linear-gradient(to bottom, transparent, rgba(0,0,0,0.5))" }}
+      />
+
+      <div className="relative mx-auto max-w-[1200px] px-6 py-20 grid gap-10 lg:grid-cols-[1.1fr_1fr] lg:items-center">
         <div>
-          <p className="text-xs uppercase tracking-[0.3em] text-[color:var(--color-gold)]">
-            Curated by {storeConfig.displayName}
-          </p>
-          <h1 className="mt-5 font-serif text-5xl leading-[1.05] text-[color:var(--color-ink)] md:text-6xl lg:text-7xl">
-            Fine Spirits.
-            <br />
-            <span className="text-[color:var(--color-gold)] italic">Elevated Moments.</span>
+          <span className="inline-flex items-center gap-1 rounded-full bg-[color:var(--color-deep-red)] px-3 py-1 text-[10px] font-medium uppercase tracking-[0.22em] text-white">
+            21+ ID Required
+          </span>
+          <h1 className="mt-6 font-serif text-4xl leading-[1.05] text-[color:var(--color-ink-on-dark)] md:text-5xl lg:text-6xl">
+            Your Irving Liquor Store for{" "}
+            <span className="text-[color:var(--color-gold)]">Beer, Wine &amp; Spirits</span>
           </h1>
-          <p className="mt-6 max-w-md text-base text-[color:var(--color-muted)] leading-relaxed">
-            Discover a curated selection of premium spirits from around the world — delivered to your door or ready for local pickup.
+          <p className="mt-6 max-w-xl text-base text-[color:var(--color-muted-on-dark)] leading-relaxed">
+            Shop whiskey, tequila, vodka, wine, beer, mixers and more. Pickup or fast local delivery.
           </p>
-          <div className="mt-10 flex flex-wrap gap-4">
+          <div className="mt-8 flex flex-wrap gap-4">
             <Link
               href="/collections/whiskey"
-              className="inline-flex items-center rounded-full bg-[color:var(--color-gold)] px-7 py-3 text-sm font-medium uppercase tracking-[0.2em] text-[color:var(--color-bg)] hover:bg-[color:var(--color-gold-hover)] transition-colors"
+              className="inline-flex items-center rounded-full bg-[color:var(--color-deep-red)] px-7 py-3 text-sm font-medium uppercase tracking-[0.2em] text-white hover:bg-[color:var(--color-deep-red-hover)] transition-colors"
             >
-              Shop Now
+              Shop Deals
             </Link>
             <Link
               href="/collections/whiskey"
-              className="inline-flex items-center rounded-full border border-[color:var(--color-line)] px-7 py-3 text-sm font-medium uppercase tracking-[0.2em] text-[color:var(--color-ink)] hover:border-[color:var(--color-gold)] hover:text-[color:var(--color-gold)] transition-colors"
+              className="inline-flex items-center rounded-full border border-[color:var(--color-gold)] px-7 py-3 text-sm font-medium uppercase tracking-[0.2em] text-[color:var(--color-gold)] hover:bg-[color:var(--color-gold)] hover:text-[color:var(--color-bg-dark)] transition-colors"
             >
-              Browse Collection
+              Browse Categories
             </Link>
           </div>
         </div>
-        <div className="relative mx-auto w-full max-w-lg">
-          <div className="absolute inset-4 rounded-full bg-[radial-gradient(circle,rgba(201,162,74,0.22),transparent_60%)]" aria-hidden="true" />
+
+        <div className="relative mx-auto w-full max-w-md lg:max-w-lg">
+          <div
+            aria-hidden="true"
+            className="absolute inset-x-8 bottom-0 h-10 rounded-full bg-black/60 blur-2xl"
+          />
           <Image
             src="/images/hero/macallan-hero.jpg"
             alt="Featured bottle"
             width={720}
             height={900}
             priority
-            className="relative mx-auto rounded-2xl object-cover shadow-2xl shadow-black/50"
+            className="relative mx-auto"
           />
         </div>
       </div>
