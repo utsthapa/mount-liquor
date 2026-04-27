@@ -1,4 +1,4 @@
-import { collections, featuredProducts, storeConfig } from "./store"
+import { collections, featuredProducts, normalizeBadge, parsePriceUsd, storeConfig } from "./store"
 import type { CatalogProduct } from "./store"
 
 export type { CatalogProduct }
@@ -100,4 +100,62 @@ export async function getCollections() {
   for (const collection of collections) bySlug.set(collection.slug, collection)
   for (const collection of derived) bySlug.set(collection.slug, collection)
   return Array.from(bySlug.values())
+}
+
+const SECTION_SIZE = 4
+
+export async function getWeeklyDeals(): Promise<CatalogProduct[]> {
+  const products = await getCatalogProducts()
+  const sale = products.filter((p) => normalizeBadge(p.badge) === "Sale")
+  if (sale.length >= SECTION_SIZE) return sale.slice(0, SECTION_SIZE)
+  const byPrice = [...products]
+    .filter((p) => parsePriceUsd(p.price) !== null)
+    .sort((a, b) => (parsePriceUsd(a.price) ?? 0) - (parsePriceUsd(b.price) ?? 0))
+  return [...sale, ...byPrice.filter((p) => !sale.includes(p))].slice(0, SECTION_SIZE)
+}
+
+export async function getBestSellers(): Promise<CatalogProduct[]> {
+  const products = await getCatalogProducts()
+  const scored = products
+    .map((p) => {
+      const rating = p.rating ?? 0
+      const reviews = p.reviewCount ?? 0
+      const score = rating * Math.log10(Math.max(reviews, 1) + 1)
+      return { p, score }
+    })
+    .sort((a, b) => b.score - a.score)
+  return scored.slice(0, SECTION_SIZE).map((s) => s.p)
+}
+
+export async function getPartyEssentials(): Promise<CatalogProduct[]> {
+  const products = await getCatalogProducts()
+  const wantedCategories = new Set(["beer", "wine", "mixers"])
+  return products
+    .filter((p) => wantedCategories.has(p.category.toLowerCase()))
+    .slice(0, SECTION_SIZE)
+}
+
+export async function getPremiumWhiskeyPicks(): Promise<CatalogProduct[]> {
+  const products = await getCatalogProducts()
+  return products
+    .filter((p) => p.category.toLowerCase() === "whiskey")
+    .filter((p) => {
+      const price = parsePriceUsd(p.price)
+      return price !== null && price >= 50
+    })
+    .slice(0, SECTION_SIZE)
+}
+
+export async function getTequilaFavorites(): Promise<CatalogProduct[]> {
+  const products = await getCatalogProducts()
+  return products
+    .filter((p) => p.category.toLowerCase() === "tequila")
+    .slice(0, SECTION_SIZE)
+}
+
+export async function getNewArrivals(): Promise<CatalogProduct[]> {
+  const products = await getCatalogProducts()
+  const tagged = products.filter((p) => p.badge?.toLowerCase().includes("new"))
+  if (tagged.length >= SECTION_SIZE) return tagged.slice(0, SECTION_SIZE)
+  return products.slice(0, SECTION_SIZE)
 }
