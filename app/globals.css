@@ -1,21 +1,26 @@
 @import "tailwindcss";
 
 @theme {
-  /* Light-mode storefront palette. Keep the gold accent from the reference
-     dark mockup but shift everything else to warm cream + charcoal. */
-  --color-bg: #f8f3ea;
-  --color-surface: #ffffff;
-  --color-surface-raised: #f1ead8;
-  --color-ink: #111111;
-  --color-muted: #6b655c;
-  --color-gold: #a27a2c;
-  --color-gold-hover: #8b6828;
-  --color-line: rgba(17, 17, 17, 0.1);
+  /* Mount Liquor: dark masthead/footer + cream body. */
+  --color-bg-dark:       #0B0B0A;
+  --color-bg:            #F6F1E8;
+  --color-surface:       #FFFFFF;
+  --color-ink:           #171717;
+  --color-ink-on-dark:   #F2EADA;
+  --color-muted:         #6B655C;
+  --color-muted-on-dark: #A39A8A;
+  --color-gold:          #C89B3C;
+  --color-gold-hover:    #B0852E;
+  --color-deep-red:      #7A1E22;
+  --color-deep-red-hover:#5C161A;
+  --color-line:          rgba(23, 23, 23, 0.10);
+  --color-line-on-dark:  rgba(255, 255, 255, 0.10);
 
   --font-sans: var(--font-inter), "Helvetica Neue", "Segoe UI", sans-serif;
   --font-serif: var(--font-playfair), "Iowan Old Style", "Palatino Linotype", Georgia, serif;
 
   --radius-pill: 999px;
+  --radius-card: 14px;
 }
 
 body {
