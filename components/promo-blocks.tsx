@@ -46,12 +46,13 @@ const TONE_CLASSES: Record<Tone, { wrapper: string; title: string; sub: string; 
     wrapper: "bg-[color:var(--color-surface)] ring-1 ring-[color:var(--color-line)]",
     title: "text-[color:var(--color-ink)]",
     sub: "text-[color:var(--color-muted)]",
-    cta: "bg-[color:var(--color-deep-red)] text-white hover:bg-[color:var(--color-deep-red-hover)]",
+    cta: "bg-white text-[color:var(--color-ink)] ring-1 ring-[color:var(--color-ink)]/20 shadow-sm hover:bg-[color:var(--color-bg)]",
   },
   dark: {
-    wrapper: "bg-[color:var(--color-bg-dark)] text-[color:var(--color-ink-on-dark)]",
-    title: "text-[color:var(--color-ink-on-dark)]",
-    sub: "text-[color:var(--color-muted-on-dark)]",
+    wrapper:
+      "bg-gradient-to-br from-[#FBF4E4] to-[#F0E3C8] ring-1 ring-[color:var(--color-gold)]/30",
+    title: "text-[color:var(--color-ink)]",
+    sub: "text-[color:var(--color-muted)]",
     cta: "bg-[color:var(--color-gold)] text-[color:var(--color-bg-dark)] hover:bg-[color:var(--color-gold-hover)]",
   },
 }

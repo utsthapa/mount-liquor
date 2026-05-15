@@ -84,7 +84,7 @@ function SearchForm({ idSuffix }: { idSuffix: string }) {
         window.location.href = `/collections/${slug}`
       }}
       role="search"
-      className="flex items-center w-full rounded-full bg-[color:var(--color-surface)] pl-5 pr-2 h-12 ring-1 ring-[color:var(--color-line-on-dark)] focus-within:ring-2 focus-within:ring-[color:var(--color-gold)] transition-shadow"
+      className="flex items-center w-full rounded-full bg-[color:var(--color-surface)] pl-5 pr-2 h-12 ring-1 ring-[color:var(--color-line)] focus-within:ring-2 focus-within:ring-[color:var(--color-gold)] transition-shadow"
     >
       <SearchIcon className="h-4 w-4 text-[color:var(--color-muted)]" />
       <input
@@ -109,10 +109,10 @@ export function Header() {
   const [navOpen, setNavOpen] = useState(false)
 
   return (
-    <header className="bg-[color:var(--color-bg-dark)] text-[color:var(--color-ink-on-dark)]">
+    <header className="bg-[color:var(--color-surface)] text-[color:var(--color-ink)]">
       {/* Row 1 — top bar */}
-      <div className="border-b border-[color:var(--color-line-on-dark)]">
-        <div className="mx-auto max-w-[1200px] px-6 py-2 flex items-center gap-2 text-xs text-[color:var(--color-muted-on-dark)]">
+      <div className="border-b border-[color:var(--color-line)]">
+        <div className="mx-auto max-w-[1200px] px-6 py-2 flex items-center gap-2 text-xs text-[color:var(--color-muted)]">
           <ClockIcon />
           <p className="truncate">
             {openTodayLabel()} <span className="opacity-60">•</span> {storeConfig.city}, {storeConfig.state}{" "}
@@ -124,14 +124,14 @@ export function Header() {
       {/* Row 2 — brand + search + actions */}
       <div className="mx-auto max-w-[1200px] px-6 py-5 grid grid-cols-[auto_1fr_auto] items-center gap-6">
         <Link href="/" className="flex items-center gap-2 shrink-0">
-          <span className="font-serif text-xl tracking-[0.18em] text-[color:var(--color-ink-on-dark)]">
+          <span className="font-serif text-xl tracking-[0.18em] text-[color:var(--color-ink)]">
             MOUNT LIQUOR
           </span>
         </Link>
         <div className="hidden md:block">
           <SearchForm idSuffix="desktop" />
         </div>
-        <div className="flex items-center gap-4 text-[color:var(--color-ink-on-dark)]">
+        <div className="flex items-center gap-4 text-[color:var(--color-ink)]">
           <Link
             href="/checkout"
             aria-label="Account"
@@ -158,13 +158,13 @@ export function Header() {
       </div>
 
       {/* Mobile-only search row */}
-      <div className="md:hidden border-t border-[color:var(--color-line-on-dark)] px-6 py-3">
+      <div className="md:hidden border-t border-[color:var(--color-line)] px-6 py-3">
         <SearchForm idSuffix="mobile" />
       </div>
 
       {/* Row 3 — nav */}
       <nav
-        className="hidden md:block border-t border-[color:var(--color-line-on-dark)]"
+        className="hidden md:block border-t border-[color:var(--color-line)]"
         aria-label="Primary"
       >
         <ul className="mx-auto max-w-[1200px] px-6 py-3 flex items-center justify-center gap-6 text-xs uppercase tracking-[0.18em]">
@@ -173,7 +173,7 @@ export function Header() {
               <Link
                 href={item.href}
                 className={`hover:text-[color:var(--color-gold)] transition-colors ${
-                  item.deal ? "text-[color:var(--color-deep-red)] font-medium" : ""
+                  item.deal ? "text-[color:var(--color-gold-hover)] font-semibold" : ""
                 }`}
               >
                 {item.label}
@@ -186,16 +186,16 @@ export function Header() {
       {/* Mobile nav drawer */}
       {navOpen ? (
         <nav
-          className="md:hidden border-t border-[color:var(--color-line-on-dark)]"
+          className="md:hidden border-t border-[color:var(--color-line)]"
           aria-label="Primary mobile"
         >
           <ul className="mx-auto max-w-[1200px] px-6 py-2 flex flex-col text-sm uppercase tracking-[0.18em]">
             {primaryNav.map((item) => (
-              <li key={item.label} className="border-b border-[color:var(--color-line-on-dark)] last:border-b-0">
+              <li key={item.label} className="border-b border-[color:var(--color-line)] last:border-b-0">
                 <Link
                   href={item.href}
                   className={`block py-3 hover:text-[color:var(--color-gold)] transition-colors ${
-                    item.deal ? "text-[color:var(--color-deep-red)] font-medium" : ""
+                    item.deal ? "text-[color:var(--color-gold-hover)] font-semibold" : ""
                   }`}
                   onClick={() => setNavOpen(false)}
                 >

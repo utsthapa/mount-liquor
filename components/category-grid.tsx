@@ -1,22 +1,37 @@
 import Image from "next/image"
 import Link from "next/link"
+import { catalogProducts } from "../lib/catalog-data"
 
-type Tile = { slug: string; title: string; image: string }
+type Tile = { slug: string; title: string; image: string; count: number }
 
 const TILE_IMAGE = "/images/bottle.jpg"
 
-const tiles: Tile[] = [
-  { slug: "whiskey", title: "Whiskey", image: TILE_IMAGE },
-  { slug: "tequila", title: "Tequila", image: TILE_IMAGE },
-  { slug: "vodka", title: "Vodka", image: TILE_IMAGE },
-  { slug: "beer", title: "Beer", image: TILE_IMAGE },
-  { slug: "wine", title: "Wine", image: TILE_IMAGE },
-  { slug: "cognac", title: "Cognac", image: TILE_IMAGE },
-  { slug: "rum", title: "Rum", image: TILE_IMAGE },
-  { slug: "mixers", title: "Mixers", image: TILE_IMAGE },
-]
+function buildTiles(): Tile[] {
+  const byCategory = new Map<string, { title: string; products: typeof catalogProducts }>()
+  for (const p of catalogProducts) {
+    const title = p.category
+    const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, "-")
+    const entry = byCategory.get(slug) ?? { title, products: [] }
+    entry.products.push(p)
+    byCategory.set(slug, entry)
+  }
+  const score = (p: (typeof catalogProducts)[number]) =>
+    (p.rating ?? 0) * Math.log10(Math.max(p.reviewCount ?? 0, 1) + 1)
+  return Array.from(byCategory.entries())
+    .map(([slug, { title, products }]) => {
+      const hero = [...products].sort((a, b) => score(b) - score(a))[0]
+      return {
+        slug,
+        title,
+        image: hero?.imageUrl ?? TILE_IMAGE,
+        count: products.length,
+      }
+    })
+    .sort((a, b) => b.count - a.count)
+}
 
 export function CategoryGrid() {
+  const tiles = buildTiles()
   return (
     <section className="bg-[color:var(--color-bg)]">
       <div className="mx-auto max-w-[1200px] px-6 py-16">
@@ -39,7 +54,7 @@ export function CategoryGrid() {
                   alt={tile.title}
                   width={400}
                   height={300}
-                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
+                  className="h-full w-full object-contain p-4 transition-transform duration-500 group-hover:scale-[1.04]"
                 />
               </div>
               <div className="mt-4 flex items-center justify-between">

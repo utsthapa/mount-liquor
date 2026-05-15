@@ -15,7 +15,7 @@ const BADGE_STYLES: Record<ProductBadge, string> = {
 }
 
 export function ProductCard({ product }: Props) {
-  const image = PRODUCT_IMAGE
+  const image = product.imageUrl || PRODUCT_IMAGE
   const brand = resolveBrand(product)
   const title = formatProductTitle(product.title)
   const size = resolveDisplaySize(product)
@@ -62,7 +62,7 @@ export function ProductCard({ product }: Props) {
         </div>
         <Link
           href={`/products/${product.slug}`}
-          className="inline-flex items-center justify-center rounded-full bg-[color:var(--color-deep-red)] px-4 h-10 text-xs font-medium uppercase tracking-[0.18em] text-white hover:bg-[color:var(--color-deep-red-hover)] transition-colors"
+          className="inline-flex items-center justify-center rounded-full bg-white px-4 h-10 text-xs font-medium uppercase tracking-[0.18em] text-[color:var(--color-ink)] ring-1 ring-[color:var(--color-ink)]/20 shadow-sm hover:bg-[color:var(--color-bg)] transition-colors"
         >
           Add to Cart
         </Link>

@@ -61,7 +61,7 @@ export function LocalStore() {
               href={mapDirectionsUrl}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center rounded-full bg-[color:var(--color-deep-red)] px-6 h-11 text-xs font-medium uppercase tracking-[0.18em] text-white hover:bg-[color:var(--color-deep-red-hover)] transition-colors"
+              className="inline-flex items-center rounded-full bg-white px-6 h-11 text-xs font-medium uppercase tracking-[0.18em] text-[color:var(--color-ink)] ring-1 ring-[color:var(--color-ink)]/20 shadow-sm hover:bg-[color:var(--color-bg)] transition-colors"
             >
               Get Directions
             </a>

@@ -33,51 +33,28 @@ export default async function HomePage() {
     getNewArrivals(),
   ])
 
+  const MIN = 4
+  const sections = [
+    { eyebrow: "This week", title: "Weekly Deals", href: "/collections/whiskey", products: weeklyDeals, tone: "cream" as const },
+    { eyebrow: "Most loved", title: "Best Sellers", href: "/collections/whiskey", products: bestSellers, tone: "white" as const },
+    { eyebrow: "Pickup-ready", title: "Party Essentials", href: "/collections/beer", products: partyEssentials, tone: "cream" as const },
+    { eyebrow: "Top shelf", title: "Premium Whiskey Picks", href: "/collections/whiskey", products: premiumWhiskey, tone: "white" as const },
+    { eyebrow: "Hand-picked", title: "Tequila Favorites", href: "/collections/tequila", products: tequilaFavorites, tone: "cream" as const },
+    { eyebrow: "Just landed", title: "New Arrivals", href: "/collections/whiskey", products: newArrivals, tone: "white" as const },
+  ].filter((s) => s.products.length >= MIN)
+
   return (
     <>
       <HomeHero />
       <TrustBadges />
       <CategoryGrid />
-      <ProductSection
-        eyebrow="This week"
-        title="Weekly Deals"
-        viewAllHref="/collections/whiskey"
-        products={weeklyDeals}
-      />
-      <ProductSection
-        eyebrow="Most loved"
-        title="Best Sellers"
-        viewAllHref="/collections/whiskey"
-        products={bestSellers}
-        tone="white"
-      />
+      {sections.slice(0, 2).map((s) => (
+        <ProductSection key={s.title} eyebrow={s.eyebrow} title={s.title} viewAllHref={s.href} products={s.products} tone={s.tone} />
+      ))}
       <PromoBlocks />
-      <ProductSection
-        eyebrow="Pickup-ready"
-        title="Party Essentials"
-        viewAllHref="/collections/beer"
-        products={partyEssentials}
-      />
-      <ProductSection
-        eyebrow="Top shelf"
-        title="Premium Whiskey Picks"
-        viewAllHref="/collections/whiskey"
-        products={premiumWhiskey}
-        tone="white"
-      />
-      <ProductSection
-        eyebrow="Hand-picked"
-        title="Tequila Favorites"
-        viewAllHref="/collections/tequila"
-        products={tequilaFavorites}
-      />
-      <ProductSection
-        eyebrow="Just landed"
-        title="New Arrivals"
-        viewAllHref="/collections/whiskey"
-        products={newArrivals}
-        tone="white"
-      />
+      {sections.slice(2).map((s) => (
+        <ProductSection key={s.title} eyebrow={s.eyebrow} title={s.title} viewAllHref={s.href} products={s.products} tone={s.tone} />
+      ))}
       <LocalStore />
     </>
   )

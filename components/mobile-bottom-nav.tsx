@@ -65,7 +65,7 @@ export function MobileBottomNav() {
   return (
     <nav
       aria-label="Mobile primary"
-      className="md:hidden fixed inset-x-0 bottom-0 z-40 bg-[color:var(--color-bg-dark)] text-[color:var(--color-ink-on-dark)] border-t border-[color:var(--color-line-on-dark)]"
+      className="md:hidden fixed inset-x-0 bottom-0 z-40 bg-[color:var(--color-surface)] text-[color:var(--color-ink)] border-t border-[color:var(--color-line)]"
       style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
     >
       <ul className="grid grid-cols-4">
