@@ -14,7 +14,7 @@ import {
 } from "../lib/api"
 import { buildMetadata } from "../lib/seo"
 
-export const dynamic = "force-dynamic"
+export const dynamic = "force-static"
 
 export const metadata = buildMetadata({
   title: "Beer, Wine & Spirits in Irving, TX",

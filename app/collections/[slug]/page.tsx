@@ -4,7 +4,13 @@ import { CollectionGrid } from "../../../components/collection-grid"
 import { getCatalogProducts, getCollections } from "../../../lib/api"
 import { breadcrumbSchema, buildMetadata } from "../../../lib/seo"
 
-export const dynamic = "force-dynamic"
+export const dynamic = "force-static"
+export const dynamicParams = false
+
+export async function generateStaticParams() {
+  const collectionItems = await getCollections()
+  return collectionItems.map((collection) => ({ slug: collection.slug }))
+}
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params

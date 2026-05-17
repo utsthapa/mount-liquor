@@ -1,3 +1,4 @@
+import { cache } from "react"
 import { collections, normalizeBadge, parsePriceUsd, storeConfig } from "./store"
 import type { CatalogProduct } from "./store"
 import { medusa, MEDUSA_REGION_ID, isMedusaConfigured } from "./medusa"
@@ -117,7 +118,7 @@ function isValidCatalogProduct(product: MedusaProduct): boolean {
   return Boolean(product.handle && product.title && product.variants?.some((variant) => variant.id))
 }
 
-export async function getCatalogProducts(): Promise<CatalogProduct[]> {
+export const getCatalogProducts = cache(async (): Promise<CatalogProduct[]> => {
   if (!isMedusaConfigured || !medusa) return []
   try {
     const limit = 100
@@ -140,13 +141,13 @@ export async function getCatalogProducts(): Promise<CatalogProduct[]> {
     console.warn("[medusa] catalog fetch failed", err)
   }
   return []
-}
+})
 
 export async function getStoreData() {
   return storeConfig
 }
 
-async function getMedusaCategories(): Promise<MedusaCategory[]> {
+const getMedusaCategories = cache(async (): Promise<MedusaCategory[]> => {
   if (!isMedusaConfigured || !medusa) return []
 
   try {
@@ -170,9 +171,9 @@ async function getMedusaCategories(): Promise<MedusaCategory[]> {
   }
 
   return []
-}
+})
 
-export async function getCollections() {
+export const getCollections = cache(async () => {
   const [categories, products] = await Promise.all([getMedusaCategories(), getCatalogProducts()])
   const productCategorySlugs = new Set(
     products.map((product) => product.categorySlug || product.category.toLowerCase().replace(/[^a-z0-9]+/g, "-"))
@@ -210,7 +211,7 @@ export async function getCollections() {
   for (const collection of fromCategories) bySlug.set(collection.slug, collection)
   for (const collection of derived) bySlug.set(collection.slug, collection)
   return Array.from(bySlug.values())
-}
+})
 
 const SECTION_SIZE = 4
 

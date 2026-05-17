@@ -97,8 +97,6 @@ export const collections = [
   },
 ]
 
-export { catalogProducts as featuredProducts } from "./catalog-data"
-
 export function formatCurrency(amount: number): string {
   return new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(amount)
 }

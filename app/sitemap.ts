@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next"
 import { getCatalogProducts, getCollections } from "../lib/api"
 
-export const dynamic = "force-dynamic"
+export const dynamic = "force-static"
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = "https://www.mountliquor.com"
