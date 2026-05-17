@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import type { CatalogProduct, ProductBadge } from "../lib/store"
 import { formatProductTitle, normalizeBadge, resolveBrand, resolveDisplaySize } from "../lib/store"
+import { QuickAddButton } from "./quick-add-button"
 
 type Props = { product: CatalogProduct }
 
@@ -60,12 +61,7 @@ export function ProductCard({ product }: Props) {
         <div className="mt-auto flex items-center justify-between gap-3 pt-3">
           <p className="text-xl font-bold text-[color:var(--color-ink)] tabular-nums">{product.price}</p>
         </div>
-        <Link
-          href={`/products/${product.slug}`}
-          className="inline-flex items-center justify-center rounded-full bg-white px-4 h-10 text-xs font-medium uppercase tracking-[0.18em] text-[color:var(--color-ink)] ring-1 ring-[color:var(--color-ink)]/20 shadow-sm hover:bg-[color:var(--color-bg)] transition-colors"
-        >
-          Add to Cart
-        </Link>
+        <QuickAddButton variantId={product.variantId} productSlug={product.slug} />
       </div>
     </article>
   )

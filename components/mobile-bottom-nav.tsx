@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
+import { useCartDrawer } from "./cart-drawer"
 
 function HomeIcon() {
   return (
@@ -45,6 +46,7 @@ type Item = {
   icon: React.ReactNode
   match: (path: string) => boolean
   scrollSearch?: boolean
+  cart?: boolean
 }
 
 const items: Item[] = [
@@ -57,11 +59,12 @@ const items: Item[] = [
     scrollSearch: true,
   },
   { label: "Deals", href: "/collections/whiskey", icon: <TagIcon />, match: (p) => p.startsWith("/collections") },
-  { label: "Cart", href: "/checkout", icon: <CartIcon />, match: (p) => p.startsWith("/checkout") },
+  { label: "Cart", href: "/cart", icon: <CartIcon />, match: (p) => p.startsWith("/cart"), cart: true },
 ]
 
 export function MobileBottomNav() {
   const pathname = usePathname() ?? "/"
+  const { open: openCart, count } = useCartDrawer()
   return (
     <nav
       aria-label="Mobile primary"
@@ -93,6 +96,21 @@ export function MobileBottomNav() {
                   {item.icon}
                   <span>{item.label}</span>
                 </a>
+              </li>
+            )
+          }
+          if (item.cart) {
+            return (
+              <li key={item.label}>
+                <button type="button" onClick={openCart} className={`${className} relative w-full`}>
+                  {item.icon}
+                  <span>{item.label}</span>
+                  {count > 0 ? (
+                    <span className="absolute right-[28%] top-1 inline-flex h-4 min-w-4 items-center justify-center rounded-full bg-[color:var(--color-gold)] px-1 text-[9px] font-semibold text-[color:var(--color-bg)]">
+                      {count}
+                    </span>
+                  ) : null}
+                </button>
               </li>
             )
           }

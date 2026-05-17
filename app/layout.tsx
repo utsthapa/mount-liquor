@@ -2,6 +2,8 @@ import type { Metadata } from "next"
 import { Inter, Playfair_Display } from "next/font/google"
 import "./globals.css"
 import { AgeBanner } from "../components/age-banner"
+import { AgeGate } from "../components/age-gate"
+import { CartDrawerProvider } from "../components/cart-drawer"
 import { Footer } from "../components/footer"
 import { Header } from "../components/header"
 import { MobileBottomNav } from "../components/mobile-bottom-nav"
@@ -35,11 +37,14 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
-        <AgeBanner />
-        <Header />
-        <main>{children}</main>
-        <Footer />
-        <MobileBottomNav />
+        <CartDrawerProvider>
+          <AgeBanner />
+          <Header />
+          <main>{children}</main>
+          <Footer />
+          <MobileBottomNav />
+        </CartDrawerProvider>
+        <AgeGate />
       </body>
     </html>
   )

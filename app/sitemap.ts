@@ -1,15 +1,22 @@
 import type { MetadataRoute } from "next"
-import { collections, featuredProducts } from "../lib/store"
+import { getCatalogProducts, getCollections } from "../lib/api"
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export const dynamic = "force-dynamic"
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = "https://www.mountliquor.com"
+  const [collections, products] = await Promise.all([getCollections(), getCatalogProducts()])
+
   return [
     "",
-    "/checkout",
     "/faq",
     "/pickup-delivery",
+    "/age-policy",
+    "/shipping-policy",
+    "/returns",
+    "/contact",
     ...collections.map((collection) => `/collections/${collection.slug}`),
-    ...featuredProducts.map((product) => `/products/${product.slug}`),
+    ...products.map((product) => `/products/${product.slug}`),
   ].map((path) => ({
     url: `${base}${path}`,
     lastModified: new Date(),

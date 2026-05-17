@@ -26,7 +26,10 @@ export function Footer() {
           <ul className="mt-4 space-y-2 text-sm">
             <li><Link href="/faq" className="hover:text-[color:var(--color-gold)]">FAQ</Link></li>
             <li><Link href="/pickup-delivery" className="hover:text-[color:var(--color-gold)]">Pickup &amp; Delivery</Link></li>
-            <li><Link href="/checkout" className="hover:text-[color:var(--color-gold)]">Checkout</Link></li>
+            <li><Link href="/shipping-policy" className="hover:text-[color:var(--color-gold)]">Shipping Policy</Link></li>
+            <li><Link href="/returns" className="hover:text-[color:var(--color-gold)]">Returns</Link></li>
+            <li><Link href="/age-policy" className="hover:text-[color:var(--color-gold)]">Age Policy</Link></li>
+            <li><Link href="/contact" className="hover:text-[color:var(--color-gold)]">Contact</Link></li>
           </ul>
         </div>
         <div>

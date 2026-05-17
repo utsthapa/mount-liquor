@@ -136,7 +136,6 @@ export const catalogProducts: CatalogProduct[] = [
     price: "$3.59",
     badge: "Popular",
     description: "Enjoy the crisp, smooth taste of Budweiser, America's iconic lager. Brewed with the finest barley malt and a blend of premium hop varieties, this 25 oz can delivers a refreshing, medium-bodied beer perfect for any occasion.",
-    imageUrl: "/images/bottle.jpg",
     rating: 4.2,
     reviewCount: 212,
     abv: 5,

@@ -1,26 +1,23 @@
 "use client"
 
 import { useState } from "react"
-import type { CatalogProduct, Review, TastingNote } from "../lib/store"
+import type { CatalogProduct, TastingNote } from "../lib/store"
 import { TastingNotes } from "./tasting-notes"
-import { StarRating } from "./star-rating"
 
-type TabKey = "description" | "tasting" | "reviews" | "shipping"
+type TabKey = "description" | "tasting" | "shipping"
 
 type Props = {
   product: CatalogProduct
   notes: TastingNote
-  reviews: Review[]
 }
 
 const tabs: { key: TabKey; label: string }[] = [
   { key: "description", label: "Description" },
   { key: "tasting", label: "Tasting Notes" },
-  { key: "reviews", label: "Reviews" },
   { key: "shipping", label: "Shipping & Returns" },
 ]
 
-export function ProductTabs({ product, notes, reviews }: Props) {
+export function ProductTabs({ product, notes }: Props) {
   const [active, setActive] = useState<TabKey>("description")
 
   return (
@@ -54,24 +51,6 @@ export function ProductTabs({ product, notes, reviews }: Props) {
         ) : null}
 
         {active === "tasting" ? <TastingNotes notes={notes} /> : null}
-
-        {active === "reviews" ? (
-          <div className="space-y-6 max-w-2xl">
-            {reviews.map((review) => (
-              <article key={`${review.author}-${review.date}`} className="rounded-xl border border-[color:var(--color-line)] p-5">
-                <div className="flex items-center justify-between gap-4">
-                  <div>
-                    <p className="text-sm font-medium text-[color:var(--color-ink)]">{review.author}</p>
-                    <p className="text-xs text-[color:var(--color-muted)]">{review.date}</p>
-                  </div>
-                  <StarRating rating={review.rating} size="sm" />
-                </div>
-                <h4 className="mt-3 font-serif text-lg text-[color:var(--color-ink)]">{review.title}</h4>
-                <p className="mt-2 text-sm text-[color:var(--color-muted)] leading-relaxed">{review.body}</p>
-              </article>
-            ))}
-          </div>
-        ) : null}
 
         {active === "shipping" ? (
           <div className="max-w-2xl space-y-3 text-[color:var(--color-muted)] leading-relaxed">

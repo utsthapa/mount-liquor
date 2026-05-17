@@ -1,8 +1,8 @@
 import Link from "next/link"
 import { notFound } from "next/navigation"
-import { ProductCard } from "../../../components/product-card"
+import { CollectionGrid } from "../../../components/collection-grid"
 import { getCatalogProducts, getCollections } from "../../../lib/api"
-import { buildMetadata } from "../../../lib/seo"
+import { breadcrumbSchema, buildMetadata } from "../../../lib/seo"
 
 export const dynamic = "force-dynamic"
 
@@ -25,11 +25,22 @@ export default async function CollectionPage({ params }: { params: Promise<{ slu
   if (!collection) notFound()
 
   const matches = products.filter(
-    (product) => product.category.toLowerCase() === collection.title.toLowerCase()
+    (product) =>
+      product.categorySlug === collection.slug ||
+      product.category.toLowerCase() === collection.title.toLowerCase()
   )
+
+  const crumbs = breadcrumbSchema([
+    { name: "Home", path: "/" },
+    { name: collection.title, path: `/collections/${collection.slug}` },
+  ])
 
   return (
     <section className="bg-[color:var(--color-bg)]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbs) }}
+      />
       <header className="border-b border-[color:var(--color-line)] bg-[color:var(--color-surface)]">
         <div className="mx-auto max-w-[1200px] px-6 py-14">
           <p className="text-xs uppercase tracking-[0.3em] text-[color:var(--color-gold)]">Collection</p>
@@ -60,11 +71,7 @@ export default async function CollectionPage({ params }: { params: Promise<{ slu
             </Link>
           </div>
         ) : (
-          <div className="grid gap-6 grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-            {matches.map((product) => (
-              <ProductCard key={product.slug} product={product} />
-            ))}
-          </div>
+          <CollectionGrid products={matches} />
         )}
       </div>
     </section>

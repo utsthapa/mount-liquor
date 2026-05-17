@@ -1,37 +1,56 @@
-import { collections, featuredProducts, normalizeBadge, parsePriceUsd, storeConfig } from "./store"
+import { collections, normalizeBadge, parsePriceUsd, storeConfig } from "./store"
 import type { CatalogProduct } from "./store"
+import { medusa, MEDUSA_REGION_ID, isMedusaConfigured } from "./medusa"
 
 export type { CatalogProduct }
 
 type MedusaVariant = {
+  id?: string
+  title?: string
+  sku?: string
+  barcode?: string
+  calculated_price?: { calculated_amount?: number; currency_code?: string }
+  metadata?: Record<string, unknown>
   prices?: Array<{ currency_code?: string; amount?: number }>
 }
 
 type MedusaProduct = {
+  id?: string
   handle: string
   title: string
-  collection?: string
+  categories?: Array<{ id?: string; name?: string; handle?: string }>
+  collection?: { title?: string } | string
   subtitle?: string
   description?: string
-  metadata?: {
-    markup_percent?: number
-  }
+  thumbnail?: string
+  images?: Array<{ url: string }>
+  metadata?: Record<string, unknown>
   variants?: MedusaVariant[]
 }
 
-type CatalogPayload = {
-  products?: MedusaProduct[]
+type MedusaListProductsResponse = {
+  products: MedusaProduct[]
+  count?: number
 }
 
-const backendUrl = process.env.NEXT_PUBLIC_MEDUSA_BACKEND_URL
-const backendTimeoutMs = 1500
+type MedusaCategory = {
+  id?: string
+  name?: string
+  handle?: string
+  description?: string | null
+}
+
+type MedusaListCategoriesResponse = {
+  product_categories: MedusaCategory[]
+  count?: number
+}
 
 function formatPrice(amount?: number): string {
   if (!amount && amount !== 0) return "Call for price"
   return new Intl.NumberFormat("en-US", {
     style: "currency",
     currency: "USD",
-  }).format(amount / 100)
+  }).format(amount)
 }
 
 function productBadge(index: number): string {
@@ -39,52 +58,142 @@ function productBadge(index: number): string {
   return badges[index % badges.length]
 }
 
+function metadataString(metadata: Record<string, unknown> | undefined, key: string): string | undefined {
+  const value = metadata?.[key]
+  return typeof value === "string" && value.trim() ? value.trim() : undefined
+}
+
+function metadataNumber(metadata: Record<string, unknown> | undefined, key: string): number | undefined {
+  const value = metadata?.[key]
+  if (typeof value === "number" && Number.isFinite(value)) return value
+  if (typeof value === "string") {
+    const parsed = Number(value)
+    if (Number.isFinite(parsed)) return parsed
+  }
+  return undefined
+}
+
 function mapProduct(product: MedusaProduct, index: number): CatalogProduct {
-  const amount = product.variants?.[0]?.prices?.[0]?.amount
+  const variant = product.variants?.[0]
+  const amount =
+    variant?.calculated_price?.calculated_amount ?? variant?.prices?.[0]?.amount
+  const currencyCode =
+    variant?.calculated_price?.currency_code ?? variant?.prices?.[0]?.currency_code ?? "usd"
+  const primaryCategory = product.categories?.find((category) => category.name)
+  const category =
+    primaryCategory?.name ||
+    (typeof product.collection === "object" ? product.collection?.title : product.collection) ||
+    "Liquor"
+  const upc = metadataString(product.metadata, "upc") || variant?.sku || variant?.barcode
+  const size = metadataString(variant?.metadata, "size")
+
   return {
     slug: product.handle,
     title: product.title,
-    category: product.collection || product.subtitle || "Liquor",
+    category,
+    categorySlug: primaryCategory?.handle,
     price: formatPrice(amount),
+    priceAmount: amount,
+    currencyCode: currencyCode.toUpperCase(),
     badge: productBadge(index),
     description: product.description || "Curated for local pickup and delivery.",
+    metaDescription: metadataString(product.metadata, "meta_description"),
+    imageUrl: product.thumbnail || product.images?.[0]?.url,
+    gallery: product.images?.map((i) => i.url),
+    volumeMl: metadataNumber(product.metadata, "volume_ml"),
+    abv: metadataNumber(product.metadata, "abv"),
+    vendor: metadataString(product.metadata, "vendor") || metadataString(product.metadata, "brand"),
+    brand: metadataString(product.metadata, "brand"),
+    displaySize: size || metadataString(product.metadata, "display_size") || metadataString(product.metadata, "size"),
+    rating: metadataNumber(product.metadata, "sellability"),
+    sku: variant?.sku,
+    barcode: variant?.barcode,
+    upc,
+    variantId: variant?.id,
   }
+}
+
+function isValidCatalogProduct(product: MedusaProduct): boolean {
+  return Boolean(product.handle && product.title && product.variants?.some((variant) => variant.id))
 }
 
 export async function getCatalogProducts(): Promise<CatalogProduct[]> {
-  if (!backendUrl) return featuredProducts
+  if (!isMedusaConfigured || !medusa) return []
   try {
-    const response = await fetch(`${backendUrl}/catalog`, {
-      next: { revalidate: 300 },
-      signal: AbortSignal.timeout(backendTimeoutMs),
-    })
-    if (!response.ok) throw new Error(`Catalog request failed: ${response.status}`)
-    const payload = (await response.json()) as CatalogPayload
-    const products = payload.products?.map(mapProduct).filter(Boolean)
-    if (products && products.length > 0) return products
-  } catch {
-    return featuredProducts
+    const limit = 100
+    const allProducts: MedusaProduct[] = []
+
+    for (let offset = 0; ; offset += limit) {
+      const { products, count } = (await medusa.store.product.list({
+        limit,
+        offset,
+        fields: "*variants.calculated_price,+variants.sku,+variants.barcode,+variants.metadata,+thumbnail,+images.url,*categories,+metadata",
+        ...(MEDUSA_REGION_ID ? { region_id: MEDUSA_REGION_ID } : {}),
+      })) as MedusaListProductsResponse
+
+      allProducts.push(...products)
+      if (products.length < limit || offset + limit >= (count ?? products.length)) break
+    }
+
+    return allProducts.filter(isValidCatalogProduct).map(mapProduct)
+  } catch (err) {
+    console.warn("[medusa] catalog fetch failed", err)
   }
-  return featuredProducts
+  return []
 }
 
 export async function getStoreData() {
-  if (!backendUrl) return storeConfig
+  return storeConfig
+}
+
+async function getMedusaCategories(): Promise<MedusaCategory[]> {
+  if (!isMedusaConfigured || !medusa) return []
+
   try {
-    const response = await fetch(`${backendUrl}/store-config`, {
-      next: { revalidate: 300 },
-      signal: AbortSignal.timeout(backendTimeoutMs),
-    })
-    if (!response.ok) throw new Error(`Store config request failed: ${response.status}`)
-    const payload = await response.json()
-    return payload.store || storeConfig
-  } catch {
-    return storeConfig
+    const limit = 100
+    const allCategories: MedusaCategory[] = []
+
+    for (let offset = 0; ; offset += limit) {
+      const { product_categories, count } = (await medusa.store.category.list({
+        limit,
+        offset,
+        fields: "id,name,handle,description",
+      })) as MedusaListCategoriesResponse
+
+      allCategories.push(...product_categories)
+      if (product_categories.length < limit || offset + limit >= (count ?? product_categories.length)) break
+    }
+
+    return allCategories.filter((category) => category.name || category.handle)
+  } catch (err) {
+    console.warn("[medusa] category fetch failed", err)
   }
+
+  return []
 }
 
 export async function getCollections() {
-  const products = await getCatalogProducts()
+  const [categories, products] = await Promise.all([getMedusaCategories(), getCatalogProducts()])
+  const productCategorySlugs = new Set(
+    products.map((product) => product.categorySlug || product.category.toLowerCase().replace(/[^a-z0-9]+/g, "-"))
+  )
+  const fromCategories = categories.flatMap((category) => {
+    const title = category.name || category.handle || "Liquor"
+    const slug = category.handle || title.toLowerCase().replace(/[^a-z0-9]+/g, "-")
+    const fallback = collections.find((c) => c.slug === slug || c.title.toLowerCase() === title.toLowerCase())
+
+    if (!fallback && !productCategorySlugs.has(slug)) return []
+
+    return [{
+      slug: fallback?.slug ?? slug,
+      title: fallback?.title ?? title,
+      description:
+        category.description ||
+        fallback?.description ||
+        `Shop ${title.toLowerCase()} online for premium pickup or local delivery.`,
+    }]
+  })
+
   const derived = [...new Set(products.map((product) => product.category))].map((name) => {
     const fallback = collections.find((c) => c.title.toLowerCase() === name.toLowerCase())
     return {
@@ -98,6 +207,7 @@ export async function getCollections() {
 
   const bySlug = new Map<string, (typeof collections)[number]>()
   for (const collection of collections) bySlug.set(collection.slug, collection)
+  for (const collection of fromCategories) bySlug.set(collection.slug, collection)
   for (const collection of derived) bySlug.set(collection.slug, collection)
   return Array.from(bySlug.values())
 }

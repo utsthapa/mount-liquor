@@ -29,10 +29,16 @@ export type CatalogProduct = {
   slug: string
   title: string
   category: string
+  /** URL-safe category handle from Medusa when available. */
+  categorySlug?: string
   price: string
+  /** Raw decimal amount from Medusa calculated_price.calculated_amount. */
+  priceAmount?: number
+  currencyCode?: string
   /** Free-form badge from upstream data; normalize via normalizeBadge() before render. */
   badge: string
   description: string
+  metaDescription?: string
   imageUrl?: string
   gallery?: string[]
   rating?: number
@@ -46,6 +52,11 @@ export type CatalogProduct = {
   brand?: string
   /** Display-ready size string ("750ml" | "1.75L" | "12-pack"). Falls back to volumeMl format. */
   displaySize?: string
+  sku?: string
+  barcode?: string
+  upc?: string
+  /** Medusa default variant id — used to add to cart when backend is wired. */
+  variantId?: string
 }
 
 export const collections = [

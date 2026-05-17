@@ -7,12 +7,16 @@ export function buildMetadata({
   title,
   description,
   path = "/",
+  image,
+  suffixTitle = true,
 }: {
   title: string
   description: string
   path?: string
+  image?: string
+  suffixTitle?: boolean
 }): Metadata {
-  const absoluteTitle = `${title} | ${storeConfig.name}`
+  const absoluteTitle = suffixTitle ? `${title} | ${storeConfig.name}` : title
   const url = new URL(path, siteUrl).toString()
   return {
     title: absoluteTitle,
@@ -24,12 +28,27 @@ export function buildMetadata({
       url,
       siteName: storeConfig.name,
       type: "website",
+      images: image ? [{ url: image }] : undefined,
     },
     twitter: {
       card: "summary_large_image",
       title: absoluteTitle,
       description,
+      images: image ? [image] : undefined,
     },
+  }
+}
+
+export function breadcrumbSchema(trail: Array<{ name: string; path: string }>) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: trail.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: new URL(item.path, siteUrl).toString(),
+    })),
   }
 }
 

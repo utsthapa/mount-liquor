@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@medusajs/js-sdk": "^2.15.2",
+    "@stripe/react-stripe-js": "^6.3.0",
+    "@stripe/stripe-js": "^9.5.0",
     "@tailwindcss/postcss": "^4.2.4",
     "clsx": "^2.1.1",
     "next": "^15.5.15",

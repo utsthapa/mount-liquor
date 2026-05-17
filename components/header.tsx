@@ -2,7 +2,8 @@
 
 import Link from "next/link"
 import { useState } from "react"
-import { storeConfig, openTodayLabel, matchCategorySlug } from "../lib/store"
+import { storeConfig, openTodayLabel } from "../lib/store"
+import { useCartDrawer } from "./cart-drawer"
 
 const primaryNav = [
   { label: "Whiskey", href: "/collections/whiskey" },
@@ -75,14 +76,8 @@ function HamburgerIcon({ open }: { open: boolean }) {
 function SearchForm({ idSuffix }: { idSuffix: string }) {
   return (
     <form
-      action="/collections/whiskey"
+      action="/search"
       method="GET"
-      onSubmit={(e) => {
-        const input = (e.currentTarget.elements.namedItem("q") as HTMLInputElement | null)?.value ?? ""
-        const slug = matchCategorySlug(input)
-        e.preventDefault()
-        window.location.href = `/collections/${slug}`
-      }}
       role="search"
       className="flex items-center w-full rounded-full bg-[color:var(--color-surface)] pl-5 pr-2 h-12 ring-1 ring-[color:var(--color-line)] focus-within:ring-2 focus-within:ring-[color:var(--color-gold)] transition-shadow"
     >
@@ -107,6 +102,7 @@ function SearchForm({ idSuffix }: { idSuffix: string }) {
 
 export function Header() {
   const [navOpen, setNavOpen] = useState(false)
+  const { open: openCart, count } = useCartDrawer()
 
   return (
     <header className="bg-[color:var(--color-surface)] text-[color:var(--color-ink)]">
@@ -139,13 +135,19 @@ export function Header() {
           >
             <AccountIcon />
           </Link>
-          <Link
-            href="/checkout"
+          <button
+            type="button"
+            onClick={openCart}
             aria-label="Cart"
-            className="hover:text-[color:var(--color-gold)] transition-colors"
+            className="relative hover:text-[color:var(--color-gold)] transition-colors"
           >
             <CartIcon />
-          </Link>
+            {count > 0 ? (
+              <span className="absolute -right-2 -top-2 inline-flex h-5 min-w-5 items-center justify-center rounded-full bg-[color:var(--color-gold)] px-1 text-[10px] font-semibold text-[color:var(--color-bg)]">
+                {count}
+              </span>
+            ) : null}
+          </button>
           <button
             type="button"
             aria-label={navOpen ? "Close menu" : "Open menu"}
