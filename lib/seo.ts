@@ -9,16 +9,18 @@ export function buildMetadata({
   path = "/",
   image,
   suffixTitle = true,
+  ...metadata
 }: {
   title: string
   description: string
   path?: string
   image?: string
   suffixTitle?: boolean
-}): Metadata {
+} & Omit<Metadata, "title" | "description" | "alternates" | "openGraph" | "twitter">): Metadata {
   const absoluteTitle = suffixTitle ? `${title} | ${storeConfig.name}` : title
   const url = new URL(path, siteUrl).toString()
   return {
+    ...metadata,
     title: absoluteTitle,
     description,
     alternates: { canonical: url },

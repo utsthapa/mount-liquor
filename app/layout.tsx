@@ -26,6 +26,11 @@ export const metadata: Metadata = buildMetadata({
   title: "Irving Liquor Store — Beer, Wine & Spirits",
   description:
     "Mount Liquor in Irving, TX. Shop whiskey, tequila, vodka, wine, beer, mixers and more. Same-day pickup or fast local delivery.",
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
 })
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

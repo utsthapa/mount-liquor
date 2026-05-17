@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
 import { storeConfig, openTodayLabel } from "../lib/store"
@@ -119,10 +120,15 @@ export function Header() {
 
       {/* Row 2 — brand + search + actions */}
       <div className="mx-auto max-w-[1200px] px-6 py-5 grid grid-cols-[auto_1fr_auto] items-center gap-6">
-        <Link href="/" className="flex items-center gap-2 shrink-0">
-          <span className="font-serif text-xl tracking-[0.18em] text-[color:var(--color-ink)]">
-            MOUNT LIQUOR
-          </span>
+        <Link href="/" className="flex shrink-0 items-center" aria-label="Mount Liquor home">
+          <Image
+            src="/logo.png"
+            alt="Mount Liquor"
+            width={180}
+            height={160}
+            priority
+            className="h-14 w-auto md:h-16"
+          />
         </Link>
         <div className="hidden md:block">
           <SearchForm idSuffix="desktop" />

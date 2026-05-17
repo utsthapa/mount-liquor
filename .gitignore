@@ -16,3 +16,4 @@ medusa/backend/node_modules/
 medusa/backend/.medusa/
 medusa/backend/.config/
 medusa/backend/dist/
+.vercel
