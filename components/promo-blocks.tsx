@@ -14,7 +14,7 @@ const blocks: Block[] = [
   {
     title: "Mix & Match Wine Deals",
     sub: "Save when you pick any 6 bottles from the wine wall.",
-    href: "/collections/wine",
+    href: "/collections/wine-deals",
     cta: "Build a 6-pack",
     tone: "cream",
   },
@@ -35,7 +35,7 @@ const blocks: Block[] = [
   {
     title: "Party Packs & Mixers",
     sub: "Everything you need beyond the bottle — sodas, juices, ice.",
-    href: "/collections/mixers",
+    href: "/collections/party-packs",
     cta: "Stock up",
     tone: "cream",
   },

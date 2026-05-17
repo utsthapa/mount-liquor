@@ -8,6 +8,7 @@ import { YouMayAlsoLike } from "../../../components/you-may-also-like"
 import { getCatalogProducts, getStoreData } from "../../../lib/api"
 import { resolveGallery, resolveTastingNotes } from "../../../lib/mock-content"
 import { breadcrumbSchema, buildMetadata } from "../../../lib/seo"
+import { normalizeCollectionSlug } from "../../../lib/store"
 
 export const dynamic = "force-static"
 export const dynamicParams = false
@@ -40,6 +41,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
   const gallery = resolveGallery(product).slice(0, 1)
   const notes = resolveTastingNotes(product)
   const related = products.filter((entry) => entry.slug !== product.slug).slice(0, 4)
+  const collectionSlug = normalizeCollectionSlug(product.categorySlug ?? product.category.toLowerCase().replace(/[^a-z0-9]+/g, "-"))
 
   const productSchema = {
     "@context": "https://schema.org",
@@ -59,7 +61,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
 
   const crumbs = breadcrumbSchema([
     { name: "Home", path: "/" },
-    { name: product.category, path: `/collections/${product.categorySlug ?? product.category.toLowerCase().replace(/[^a-z0-9]+/g, "-")}` },
+    { name: product.category, path: `/collections/${collectionSlug}` },
     { name: product.title, path: `/products/${product.slug}` },
   ])
 
@@ -77,7 +79,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
         <nav className="text-xs uppercase tracking-[0.18em] text-[color:var(--color-muted)]">
           <Link href="/" className="hover:text-[color:var(--color-gold)]">Home</Link>
           <span className="mx-2">/</span>
-          <Link href={`/collections/${product.categorySlug ?? product.category.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`} className="hover:text-[color:var(--color-gold)]">
+          <Link href={`/collections/${collectionSlug}`} className="hover:text-[color:var(--color-gold)]">
             {product.category}
           </Link>
           <span className="mx-2">/</span>

@@ -35,12 +35,12 @@ export default async function HomePage() {
 
   const MIN = 4
   const sections = [
-    { eyebrow: "This week", title: "Weekly Deals", href: "/collections/whiskey", products: weeklyDeals, tone: "cream" as const },
+    { eyebrow: "This week", title: "Weekly Deals", href: "/collections/deals", products: weeklyDeals, tone: "cream" as const },
     { eyebrow: "Most loved", title: "Best Sellers", href: "/collections/whiskey", products: bestSellers, tone: "white" as const },
     { eyebrow: "Pickup-ready", title: "Party Essentials", href: "/collections/beer", products: partyEssentials, tone: "cream" as const },
     { eyebrow: "Top shelf", title: "Premium Whiskey Picks", href: "/collections/whiskey", products: premiumWhiskey, tone: "white" as const },
     { eyebrow: "Hand-picked", title: "Tequila Favorites", href: "/collections/tequila", products: tequilaFavorites, tone: "cream" as const },
-    { eyebrow: "Just landed", title: "New Arrivals", href: "/collections/whiskey", products: newArrivals, tone: "white" as const },
+    { eyebrow: "Just landed", title: "New Arrivals", href: "/collections/new-arrivals", products: newArrivals, tone: "white" as const },
   ].filter((s) => s.products.length >= MIN)
 
   return (

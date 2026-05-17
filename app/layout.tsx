@@ -27,9 +27,12 @@ export const metadata: Metadata = buildMetadata({
   description:
     "Mount Liquor in Irving, TX. Shop whiskey, tequila, vodka, wine, beer, mixers and more. Same-day pickup or fast local delivery.",
   icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
-    apple: "/logo.png",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.png", type: "image/png", sizes: "512x512" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/apple-icon.png",
   },
 })
 

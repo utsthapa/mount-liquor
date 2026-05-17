@@ -3,6 +3,7 @@ import { notFound } from "next/navigation"
 import { CollectionGrid } from "../../../components/collection-grid"
 import { getCatalogProducts, getCollections } from "../../../lib/api"
 import { breadcrumbSchema, buildMetadata } from "../../../lib/seo"
+import { normalizeBadge, parsePriceUsd } from "../../../lib/store"
 
 export const dynamic = "force-static"
 export const dynamicParams = false
@@ -24,17 +25,41 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   })
 }
 
+function productBelongsToCollection(product: Awaited<ReturnType<typeof getCatalogProducts>>[number], collection: { slug: string; title: string }, index: number) {
+  const categorySlug = product.categorySlug ?? product.category.toLowerCase().replace(/[^a-z0-9]+/g, "-")
+  const category = product.category.toLowerCase()
+  const title = product.title.toLowerCase()
+
+  if (collection.slug === "wine-deals") return categorySlug === "wine" || category === "wine"
+  if (collection.slug === "deals") {
+    const price = parsePriceUsd(product.price)
+    return normalizeBadge(product.badge) === "Sale" || (price !== null && price <= 25)
+  }
+  if (collection.slug === "new-arrivals") return product.badge.toLowerCase().includes("new") || index < 60
+  if (collection.slug === "whiskey") {
+    return categorySlug.includes("whiskey") || categorySlug.includes("whisky") || ["bourbon", "scotch", "rye"].some((term) => categorySlug.includes(term) || category.includes(term) || title.includes(term))
+  }
+  if (collection.slug === "mixers") {
+    return ["mixers", "sodas-&-juices", "sodas-juices", "sodas-and-juices", "energy-drinks"].includes(categorySlug) || ["mixers", "energy drink"].includes(category) || category.includes("soda") || category.includes("juice")
+  }
+  if (["sodas-&-juices", "sodas-juices", "sodas-and-juices"].includes(collection.slug)) {
+    return ["sodas-&-juices", "sodas-juices", "sodas-and-juices"].includes(categorySlug) || category.includes("soda") || category.includes("juice")
+  }
+  if (collection.slug === "brandy-&-cognac") return categorySlug === "brandy-cognac" || categorySlug === "brandy-&-cognac" || category.includes("brandy") || category.includes("cognac")
+  if (collection.slug === "party-packs") {
+    return ["beer", "wine", "mixers", "energy-drink"].includes(categorySlug) || ["beer", "wine", "mixers", "energy drink"].includes(category)
+  }
+
+  return categorySlug === collection.slug || category === collection.title.toLowerCase()
+}
+
 export default async function CollectionPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
   const [collectionItems, products] = await Promise.all([getCollections(), getCatalogProducts()])
   const collection = collectionItems.find((entry) => entry.slug === slug)
   if (!collection) notFound()
 
-  const matches = products.filter(
-    (product) =>
-      product.categorySlug === collection.slug ||
-      product.category.toLowerCase() === collection.title.toLowerCase()
-  )
+  const matches = products.filter((product, index) => productBelongsToCollection(product, collection, index))
 
   const crumbs = breadcrumbSchema([
     { name: "Home", path: "/" },

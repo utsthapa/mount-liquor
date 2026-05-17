@@ -30,7 +30,7 @@ export function HomeHero() {
           </p>
           <div className="mt-5 flex flex-wrap gap-3">
             <Link
-              href="/collections/whiskey"
+              href="/collections/deals"
               className="inline-flex items-center rounded-full bg-white px-6 py-2.5 text-xs font-medium uppercase tracking-[0.2em] text-[color:var(--color-ink)] ring-1 ring-[color:var(--color-ink)]/20 shadow-sm hover:bg-[color:var(--color-bg)] transition-colors"
             >
               Shop Deals

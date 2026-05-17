@@ -58,7 +58,7 @@ const items: Item[] = [
     match: () => false,
     scrollSearch: true,
   },
-  { label: "Deals", href: "/collections/whiskey", icon: <TagIcon />, match: (p) => p.startsWith("/collections") },
+  { label: "Deals", href: "/collections/deals", icon: <TagIcon />, match: (p) => p === "/collections/deals" },
   { label: "Cart", href: "/cart", icon: <CartIcon />, match: (p) => p.startsWith("/cart"), cart: true },
 ]
 

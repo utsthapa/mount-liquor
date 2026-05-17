@@ -91,9 +91,49 @@ export const collections = [
     description: "Craft staples, import standouts, and fridge-stockers for casual nights and gatherings.",
   },
   {
+    slug: "mixers",
+    title: "Mixers",
+    description: "Sodas, juices, tonic, energy drinks, and party-ready essentials beyond the bottle.",
+  },
+  {
+    slug: "sodas-and-juices",
+    title: "Sodas & Juices",
+    description: "Sodas, juices, tonic, and non-alcoholic mixers for cocktails and parties.",
+  },
+  {
+    slug: "sodas-juices",
+    title: "Sodas & Juices",
+    description: "Sodas, juices, tonic, and non-alcoholic mixers for cocktails and parties.",
+  },
+  {
+    slug: "sodas-&-juices",
+    title: "Sodas & Juices",
+    description: "Sodas, juices, tonic, and non-alcoholic mixers for cocktails and parties.",
+  },
+  {
     slug: "tequila",
     title: "Tequila",
     description: "Blanco, reposado, and añejo bottles from Mexico's finest distilleries.",
+  },
+  {
+    slug: "deals",
+    title: "Deals",
+    description: "Current value picks, weekly deals, and crowd-pleasing bottles at sharp prices.",
+  },
+  {
+    slug: "new-arrivals",
+    title: "New Arrivals",
+    description: "Freshly added bottles and latest arrivals from the Mount Liquor catalog.",
+  },
+  {
+    slug: "wine-deals",
+    title: "Mix & Match Wine Deals",
+    description: "Wine deals, multi-bottle picks, and easy pairings for dinner, gifting, and hosting.",
+  },
+  {
+    slug: "party-packs",
+    title: "Party Packs & Mixers",
+    description: "Cold cases, mixers, sodas, juices, and essentials for gatherings and tailgates.",
   },
 ]
 
@@ -143,6 +183,13 @@ export function matchCategorySlug(query: string): CategorySlug {
   if (q.includes("ipa") || q.includes("lager") || q.includes("ale") || q.includes("stout")) return "beer"
   if (q.includes("soda") || q.includes("tonic") || q.includes("juice")) return "mixers"
   return "whiskey"
+}
+
+export function normalizeCollectionSlug(slug: string): string {
+  const value = slug.toLowerCase()
+  if (["sodas-&-juices", "sodas-juices", "sodas-and-juices"].includes(value)) return "sodas-and-juices"
+  if (value === "energy-drink") return "energy-drinks"
+  return value
 }
 
 const BADGE_MAP: Record<string, ProductBadge> = {

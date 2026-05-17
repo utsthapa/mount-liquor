@@ -1,6 +1,6 @@
 import { CategoryGridPager } from "./category-grid-pager"
 import { getCatalogProducts } from "../lib/api"
-import type { CatalogProduct } from "../lib/store"
+import { normalizeCollectionSlug, type CatalogProduct } from "../lib/store"
 
 export type CategoryTile = { slug: string; title: string; image: string; count: number }
 
@@ -10,7 +10,7 @@ function buildTiles(products: CatalogProduct[]): CategoryTile[] {
   const byCategory = new Map<string, { title: string; products: CatalogProduct[] }>()
   for (const p of products) {
     const title = p.category
-    const slug = p.categorySlug || title.toLowerCase().replace(/[^a-z0-9]+/g, "-")
+    const slug = normalizeCollectionSlug(p.categorySlug || title.toLowerCase().replace(/[^a-z0-9]+/g, "-"))
     const entry = byCategory.get(slug) ?? { title, products: [] }
     entry.products.push(p)
     byCategory.set(slug, entry)

@@ -15,8 +15,8 @@ const primaryNav = [
   { label: "Wine", href: "/collections/wine" },
   { label: "Beer", href: "/collections/beer" },
   { label: "Mixers", href: "/collections/mixers" },
-  { label: "Deals", href: "/collections/whiskey", deal: true },
-  { label: "New Arrivals", href: "/collections/whiskey" },
+  { label: "Deals", href: "/collections/deals", deal: true },
+  { label: "New Arrivals", href: "/collections/new-arrivals" },
 ]
 
 function ClockIcon() {
