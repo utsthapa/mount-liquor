@@ -5,7 +5,7 @@ export const storeConfig = {
   headline: "Elevated Spirits for Pickup and Local Delivery",
   phone: "469-276-7525",
   address: "535 W Airport Fwy, Irving, TX 75062",
-  hours: "Mon-Sat 10am-9pm, Sun 12pm-7pm",
+  hours: "Mon-Sat 10am-9pm, Closed Sun",
   city: "Irving",
   state: "TX",
   deliveryRadiusMiles: 10,
@@ -143,7 +143,7 @@ export function formatCurrency(amount: number): string {
 
 const HOURS_BY_DAY: Record<number, string | null> = {
   // Sun=0, Mon=1, ..., Sat=6
-  0: "12PM–7PM",
+  0: null,
   1: "10AM–9PM",
   2: "10AM–9PM",
   3: "10AM–9PM",
