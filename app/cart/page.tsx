@@ -23,9 +23,9 @@ export default async function CartPage() {
 
   return (
     <section className="bg-[color:var(--color-bg)]">
-      <div className="mx-auto max-w-[1200px] px-6 py-14">
-        <p className="text-xs uppercase tracking-[0.3em] text-[color:var(--color-gold)]">Cart</p>
-        <h1 className="mt-3 font-serif text-5xl text-[color:var(--color-ink)] md:text-6xl">
+      <div className="mx-auto max-w-[1200px] px-4 md:px-6 py-8 md:py-14">
+        <p className="text-[11px] md:text-xs uppercase tracking-[0.3em] text-[color:var(--color-gold)]">Cart</p>
+        <h1 className="mt-2 md:mt-3 font-serif text-3xl md:text-6xl text-[color:var(--color-ink)]">
           Your bottles
         </h1>
 
@@ -40,24 +40,24 @@ export default async function CartPage() {
             </Link>
           </div>
         ) : (
-          <div className="mt-10 grid gap-10 lg:grid-cols-[1.4fr_1fr]">
-            <ul className="space-y-4">
+          <div className="mt-6 md:mt-10 grid gap-6 md:gap-10 lg:grid-cols-[1.4fr_1fr]">
+            <ul className="space-y-3 md:space-y-4">
               {items.map((item: any) => (
                 <li
                   key={item.id}
-                  className="flex gap-4 rounded-2xl border border-[color:var(--color-line)] bg-[color:var(--color-surface)] p-4"
+                  className="flex gap-3 md:gap-4 rounded-2xl border border-[color:var(--color-line)] bg-[color:var(--color-surface)] p-3 md:p-4"
                 >
                   {item.thumbnail ? (
-                    <div className="relative h-24 w-24 shrink-0 overflow-hidden rounded-xl bg-[color:var(--color-bg)]">
+                    <div className="relative h-20 w-20 md:h-24 md:w-24 shrink-0 overflow-hidden rounded-xl bg-[color:var(--color-bg)]">
                       <Image src={item.thumbnail} alt={item.product_title ?? ""} fill sizes="96px" className="object-cover" />
                     </div>
                   ) : null}
                   <div className="flex-1">
-                    <p className="font-serif text-lg text-[color:var(--color-ink)]">{item.product_title}</p>
+                    <p className="font-serif text-base md:text-lg text-[color:var(--color-ink)] leading-snug">{item.product_title}</p>
                     <p className="text-xs text-[color:var(--color-muted)]">{item.variant_title}</p>
-                    <div className="mt-3 flex items-center justify-between gap-4">
+                    <div className="mt-2 md:mt-3 flex items-center justify-between gap-3 md:gap-4">
                       <CartLineItemControls lineItemId={item.id} initialQuantity={item.quantity} />
-                      <p className="font-serif text-lg text-[color:var(--color-gold)]">
+                      <p className="font-serif text-base md:text-lg text-[color:var(--color-gold)] tabular-nums">
                         {formatMoney((item.unit_price ?? 0) * item.quantity, currency)}
                       </p>
                     </div>
@@ -66,7 +66,7 @@ export default async function CartPage() {
               ))}
             </ul>
 
-            <aside className="h-fit rounded-2xl border border-[color:var(--color-line)] bg-[color:var(--color-surface)] p-6">
+            <aside className="h-fit rounded-2xl border border-[color:var(--color-line)] bg-[color:var(--color-surface)] p-5 md:p-6">
               <p className="text-xs uppercase tracking-[0.2em] text-[color:var(--color-gold)]">Summary</p>
               <dl className="mt-4 space-y-2 text-sm">
                 <div className="flex justify-between text-[color:var(--color-muted)]">

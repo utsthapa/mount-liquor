@@ -40,16 +40,16 @@ export function ProductCard({ product }: Props) {
           alt={title}
           fill
           sizes="(max-width: 768px) 50vw, 280px"
-          className="object-contain p-6 transition-transform duration-500 group-hover:scale-105"
+          className="object-contain p-4 md:p-6 transition-transform duration-500 group-hover:scale-105"
         />
       </Link>
-      <div className="flex flex-1 flex-col gap-2 px-5 pt-4 pb-5">
+      <div className="flex flex-1 flex-col gap-1.5 md:gap-2 px-3 pt-3 pb-4 md:px-5 md:pt-4 md:pb-5">
         {brand ? (
           <p className="text-[10px] uppercase tracking-[0.22em] text-[color:var(--color-muted)]">{brand}</p>
         ) : null}
         <Link
           href={`/products/${product.slug}`}
-          className="font-serif text-lg leading-snug text-[color:var(--color-ink)] hover:text-[color:var(--color-gold)] transition-colors"
+          className="font-serif text-sm md:text-lg leading-snug text-[color:var(--color-ink)] hover:text-[color:var(--color-gold)] transition-colors line-clamp-2"
         >
           {title}
         </Link>
@@ -58,8 +58,8 @@ export function ProductCard({ product }: Props) {
             {size}
           </span>
         ) : null}
-        <div className="mt-auto flex items-center justify-between gap-3 pt-3">
-          <p className="text-xl font-bold text-[color:var(--color-ink)] tabular-nums">{product.price}</p>
+        <div className="mt-auto flex items-center justify-between gap-3 pt-2 md:pt-3">
+          <p className="text-base md:text-xl font-bold text-[color:var(--color-ink)] tabular-nums">{product.price}</p>
         </div>
         <QuickAddButton variantId={product.variantId} productSlug={product.slug} />
       </div>

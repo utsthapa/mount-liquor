@@ -33,10 +33,10 @@ function ClockIcon() {
 export function LocalStore() {
   return (
     <section className="bg-[color:var(--color-bg)] border-t border-[color:var(--color-line)]">
-      <div className="mx-auto max-w-[1200px] px-6 py-16 grid gap-10 lg:grid-cols-[1fr_1.2fr] lg:items-stretch">
+      <div className="mx-auto max-w-[1200px] px-4 md:px-6 py-10 md:py-16 grid gap-8 md:gap-10 lg:grid-cols-[1fr_1.2fr] lg:items-stretch">
         <div className="flex flex-col">
-          <p className="text-xs uppercase tracking-[0.3em] text-[color:var(--color-gold)]">Visit us</p>
-          <h2 className="mt-2 font-serif text-3xl text-[color:var(--color-ink)] md:text-4xl">Visit Mount Liquor</h2>
+          <p className="text-[11px] md:text-xs uppercase tracking-[0.3em] text-[color:var(--color-gold)]">Visit us</p>
+          <h2 className="mt-2 font-serif text-2xl md:text-4xl text-[color:var(--color-ink)]">Visit Mount Liquor</h2>
           <p className="mt-3 text-sm text-[color:var(--color-muted)] max-w-md">
             Walk in, browse the wall, or pick up an order in minutes. We&apos;re a real store with real people in Irving.
           </p>

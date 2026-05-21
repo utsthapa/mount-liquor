@@ -60,18 +60,18 @@ const TONE_CLASSES: Record<Tone, { wrapper: string; title: string; sub: string; 
 export function PromoBlocks() {
   return (
     <section className="bg-[color:var(--color-bg)]">
-      <div className="mx-auto max-w-[1200px] px-6 py-12">
-        <div className="grid gap-4 sm:grid-cols-2">
+      <div className="mx-auto max-w-[1200px] px-4 md:px-6 py-8 md:py-12">
+        <div className="grid gap-3 md:gap-4 sm:grid-cols-2">
           {blocks.map((b) => {
             const tone = TONE_CLASSES[b.tone]
             return (
               <Link
                 key={b.title}
                 href={b.href}
-                className={`group rounded-[var(--radius-card)] p-6 md:p-8 flex flex-col justify-between min-h-[180px] transition-shadow hover:ring-2 hover:ring-[color:var(--color-gold)] ${tone.wrapper}`}
+                className={`group rounded-[var(--radius-card)] p-5 md:p-8 flex flex-col justify-between min-h-[160px] md:min-h-[180px] transition-shadow hover:ring-2 hover:ring-[color:var(--color-gold)] ${tone.wrapper}`}
               >
                 <div>
-                  <h3 className={`font-serif text-2xl leading-tight md:text-3xl ${tone.title}`}>{b.title}</h3>
+                  <h3 className={`font-serif text-xl md:text-3xl leading-tight ${tone.title}`}>{b.title}</h3>
                   <p className={`mt-2 text-sm ${tone.sub}`}>{b.sub}</p>
                 </div>
                 <span

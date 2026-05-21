@@ -236,11 +236,11 @@ export function CheckoutFlow({
   }
 
   return (
-    <div className="grid gap-10 lg:grid-cols-[1.4fr_1fr]">
+    <div className="grid gap-6 md:gap-10 lg:grid-cols-[1.4fr_1fr]">
       <div>
         <Steps current={step} onNavigate={setStep} />
 
-        <div className="mt-8 rounded-2xl border border-[color:var(--color-line)] bg-[color:var(--color-surface)] p-6 md:p-8">
+        <div className="mt-6 md:mt-8 rounded-2xl border border-[color:var(--color-line)] bg-[color:var(--color-surface)] p-4 md:p-8">
           {step === "fulfillment" ? (
             <FulfillmentStep
               value={fulfillment}
@@ -378,7 +378,7 @@ function Row({ label, value }: { label: string; value: string }) {
 function Steps({ current, onNavigate }: { current: Step; onNavigate: (s: Step) => void }) {
   const currentIdx = STEPS.findIndex((s) => s.key === current)
   return (
-    <ol className="flex flex-wrap items-center gap-3 text-xs uppercase tracking-[0.18em]">
+    <ol className="flex flex-wrap items-center gap-2 md:gap-3 text-[11px] md:text-xs uppercase tracking-[0.16em] md:tracking-[0.18em]">
       {STEPS.map((s, idx) => {
         const done = idx < currentIdx
         const active = idx === currentIdx
@@ -407,10 +407,10 @@ function Steps({ current, onNavigate }: { current: Step; onNavigate: (s: Step) =
               >
                 {idx + 1}
               </span>
-              {s.label}
+              <span className={active ? "" : "hidden md:inline"}>{s.label}</span>
             </button>
             {idx < STEPS.length - 1 ? (
-              <span className="h-px w-6 bg-[color:var(--color-line)]" aria-hidden="true" />
+              <span className="h-px w-4 md:w-6 bg-[color:var(--color-line)]" aria-hidden="true" />
             ) : null}
           </li>
         )

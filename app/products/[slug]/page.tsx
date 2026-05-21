@@ -75,8 +75,8 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbs) }}
       />
-      <div className="mx-auto max-w-[1200px] px-6 pt-8">
-        <nav className="text-xs uppercase tracking-[0.18em] text-[color:var(--color-muted)]">
+      <div className="mx-auto max-w-[1200px] px-4 md:px-6 pt-6 md:pt-8">
+        <nav className="text-[11px] md:text-xs uppercase tracking-[0.16em] md:tracking-[0.18em] text-[color:var(--color-muted)] truncate">
           <Link href="/" className="hover:text-[color:var(--color-gold)]">Home</Link>
           <span className="mx-2">/</span>
           <Link href={`/collections/${collectionSlug}`} className="hover:text-[color:var(--color-gold)]">
@@ -87,18 +87,18 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
         </nav>
       </div>
 
-      <div className="mx-auto max-w-[1200px] px-6 py-10 grid gap-12 lg:grid-cols-[1.05fr_1fr]">
+      <div className="mx-auto max-w-[1200px] px-4 md:px-6 py-6 md:py-10 grid gap-8 md:gap-12 lg:grid-cols-[1.05fr_1fr]">
         <ProductGallery images={gallery} alt={product.title} />
 
         <div>
           <p className="text-xs uppercase tracking-[0.2em] text-[color:var(--color-gold)]">{product.badge}</p>
-          <h1 className="mt-3 font-serif text-4xl text-[color:var(--color-ink)] md:text-5xl leading-tight">
+          <h1 className="mt-2 md:mt-3 font-serif text-2xl md:text-5xl text-[color:var(--color-ink)] leading-tight">
             {product.title}
           </h1>
-          <p className="mt-6 font-serif text-4xl text-[color:var(--color-gold)]">{product.price}</p>
-          <p className="mt-6 text-[color:var(--color-muted)] leading-relaxed max-w-md">{product.description}</p>
+          <p className="mt-4 md:mt-6 font-serif text-3xl md:text-4xl text-[color:var(--color-gold)]">{product.price}</p>
+          <p className="mt-4 md:mt-6 text-sm md:text-base text-[color:var(--color-muted)] leading-relaxed max-w-md">{product.description}</p>
 
-          <dl className="mt-6 grid grid-cols-3 gap-4 text-sm">
+          <dl className="mt-5 md:mt-6 grid grid-cols-3 gap-3 md:gap-4 text-sm">
             {product.volumeMl ? (
               <div>
                 <dt className="text-xs uppercase tracking-[0.16em] text-[color:var(--color-muted)]">Volume</dt>
@@ -129,9 +129,9 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
         </div>
       </div>
 
-      <div className="mx-auto max-w-[1200px] px-6 pb-6 grid gap-10 lg:grid-cols-[1.2fr_1fr]">
+      <div className="mx-auto max-w-[1200px] px-4 md:px-6 pb-6 grid gap-8 md:gap-10 lg:grid-cols-[1.2fr_1fr]">
         <ProductTabs product={product} notes={notes} />
-        <aside className="rounded-2xl border border-[color:var(--color-line)] bg-[color:var(--color-surface)] p-6 h-fit">
+        <aside className="rounded-2xl border border-[color:var(--color-line)] bg-[color:var(--color-surface)] p-5 md:p-6 h-fit">
           <p className="text-xs uppercase tracking-[0.2em] text-[color:var(--color-gold)]">Tasting notes</p>
           <h3 className="mt-2 font-serif text-2xl text-[color:var(--color-ink)]">At a glance</h3>
           <div className="mt-5">

@@ -118,7 +118,7 @@ export function CartDrawerProvider({ children }: { children: React.ReactNode }) 
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <header className="flex items-center justify-between border-b border-[color:var(--color-line)] px-6 py-5">
+        <header className="flex items-center justify-between border-b border-[color:var(--color-line)] px-5 py-4 md:px-6 md:py-5">
           <div>
             <p className="text-xs uppercase tracking-[0.2em] text-[color:var(--color-gold)]">Cart</p>
             <p className="font-serif text-xl text-[color:var(--color-ink)]">
@@ -138,7 +138,7 @@ export function CartDrawerProvider({ children }: { children: React.ReactNode }) 
           </button>
         </header>
 
-        <div className="flex-1 overflow-y-auto px-6 py-5">
+        <div className="flex-1 overflow-y-auto px-5 py-4 md:px-6 md:py-5">
           {loading && !cart ? (
             <p className="text-sm text-[color:var(--color-muted)]">Loading…</p>
           ) : items.length === 0 ? (
@@ -162,7 +162,7 @@ export function CartDrawerProvider({ children }: { children: React.ReactNode }) 
         </div>
 
         {items.length > 0 ? (
-          <footer className="border-t border-[color:var(--color-line)] px-6 py-5">
+          <footer className="border-t border-[color:var(--color-line)] px-5 py-4 md:px-6 md:py-5" style={{ paddingBottom: "calc(env(safe-area-inset-bottom) + 1rem)" }}>
             <dl className="space-y-1 text-sm">
               <div className="flex justify-between text-[color:var(--color-muted)]">
                 <dt>Subtotal</dt>

@@ -26,21 +26,21 @@ export default async function CheckoutPage() {
   return (
     <section className="bg-[color:var(--color-bg)]">
       <header className="border-b border-[color:var(--color-line)] bg-[color:var(--color-surface)]">
-        <div className="mx-auto max-w-[1200px] px-6 py-10">
-          <p className="text-xs uppercase tracking-[0.3em] text-[color:var(--color-gold)]">Checkout</p>
-          <h1 className="mt-3 font-serif text-4xl text-[color:var(--color-ink)] md:text-5xl">
+        <div className="mx-auto max-w-[1200px] px-4 md:px-6 py-6 md:py-10">
+          <p className="text-[11px] md:text-xs uppercase tracking-[0.3em] text-[color:var(--color-gold)]">Checkout</p>
+          <h1 className="mt-2 md:mt-3 font-serif text-2xl md:text-5xl text-[color:var(--color-ink)]">
             Complete your order
           </h1>
-          <p className="mt-3 max-w-xl text-sm text-[color:var(--color-muted)]">
+          <p className="mt-2 md:mt-3 max-w-xl text-sm text-[color:var(--color-muted)]">
             Pickup is free during store hours. Local delivery is coming soon. Pay at pickup
             when you arrive, and bring a valid 21+ ID.
           </p>
         </div>
       </header>
 
-      <div className="mx-auto max-w-[1200px] px-6 py-10">
+      <div className="mx-auto max-w-[1200px] px-4 md:px-6 py-6 md:py-10">
         {items.length === 0 ? (
-          <div className="rounded-2xl border border-[color:var(--color-line)] bg-[color:var(--color-surface)] p-10 text-center">
+          <div className="rounded-2xl border border-[color:var(--color-line)] bg-[color:var(--color-surface)] p-6 md:p-10 text-center">
             <p className="text-[color:var(--color-muted)]">
               Your cart is empty. Add a bottle before checking out.
             </p>

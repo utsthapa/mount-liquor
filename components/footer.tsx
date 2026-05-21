@@ -3,9 +3,9 @@ import { storeConfig } from "../lib/store"
 
 export function Footer() {
   return (
-    <footer className="mt-20 border-t border-[color:var(--color-line)] bg-[color:var(--color-surface)] text-[color:var(--color-ink)]">
-      <div className="mx-auto max-w-[1200px] px-6 py-14 grid gap-10 md:grid-cols-4">
-        <div>
+    <footer className="mt-12 md:mt-20 border-t border-[color:var(--color-line)] bg-[color:var(--color-surface)] text-[color:var(--color-ink)]">
+      <div className="mx-auto max-w-[1200px] px-4 md:px-6 py-10 md:py-14 grid gap-8 md:gap-10 grid-cols-2 md:grid-cols-4">
+        <div className="col-span-2 md:col-span-1">
           <p className="font-serif text-2xl tracking-[0.18em]">MOUNT LIQUOR</p>
           <p className="mt-3 text-sm text-[color:var(--color-muted)] leading-relaxed">
             Irving&apos;s neighborhood liquor store. Beer, wine, spirits, and mixers — pickup or local delivery.
@@ -46,7 +46,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-[color:var(--color-line)]">
-        <div className="mx-auto max-w-[1200px] px-6 py-5 flex flex-wrap items-center justify-between gap-2 text-xs text-[color:var(--color-muted)]">
+        <div className="mx-auto max-w-[1200px] px-4 md:px-6 py-4 md:py-5 flex flex-wrap items-center justify-between gap-2 text-[11px] md:text-xs text-[color:var(--color-muted)]">
           <p>&copy; {new Date().getFullYear()} Mount Liquor. All rights reserved.</p>
           <p>21+ only. Please drink responsibly.</p>
         </div>

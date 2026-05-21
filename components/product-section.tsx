@@ -21,13 +21,13 @@ export function ProductSection({ eyebrow, title, viewAllHref, products, tone = "
   if (products.length === 0) {
     return (
       <section className={TONE_BG[tone]}>
-        <div className="mx-auto max-w-[1200px] px-6 py-12">
+        <div className="mx-auto max-w-[1200px] px-4 md:px-6 py-8 md:py-12">
           <div className="flex items-end justify-between gap-6">
             <div>
               {eyebrow ? (
                 <p className="text-xs uppercase tracking-[0.3em] text-[color:var(--color-gold)]">{eyebrow}</p>
               ) : null}
-              <h2 className="mt-2 font-serif text-3xl text-[color:var(--color-ink)] md:text-4xl">{title}</h2>
+              <h2 className="mt-2 font-serif text-2xl md:text-4xl text-[color:var(--color-ink)]">{title}</h2>
             </div>
             {viewAllHref ? (
               <Link
@@ -45,13 +45,13 @@ export function ProductSection({ eyebrow, title, viewAllHref, products, tone = "
   }
   return (
     <section className={TONE_BG[tone]}>
-      <div className="mx-auto max-w-[1200px] px-6 py-12">
+      <div className="mx-auto max-w-[1200px] px-4 md:px-6 py-8 md:py-12">
         <div className="flex items-end justify-between gap-6 mb-6">
           <div>
             {eyebrow ? (
               <p className="text-xs uppercase tracking-[0.3em] text-[color:var(--color-gold)]">{eyebrow}</p>
             ) : null}
-            <h2 className="mt-2 font-serif text-3xl text-[color:var(--color-ink)] md:text-4xl">{title}</h2>
+            <h2 className="mt-2 font-serif text-2xl md:text-4xl text-[color:var(--color-ink)]">{title}</h2>
           </div>
           {viewAllHref ? (
             <Link
@@ -62,7 +62,7 @@ export function ProductSection({ eyebrow, title, viewAllHref, products, tone = "
             </Link>
           ) : null}
         </div>
-        <div className="grid gap-4 grid-cols-2 md:grid-cols-4">
+        <div className="grid gap-3 md:gap-4 grid-cols-2 md:grid-cols-4">
           {products.map((product) => (
             <ProductCard key={product.slug} product={product} />
           ))}

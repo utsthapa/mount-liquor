@@ -80,14 +80,14 @@ function SearchForm({ idSuffix }: { idSuffix: string }) {
       action="/search"
       method="GET"
       role="search"
-      className="flex items-center w-full rounded-full bg-[color:var(--color-surface)] pl-5 pr-2 h-12 ring-1 ring-[color:var(--color-line)] focus-within:ring-2 focus-within:ring-[color:var(--color-gold)] transition-shadow"
+      className="flex items-center w-full rounded-full bg-[color:var(--color-surface)] pl-4 pr-1.5 h-11 md:pl-5 md:pr-2 md:h-12 ring-1 ring-[color:var(--color-line)] focus-within:ring-2 focus-within:ring-[color:var(--color-gold)] transition-shadow"
     >
       <SearchIcon className="h-4 w-4 text-[color:var(--color-muted)]" />
       <input
         id={`mlq-search-${idSuffix}`}
         name="q"
         type="search"
-        placeholder="Search whiskey, tequila, beer, wine..."
+        placeholder="Search whiskey, beer, wine..."
         autoComplete="off"
         className="flex-1 bg-transparent px-3 text-sm text-[color:var(--color-ink)] placeholder:text-[color:var(--color-muted)] outline-none"
       />
@@ -109,17 +109,17 @@ export function Header() {
     <header className="bg-[color:var(--color-surface)] text-[color:var(--color-ink)]">
       {/* Row 1 — top bar */}
       <div className="border-b border-[color:var(--color-line)]">
-        <div className="mx-auto max-w-[1200px] px-6 py-2 flex items-center gap-2 text-xs text-[color:var(--color-muted)]">
+        <div className="mx-auto max-w-[1200px] px-4 md:px-6 py-2 flex items-center gap-2 text-[11px] md:text-xs text-[color:var(--color-muted)]">
           <ClockIcon />
           <p className="truncate">
             {openTodayLabel()} <span className="opacity-60">•</span> {storeConfig.city}, {storeConfig.state}{" "}
-            <span className="opacity-60">•</span> Pickup &amp; Local Delivery Available
+            <span className="opacity-60">•</span> Pickup &amp; Local Delivery
           </p>
         </div>
       </div>
 
       {/* Row 2 — brand + search + actions */}
-      <div className="mx-auto max-w-[1200px] px-6 py-5 grid grid-cols-[auto_1fr_auto] items-center gap-6">
+      <div className="mx-auto max-w-[1200px] px-4 md:px-6 py-3 md:py-5 grid grid-cols-[auto_1fr_auto] items-center gap-3 md:gap-6">
         <Link href="/" className="flex shrink-0 items-center" aria-label="Mount Liquor home">
           <Image
             src="/logo.png"
@@ -127,13 +127,13 @@ export function Header() {
             width={180}
             height={160}
             priority
-            className="h-14 w-auto md:h-16"
+            className="h-11 w-auto md:h-16"
           />
         </Link>
         <div className="hidden md:block">
           <SearchForm idSuffix="desktop" />
         </div>
-        <div className="flex items-center gap-4 text-[color:var(--color-ink)]">
+        <div className="flex items-center gap-3 md:gap-4 text-[color:var(--color-ink)]">
           <Link
             href="/checkout"
             aria-label="Account"
@@ -166,7 +166,7 @@ export function Header() {
       </div>
 
       {/* Mobile-only search row */}
-      <div className="md:hidden border-t border-[color:var(--color-line)] px-6 py-3">
+      <div className="md:hidden border-t border-[color:var(--color-line)] px-4 py-3">
         <SearchForm idSuffix="mobile" />
       </div>
 
@@ -197,7 +197,7 @@ export function Header() {
           className="md:hidden border-t border-[color:var(--color-line)]"
           aria-label="Primary mobile"
         >
-          <ul className="mx-auto max-w-[1200px] px-6 py-2 flex flex-col text-sm uppercase tracking-[0.18em]">
+          <ul className="mx-auto max-w-[1200px] px-4 md:px-6 py-2 flex flex-col text-sm uppercase tracking-[0.18em]">
             {primaryNav.map((item) => (
               <li key={item.label} className="border-b border-[color:var(--color-line)] last:border-b-0">
                 <Link

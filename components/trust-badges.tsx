@@ -59,7 +59,7 @@ const badges: Badge[] = [
 export function TrustBadges() {
   return (
     <section className="border-y border-[color:var(--color-line)] bg-[color:var(--color-bg)]">
-      <div className="mx-auto max-w-[1200px] px-6 py-10 grid gap-6 grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
+      <div className="mx-auto max-w-[1200px] px-4 md:px-6 py-6 md:py-10 grid gap-4 md:gap-6 grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
         {badges.map((badge) => (
           <div key={badge.title} className="flex items-center gap-3 text-[color:var(--color-ink)]">
             <span className="text-[color:var(--color-gold)] shrink-0">{badge.icon}</span>

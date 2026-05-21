@@ -36,11 +36,11 @@ export async function CategoryGrid() {
 
   return (
     <section className="bg-[color:var(--color-bg)]">
-      <div className="mx-auto max-w-[1200px] px-6 py-16">
-        <div className="flex items-end justify-between gap-6 mb-8">
+      <div className="mx-auto max-w-[1200px] px-4 md:px-6 py-10 md:py-16">
+        <div className="flex items-end justify-between gap-6 mb-6 md:mb-8">
           <div>
-            <p className="text-xs uppercase tracking-[0.3em] text-[color:var(--color-gold)]">Categories</p>
-            <h2 className="mt-2 font-serif text-3xl text-[color:var(--color-ink)] md:text-4xl">Shop by category</h2>
+            <p className="text-[11px] md:text-xs uppercase tracking-[0.3em] text-[color:var(--color-gold)]">Categories</p>
+            <h2 className="mt-2 font-serif text-2xl md:text-4xl text-[color:var(--color-ink)]">Shop by category</h2>
           </div>
         </div>
         <CategoryGridPager tiles={tiles} />

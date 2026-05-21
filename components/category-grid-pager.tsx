@@ -41,12 +41,12 @@ export function CategoryGridPager({ tiles }: CategoryGridPagerProps) {
 
   return (
     <div>
-      <div className="grid min-h-[452px] grid-cols-2 grid-rows-2 gap-4 md:min-h-[496px] md:grid-cols-4">
+      <div className="grid grid-cols-2 grid-rows-2 gap-3 md:gap-4 md:min-h-[496px] md:grid-cols-4">
         {currentTiles.map((tile) => (
           <Link
             key={tile.slug}
             href={`/collections/${tile.slug}`}
-            className="group flex min-h-0 flex-col rounded-[var(--radius-card)] bg-[color:var(--color-surface)] p-4 ring-1 ring-[color:var(--color-line)] transition-shadow hover:ring-[color:var(--color-gold)]"
+            className="group flex min-h-0 flex-col rounded-[var(--radius-card)] bg-[color:var(--color-surface)] p-3 md:p-4 ring-1 ring-[color:var(--color-line)] transition-shadow hover:ring-[color:var(--color-gold)]"
           >
             <div className="aspect-[4/3] w-full overflow-hidden rounded-md bg-[color:var(--color-bg)]">
               <Image
@@ -54,11 +54,11 @@ export function CategoryGridPager({ tiles }: CategoryGridPagerProps) {
                 alt={tile.title}
                 width={400}
                 height={300}
-                className="h-full w-full object-contain p-4 transition-transform duration-500 group-hover:scale-[1.04]"
+                className="h-full w-full object-contain p-3 md:p-4 transition-transform duration-500 group-hover:scale-[1.04]"
               />
             </div>
-            <div className="mt-4 flex items-center justify-between gap-3">
-              <p className="min-w-0 font-serif text-sm uppercase tracking-[0.14em] text-[color:var(--color-ink)] md:text-base md:tracking-[0.18em]">
+            <div className="mt-3 md:mt-4 flex items-center justify-between gap-2 md:gap-3">
+              <p className="min-w-0 font-serif text-[13px] uppercase tracking-[0.12em] text-[color:var(--color-ink)] md:text-base md:tracking-[0.18em]">
                 {tile.title}
               </p>
               <span
